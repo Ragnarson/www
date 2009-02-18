@@ -1,8 +1,36 @@
 ---
-title: Empty index page
+title: We love Ruby development
 in_menu: true
-routed_title: New Website
+routed_title: Home
 ---
-## Empty index file
+<h2>Ragnarson</h2>
 
-Fill this file with your own data!!!
+<div id="ragnarson_description">
+  <p>Developers that love Ruby programming.</p>
+  <p>We enjoy every minute of our work with Ruby and Rails. Our systems are well designed, tested and maintainable.</p>
+</div>
+
+<div id="for_entrepreneurs">
+  <h3>For Entrepreneurs</h3>
+
+  <p>We are the team that can build your product:</p>
+  <ul>
+    <li>experience in building internet startups</li>
+    <li>perfect communication skills</li>
+    <li>high quality of developed software</li>
+    <li>high speed of prototyping and development</li>
+    <li>established protocols for product handover</li>
+  </ul>
+</div>
+
+<div id="for_developers">
+  <h3>For Developers</h3>
+  
+  <p>Join Ragnarson and become a part of team that:</p>
+  <ul>
+    <li>conists of best polish Rubyists</li>
+    <li>follows best agile practices</li>
+    <li>uses new and exciting technologies</li>
+    <li></li>
+  </ul>
+</div>
