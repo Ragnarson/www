@@ -6,16 +6,88 @@ sort_info: 2
 
 %h2 Projects we currently develop and maintain
 
+#jobmensa.project
+  %p.image
+    %a{:href => 'http://www.jobmensa.de/'}
+      %img{:src => '{relocatable:/images/jobmensa.png}', :width => 128, :height => 72, :alt => 'Jobmensa.de screenshot'}/
+    %h3
+      %a{:href => 'http://www.jobmensa.de/'} Jobmensa
+  %p.description
+    Temporary jobs for students with a twist.
+    %ul
+      %li Perfect matching based on student skills and employer expectations
+      %li Bayesian filter based job offer qualification
+      %li Geocoding for localized offers
+      %li Full invoicing platform
+
+-# TODO:
+#ekartenwelt.project
+  %p.image
+    %img{:src => '{relocatable:/images/ekartenwelt.png}', :width => 128, :height => 72, :alt => 'eKartenWelt.de screenshot'}/
+    %h3
+      %a{:href => 'http://www.ekartenwelt.de/'} eKartenWelt
+  %p.description
+    Lorem ipsum.
+    %ul
+      %li Perfect matching based on student skills and employer expectations
+      %li Bayesian filter based job offer qualification
+      %li Geocoding for localized offers
+      %li Full invoicing platform
+
+#tutoria.project
+  %p.image
+    %a{:href => 'http://www.tutoria.de/'}
+      %img{:src => '{relocatable:/images/tutoria.png}', :width => 128, :height => 72, :alt => 'Tutoria.de screenshot'}/
+    %h3
+      %a{:href => 'http://www.tutoria.de/'} Tutoria
+  %p.description
+    Lorem ipsum.
+    %ul
+      %li Perfect matching based on student skills and employer expectations
+      %li Bayesian filter based job offer qualification
+      %li Geocoding for localized offers
+      %li Full invoicing platform
+
+#pokerring.project
+  %p.image
+    %a{:href => 'http://www.pokerring.com/'}
+      %img{:src => '{relocatable:/images/pokerring.png}', :width => 128, :height => 72, :alt => 'PokerRing.com screenshot'}/
+    %h3
+      %a{:href => 'http://www.pokerring.com/'} PokerRing
+  %p.description
+    Lorem ipsum.
+    %ul
+      %li Perfect matching based on student skills and employer expectations
+      %li Bayesian filter based job offer qualification
+      %li Geocoding for localized offers
+      %li Full invoicing platform
+
 %h2 Previous projects
 
 #pokerolymp.project
   %p.image
-    %img{:src => '{relocatable:/images/pokerolymp.png}', :width => 128, :height => 72, :alt => 'PokerOlymp.de screenshot'}/
-  %h3 PokerOlymp.de
+    %a{:href => 'http://www.pokerolymp.de/'}
+      %img{:src => '{relocatable:/images/pokerolymp.png}', :width => 128, :height => 72, :alt => 'PokerOlymp.de screenshot'}/
+  %h3
+    %a{:href => 'http://www.pokerolymp.de/'} PokerOlymp
   %p.description
     News site and community for German-speaking poker players. Includes among others:
     %ul
       %li CMS supporting blogs and news
-      %li Social network 
+      %li Social network
+      %li Forums
+      %li Picture, movie sharing
+
+#mamily.project
+  %p.image
+    %a{:href => 'http://www.mamily.de/'}
+      %img{:src => '{relocatable:/images/mamily.png}', :width => 128, :height => 72, :alt => 'Mamily.de screenshot'}/
+  %h3
+    %a{:href => 'http://www.mamily.de/'} Mamily
+  %p.description
+    News site and community for German-speaking poker players. Includes among others:
+    %ul
+      %li CMS supporting blogs and news
+      %li Social network
       %li Forums
       %li Picture, movie sharing
