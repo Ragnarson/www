@@ -1,10 +1,9 @@
 ---
 title: We love Ruby development
 in_menu: true
-routed_title: Home
+sort_info: 1
+template: home.template
 ---
-<h2>Ragnarson</h2>
-
 <div id="ragnarson_description">
   <p>Developers that love Ruby programming.</p>
   <p>We enjoy every minute of our work with Ruby and Rails. Our systems are well designed, tested and maintainable.</p>
@@ -28,9 +27,9 @@ routed_title: Home
   
   <p>Join Ragnarson and become a part of team that:</p>
   <ul>
-    <li>conists of best polish Rubyists</li>
+    <li>consists of best polish Rubyists</li>
     <li>follows best agile practices</li>
     <li>uses new and exciting technologies</li>
-    <li></li>
+    <li>contributes to Open Source Software</li>
   </ul>
 </div>

@@ -1,0 +1,21 @@
+---
+title: Projects
+in_menu: true
+sort_info: 2
+--- pipeline:tags,haml
+
+%h2 Projects we currently develop and maintain
+
+%h2 Previous projects
+
+#pokerolymp.project
+  %p.image
+    %img{:src => '{relocatable:/images/pokerolymp.png}', :width => 128, :height => 72, :alt => 'PokerOlymp.de screenshot'}/
+  %h3 PokerOlymp.de
+  %p.description
+    News site and community for German-speaking poker players. Includes among others:
+    %ul
+      %li CMS supporting blogs and news
+      %li Social network 
+      %li Forums
+      %li Picture, movie sharing

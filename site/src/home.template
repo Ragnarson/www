@@ -16,16 +16,17 @@
 
   <body>
     <div id="sidebar">
-      <h1>Ragnarson</h1>
-      <h2>We Love Ruby Development</h2>
-
+      <h1>&nbsp;</h1>
+      <h2>&nbsp;</h2>
       <div id="menu">
         {menu: {max_levels: 1, used_nodes: files}}
       </div>
     </div>
 
     <div id="content">
-      <h1>{title:}</h1>
+      <h1>Ragnarson</h1>
+      <h2>We Love Ruby Development</h2>
+      
       <webgen:block name="content" />
 
       <h4>Site Information</h4>
