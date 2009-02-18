@@ -26,6 +26,7 @@
 
     <div id="content">
       <h1>{title:}</h1>
+      
       <webgen:block name="content" />
 
       <h4>Site Information</h4>

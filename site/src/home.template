@@ -18,6 +18,7 @@
     <div id="sidebar">
       <h1>&nbsp;</h1>
       <h2>&nbsp;</h2>
+      
       <div id="menu">
         {menu: {max_levels: 1, used_nodes: files}}
       </div>
