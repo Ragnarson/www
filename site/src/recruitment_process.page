@@ -1,0 +1,54 @@
+---
+title: Recruitment Process
+in_menu: true
+routed_title: Recruitment
+--- pipeline:tags,maruku
+## {title:}
+
+So you want to join us?
+
+### Requirements
+
+First, make sure you are fulfilling those minimal requirements:
+
+- fluent in English,
+- knows The Ruby Way
+- experienced with RESTful Rails
+- bastard Unix/Linux operator from hell
+- writes RSpecs sober (may code drunk)
+- semantic XHTML proponent
+- swears by non-obtrusive jQuery
+
+### Nice to Have
+
+In addition there are some optional items that may give you advantage:
+
+- knowledge of arcane knowledge of cross-browser SASS
+- Haml FTW!
+- humble Open Source Software supporter / commiter
+
+### Necessary Paperwork
+
+Prepare CV, it must be fresh, simple, clean and in PDF. Picture is not mandatory (unless you're a girl.) Send it via e-mail to recruitment@ragnarson.com. In this e-mail describe shortly why would you like to work with us.
+
+In addition if you are a Citizen of Poland add following statement:
+
+> Wyrażam zgodę na przetwarzanie moich danych osobowych zawartych w mojej
+> ofercie pracy dla potrzeb niezbędnych do realizacji procesu rekrutacji
+> zgodnie z Ustawą z dnia 29.08.1997r. o ochronie danych osobowych
+
+### The Test
+
+Even if you get that far know, that we only accept proven developers. CV is nothing compared to a nice, clean commit on GitHub.
+
+To be considered worthy show us your code!
+
+If you haven't taken part in any OSS project yet, now is your chance:
+
+- Find a RSpec based Ruby project.
+- Within that project find a ticket (feature, bug) that matches will show your abilities well.
+- Get in touch with maintainer and accept that ticket.
+- Fix it, making sure your specs are throughout.
+- Push your commits and send us link to them.
+
+If your commit(s) will pass our internal inspection we will be glad to talk about cooperation details.
