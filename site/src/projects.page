@@ -1,7 +1,7 @@
 ---
 title: Projects
 in_menu: true
-sort_info: 2
+sort_info: 10
 --- pipeline:tags,haml
 
 %h2 Projects we currently develop and maintain

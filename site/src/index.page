@@ -1,7 +1,7 @@
 ---
 title: Home
 in_menu: true
-sort_info: 1
+sort_info: 0
 template: home.template
 ---
 <div id="ragnarson_description">

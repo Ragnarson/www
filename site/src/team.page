@@ -1,0 +1,34 @@
+---
+title: Team
+in_menu: true
+sort_info: 20
+--- pipeline:tags,haml
+
+%h2 Members
+
+%ul
+  %li
+    %a{:href=> '#kazjote'} Kacper Bielecki
+  %li
+    %a{:href=> '#olek'} Aleksander Janiszewski
+  %li
+    %a{:href=> '#joasia'} Joanna Jaros
+  %li
+    %a{:href=> '#bragi'} Łukasz Piestrzeniewicz
+  %li
+    %a{:href=> '#wijet'} Mariusz Pietrzyk
+  %li
+    %a{:href=> '#atw'} Antoni Wójcik
+
+%h3#bragi Łukasz Piestrzeniewicz
+%h4 Company owner, developer
+
+%p.image
+  %img{:src => '{relocatable: /images/bragi.jpg}'}
+
+.description
+  %p Active developer since 2003, with experience in real-time telecommunications platforms, high availability servers, web applications. Focuses on good communication with customers and designing application architectures that are easy to grow.
+  
+.site
+  %p
+    %a{:href => 'http://blog.ragnarson.com/'} Blog
