@@ -30,7 +30,7 @@
       <webgen:block name="content" />
 
       <h4>Site Information</h4>
-      <p>&copy; 2009 Ragnarson</p>
+      <p>&copy; 2009 <a href="http://ragnarson.com/">Ragnarson</a></p>
     </div>
   </body>
 </html>
