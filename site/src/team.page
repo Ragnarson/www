@@ -10,7 +10,7 @@ sort_info: 20
   %li
     %a{:href=> '#kazjote'} Kacper Bielecki
   %li
-    %a{:href=> '#olek'} Aleksander Janiszewski
+    %a{:href=> '#olek'} Olek Janiszewski
   %li
     %a{:href=> '#joasia'} Joanna Jaros
   %li
@@ -20,15 +20,26 @@ sort_info: 20
   %li
     %a{:href=> '#atw'} Antoni Wójcik
 
-%h3#bragi Łukasz Piestrzeniewicz
-%h4 Company owner, developer
+#bragi.developer
+  %h3 Łukasz Piestrzeniewicz
+  %h4 Company owner, developer
 
-%p.image
-  %img{:src => '{relocatable: /images/bragi.jpg}'}
+  %p.image
+    %img{:src => '{relocatable: /images/bragi.jpg}'}
 
-.description
-  %p Active developer since 2003, with experience in real-time telecommunications platforms, high availability servers, web applications. Focuses on good communication with customers and designing application architectures that are easy to grow.
+  .description
+    %p Active developer since 2003, with experience in real-time telecommunications platforms, high availability servers, web applications. Focuses on good communication with customers and designing application architectures that are easy to grow.
   
-.site
-  %p
-    %a{:href => 'http://blog.ragnarson.com/'} Blog
+  .site
+    %p
+      %a{:href => 'http://blog.ragnarson.com/'} Blog
+
+#olek.developer
+  %h3 Olek Janiszewski
+  %h4 Developer
+
+  %p.image
+    %img{:src => '{relocatable: /images/olek.jpg}'}
+
+  .description
+    %p Profesionally in love with Ruby since February 2008, moving from a Java and .NET reality was so far his boldest, yet smartest, career decision so far. Devoted to elegant architecture design and beautiful code.

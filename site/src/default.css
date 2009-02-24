@@ -90,3 +90,8 @@ body > #sidebar
 
 #content h2
 {clear:both; margin:30px 0 10px 0; color:#d85d5d; font-weight:normal; font-size: 2em; letter-spacing:-2px;}
+
+
+#content div.developer {
+  clear: both;
+}
