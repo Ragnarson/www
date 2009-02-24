@@ -52,5 +52,5 @@ sort_info: 20
     %img{:src => '{relocatable: /images/kazjote.png}'}
 
   .description
-    %p Ruby developer sice 2007. Passionate programmer from kid. In his projects focuses on maximizing user experience and producing pragmatic solutions.
+    %p Ruby developer since 2007. Passionate programmer from kid. In his projects focuses on maximizing user experience and producing pragmatic solutions.
 
