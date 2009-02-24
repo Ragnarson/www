@@ -23,16 +23,16 @@ sort_info: 10
 -# TODO:
 #ekartenwelt.project
   %p.image
-    %img{:src => '{relocatable:/images/ekartenwelt.png}', :width => 128, :height => 72, :alt => 'eKartenWelt.de screenshot'}/
+    %a{:href => 'http://www.ekartenwelt.de/'}
+      %img{:src => '{relocatable:/images/ekartenwelt.png}', :width => 128, :height => 72, :alt => 'eKartenwelt.de screenshot'}/
     %h3
-      %a{:href => 'http://www.ekartenwelt.de/'} eKartenWelt
+      %a{:href => 'http://www.ekartenwelt.de/'} eKartenwelt
   %p.description
-    Lorem ipsum.
+    Online cards service with Djabbi family members.
     %ul
-      %li Perfect matching based on student skills and employer expectations
-      %li Bayesian filter based job offer qualification
-      %li Geocoding for localized offers
-      %li Full invoicing platform
+      %li Cards customization
+      %li User area with addressbook, bookmarks and card directories
+      %li High performance (up to 650k sent cards per month)
 
 #tutoria.project
   %p.image
