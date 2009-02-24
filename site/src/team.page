@@ -43,3 +43,14 @@ sort_info: 20
 
   .description
     %p Profesionally in love with Ruby since February 2008, moving from a Java and .NET reality was so far his boldest, yet smartest, career decision so far. Devoted to elegant architecture design and beautiful code.
+    
+#kazjote.developer
+  %h3 Kacper Bielecki
+  %h4 Project manager, developer
+  
+  %p.image
+    %img{:src => '{relocatable: /images/kazjote.png}'}
+
+  .description
+    %p Ruby developer sice 2007. Passionate programmer from kid. In his projects focuses on maximizing user experience and producing pragmatic solutions.
+
