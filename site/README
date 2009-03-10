@@ -1,10 +1,17 @@
-description:
-  This skeleton of a webgen website provides a set of default files for every
-  created webgen website.
-
-  When using the standard settings, the sources are in the directory `src` and
-  the generated output goes into `out`. Extensions can be placed under `ext`.
-
-  For configuration purposes, use the config.rb or config.yaml files.
+Ragnarson website
 ---
-note: This file can be deleted!
+
+How to generate CSS from SASS using Compass (http://compass-style.org/)
+
+Install lastest SASS (part of HAML):
+  git clone git://github.com/nex3/haml.git
+  cd haml
+  sudo rake install
+
+Install Compass and 960gs plugin:
+  gem sources --add http://gems.github.com/
+  sudo gem install chriseppstein-compass
+  sudo gem install chriseppstein-compass-960-plugin
+
+Run:
+  compass -u
