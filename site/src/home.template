@@ -6,9 +6,7 @@ template: ~
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{lang:}">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="description" content="description goes here" />
-    <meta name="keywords" content="keywords,goes,here" />
-    <meta name="author" content="Your Name" />
+    <meta name="description" content="We enjoy every minute of our work with Ruby and Rails. Our systems are well designed, tested and maintainable." />
     <meta name="generator" content="webgen - http://webgen.rubyforge.org" />
     <link rel="stylesheet" type="text/css" href="{relocatable: stylesheets/main.css}" />
     <link rel="stylesheet" type="text/css" href="{relocatable: stylesheets/skin_light.css}" />
@@ -16,20 +14,22 @@ template: ~
   </head>
 
   <body>
-    <div id="sidebar">
-      <div id="menu">
+
+    <div id="header">
+      <h1 id="logo">Ragnarson</h1>
+      <div id="navigation">
         {menu: {max_levels: 1, used_nodes: files}}
       </div>
     </div>
 
     <div id="content">
-      <h1>Ragnarson</h1>
-      <h2>We Love Ruby Development</h2>
-      
       <webgen:block name="content" />
+    </div>
 
+    <div id="footer">
       <h4>Site Information</h4>
       <p>&copy; 2009 <a href="http://ragnarson.com/">Ragnarson</a></p>
     </div>
+
   </body>
 </html>

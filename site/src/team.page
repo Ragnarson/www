@@ -2,6 +2,8 @@
 title: Team
 in_menu: true
 sort_info: 20
+link_attrs:
+  :link_text: <em>Team</em> Who we are
 --- pipeline:tags,haml
 
 %h2 Members
@@ -53,4 +55,3 @@ sort_info: 20
 
   .description
     %p Ruby developer since 2007. Passionate programmer from kid. In his projects focuses on maximizing user experience and producing pragmatic solutions.
-

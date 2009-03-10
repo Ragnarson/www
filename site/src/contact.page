@@ -2,6 +2,8 @@
 title: Contact
 in_menu: true
 sort_info: 100
+link_attrs:
+  :link_text: <em>Contact</em> Questions &amp; comments
 --- pipeline:tags,maruku
 
 Opportunities, and general questions, comments, and concerns should be sent to <a href="mailto:lukasz.piestrzeniewicz@ragnarson.com">Łukasz Piestrzeniewicz</a>, the company founder, via email.

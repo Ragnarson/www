@@ -1,4 +1,21 @@
 @import base.sass
 
-#content
+#header, #content, #footer
   +grid-container
+
+#logo
+  +grid(2,12)
+#navigation
+  +grid(10,12)
+  li
+    :float left
+    :overflow hidden
+    :list-style none
+    :margin-right 1em
+  a
+    :outline none
+  em
+    :display block
+
+#content
+  :clear both

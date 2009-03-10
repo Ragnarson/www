@@ -2,6 +2,8 @@
 title: Jobs
 in_menu: true
 sort_info: 30
+link_attrs:
+  :link_text: <em>Jobs</em> Join or team
 ---
 So you want to join us?
 

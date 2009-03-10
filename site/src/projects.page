@@ -2,6 +2,8 @@
 title: Projects
 in_menu: true
 sort_info: 10
+link_attrs:
+  :link_text: <em>Projects</em> What we do
 --- pipeline:tags,haml
 
 %h2 Projects we currently develop and maintain

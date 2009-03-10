@@ -2,6 +2,8 @@
 title: Development
 in_menu: true
 sort_info: 30
+link_attrs:
+  :link_text: <em>Development</em> How we work
 ---
 
 Our main priority is to provide working implementation as soon as possible. 
