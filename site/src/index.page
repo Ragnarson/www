@@ -5,6 +5,7 @@ sort_info: 0
 link_attrs:
   :link_text: <em>Home</em> Ragnarson.com
 template: home.template
+
 ---
 <div id="ragnarson_description">
   <p>Developers that love Ruby programming.</p>

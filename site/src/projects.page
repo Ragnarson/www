@@ -4,10 +4,11 @@ in_menu: true
 sort_info: 10
 link_attrs:
   :link_text: <em>Projects</em> What we do
---- pipeline:tags,haml
 
+--- name:subtitle pipeline:tags,haml
 %h2 Projects we currently develop and maintain
 
+--- name:content pipeline:tags,haml
 #jobmensa.project
   %p.image
     %a{:href => 'http://www.jobmensa.de/'}

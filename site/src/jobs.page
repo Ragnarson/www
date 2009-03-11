@@ -4,9 +4,11 @@ in_menu: true
 sort_info: 30
 link_attrs:
   :link_text: <em>Jobs</em> Join or team
----
-So you want to join us?
 
+--- name:subtitle pipeline:tags,haml
+%h2 So you want to join us?
+
+--- name:content
 ### Requirements
 
 First, make sure you are fulfilling these minimal requirements:

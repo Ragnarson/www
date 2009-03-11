@@ -17,3 +17,5 @@
 # with sourcehandler.
 
 website.lang: en
+
+sourcehandler.ignore: [sass]

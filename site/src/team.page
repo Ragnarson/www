@@ -4,10 +4,11 @@ in_menu: true
 sort_info: 20
 link_attrs:
   :link_text: <em>Team</em> Who we are
---- pipeline:tags,haml
 
+--- name:subtitle pipeline:tags,haml
 %h2 Members
 
+--- name:content pipeline:tags,haml
 %ul
   %li
     %a{:href=> '#kazjote'} Kacper Bielecki
