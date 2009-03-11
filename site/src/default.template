@@ -19,10 +19,14 @@
       </div>
     </div>
 
-    <div id="content">
-      <h1>{title:}</h1>
-      <webgen:block name='subtitle' node='first' notfound='ignore' />
-      <webgen:block name="content" />
+    <div id="main">
+      <div class="title">
+        <h1>{title:}</h1>
+        <webgen:block name='subtitle' node='first' notfound='ignore' />
+      </div>
+      <div class="content">
+        <webgen:block name="content" />
+      </div>
     </div>
 
     <div id="footer">

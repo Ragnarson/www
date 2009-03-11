@@ -1,7 +1,8 @@
 @import base.sass
 
-#header, #content, #footer
+#header, #main, #footer
   +grid-container
+  :overflow hidden
 
 #logo
   +grid(2,12)
@@ -17,5 +18,20 @@
   em
     :display block
 
-#content
+#main
   :clear both
+  .title
+    +grid(3,12)
+  .content
+    +grid(9,12)
+#home
+  .subheader
+    +grid(7,12)
+  .content
+    +grid(5,12)
+
+#footer
+  h4
+    +grid(10,12)
+  p
+    +grid(2,12)

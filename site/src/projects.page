@@ -5,17 +5,15 @@ sort_info: 10
 link_attrs:
   :link_text: <em>Projects</em> What we do
 
---- name:subtitle pipeline:tags,haml
+--- pipeline:tags,haml
 %h2 Projects we currently develop and maintain
 
---- name:content pipeline:tags,haml
 #jobmensa.project
-  %p.image
-    %a{:href => 'http://www.jobmensa.de/'}
-      %img{:src => '{relocatable:/images/jobmensa.png}', :width => 128, :height => 72, :alt => 'Jobmensa.de screenshot'}/
-    %h3
-      %a{:href => 'http://www.jobmensa.de/'} Jobmensa
-  %p.description
+  %h3
+    %a{:href => 'http://www.jobmensa.de/'} Jobmensa
+  %a.image{:href => 'http://www.jobmensa.de/'}
+    %img{:src => '{relocatable:/images/jobmensa.png}', :width => 128, :height => 72, :alt => 'Jobmensa.de screenshot'}/
+  .description
     Temporary jobs for students with a twist.
     %ul
       %li Perfect matching based on student skills and employer expectations
@@ -25,12 +23,11 @@ link_attrs:
 
 -# TODO:
 #ekartenwelt.project
-  %p.image
-    %a{:href => 'http://www.ekartenwelt.de/'}
-      %img{:src => '{relocatable:/images/ekartenwelt.png}', :width => 128, :height => 72, :alt => 'eKartenwelt.de screenshot'}/
-    %h3
-      %a{:href => 'http://www.ekartenwelt.de/'} eKartenwelt
-  %p.description
+  %h3
+    %a{:href => 'http://www.ekartenwelt.de/'} eKartenwelt
+  %a.image{:href => 'http://www.ekartenwelt.de/'}
+    %img{:src => '{relocatable:/images/ekartenwelt.png}', :width => 128, :height => 72, :alt => 'eKartenwelt.de screenshot'}/
+  .description
     Online cards service with Djabbi family members.
     %ul
       %li Cards customization
@@ -38,12 +35,11 @@ link_attrs:
       %li High performance (up to 650k sent cards per month)
 
 #tutoria.project
-  %p.image
-    %a{:href => 'http://www.tutoria.de/'}
-      %img{:src => '{relocatable:/images/tutoria.png}', :width => 128, :height => 72, :alt => 'Tutoria.de screenshot'}/
-    %h3
-      %a{:href => 'http://www.tutoria.de/'} Tutoria
-  %p.description
+  %h3
+    %a{:href => 'http://www.tutoria.de/'} Tutoria
+  %a.image{:href => 'http://www.tutoria.de/'}
+    %img{:src => '{relocatable:/images/tutoria.png}', :width => 128, :height => 72, :alt => 'Tutoria.de screenshot'}/
+  .description
     Lorem ipsum.
     %ul
       %li Perfect matching based on student skills and employer expectations
@@ -52,12 +48,11 @@ link_attrs:
       %li Full invoicing platform
 
 #pokerring.project
-  %p.image
-    %a{:href => 'http://www.pokerring.com/'}
-      %img{:src => '{relocatable:/images/pokerring.png}', :width => 128, :height => 72, :alt => 'PokerRing.com screenshot'}/
-    %h3
-      %a{:href => 'http://www.pokerring.com/'} PokerRing
-  %p.description
+  %h3
+    %a{:href => 'http://www.pokerring.com/'} PokerRing
+  %a.image{:href => 'http://www.pokerring.com/'}
+    %img{:src => '{relocatable:/images/pokerring.png}', :width => 128, :height => 72, :alt => 'PokerRing.com screenshot'}/
+  .description
     Lorem ipsum.
     %ul
       %li Perfect matching based on student skills and employer expectations
@@ -68,12 +63,11 @@ link_attrs:
 %h2 Previous projects
 
 #pokerolymp.project
-  %p.image
-    %a{:href => 'http://www.pokerolymp.de/'}
-      %img{:src => '{relocatable:/images/pokerolymp.png}', :width => 128, :height => 72, :alt => 'PokerOlymp.de screenshot'}/
   %h3
     %a{:href => 'http://www.pokerolymp.de/'} PokerOlymp
-  %p.description
+  %a.image{:href => 'http://www.pokerolymp.de/'}
+    %img{:src => '{relocatable:/images/pokerolymp.png}', :width => 128, :height => 72, :alt => 'PokerOlymp.de screenshot'}/
+  .description
     News site and community for German-speaking poker players. Includes among others:
     %ul
       %li CMS supporting blogs and news
@@ -82,12 +76,11 @@ link_attrs:
       %li Picture, movie sharing
 
 #mamily.project
-  %p.image
-    %a{:href => 'http://www.mamily.de/'}
-      %img{:src => '{relocatable:/images/mamily.png}', :width => 128, :height => 72, :alt => 'Mamily.de screenshot'}/
   %h3
     %a{:href => 'http://www.mamily.de/'} Mamily
-  %p.description
+  %a.image{:href => 'http://www.mamily.de/'}
+    %img{:src => '{relocatable:/images/mamily.png}', :width => 128, :height => 72, :alt => 'Mamily.de screenshot'}/
+  .description
     News site and community for German-speaking poker players. Includes among others:
     %ul
       %li CMS supporting blogs and news

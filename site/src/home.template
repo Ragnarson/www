@@ -13,7 +13,7 @@ template: ~
     <title>Ragnarson</title>
   </head>
 
-  <body>
+  <body id="home">
 
     <div id="header">
       <h1 id="logo">Ragnarson</h1>
@@ -22,7 +22,7 @@ template: ~
       </div>
     </div>
 
-    <div id="content">
+    <div id="main">
       <webgen:block name="content" />
     </div>
 
