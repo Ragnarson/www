@@ -16,7 +16,11 @@ template: ~
   <body id="home">
 
     <div id="header">
-      <h1 id="logo">Ragnarson</h1>
+      <h1 id="logo">
+        <a href='{relocatable:/}'>
+          <span>Ragnarson</span>
+        </a>
+      </h1>
       <div id="navigation">
         {menu: {max_levels: 1, used_nodes: files}}
       </div>

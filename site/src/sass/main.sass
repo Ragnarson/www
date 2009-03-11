@@ -1,11 +1,30 @@
 @import base.sass
 
+!branding_color = #8ae234
+!grid_background_image_offset = -20px
+
+body
+  :font-family sans-serif
+  :font-size 0.75em
+
+img
+  :border none
+
 #header, #main, #footer
   +grid-container
   :overflow hidden
 
 #logo
   +grid(2,12)
+  :margin-top 0
+  :margin-bottom 0
+  :font-weight bold
+  :font-size 1em
+  a
+    :background-color #111
+    :color #eee
+    :text-decoration none
+    :border-bottom= 2px "solid" !branding_color
 #navigation
   +grid(10,12)
   li
@@ -13,25 +32,45 @@
     :overflow hidden
     :list-style none
     :margin-right 1em
+    :padding-left 0.5em
+    :border-left 1px solid #333
   a
     :outline none
+    :text-decoration none
   em
     :display block
+    :font-weight bold
+    :font-style normal
 
 #main
   :clear both
+  :margin-top 3em
+  :margin-bottom 8em
   .title
     +grid(3,12)
   .content
     +grid(9,12)
+  +grid-background-position(3,12)
+  :background-repeat repeat-y
+  em
+    :font-size 1.3em
+    :font-style normal
+    :color= !branding_color
 #home
-  .subheader
-    +grid(7,12)
-  .content
-    +grid(5,12)
+  #main
+    +grid-background-position(6,12)
+  .subheader, .content
+    +grid(6,12)
 
 #footer
+  :border-top= 2px "solid" !branding_color
   h4
     +grid(10,12)
   p
     +grid(2,12)
+
+// home
+// --------------------------
+#home
+  .subheader
+    :font-size 1.3em

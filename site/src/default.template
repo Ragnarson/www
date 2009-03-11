@@ -13,7 +13,11 @@
   <body>
 
     <div id="header">
-      <div id="logo">Ragnarson</div>
+      <div id="logo">
+        <a href='{relocatable:/}'>
+          <span>Ragnarson</span>
+        </a>
+      </div>
       <div id="navigation">
         {menu: {max_levels: 1, used_nodes: files}}
       </div>

@@ -12,7 +12,7 @@ link_attrs:
 #bragi.member
   %h3 Łukasz Piestrzeniewicz
   %h4 Company owner, developer
-  %img{:src => '{relocatable: /images/bragi.jpg}', :alt => ''}
+  %img{:src => '{relocatable: /images/team/bragi.jpg}', :alt => ''}
   .description
     %p Active developer since 2003, with experience in real-time telecommunications platforms, high availability servers, web applications. Focuses on good communication with customers and designing application architectures that are easy to grow.
   %ul.links
@@ -22,13 +22,13 @@ link_attrs:
 #olek.member
   %h3 Olek Janiszewski
   %h4 Developer
-  %img{:src => '{relocatable: /images/olek.jpg}', :alt => ''}
+  %img{:src => '{relocatable: /images/team/olek.jpg}', :alt => ''}
   .description
     %p Profesionally in love with Ruby since February 2008, moving from a Java and .NET reality was so far his boldest, yet smartest, career decision so far. Devoted to elegant architecture design and beautiful code.
     
 #kazjote.member
   %h3 Kacper Bielecki
   %h4 Project manager, developer
-  %img{:src => '{relocatable: /images/kazjote.png}', :alt => ''}
+  %img{:src => '{relocatable: /images/team/kazjote.png}', :alt => ''}
   .description
     %p Ruby developer since 2007. Passionate programmer from kid. In his projects focuses on maximizing user experience and producing pragmatic solutions.
