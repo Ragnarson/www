@@ -4,8 +4,9 @@
 !grid_background_image_offset = -20px
 
 body
-  :font-family sans-serif
+  :font-family Arial, sans-serif
   :font-size 0.75em
+  :background-color #fff
 
 img
   :border none
@@ -15,42 +16,58 @@ img
   :overflow hidden
 
 #logo
-  +grid(2,12)
-  :margin-top 0
-  :margin-bottom 0
+  :margin 1em 0 0 3em
   :font-weight bold
   :font-size 1em
+  :position absolute
   a
-    :background-color #111
+    :background-color #1c2122
     :color #eee
     :text-decoration none
     :border-bottom= 2px "solid" !branding_color
+  a, img
+    :display block
+    :float left
+
 #navigation
-  +grid(10,12)
+  :float right
+  :margin-right 20px
   li
     :float left
     :overflow hidden
     :list-style none
-    :margin-right 1em
-    :padding-left 0.5em
-    :border-left 1px solid #333
+    :margin-left 4em
+    :padding-left 1em
+    :border-left 1px solid #999
+    :color #999
+    :text-transform lowercase
+    &:hover, &:active
+      :border-color #000
   a
     :outline none
     :text-decoration none
+    :color #999
+    :float left
+    &:hover, &:active
+      :color #000
   em
     :display block
     :font-weight bold
     :font-style normal
+    :color #333
+    :font-size 1.4em
+    :margin-bottom .3em
+    :text-transform capitalize
 
 #main
   :clear both
   :margin-top 3em
   :margin-bottom 8em
   .title
-    +grid(3,12)
+    +grid(4,16)
   .content
-    +grid(9,12)
-  +grid-background-position(3,12)
+    +grid(12,16)
+  +grid-background-position(4,16)
   :background-repeat repeat-y
   em
     :font-size 1.3em
@@ -58,16 +75,31 @@ img
     :color= !branding_color
 #home
   #main
-    +grid-background-position(6,12)
-  .subheader, .content
-    +grid(6,12)
+    +grid-background-position(9,16)
+  .subheader
+    +grid(9,16)
+    :margin-top 3em
+    :text-align right
+  .content
+    +grid(7,16)
+    h2
+      :font-weight bold
+      :font-size 1em
+    ul
+      :padding-left 2em
+      :margin-left 0
+
+#for_entrepreneurs
+  :border-bottom 1px solid #e2dfad
+#for_developers
+  :border-top 1px solid #fcfaec
 
 #footer
   :border-top= 2px "solid" !branding_color
   h4
-    +grid(10,12)
+    +grid(12,16)
   p
-    +grid(2,12)
+    +grid(4,16)
 
 // home
 // --------------------------

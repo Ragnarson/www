@@ -15,7 +15,7 @@
     <div id="header">
       <div id="logo">
         <a href='{relocatable:/}'>
-          <span>Ragnarson</span>
+          <img src="{relocatable: images/ragnarson.png}" alt="Ragnarson"/>
         </a>
       </div>
       <div id="navigation">
