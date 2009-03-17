@@ -3,6 +3,12 @@
 !branding_color = #8ae234
 !grid_background_image_offset = -20px
 
+=border_bottom_light
+  :border-bottom 1px solid #e2dfad
+=border_top_dark
+  :border-top 1px solid #fcfaec
+
+
 body
   :font-family Arial, sans-serif
   :font-size 0.75em
@@ -65,6 +71,8 @@ img
   :margin-bottom 8em
   .title
     +grid(4,16)
+    h2
+      :font-weight normal
   .content
     +grid(12,16)
   +grid-background-position(4,16)
@@ -89,11 +97,6 @@ img
       :padding-left 2em
       :margin-left 0
 
-#for_entrepreneurs
-  :border-bottom 1px solid #e2dfad
-#for_developers
-  :border-top 1px solid #fcfaec
-
 #footer
   :border-top= 2px "solid" !branding_color
   h4
@@ -106,3 +109,34 @@ img
 #home
   .subheader
     :font-size 1.3em
+
+#for_entrepreneurs
+  +border_bottom_light
+#for_developers
+  +border_top_dark
+
+// projects, team
+// --------------------------
+.project, .member
+  +border_bottom_light
+  +border_top_dark
+  :overflow hidden
+  :padding 0 0 1em
+  h3, img
+    :float left
+  img
+    :width 128px
+    :clear left
+  .description, .links
+    :margin 3em 0 0 15em
+
+.project
+  &#jobmensa, &#pokerolymp
+    :border-top none
+  &#mamily, &#pokerring
+    :border-bottom none
+.member
+  &#bragi
+    :border-top none
+  &#kazjote
+    :border-bottom none
