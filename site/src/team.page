@@ -28,7 +28,7 @@ link_attrs:
     
 #kazjote.member
   %h3 Kacper Bielecki
-  %h4 Project manager, developer
+  %h4 Developer
   %img{:src => '{relocatable: /images/team/kazjote.png}', :alt => ''}
   .description
     %p Ruby developer since 2007. Passionate programmer from kid. In his projects focuses on maximizing user experience and producing pragmatic solutions.
