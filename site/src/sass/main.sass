@@ -20,6 +20,8 @@ img
 #header, #main, #footer
   +grid-container
   :overflow hidden
+#header
+  :margin-top 2em
 
 #logo
   :margin 1em 0 0 3em
@@ -44,7 +46,7 @@ img
     :list-style none
     :margin-left 4em
     :padding-left 1em
-    :border-left 1px solid #999
+    :border-left 1px solid #ccc
     :color #999
     :text-transform lowercase
     &:hover, &:active
@@ -81,21 +83,6 @@ img
     :font-size 1.3em
     :font-style normal
     :color= !branding_color
-#home
-  #main
-    +grid-background-position(9,16)
-  .subheader
-    +grid(9,16)
-    :margin-top 3em
-    :text-align right
-  .content
-    +grid(7,16)
-    h2
-      :font-weight bold
-      :font-size 1em
-    ul
-      :padding-left 2em
-      :margin-left 0
 
 #footer
   :border-top= 2px "solid" !branding_color
@@ -107,9 +94,33 @@ img
 // home
 // --------------------------
 #home
+  #main
+    +grid-background-position(9,16)
   .subheader
-    :font-size 1.3em
+    +grid(9,16)
+    :margin-top 2em
+    :text-align right
+    :font-size 1.8em
+    p
+      :margin 1em 20px
+  .content
+    +grid(7,16)
+    :font-size 1.1em
+    h2
+      :font-weight bold
+      :font-size 1.1em
+    p
+      :margin -.7em 0 .7em
+      :color #666
+    ul
+      :padding-left 1.5em
+      :margin .5em 0
+      li
+        :margin-bottom .3em
 
+#for_entrepreneurs, #for_developers
+  :margin 0 -10px
+  :padding 10px 30px
 #for_entrepreneurs
   +border_bottom_light
 #for_developers

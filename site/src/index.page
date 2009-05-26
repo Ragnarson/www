@@ -8,7 +8,6 @@ template: home.template
 
 ---
 <div class="subheader">
-  <p>Developers that <em>love</em> Ruby programming.</p>
   <p>
     We <em>enjoy</em> every minute of our work with Ruby and Rails.
     Our systems are <em>well designed</em>, <em>tested</em> and <em>maintainable</em>.
