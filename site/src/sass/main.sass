@@ -39,25 +39,27 @@ img
 
 #navigation
   :float right
-  :margin-right 20px
   li
     :float left
     :overflow hidden
     :list-style none
-    :margin-left 4em
-    :padding-left 1em
+    :text-transform lowercase
+  a, span
+    :float left
+    :padding 0 3.5em 0 1em
     :border-left 1px solid #ccc
     :color #999
-    :text-transform lowercase
-    &:hover, &:active
-      :border-color #000
   a
     :outline none
     :text-decoration none
-    :color #999
-    :float left
-    &:hover, &:active
+    &:focus, &:hover, &:active
+      :border-color #000
       :color #000
+      :background-color #f6f6f6
+  li.webgen-menu-item-selected
+    a
+      &:focus, &:hover, &:active
+        :border-color #ccc
   em
     :display block
     :font-weight bold
@@ -86,10 +88,9 @@ img
 
 #footer
   :border-top= 2px "solid" !branding_color
-  h4
-    +grid(12,16)
   p
-    +grid(4,16)
+    :text-align right
+    :margin-right 20px
 
 // home
 // --------------------------

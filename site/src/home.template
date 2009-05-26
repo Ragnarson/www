@@ -31,7 +31,6 @@ template: ~
     </div>
 
     <div id="footer">
-      <h4>Site Information</h4>
       <p>&copy; 2009 <a href="http://ragnarson.com/">Ragnarson</a></p>
     </div>
 
