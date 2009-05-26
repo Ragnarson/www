@@ -12,8 +12,8 @@
 body
   :font-family Arial, sans-serif
   :font-size 0.75em
-  :background-color #fff
   +reset-box-model
+  :padding-bottom 4em
 
 img
   :border none
@@ -21,9 +21,14 @@ img
 #header, #main, #footer
   .inner
     +grid-container
+#header, #main
+  .inner
     +clearfix
+#header, #footer
+  :background-color #fff
+  :background-repeat repeat-x
 #header
-  :margin-top 2em
+  :padding 2em 0 3em
 
 #logo
   :margin 1em 0 0 3em
@@ -73,8 +78,6 @@ img
 
 #main
   :clear both
-  :margin-top 3em
-  :margin-bottom 8em
   .inner
     +grid-background-position(4,16)
     :background-repeat repeat-y
@@ -90,10 +93,14 @@ img
     :color= !branding_color
 
 #footer
-  :border-top= 2px "solid" !branding_color
+  :border-bottom= 2px "solid" !branding_color
+  :padding-top 8em
+  .inner
+    :position relative
+    :bottom -3.5em
   p
     :text-align right
-    :margin-right 20px
+    :margin-right 10px
 
 // home
 // --------------------------
