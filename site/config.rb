@@ -1,8 +1,11 @@
-require 'compass'   # Compass Stylesheet Framework
-require 'ninesixty' # 960 Grid System plugin
+require 'ninesixty'
+# Require any additional compass plugins here.
 
-Compass.configuration do |config|
-  config.project_path = File.dirname(__FILE__)
-  config.sass_dir     = File.join('src', 'sass' )
-  config.css_dir      = File.join('src', 'stylesheets' )
-end
+project_type = :stand_alone
+css_dir = "src/stylesheets"
+sass_dir = "src/sass"
+images_dir = "images"
+output_style = :compact
+# To enable relative image paths using the images_url() function:
+# http_images_path = :relative
+http_images_path = "/images"
