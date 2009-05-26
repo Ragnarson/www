@@ -16,22 +16,28 @@ template: ~
   <body id="home">
 
     <div id="header">
-      <h1 id="logo">
-        <a href='{relocatable:/}'>
-          <img src="{relocatable: images/ragnarson.png}" alt="Ragnarson"/>
-        </a>
-      </h1>
-      <div id="navigation">
-        {menu: {max_levels: 1, used_nodes: files}}
+      <div class="inner">
+        <h1 id="logo">
+          <a href='{relocatable:/}'>
+            <img src="{relocatable: images/ragnarson.png}" alt="Ragnarson"/>
+          </a>
+        </h1>
+        <div id="navigation">
+          {menu: {max_levels: 1, used_nodes: files}}
+        </div>
       </div>
     </div>
 
     <div id="main">
-      <webgen:block name="content" />
+      <div class="inner">
+        <webgen:block name="content" />
+      </div>
     </div>
 
     <div id="footer">
-      <p>&copy; 2009 <a href="http://ragnarson.com/">Ragnarson</a></p>
+      <div class="inner">
+        <p>&copy; 2009 <a href="http://ragnarson.com/">Ragnarson</a></p>
+      </div>
     </div>
 
   </body>

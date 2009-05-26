@@ -13,28 +13,34 @@
   <body>
 
     <div id="header">
-      <div id="logo">
-        <a href='{relocatable:/}'>
-          <img src="{relocatable: images/ragnarson.png}" alt="Ragnarson"/>
-        </a>
-      </div>
-      <div id="navigation">
-        {menu: {max_levels: 1, used_nodes: files}}
+      <div class="inner">
+        <div id="logo">
+          <a href='{relocatable:/}'>
+            <img src="{relocatable: images/ragnarson.png}" alt="Ragnarson"/>
+          </a>
+        </div>
+        <div id="navigation">
+          {menu: {max_levels: 1, used_nodes: files}}
+        </div>
       </div>
     </div>
 
     <div id="main">
-      <div class="title">
-        <h1>{title:}</h1>
-        <webgen:block name='subtitle' node='first' notfound='ignore' />
-      </div>
-      <div class="content">
-        <webgen:block name="content" />
+      <div class="inner">
+        <div class="title">
+          <h1>{title:}</h1>
+          <webgen:block name='subtitle' node='first' notfound='ignore' />
+        </div>
+        <div class="content">
+          <webgen:block name="content" />
+        </div>
       </div>
     </div>
 
     <div id="footer">
-      <p>&copy; 2009 <a href="http://ragnarson.com/">Ragnarson</a></p>
+      <div class="inner">
+        <p>&copy; 2009 <a href="http://ragnarson.com/">Ragnarson</a></p>
+      </div>
     </div>
 
   </body>
