@@ -44,22 +44,22 @@ img
     :overflow hidden
     :list-style none
     :text-transform lowercase
+    &.webgen-menu-item-selected
+      span
+        :color #000
+        :border-color #000
   a, span
     :float left
     :padding 0 3.5em 0 1em
     :border-left 1px solid #ccc
-    :color #999
   a
+    :color #999
     :outline none
     :text-decoration none
     &:focus, &:hover, &:active
       :border-color #000
       :color #000
       :background-color #f6f6f6
-  li.webgen-menu-item-selected
-    a
-      &:focus, &:hover, &:active
-        :border-color #ccc
   em
     :display block
     :font-weight bold
