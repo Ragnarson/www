@@ -1,4 +1,5 @@
 site/out
 site/src/stylesheets
 site/webgen.cache
+site/src/sass/.sass-cache
 *.*~
