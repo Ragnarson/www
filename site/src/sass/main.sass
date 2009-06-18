@@ -78,22 +78,6 @@ img
 
 #main
   :clear both
-  .inner
-    +grid-background-position(4,16)
-    :background-repeat repeat-y
-  .title
-    +grid(4,16)
-    :text-align right
-    h1, h2
-      :margin-right 10px
-    h2
-      :font-weight normal
-  .content
-    +grid(12,16)
-  em
-    :font-size 1.3em
-    :font-style normal
-    :color= !branding_color
 
 #footer
   :border-bottom= 2px "solid" !branding_color
@@ -118,6 +102,10 @@ img
     :font-size 1.8em
     p
       :margin 1em 20px
+    em
+      :font-size 1.3em
+      :font-style normal
+      :color= !branding_color
   .content
     +grid(7,16)
     :font-size 1.1em
@@ -147,14 +135,13 @@ img
   +border_bottom_light
   +border_top_dark
   :overflow hidden
-  :padding 0 0 1em
-  h3, img
-    :float left
   img
-    :width 128px
+    +grid(7,16)
+    +alpha
     :clear left
-  .description, .links
-    :margin 3em 0 0 15em
+  .description
+    +grid(5,16)
+    +omega
 
 .project
   &#jobmensa, &#pokerolymp
