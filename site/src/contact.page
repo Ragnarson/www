@@ -1,5 +1,6 @@
 ---
 title: Contact
+body_id: contact
 in_menu: true
 sort_info: 100
 link_attrs:

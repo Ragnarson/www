@@ -129,27 +129,22 @@ img
 #for_developers
   +border_top_dark
 
-// projects, team
-// --------------------------
-.project, .member
-  +border_bottom_light
-  +border_top_dark
-  :overflow hidden
-  img
-    +grid(7,16)
-    +alpha
-    :clear left
-  .description
+#projects
+  .project
+    +grid-background-position(4,16)
+    +clearfix
+    :padding-bottom 1em
+    h3, .description
+      +grid(4,16)
+      +alpha
+    .image
+      +grid(12,16)
+      +omega
+      :float right
+      :height 200px
+      :overflow hidden
+#team
+  .member
     +grid(5,16)
-    +omega
-
-.project
-  &#jobmensa, &#pokerolymp
-    :border-top none
-  &#mamily, &#pokerring
-    :border-bottom none
-.member
-  &#bragi
-    :border-top none
-  &#kazjote
-    :border-bottom none
+    img
+      :width 200px

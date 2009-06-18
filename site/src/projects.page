@@ -1,18 +1,17 @@
 ---
-title: Projects
+title: Projects we currently develop and maintain
+body_id: projects
 in_menu: true
 sort_info: 10
 link_attrs:
   :link_text: <em>Projects</em> What we do
 
 --- pipeline:tags,haml
-%h2 Projects we currently develop and maintain
-
 #jobmensa.project
   %h3
     %a{:href => 'http://www.jobmensa.de/'} Jobmensa
   %a.image{:href => 'http://www.jobmensa.de/'}
-    %img{:src => '{relocatable:/images/projects/jobmensa.png}', :width => 128, :height => 72, :alt => 'Jobmensa.de screenshot'}/
+    %img{:src => '{relocatable:/images/projects/jobmensa.png}', :alt => 'Jobmensa.de screenshot'}/
   .description
     Temporary jobs for students with a twist.
     %ul
@@ -26,7 +25,7 @@ link_attrs:
   %h3
     %a{:href => 'http://www.ekartenwelt.de/'} eKartenwelt
   %a.image{:href => 'http://www.ekartenwelt.de/'}
-    %img{:src => '{relocatable:/images/projects/ekartenwelt.png}', :width => 128, :height => 72, :alt => 'eKartenwelt.de screenshot'}/
+    %img{:src => '{relocatable:/images/projects/ekartenwelt.png}', :alt => 'eKartenwelt.de screenshot'}/
   .description
     Online cards service with Djabbi family members.
     %ul
@@ -38,7 +37,7 @@ link_attrs:
   %h3
     %a{:href => 'http://www.tutoria.de/'} Tutoria
   %a.image{:href => 'http://www.tutoria.de/'}
-    %img{:src => '{relocatable:/images/projects/tutoria.png}', :width => 128, :height => 72, :alt => 'Tutoria.de screenshot'}/
+    %img{:src => '{relocatable:/images/projects/tutoria.png}', :alt => 'Tutoria.de screenshot'}/
   .description
     Lorem ipsum.
     %ul
@@ -51,7 +50,7 @@ link_attrs:
   %h3
     %a{:href => 'http://www.pokerring.com/'} PokerRing
   %a.image{:href => 'http://www.pokerring.com/'}
-    %img{:src => '{relocatable:/images/projects/pokerring.png}', :width => 128, :height => 72, :alt => 'PokerRing.com screenshot'}/
+    %img{:src => '{relocatable:/images/projects/pokerring.png}', :alt => 'PokerRing.com screenshot'}/
   .description
     Lorem ipsum.
     %ul
@@ -66,7 +65,7 @@ link_attrs:
   %h3
     %a{:href => 'http://www.pokerolymp.de/'} PokerOlymp
   %a.image{:href => 'http://www.pokerolymp.de/'}
-    %img{:src => '{relocatable:/images/projects/pokerolymp.png}', :width => 128, :height => 72, :alt => 'PokerOlymp.de screenshot'}/
+    %img{:src => '{relocatable:/images/projects/pokerolymp.png}', :alt => 'PokerOlymp.de screenshot'}/
   .description
     News site and community for German-speaking poker players. Includes among others:
     %ul
@@ -79,7 +78,7 @@ link_attrs:
   %h3
     %a{:href => 'http://www.mamily.de/'} Mamily
   %a.image{:href => 'http://www.mamily.de/'}
-    %img{:src => '{relocatable:/images/projects/mamily.png}', :width => 128, :height => 72, :alt => 'Mamily.de screenshot'}/
+    %img{:src => '{relocatable:/images/projects/mamily.png}', :alt => 'Mamily.de screenshot'}/
   .description
     News site and community for German-speaking poker players. Includes among others:
     %ul

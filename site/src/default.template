@@ -10,7 +10,7 @@
     <title>{title:} | Ragnarson</title>
   </head>
 
-  <body>
+  <body id="{body_id:}">
 
     <div id="header">
       <div class="inner">
