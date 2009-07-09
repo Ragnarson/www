@@ -8,81 +8,81 @@ link_attrs:
 
 --- pipeline:tags,haml
 #jobmensa.project
-  %h3
-    %a{:href => 'http://www.jobmensa.de/'} Jobmensa
+  %h3 Jobmensa
   %a.image{:href => 'http://www.jobmensa.de/'}
     %img{:src => '{relocatable:/images/projects/jobmensa.png}', :alt => 'Jobmensa.de screenshot'}/
   .description
-    Temporary jobs for students with a twist.
+    %p Temporary jobs for students with a twist.
     %ul
       %li Perfect matching based on student skills and employer expectations
       %li Bayesian filter based job offer qualification
       %li Geocoding for localized offers
       %li Full invoicing platform
+    %a.visit_site{:href => 'http://www.jobmensa.de/'} Visit site
 
 -# TODO:
 #ekartenwelt.project
-  %h3
-    %a{:href => 'http://www.ekartenwelt.de/'} eKartenwelt
+  %h3 eKartenwelt
   %a.image{:href => 'http://www.ekartenwelt.de/'}
     %img{:src => '{relocatable:/images/projects/ekartenwelt.png}', :alt => 'eKartenwelt.de screenshot'}/
   .description
-    Online cards service with Djabbi family members.
+    %p Online cards service with Djabbi family members.
     %ul
       %li Cards customization
       %li User area with addressbook, bookmarks and card directories
       %li High performance (up to 650k sent cards per month)
+    %a.visit_site{:href => 'http://www.ekartenwelt.de/'} Visit site
 
 #tutoria.project
-  %h3
-    %a{:href => 'http://www.tutoria.de/'} Tutoria
+  %h3 Tutoria
   %a.image{:href => 'http://www.tutoria.de/'}
     %img{:src => '{relocatable:/images/projects/tutoria.png}', :alt => 'Tutoria.de screenshot'}/
   .description
-    Lorem ipsum.
+    %p Lorem ipsum.
     %ul
       %li Perfect matching based on student skills and employer expectations
       %li Bayesian filter based job offer qualification
       %li Geocoding for localized offers
       %li Full invoicing platform
+    %a.visit_site{:href => 'http://www.tutoria.de/'} Visit site
 
 #pokerring.project
-  %h3
-    %a{:href => 'http://www.pokerring.com/'} PokerRing
+  %h3 PokerRing
   %a.image{:href => 'http://www.pokerring.com/'}
     %img{:src => '{relocatable:/images/projects/pokerring.png}', :alt => 'PokerRing.com screenshot'}/
   .description
-    Lorem ipsum.
+    %p Lorem ipsum.
     %ul
       %li Perfect matching based on student skills and employer expectations
       %li Bayesian filter based job offer qualification
       %li Geocoding for localized offers
       %li Full invoicing platform
+    %a.visit_site{:href => 'http://www.pokerring.com/'} Visit site
 
 %h2 Previous projects
 
 #pokerolymp.project
-  %h3
-    %a{:href => 'http://www.pokerolymp.de/'} PokerOlymp
+  %h3 PokerOlymp
   %a.image{:href => 'http://www.pokerolymp.de/'}
     %img{:src => '{relocatable:/images/projects/pokerolymp.png}', :alt => 'PokerOlymp.de screenshot'}/
   .description
-    News site and community for German-speaking poker players. Includes among others:
+    %p News site and community for German-speaking poker players. Includes among others:
     %ul
       %li CMS supporting blogs and news
       %li Social network
       %li Forums
       %li Picture, movie sharing
+    %a.visit_site{:href => 'http://www.pokerolymp.de/'} Visit site
 
 #mamily.project
-  %h3
-    %a{:href => 'http://www.mamily.de/'} Mamily
+  %h3 Mamily
   %a.image{:href => 'http://www.mamily.de/'}
     %img{:src => '{relocatable:/images/projects/mamily.png}', :alt => 'Mamily.de screenshot'}/
   .description
-    News site and community for German-speaking poker players. Includes among others:
+    %p News site and community for German-speaking poker players. Includes among others:
     %ul
       %li CMS supporting blogs and news
       %li Social network
       %li Forums
       %li Picture, movie sharing
+    %a.visit_site{:href => 'http://www.mamily.de/'} Visit site
