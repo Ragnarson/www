@@ -48,7 +48,7 @@ ul
   :padding 2em 0 3em
 
 #logo
-  :margin 1em 0 0 3em
+  :margin .7em 0 0 3em
   :font-weight bold
   :font-size 1em
   :position absolute
@@ -143,8 +143,11 @@ ul
     +border_bottom_dark
     :margin-bottom 0
     :padding-bottom .1em
-  h1
-    :margin-bottom 0
+    h1
+      :margin-bottom 0
+    p
+      :margin 0 0 .2em
+      :color #999
   .content
     +border_top_light
     +pie-clearfix
@@ -220,3 +223,16 @@ ul
       :font-size .9em
       :text-transform uppercase
       :font-weight normal
+
+#jobs
+  h2
+    :margin-bottom .2em
+  p
+    :margin .2em 0
+  .section
+    +grid(8,16)
+  #requirements, #paperwork
+    +alpha
+    :clear both
+  #nice_to_have, test
+    +omega
