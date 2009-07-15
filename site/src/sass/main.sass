@@ -23,6 +23,9 @@ h1
   :font-weight normal
   :letter-spacing -0.01em
 
+p
+  :line-height 1.75em
+
 img
   :border none
 
@@ -135,11 +138,19 @@ ul
 #for_developers
   +border_top_light
 
-#projects
-  h1
+.subpage
+  .title
     +border_bottom_dark
     :margin-bottom 0
     :padding-bottom .1em
+  h1
+    :margin-bottom 0
+  .content
+    +border_top_light
+    +pie-clearfix
+    :padding-bottom 1em
+
+#projects
   h2
     +border_bottom_dark
     +border_top_light
@@ -154,6 +165,8 @@ ul
       :bottom 2em
     +border_bottom_dark
     +border_top_light
+    &#jobmensa
+      :border-top none
     &#mamily
       :border-bottom none
     h3, .description
@@ -187,6 +200,23 @@ ul
 
 #team
   .member
-    +grid(5,16)
+    +grid(4,16)
     img
       :width 200px
+      :height 200px
+      +border_dark
+      :background-color #fff
+      :padding 9px
+    &#bragi
+      +alpha
+    h3
+      :font-weight bold
+      :font-size 1.3em
+      :font-weight normal
+      :margin-bottom 0
+    h4
+      :margin 0 0 .7em
+      :color #999
+      :font-size .9em
+      :text-transform uppercase
+      :font-weight normal
