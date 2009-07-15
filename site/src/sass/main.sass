@@ -3,10 +3,12 @@
 !branding_color = #8ae234
 !grid_background_image_offset = -20px
 
-=border_bottom_light
+=border_bottom_dark
   :border-bottom 1px solid #e2dfad
-=border_top_dark
+=border_top_light
   :border-top 1px solid #fcfaec
+=border_dark
+  :border 1px solid #e2dfad
 
 
 body
@@ -16,7 +18,8 @@ body
   :padding-bottom 2em
 
 h1
-  :margin-top 1.5em
+  :font-size 2em
+  :margin-top 1em
   :font-weight normal
   :letter-spacing -0.01em
 
@@ -128,17 +131,31 @@ ul
   :margin 0 -10px
   :padding 10px 30px
 #for_entrepreneurs
-  +border_bottom_light
+  +border_bottom_dark
 #for_developers
-  +border_top_dark
+  +border_top_light
 
 #projects
+  h1
+    +border_bottom_dark
+    :margin-bottom 0
+    :padding-bottom .1em
+  h2
+    +border_bottom_dark
+    +border_top_light
+    :margin 0
+    :padding 1em 0 .1em
+    :font-size 2em
+    :font-weight normal
   .project
-    +grid-background-position(4,16)
     +clearfix
     :padding
+      :top 2em
       :bottom 2em
-      :top 1em
+    +border_bottom_dark
+    +border_top_light
+    &#mamily
+      :border-bottom none
     h3, .description
       +grid(4,16)
       +alpha
@@ -151,6 +168,8 @@ ul
       :float right
       :height 200px
       :overflow hidden
+      img
+        +border_dark
     p
       :margin -.7em 0 .7em
     a.visit_site
