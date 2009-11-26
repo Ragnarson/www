@@ -19,13 +19,6 @@ link_attrs:
     %li.blog
       %a{:href => 'http://blog.ragnarson.com/'} Blog
 
-#olek.member
-  %h3 Olek Janiszewski
-  %h4 Developer
-  %img{:src => '{relocatable: /images/team/olek.jpg}', :alt => ''}
-  .description
-    %p Profesionally in love with Ruby since February 2008, moving from a Java and .NET reality was so far his boldest, yet smartest, career decision so far. Devoted to elegant architecture design and beautiful code.
-    
 #kazjote.member
   %h3 Kacper Bielecki
   %h4 Developer
