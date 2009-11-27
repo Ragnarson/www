@@ -38,3 +38,8 @@ task :auto_webgen do
     sleep 2
   end
 end
+
+desc "Publishes the site"
+task :publish do
+  `scp -r out/* bragi-web@sandbox.carriles.pl:ragnarson.com`
+end
