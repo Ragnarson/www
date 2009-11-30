@@ -1,12 +1,15 @@
 ---
-title: Projects we currently develop and maintain
+title: Projects
 body_id: projects
 in_menu: true
 sort_info: 10
 link_attrs:
   :link_text: <em>Projects</em> What we do
 
---- pipeline:tags,haml
+--- name:subtitle pipeline:tags,haml
+%p Projects we currently develop and maintain
+
+--- name:content pipeline:tags,haml
 #jobmensa.project
   %h3 Jobmensa
   %a.image{:href => 'http://www.jobmensa.de/'}
