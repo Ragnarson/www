@@ -41,7 +41,6 @@ link_attrs:
   %a.image{:href => 'http://www.tutoria.de/'}
     %img{:src => '{relocatable:/images/projects/tutoria.png}', :alt => 'Tutoria.de screenshot'}/
   .description
-    %p Lorem ipsum.
     %ul
       %li Perfect matching based on student skills and employer expectations
       %li Bayesian filter based job offer qualification
@@ -54,7 +53,6 @@ link_attrs:
   %a.image{:href => 'http://www.pokerring.com/'}
     %img{:src => '{relocatable:/images/projects/pokerring.png}', :alt => 'PokerRing.com screenshot'}/
   .description
-    %p Lorem ipsum.
     %ul
       %li Perfect matching based on student skills and employer expectations
       %li Bayesian filter based job offer qualification
