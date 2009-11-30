@@ -6,5 +6,31 @@ sort_info: 30
 link_attrs:
   :link_text: <em>Development</em> How we work
 
----
-Our main priority is to provide working implementation as soon as possible.
+--- name:subtitle pipeline:tags,haml
+%p Why it's good to work with us?
+
+--- name:content pipeline:tags,haml
+%h2 We provide working implementation as soon as possible.
+
+%h3 Scrum Applied
+
+%p 
+  We use use
+  %a(href="http://www.controlchaos.com/about/") Scrum
+  on daily basis. This means we have a sustained productivity and weekly sanity check on project's progress. This also means we have a constant output and we are providing visible results on at least weekly basis.
+
+%h3 Benefits for customers
+
+%ul
+  %li You always know where the project is heading
+  %li You see progress on weekly basis
+  %li You can easily change direction where project is going
+  %li You can easing prioritize features and have them delivered fast
+  
+%h3 Benefits for developers
+
+%ul
+  %li No stress - you estimate time required to implement things
+  %li No burnout - you work 40h per week, max
+  %li Fast learning - good communication means fast knowledge flow
+  %li Simple goals - you always have a list of things to do and it's always short enough to manage
