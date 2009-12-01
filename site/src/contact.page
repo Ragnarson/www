@@ -6,8 +6,36 @@ sort_info: 100
 link_attrs:
   :link_text: <em>Contact</em> Questions &amp; comments
 
---- pipeline:tags,maruku
+--- pipeline:tags,haml
 
-Opportunities, general questions, comments, and concerns should be sent to <a href="mailto:lukasz.piestrzeniewicz@ragnarson.com">Łukasz Piestrzeniewicz</a>, the company founder, via email.
+%p Opportunities, general questions, comments, and concerns should be sent to <a href="mailto:lukasz.piestrzeniewicz@ragnarson.com">Łukasz Piestrzeniewicz</a>, the company founder, via email.
 
-Questions regarding recruitment and employment should be sent to <a href="mailto:jobs@ragnarson.com">jobs@ragnarson.com</a>
+%p Questions regarding recruitment and employment should be sent to <a href="mailto:jobs@ragnarson.com">jobs@ragnarson.com</a>
+
+%h2 Address
+
+%p#address
+  Łąkowa 11
+  %br/
+  90-562 Łódź
+  %br/
+  Polska / Poland
+
+#map
+
+%script(src="http://www.google.com/jsapi?key=ABQIAAAAwAOP5LpLmX8GUMj4lO3QdxQrq1JbSCP1GA07N9NkxpFR7MANahR56eElqY_0knX6pnOuZF87M8IySw" type="text/javascript")/
+
+:javascript
+  google.load("maps", "2.x")
+  google.load("jquery", "1.3.1")
+
+:javascript
+  $(document).ready(function(){
+      var map = new GMap2(document.getElementById('map'));
+      var ragnarsonAddress = new GLatLng(51.761557,19.440034);
+      map.setCenter(ragnarsonAddress, 14)
+      map.addControl(new GSmallMapControl())
+      map.openInfoWindow(ragnarsonAddress, document.getElementById("address"))
+      var point = new GMarker(ragnarsonAddress)
+      map.addOverlay(point)
+  });
