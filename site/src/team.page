@@ -30,3 +30,6 @@ link_attrs:
   %img{:src => '{relocatable: /images/team/wijet.png}', :alt => 'wijet'}
   .description
     %p Amazed by the beauty of Ruby in 2007, has been working with Rails since then. Always willing to explore and learn new technologies and tools. Puts strong emphasis on clean and simple code.
+    %ul.links
+      %li.blog
+        %a{:href => 'http://wijet.pl/'} Blog
