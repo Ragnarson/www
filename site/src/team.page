@@ -12,7 +12,11 @@ link_attrs:
   %h4 Developer, Team Leader, Company Owner
   %img{:src => '{relocatable: /images/team/bragi.jpg}', :alt => 'Łukasz Piestrzeniewicz'}
   .description
-    %p Active developer since 2003, with experience in real-time telecommunications platforms, high availability servers, web applications. Focuses on good communication with customers and designing application architectures that are easy to grow.
+    %p
+      Active developer since 2003, with experience in real-time telecommunications
+      platforms, high availability servers, web applications. Focuses on good
+      communication with customers and designing application architectures that
+      are easy to grow.
   %ul.links
     %li.blog
       %a{:href => 'http://blog.ragnarson.com/'} Blog
@@ -22,14 +26,19 @@ link_attrs:
   %h4 Developer, Team Leader
   %img{:src => '{relocatable: /images/team/kazjote.png}', :alt => 'Kacper Bielecki'}
   .description
-    %p Ruby developer since 2007. Passionate programmer from kid. In his projects focuses on maximizing user experience and producing pragmatic solutions.
+    %p
+      Ruby developer since 2007. Passionate programmer from kid. In his projects
+      focuses on maximizing user experience and producing pragmatic solutions.
     
 #wijet.member
   %h3 Mariusz Pietrzyk
   %h4 Developer, Project Leader
   %img{:src => '{relocatable: /images/team/wijet.png}', :alt => 'Mariusz Pietrzyk'}
   .description
-    %p Amazed by the beauty of Ruby in 2007, has been working with Rails since then. Always willing to explore and learn new technologies and tools. Puts strong emphasis on clean and simple code.
+    %p
+      Amazed by the beauty of Ruby in 2007, has been working with Rails since
+      then. Always willing to explore and learn new technologies and tools. Puts
+      strong emphasis on clean and simple code.
     %ul.links
       %li.blog
         %a{:href => 'http://wijet.pl/'} Blog
@@ -39,16 +48,41 @@ link_attrs:
   %h4 Developer
   %img{:src => '{relocatable: /images/team/marcin_balinski.png}', :alt => 'Marcin Baliński'}
   .description
-    %p Marcin discovered Ruby in 2007 and instantly fell in love amused by it's elegant beauty. At the beginning of 2008 he joined Ragnarson in their mission of creating kick-ass rails apps. Always tries to keep things as simple as possible and to end each day with new knowledge.  Marcin is a big fan of applied art, Gordon Ramsay's shows, American muscle-cars designed before 80's and thrash metal music.
+    %p
+      Marcin discovered Ruby in 2007 and instantly fell in love amused by it's
+      elegant beauty. At the beginning of 2008 he joined Ragnarson in their
+      mission of creating kick-ass rails apps. Always tries to keep things as
+      simple as possible and to end each day with new knowledge. Marcin is a big
+      fan of applied art, Gordon Ramsay's shows, American muscle-cars designed
+      before 80's and thrash metal music.
 
 #pr0d1r2.member
   %h3 Marcin Nowicki
   %h4 Developer, Team Leader
   %img{:src => '{relocatable: /images/team/pr0d1r2.jpg}', :alt => 'Marcin Nowicki'}
   .description
-    %p Marcin Nowicki aka Pr0d1r2 began his journey in 1990 starting with Commodore C64 Basic and Assembler programming.
-    %p After that was Amiga GUI programming and lots of games.
-    %p In 1997 started using linux as main operating system and involved into hardcore Bash, Assembler, C and C++ programming.
-    %p He discovered Ruby in 2006 by secret project startup that was finished in 2008.
-    %p In November 2008 joined Ragnarson Team in pursue of perfection...
-    %p Great fan of Star Trek Borg culture. Runs on psychedelic trance, good food with wine, heavy workout, classic games and assimilation.
+    %p
+      Marcin Nowicki aka Pr0d1r2 began his journey in 1990 starting with
+      Commodore C64 Basic and Assembler programming.
+    %p
+      After that was Amiga GUI programming and lots of games.
+    %p
+      In 1997 started using linux as main operating system and involved into
+      hardcore Bash, Assembler, C and C++ programming.
+    %p
+      He discovered Ruby in 2006 by secret project startup that was finished in 2008.
+    %p
+      In November 2008 joined Ragnarson Team in pursue of perfection...
+    %p
+      Great fan of Star Trek Borg culture. Runs on psychedelic trance, good food
+      with wine, heavy workout, classic games and assimilation.
+
+#atw.member
+  %h3 Antoni Wójcik
+  %h4 Frontend Developer
+  %img{:src => '{relocatable: /images/team/atw.png}', :alt => 'Antoni Wójcik'}
+  .description
+    %p
+      Web developer since 2006. Focuses on writing clean, semantic HTML and
+      maintainable CSS. Interested in providing simple and usable user interface.
+      Cognitive science student.
