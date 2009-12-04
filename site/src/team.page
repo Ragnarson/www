@@ -33,3 +33,10 @@ link_attrs:
     %ul.links
       %li.blog
         %a{:href => 'http://wijet.pl/'} Blog
+
+#marcin_balinski.member
+  %h3 Marcin Baliński
+  %h4 Developer
+  %img{:src => '{relocatable: /images/team/marcin_balinski.png}', :alt => 'Marcin Baliński'}
+  .description
+    %p Marcin discovered Ruby in 2007 and instantly fell in love amused by it's elegant beauty. At the beginning of 2008 he joined Ragnarson in their mission of creating kick-ass rails apps. Always tries to keep things as simple as possible and to end each day with new knowledge.  Marcin is a big fan of applied art, Gordon Ramsay's shows, American muscle-cars designed before 80's and thrash metal music.
