@@ -86,3 +86,20 @@ link_attrs:
       Web developer since 2006. Focuses on writing clean, semantic HTML and
       maintainable CSS. Interested in providing simple and usable user interface.
       Cognitive science student.
+
+#sevos.member
+  %h3 Artur Roszczyk
+  %h4 Developer
+  %img{:src => '{relocatable: /images/team/sevos.png}', :alt => 'Artur Roszczyk'}
+  .description
+    %p
+      First steps in programming made in 1999. In 2004 switched to Linux
+      environment and stayed for five years. Web developer since 2005.
+      He discovered Ruby in June 2009 after an exhausting Java project.
+      Joined Ragnarson team in October 2009.
+    %p
+      He likes to analyze and solve problems, even if they're complex.
+      He loves travelling, TV series and recently is interested in aware career planning.
+    %ul.links
+      %li.blog
+        %a{:href => 'http://sevos.eax.pl/'} Blog
