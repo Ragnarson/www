@@ -32,7 +32,7 @@ link_attrs:
     
 #wijet.member
   %h3 Mariusz Pietrzyk
-  %h4 Developer, Project Leader
+  %h4 Developer, Team Leader
   %img{:src => '{relocatable: /images/team/wijet.png}', :alt => 'Mariusz Pietrzyk'}
   .description
     %p
@@ -42,19 +42,6 @@ link_attrs:
     %ul.links
       %li.blog
         %a{:href => 'http://wijet.pl/'} Blog
-
-#marcin_balinski.member
-  %h3 Marcin Baliński
-  %h4 Developer
-  %img{:src => '{relocatable: /images/team/marcin_balinski.png}', :alt => 'Marcin Baliński'}
-  .description
-    %p
-      Marcin discovered Ruby in 2007 and instantly fell in love amused by it's
-      elegant beauty. At the beginning of 2008 he joined Ragnarson in their
-      mission of creating kick-ass rails apps. Always tries to keep things as
-      simple as possible and to end each day with new knowledge. Marcin is a big
-      fan of applied art, Gordon Ramsay's shows, American muscle-cars designed
-      before 80's and thrash metal music.
 
 #pr0d1r2.member
   %h3 Marcin Nowicki
@@ -77,6 +64,19 @@ link_attrs:
       Great fan of Star Trek Borg culture. Runs on psychedelic trance, good food
       with wine, heavy workout, classic games and assimilation.
 
+#marcin_balinski.member
+  %h3 Marcin Baliński
+  %h4 Developer
+  %img{:src => '{relocatable: /images/team/marcin_balinski.png}', :alt => 'Marcin Baliński'}
+  .description
+    %p
+      Marcin discovered Ruby in 2007 and instantly fell in love amused by it's
+      elegant beauty. At the beginning of 2008 he joined Ragnarson in their
+      mission of creating kick-ass rails apps. Always tries to keep things as
+      simple as possible and to end each day with new knowledge. Marcin is a big
+      fan of applied art, Gordon Ramsay's shows, American muscle-cars designed
+      before 80's and thrash metal music.
+
 #atw.member
   %h3 Antoni Wójcik
   %h4 Frontend Developer
@@ -85,6 +85,7 @@ link_attrs:
     %p
       Web developer since 2006. Focuses on writing clean, semantic HTML and
       maintainable CSS. Interested in providing simple and usable user interface.
+    %p
       Cognitive science student.
 
 #sevos.member
@@ -103,3 +104,32 @@ link_attrs:
     %ul.links
       %li.blog
         %a{:href => 'http://sevos.eax.pl/'} Blog
+        
+#koniko.member
+  %h3 Mateusz Konikowski
+  %h4 Developer
+  %img{:src => '{relocatable: /images/team/koniko.jpg}', :alt => 'Mateusz Konikowski'}
+  .description
+    %p
+      Mateusz started his adventure with Ruby on Rails in 2007. After experiencing variety of programming languages (from most common like java, c, c++ to some niche like ocaml, smalltalk or prolog) he finally discovered that ruby was a perfect one for him. In 2008-2009 he had one year brake for studying sociology in the Basque Country. Now he's back in the game with a mission to master RoR development. He loves traveling, bikeriding and boardgame playing. Positive thinking is his guideline.
+
+
+#michalk.member
+  %h3 Michał Kwiatkowski
+  %h4 Software Developer
+  %img{:src => '{relocatable: /images/team/anonymous.png}', :alt => 'Anonymous'}
+  .description
+    %p
+      Software developer. Programming in Ruby on Rails since 2006. His
+      interests include programming languages, automated testing and
+      artificial intelligence. Proponent of open source and agile software
+      development. In his spare time plays guitar, reads science fiction and
+      listens to jazz.
+
+#staszek.member
+  %h3 Stanisław Kolarzowski
+  %h4 Software Developer
+  %img{:src => '{relocatable: /images/team/anonymous.png}', :alt => 'Anonymous'}
+  .description
+    %p
+      Staszek has started his adventure with web development in 2003.  He had been flash developer for 2 years, before he decided to find new interesting technology. After years of searching and trying many of them like C++, Java, Assembler, PLC, Php and more he found Ruby in begining of 2009. He loved it and joined Ragnarson team in September 2009. Staszek likes spend his free time actively, especially doing some extreme sports. When he is not jumping on his bike, he probably is watching new episode of South Park or Family Guy. 
