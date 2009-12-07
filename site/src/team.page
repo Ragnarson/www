@@ -90,7 +90,7 @@ link_attrs:
 #sevos.member
   %h3 Artur Roszczyk
   %h4 Developer
-  %img{:src => '{relocatable: /images/team/sevos.png}', :alt => 'Artur Roszczyk'}
+  %img{:src => '{relocatable: /images/team/sevos.jpg}', :alt => 'Artur Roszczyk'}
   .description
     %p
       First steps in programming made in 1999. In 2004 switched to Linux
