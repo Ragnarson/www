@@ -88,6 +88,15 @@ link_attrs:
     %p
       Cognitive science student.
 
+
+#mandaryn.member
+  %h3 Piotr Marciniak
+  %h4 Developer
+  %img{:src => '{relocatable: /images/team/mandaryn.jpg}', :alt => 'Piotr Marciniak'}
+  .description
+    %p
+      Web developer since 2006. Started with Ruby on Rails, then had a too long fling with various Java frameworks to finally get back to Rails in 2009. Great fan of 'Getting Real', and simplicity in general. In his free time Peter does like to dance (folk, salsa) and recently has found his biggest hobby, raising a newborn son.
+
 #sevos.member
   %h3 Artur Roszczyk
   %h4 Developer

@@ -15,3 +15,9 @@ Install Compass and 960gs plugin:
 
 Run:
   compass -u
+---
+
+How to run the site:
+  sudo gem install webgen
+
+  rake
