@@ -58,5 +58,7 @@ link_attrs:
   %h4 Developer
   %img{:src => '{relocatable: /images/team/asok.png}', :alt => 'Adam Sokolnicki'}
   .description
-    %p Addicted to Ruby since first usage in July 2009. Since then he tries not to fall into temptation and to overdose. Strong supported of the open source philosophy. Made some nice rails plugin called Representations. Works for Ragnarson because he believes that some things should be done the right way. Besides programming has 10 years of judo training with 1 kyu rank.
-    %p Does like: absorbing movie, wise literature, vivid alcohol, spending time with adorable woman. Does not like: cats and php.
+    %p 
+      Addicted to Ruby since first usage in July 2009. Since then he tries not to fall into temptation and to overdose. Strong supported of the open source philosophy. Made some nice rails plugin called Representations. Works for Ragnarson because he believes that some things should be done the right way. Besides programming has 10 years of judo training with 1 kyu rank.
+    %p
+      Does like: absorbing movie, wise literature, vivid alcohol, spending time with adorable woman. Does not like: cats and php.
