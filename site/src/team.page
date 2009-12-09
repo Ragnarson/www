@@ -52,3 +52,11 @@ link_attrs:
     %p He discovered Ruby in 2006 by secret project startup that was finished in 2008.
     %p In November 2008 joined Ragnarson Team in pursue of perfection...
     %p Great fan of Star Trek Borg culture. Runs on psychedelic trance, good food with wine, heavy workout, classic games and assimilation.
+
+#asok.member
+  %h3 Adam Sokolnicki
+  %h4 Developer
+  %img{:src => '{relocatable: /images/team/asok.png}', :alt => 'Adam Sokolnicki'}
+  .description
+    %p Addicted to Ruby since first usage in July 2009. Since then he tries not to fall into temptation and to overdose. Strong supported of the open source philosophy. Made some nice rails plugin called Representations. Works for Ragnarson because he believes that some things should be done the right way. Besides programming has 10 years of judo training with 1 kyu rank.
+    %p Does like: absorbing movie, wise literature, vivid alcohol, spending time with adorable woman. Does not like: cats and php.
