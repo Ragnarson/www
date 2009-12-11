@@ -36,6 +36,19 @@ link_attrs:
       %li Full invoicing platform
     %a.visit_site{:href => 'http://www.jobmensa.de/'} Visit site
 
+#restaurant-kritik.project
+  %h3 Restaurant-Kritik
+  %a.image{:href => 'http://www.restaurant-kritik.de/'}
+    %img{:src => '{relocatable:/images/projects/restaurant-kritik.jpg}', :alt => 'Restaurant-Kritik.de screenshot'}/
+  .description
+    %p Largest collection of restaurant reviews in Germany
+    %ul
+      %li Localized collection of restaurants with detailed info
+      %li Reviews by well known critics
+      %li Up-to-date culinary events
+      %li Full social network for good cusine lovers
+    %a.visit_site{:href => 'http://www.restaurants-kritik.de/'} Visit site
+
 #ekartenwelt.project
   %h3 eKartenwelt
   %a.image{:href => 'http://www.ekartenwelt.de/'}
