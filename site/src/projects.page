@@ -10,6 +10,19 @@ link_attrs:
 %p Projects we currently develop and maintain
 
 --- name:content pipeline:tags,haml
+#jobeinstieg.project
+  %h3 Jobeinstieg
+  %a.image{:href => 'http://www.jobeinstieg.de/'}
+    %img{:src => '{relocatable:/images/projects/jobeinstieg.jpg}', :alt => 'Jobeinstieg.de screenshot'}/
+  .description
+    %p Valuable jobs for graduates.
+    %ul
+      %li Hand picked job offers from whole Germany
+      %li Accurate salary benchmark
+      %li Detailed job search
+      %li Everyday new job notifications
+    %a.visit_site{:href => 'http://www.jobeinstieg.de/'} Visit site
+
 #jobmensa.project
   %h3 Jobmensa
   %a.image{:href => 'http://www.jobmensa.de/'}
@@ -23,7 +36,6 @@ link_attrs:
       %li Full invoicing platform
     %a.visit_site{:href => 'http://www.jobmensa.de/'} Visit site
 
--# TODO:
 #ekartenwelt.project
   %h3 eKartenwelt
   %a.image{:href => 'http://www.ekartenwelt.de/'}
