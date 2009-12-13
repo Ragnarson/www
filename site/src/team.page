@@ -152,3 +152,18 @@ link_attrs:
       Addicted to Ruby since first usage in July 2009. Since then he tries not to fall into temptation and to overdose. Strong supported of the open source philosophy. Made some nice rails plugin called Representations. Works for Ragnarson because he believes that some things should be done the right way. Besides programming has 10 years of judo training with 1 kyu rank.
     %p
       Does like: absorbing movie, wise literature, vivid alcohol, spending time with adorable woman. Does not like: cats and php.
+
+#daan.member
+  %h3 Marcin Michałowski
+  %h4 Developer
+  %img{:src => '{relocatable: /images/team/daan.jpg}', :alt => 'Marcin Michałowski'}
+  .description
+    %p
+      Professionally connected with the servers administration and web
+      development since 2002. Fan of the web standards, open licensing
+      and GTD methodology. Programmed in a variety of strange things like
+      PHP or TCL where everything is a string. Very satisfied Ruby
+      developer since 2006.
+    %p
+      He enjoys watching a good TV series. Likes listening to jazz,
+      psychill and goa trace.
