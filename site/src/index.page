@@ -3,11 +3,12 @@ title: Home
 in_menu: true
 sort_info: 0
 link_attrs:
-  :link_text: <em>Home</em> Ragnarson.com
+  :link_text: <em>Home</em> Perfect Programmers
 template: home.template
 
 ---
 <div class="subheader">
+  <p class="logo"><img src="{relocatable:/images/ragnarson-logo.png}" alt="Ragnarson - perfect programmers" /></p>
   <p>
     We <em>enjoy</em> every minute of our work with Ruby and Rails.
     Our systems are <em>well designed</em>, <em>tested</em> and <em>maintainable</em>.
