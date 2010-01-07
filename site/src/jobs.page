@@ -35,7 +35,8 @@ link_attrs:
   %p
     Prepare your CV, it must be fresh, simple, clean and in PDF.
     Picture is not mandatory (but often helps).
-    Send it via e-mail to recruitment@ragnarson.com.
+    Send it via e-mail to 
+    %a(href="mailto:recruitment@ragnarson.com") recruitment@ragnarson.com.
     In this e-mail describe shortly why would you like to work with us.
   %p In addition if you are a Citizen of Poland add following statement:
   %blockquote
