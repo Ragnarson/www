@@ -7,150 +7,192 @@ link_attrs:
   :link_text: <em>Team</em> Who we are
 
 --- name:content pipeline:tags,haml
-#bragi.member
-  %h3 Łukasz Piestrzeniewicz
-  %h4 Developer, Team Leader, Company Owner
-  %img{:src => '{relocatable: /images/team/bragi.jpg}', :alt => 'Łukasz Piestrzeniewicz'}
-  .description
-    %p
-      Active developer since 2003, with experience in real-time telecommunications
-      platforms, high availability servers, web applications. Focuses on good
-      communication with customers and designing application architectures that
-      are easy to grow.
-  %ul.links
-    %li.blog
-      %a{:href => 'http://blog.ragnarson.com/'} Blog
+.members_row
+  #marcin_bajer.member
+    %h3 Marcin Bajer
+    %h4 Software Developer, Sysadmin
+    %img{:src => '{relocatable: /images/team/marcin_bajer.gif}', :alt => 'Marcin Bajer'}
+    .description
+      %p
+        Marcin wrote his first program in 1984, in BASIC on a ZX Spectrum. Probably that's why some teammates call him Grandpa. In the early 90ies got tired of waiting for his C programs to compile, and switched over to scripting languages. Having tried Bash, Perl, TCL and Python on the way, discovered Ruby in 20th year of his short career and never looked back. Shortly thereafter he wrote his first Rails app, using version 1.0.0 of the framework. Using some sysadmin skills acquired over the years, Marcin keeps our servers and apps running (and running fast).
+      %p
+        When not working, Marcin struggles with raising his two sons to become good programmers, but he'd rather be snowboarding or flying a glider (depending on the season) or photographying -
+        %a{:href => 'http://www.flickr.com/photos/rrrodrigo/sets/72157623007618613/'} all year round.
 
-#kazjote.member
-  %h3 Kacper Bielecki
-  %h4 Developer, Team Leader
-  %img{:src => '{relocatable: /images/team/kazjote.png}', :alt => 'Kacper Bielecki'}
-  .description
-    %p
-      Ruby developer since 2007. Passionate programmer from kid. In his projects
-      focuses on maximizing user experience and producing pragmatic solutions.
-    
-#wijet.member
-  %h3 Mariusz Pietrzyk
-  %h4 Developer, Team Leader
-  %img{:src => '{relocatable: /images/team/wijet.png}', :alt => 'Mariusz Pietrzyk'}
-  .description
-    %p
-      Amazed by the beauty of Ruby in 2007, has been working with Rails since
-      then. Always willing to explore and learn new technologies and tools. Puts
-      strong emphasis on clean and simple code.
+  #bragi.member
+    %h3 Łukasz Piestrzeniewicz
+    %h4 Developer, Team Leader, Company Owner
+    %img{:src => '{relocatable: /images/team/bragi.jpg}', :alt => 'Łukasz Piestrzeniewicz'}
+    .description
+      %p
+        Active developer since 2003, with experience in real-time telecommunications
+        platforms, high availability servers, web applications. Focuses on good
+        communication with customers and designing application architectures that
+        are easy to grow.
     %ul.links
       %li.blog
-        %a{:href => 'http://wijet.pl/'} Blog
+        %a{:href => 'http://blog.ragnarson.com/'} Blog
 
-#pr0d1r2.member
-  %h3 Marcin Nowicki
-  %h4 Developer, Team Leader
-  %img{:src => '{relocatable: /images/team/pr0d1r2.jpg}', :alt => 'Marcin Nowicki'}
-  .description
-    %p
-      Marcin Nowicki aka Pr0d1r2 began his journey in 1990 starting with
-      Commodore C64 Basic and Assembler programming.
-    %p
-      After that was Amiga GUI programming and lots of games.
-    %p
-      In 1997 started using linux as main operating system and involved into
-      hardcore Bash, Assembler, C and C++ programming.
-    %p
-      He discovered Ruby in 2006 by secret project startup that was finished in 2008.
-    %p
-      In November 2008 joined Ragnarson Team in pursue of perfection...
-    %p
-      Great fan of Star Trek Borg culture. Runs on psychedelic trance, good food
-      with wine, heavy workout, classic games and assimilation.
+  #kazjote.member
+    %h3 Kacper Bielecki
+    %h4 Developer, Team Leader
+    %img{:src => '{relocatable: /images/team/kazjote.png}', :alt => 'Kacper Bielecki'}
+    .description
+      %p
+        Ruby developer since 2007. Passionate programmer from kid. In his projects
+        focuses on maximizing user experience and producing pragmatic solutions.
 
-#marcin_balinski.member
-  %h3 Marcin Baliński
-  %h4 Developer
-  %img{:src => '{relocatable: /images/team/marcin_balinski.png}', :alt => 'Marcin Baliński'}
-  .description
-    %p
-      Marcin discovered Ruby in 2007 and instantly fell in love amused by it's
-      elegant beauty. At the beginning of 2008 he joined Ragnarson in their
-      mission of creating kick-ass rails apps. Always tries to keep things as
-      simple as possible and to end each day with new knowledge. Marcin is a big
-      fan of applied art, Gordon Ramsay's shows, American muscle-cars designed
-      before 80's and thrash metal music.
+  #wijet.member
+    %h3 Mariusz Pietrzyk
+    %h4 Developer, Team Leader
+    %img{:src => '{relocatable: /images/team/wijet.png}', :alt => 'Mariusz Pietrzyk'}
+    .description
+      %p
+        Amazed by the beauty of Ruby in 2007, has been working with Rails since
+        then. Always willing to explore and learn new technologies and tools. Puts
+        strong emphasis on clean and simple code.
+      %ul.links
+        %li.blog
+          %a{:href => 'http://wijet.pl/'} Blog
 
-#atw.member
-  %h3 Antoni Wójcik
-  %h4 Frontend Developer
-  %img{:src => '{relocatable: /images/team/atw.png}', :alt => 'Antoni Wójcik'}
-  .description
-    %p
-      Web developer since 2006. Focuses on writing clean, semantic HTML and
-      maintainable CSS. Interested in providing simple and usable user interface.
-    %p
-      Cognitive science student.
+.members_row
+  #pr0d1r2.member
+    %h3 Marcin Nowicki
+    %h4 Developer, Team Leader
+    %img{:src => '{relocatable: /images/team/pr0d1r2.jpg}', :alt => 'Marcin Nowicki'}
+    .description
+      %p
+        Marcin Nowicki aka Pr0d1r2 began his journey in 1990 starting with
+        Commodore C64 Basic and Assembler programming.
+      %p
+        After that was Amiga GUI programming and lots of games.
+      %p
+        In 1997 started using linux as main operating system and involved into
+        hardcore Bash, Assembler, C and C++ programming.
+      %p
+        He discovered Ruby in 2006 by secret project startup that was finished in 2008.
+      %p
+        In November 2008 joined Ragnarson Team in pursue of perfection...
+      %p
+        Great fan of Star Trek Borg culture. Runs on psychedelic trance, good food
+        with wine, heavy workout, classic games and assimilation.
+  #marcin_balinski.member
+    %h3 Marcin Baliński
+    %h4 Developer
+    %img{:src => '{relocatable: /images/team/marcin_balinski.png}', :alt => 'Marcin Baliński'}
+    .description
+      %p
+        Marcin discovered Ruby in 2007 and instantly fell in love amused by it's
+        elegant beauty. At the beginning of 2008 he joined Ragnarson in their
+        mission of creating kick-ass rails apps. Always tries to keep things as
+        simple as possible and to end each day with new knowledge. Marcin is a big
+        fan of applied art, Gordon Ramsay's shows, American muscle-cars designed
+        before 80's and thrash metal music.
 
-
-#mandaryn.member
-  %h3 Piotr Marciniak
-  %h4 Developer
-  %img{:src => '{relocatable: /images/team/mandaryn.jpg}', :alt => 'Piotr Marciniak'}
-  .description
-    %p
-      Web developer since 2006. Started with Ruby on Rails, then had a too long fling with various Java frameworks to finally get back to Rails in 2009. Great fan of 'Getting Real', and simplicity in general. In his free time Peter does like to dance (folk, salsa) and recently has found his biggest hobby, raising a newborn son.
-
-#sevos.member
-  %h3 Artur Roszczyk
-  %h4 Developer
-  %img{:src => '{relocatable: /images/team/sevos.jpg}', :alt => 'Artur Roszczyk'}
-  .description
-    %p
-      First steps in programming made in 1999. In 2004 switched to Linux
-      environment and stayed for five years. Web developer since 2005.
-      He discovered Ruby in June 2009 after an exhausting Java project.
-      Joined Ragnarson team in October 2009.
-    %p
-      He likes to analyze and solve problems, even if they're complex.
-      He loves travelling, TV series and recently is interested in aware career planning.
-    %ul.links
-      %li.blog
-        %a{:href => 'http://sevos.eax.pl/'} Blog
-        
-#koniko.member
-  %h3 Mateusz Konikowski
-  %h4 Developer
-  %img{:src => '{relocatable: /images/team/koniko.jpg}', :alt => 'Mateusz Konikowski'}
-  .description
-    %p
-      Mateusz started his adventure with Ruby on Rails in 2007. After experiencing variety of programming languages (from most common like java, c, c++ to some niche like ocaml, smalltalk or prolog) he finally discovered that ruby was a perfect one for him. In 2008-2009 he had one year brake for studying sociology in the Basque Country. Now he's back in the game with a mission to master RoR development. He loves traveling, bikeriding and boardgame playing. Positive thinking is his guideline.
+  #atw.member
+    %h3 Antoni Wójcik
+    %h4 Frontend Developer
+    %img{:src => '{relocatable: /images/team/atw.png}', :alt => 'Antoni Wójcik'}
+    .description
+      %p
+        Web developer since 2006. Focuses on writing clean, semantic HTML and
+        maintainable CSS. Interested in providing simple and usable user interface.
+      %p
+        Cognitive science student.
 
 
-#michalk.member
-  %h3 Michał Kwiatkowski
-  %h4 Software Developer
-  %img{:src => '{relocatable: /images/team/anonymous.png}', :alt => 'Anonymous'}
-  .description
-    %p
-      Software developer. Programming in Ruby on Rails since 2006. His
-      interests include programming languages, automated testing and
-      artificial intelligence. Proponent of open source and agile software
-      development. In his spare time plays guitar, reads science fiction and
-      listens to jazz.
+  #mandaryn.member
+    %h3 Piotr Marciniak
+    %h4 Developer
+    %img{:src => '{relocatable: /images/team/mandaryn.jpg}', :alt => 'Piotr Marciniak'}
+    .description
+      %p
+        Web developer since 2006. Started with Ruby on Rails, then had a too long fling with various Java frameworks to finally get back to Rails in 2009. Great fan of 'Getting Real', and simplicity in general. In his free time Peter does like to dance (folk, salsa) and recently has found his biggest hobby, raising a newborn son.
 
-#staszek.member
-  %h3 Stanisław Kolarzowski
-  %h4 Software Developer
-  %img{:src => '{relocatable: /images/team/staszek.jpg}', :alt => 'Stanisław Kolarzowski'}
-  .description
-    %p
-      Staszek has started his adventure with web development in 2003.  He had been flash developer for 2 years, before he decided to find new interesting technology. After years of searching and trying many of them like C++, Java, Assembler, PLC, Php and more he found Ruby in begining of 2009. He loved it and joined Ragnarson team in September 2009. Staszek likes spend his free time actively, especially doing some extreme sports. When he is not jumping on his bike, he probably is watching new episode of South Park or Family Guy. 
+.members_row
+  #sevos.member
+    %h3 Artur Roszczyk
+    %h4 Developer
+    %img{:src => '{relocatable: /images/team/sevos.jpg}', :alt => 'Artur Roszczyk'}
+    .description
+      %p
+        First steps in programming made in 1999. In 2004 switched to Linux
+        environment and stayed for five years. Web developer since 2005.
+        He discovered Ruby in June 2009 after an exhausting Java project.
+        Joined Ragnarson team in October 2009.
+      %p
+        He likes to analyze and solve problems, even if they're complex.
+        He loves travelling, TV series and recently is interested in aware career planning.
+      %ul.links
+        %li.blog
+          %a{:href => 'http://sevos.eax.pl/'} Blog
 
-#marcin_bajer.member
-  %h3 Marcin Bajer
-  %h4 Software Developer, Sysadmin
-  %img{:src => '{relocatable: /images/team/marcin_bajer.gif}', :alt => 'Marcin Bajer'}
-  .description
-    %p
-      Marcin wrote his first program in 1984, in BASIC on a ZX Spectrum. Probably that's why some teammates call him Grandpa. In the early 90ies got tired of waiting for his C programs to compile, and switched over to scripting languages. Having tried Bash, Perl, TCL and Python on the way, discovered Ruby in 20th year of his short career and never looked back. Shortly thereafter he wrote his first Rails app, using version 1.0.0 of the framework. Using some sysadmin skills acquired over the years, Marcin keeps our servers and apps running (and running fast).
-    %p
-      When not working, Marcin struggles with raising his two sons to become good programmers, but he'd rather be snowboarding or flying a glider (depending on the season) or photographying -
-      %a{:href => 'http://www.flickr.com/photos/rrrodrigo/sets/72157623007618613/'} all year round.
+  #koniko.member
+    %h3 Mateusz Konikowski
+    %h4 Developer
+    %img{:src => '{relocatable: /images/team/koniko.jpg}', :alt => 'Mateusz Konikowski'}
+    .description
+      %p
+        Mateusz started his adventure with Ruby on Rails in 2007. After experiencing variety of programming languages (from most common like java, c, c++ to some niche like ocaml, smalltalk or prolog) he finally discovered that ruby was a perfect one for him. In 2008-2009 he had one year brake for studying sociology in the Basque Country. Now he's back in the game with a mission to master RoR development. He loves traveling, bikeriding and boardgame playing. Positive thinking is his guideline.
 
+  #michalk.member
+    %h3 Michał Kwiatkowski
+    %h4 Software Developer
+    %img{:src => '{relocatable: /images/team/anonymous.png}', :alt => 'Anonymous'}
+    .description
+      %p
+        Software developer. Programming in Ruby on Rails since 2006. His
+        interests include programming languages, automated testing and
+        artificial intelligence. Proponent of open source and agile software
+        development. In his spare time plays guitar, reads science fiction and
+        listens to jazz.
+
+  #staszek.member
+    %h3 Stanisław Kolarzowski
+    %h4 Software Developer
+    %img{:src => '{relocatable: /images/team/staszek.jpg}', :alt => 'Stanisław Kolarzowski'}
+    .description
+      %p
+        Staszek has started his adventure with web development in 2003.  He had been flash developer for 2 years, before he decided to find new interesting technology. After years of searching and trying many of them like C++, Java, Assembler, PLC, Php and more he found Ruby in begining of 2009. He loved it and joined Ragnarson team in September 2009. Staszek likes spend his free time actively, especially doing some extreme sports. When he is not jumping on his bike, he probably is watching new episode of South Park or Family Guy.
+
+.members_row
+  #asok.member
+    %h3 Adam Sokolnicki
+    %h4 Developer
+    %img{:src => '{relocatable: /images/team/anonymous.png}', :alt => 'Anonymous'}
+    .description
+      %p
+        Addicted to Ruby since first usage in July 2009. Since then he tries not to fall into temptation and to overdose. Strong supported of the open source philosophy. Made some nice rails plugin called Representations. Works for Ragnarson because he believes that some things should be done the right way. Besides programming has 10 years of judo training with 1 kyu rank.
+      %p
+        Does like: absorbing movie, wise literature, vivid alcohol, spending time with adorable woman. Does not like: cats and php.
+        And more
+        And more
+        And more
+
+  #daan.member
+    %h3 Marcin Michałowski
+    %h4 Developer
+    %img{:src => '{relocatable: /images/team/daan.jpg}', :alt => 'Marcin Michałowski'}
+    .description
+      %p
+        Professionally connected with the servers administration and web
+        development since 2002. Fan of the web standards, open licensing
+        and GTD methodology. Programmed in a variety of strange things like
+        PHP or TCL where everything is a string. Very satisfied Ruby
+        developer since 2006.
+      %p
+        He enjoys watching a good TV series. Likes listening to jazz,
+        psychill and goa trance.
+
+  #piotrmisiurek.member
+    %h3 Piotr Misiurek
+    %h4 Developer
+    %img{:src => '{relocatable: /images/team/piotrmisiurek.jpg}', :alt => 'Piotr Misiurek'}
+    .description
+      %p
+        Piotr began programming as early teenager. His first computer was to
+        slow to do anything else :) He met Ruby and Rails during christmas'07.
+        In the beginning he treat it as hobby and good tools to get Internet
+        fortune and fame (still in progress). In the ending of 2009, after his
+        1,5 years adventure in game industry he decide to start professional
+        carrier as ruby developer, joining Ragnarson.

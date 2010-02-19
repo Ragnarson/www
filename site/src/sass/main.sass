@@ -116,6 +116,8 @@ ul
     :font-size 1.8em
     p
       :margin 1em 20px
+      &.logo
+        :margin-top 0
     em
       :font-size 1.3em
       :font-style normal
@@ -202,7 +204,10 @@ ul
         :background-color #c4bd99
 
 #team
+  .members_row
+    :display table-row
   .member
+    :display table-cell
     +grid(4,16)
     img
       :width 200px

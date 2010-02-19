@@ -19,6 +19,8 @@ Webgen::WebgenTask.new do |website|
   end
 end
 
+task :webgen => :compass
+
 desc "Render the website automatically on changes"
 task :auto_webgen do
   puts 'Starting auto-render mode'
@@ -40,6 +42,11 @@ task :auto_webgen do
 end
 
 desc "Publishes the site"
-task :publish do
+task :publish => :webgen do
   `rsync -trvz --delete out/ bragi-web@sandbox.carriles.pl:/home/bragi-web/ragnarson.com`
+end
+
+desc "Generates stylesheets"
+task :compass do
+  `compass -u`
 end
