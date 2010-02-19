@@ -142,3 +142,15 @@ link_attrs:
   .description
     %p
       Staszek has started his adventure with web development in 2003.  He had been flash developer for 2 years, before he decided to find new interesting technology. After years of searching and trying many of them like C++, Java, Assembler, PLC, Php and more he found Ruby in begining of 2009. He loved it and joined Ragnarson team in September 2009. Staszek likes spend his free time actively, especially doing some extreme sports. When he is not jumping on his bike, he probably is watching new episode of South Park or Family Guy. 
+
+#marcin_bajer.member
+  %h3 Marcin Bajer
+  %h4 Software Developer, Sysadmin
+  %img{:src => '{relocatable: /images/team/marcin_bajer.gif}', :alt => 'Marcin Bajer'}
+  .description
+    %p
+      Marcin wrote his first program in 1984, in BASIC on a ZX Spectrum. Probably that's why some teammates call him Grandpa. In the early 90ies got tired of waiting for his C programs to compile, and switched over to scripting languages. Having tried Bash, Perl, TCL and Python on the way, discovered Ruby in 20th year of his short career and never looked back. Shortly thereafter he wrote his first Rails app, using version 1.0.0 of the framework. Using some sysadmin skills acquired over the years, Marcin keeps our servers and apps running (and running fast).
+    %p
+      When not working, Marcin struggles with raising his two sons to become good programmers, but he'd rather be snowboarding or flying a glider (depending on the season) or photographying -
+      %a{:href => 'http://www.flickr.com/photos/rrrodrigo/sets/72157623007618613/'} all year round.
+
