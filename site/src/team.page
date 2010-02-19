@@ -147,7 +147,6 @@ link_attrs:
         development. In his spare time plays guitar, reads science fiction and
         listens to jazz.
 
-.members_row
   #staszek.member
     %h3 Stanisław Kolarzowski
     %h4 Software Developer
@@ -156,6 +155,7 @@ link_attrs:
       %p
         Staszek has started his adventure with web development in 2003.  He had been flash developer for 2 years, before he decided to find new interesting technology. After years of searching and trying many of them like C++, Java, Assembler, PLC, Php and more he found Ruby in begining of 2009. He loved it and joined Ragnarson team in September 2009. Staszek likes spend his free time actively, especially doing some extreme sports. When he is not jumping on his bike, he probably is watching new episode of South Park or Family Guy.
 
+.members_row
   #asok.member
     %h3 Adam Sokolnicki
     %h4 Developer
