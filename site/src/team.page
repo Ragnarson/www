@@ -14,9 +14,9 @@ link_attrs:
     %img{:src => '{relocatable: /images/team/marcin_bajer.gif}', :alt => 'Marcin Bajer'}
     .description
       %p
-        Marcin wrote his first program in 1984, in BASIC on a ZX Spectrum. Probably that's why some teammates call him Grandpa. In the early 90ies got tired of waiting for his C programs to compile, and switched over to scripting languages. Having tried Bash, Perl, TCL and Python on the way, discovered Ruby in 20th year of his short career and never looked back. Shortly thereafter he wrote his first Rails app, using version 1.0.0 of the framework. Using some sysadmin skills acquired over the years, Marcin keeps our servers and apps running (and running fast).
+        Marcin wrote his first program in 1984, in BASIC on a ZX Spectrum. Probably that's why some teammates call him Grandpa. Tired of waiting for his C programs to compile, he tried Bash, Perl, TCL and Python until discovering Ruby in 2004. His first Rails app used version 1.0.0 of the framework. With some sysadmin skills acquired over the years, Marcin keeps our servers and apps running.
       %p
-        When not working, Marcin struggles with raising his two sons to become good programmers, but he'd rather be snowboarding or flying a glider (depending on the season) or photographying -
+        When not working, Marcin struggles with raising his two sons to become good programmers, but he'd rather be snowboarding or flying a glider (depending on the season) or taking pictures -
         %a{:href => 'http://www.flickr.com/photos/rrrodrigo/sets/72157623007618613/'} all year round.
 
   #bragi.member
