@@ -138,7 +138,7 @@ link_attrs:
   #michalk.member
     %h3 Michał Kwiatkowski
     %h4 Software Developer
-    %img{:src => '{relocatable: /images/team/anonymous.png}', :alt => 'Anonymous'}
+    %img{:src => '{relocatable: /images/team/michal.jpg}', :alt => 'Michał Kwiatkowski'}
     .description
       %p
         Software developer. Programming in Ruby on Rails since 2006. His
@@ -146,6 +146,9 @@ link_attrs:
         artificial intelligence. Proponent of open source and agile software
         development. In his spare time plays guitar, reads science fiction and
         listens to jazz.
+    %ul.links
+      %li.blog
+        %a{:href => 'http://joker.linuxstuff.pl'} Homepage
 
   #staszek.member
     %h3 Stanisław Kolarzowski
