@@ -102,7 +102,7 @@ link_attrs:
   %a.image{:href => 'http://www.mamily.de/'}
     %img{:src => '{relocatable:/images/projects/mamily.png}', :alt => 'Mamily.de screenshot'}/
   .description
-    %p News site and community for German-speaking poker players. Includes among others:
+    %p News site and community for German-speaking mothers. Includes among others:
     %ul
       %li CMS supporting blogs and news
       %li Social network
