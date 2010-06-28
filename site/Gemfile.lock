@@ -1,0 +1,31 @@
+--- 
+dependencies: 
+  compass: 
+    group: 
+    - :default
+    version: = 0.10.2
+  rake: 
+    group: 
+    - :default
+    version: ">= 0"
+  webgen: 
+    group: 
+    - :default
+    version: ">= 0"
+specs: 
+- rake: 
+    version: 0.8.7
+- cmdparse: 
+    version: 2.0.2
+- haml: 
+    version: 3.0.13
+- compass: 
+    version: 0.10.2
+- kramdown: 
+    version: 0.9.0
+- webgen: 
+    version: 0.5.12
+hash: 7cf7073accbbf0a8047c2beb67a6e247fa585c3b
+sources: 
+- Rubygems: 
+    uri: http://gemcutter.org
