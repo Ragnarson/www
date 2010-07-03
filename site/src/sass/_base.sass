@@ -1,13 +1,13 @@
-@import 960/grid.sass
-@import compass/utilities.sass
+@import 960/grid
+@import compass/utilities
 
-!grid_background_image_offset = 0
+$grid_background_image_offset: 0
 
-=grid-background-position(!n, !cols, !offset = !grid_background_image_offset)
-  :background-position= ((960px / !cols) * !n + !offset) 0
-  :background-repeat repeat-y
+=grid-background-position($n, $cols, $offset: $grid_background_image_offset)
+  background-position: 960px / $cols * $n + $offset 0
+  background-repeat: repeat-y
 
-=border-radius(!radius=10px)
-  :border-radius= !radius
-  :-webkit-border-radius= !radius
-  :-moz-border-radius= !radius
+=border-radius($radius: 10px)
+  border-radius: $radius
+  -webkit-border-radius: $radius
+  -moz-border-radius: $radius
