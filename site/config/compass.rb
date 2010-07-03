@@ -8,4 +8,4 @@ sass_dir = "src/sass"
 images_dir = "src/images"
 javascripts_dir = "src/javascripts"
 # To enable relative paths to assets via compass helper functions. Uncomment:
-# relative_assets = true
+relative_assets = true
