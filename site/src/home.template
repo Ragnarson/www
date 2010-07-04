@@ -1,11 +1,10 @@
 ---
 template: ~
 ---
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{lang:}">
+<!DOCTYPE html>
+<html lang="{lang:}">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
     <meta name="description" content="We enjoy every minute of our work with Ruby and Rails. Our systems are well designed, tested and maintainable." />
     <meta name="generator" content="webgen - http://webgen.rubyforge.org" />
     <link rel="stylesheet" type="text/css" href="{relocatable: stylesheets/main.css}" />
