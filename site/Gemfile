@@ -5,3 +5,4 @@ source :gemcutter
 gem 'rake'
 gem 'webgen'
 gem 'compass', "0.10.2"
+gem 'compass-960-plugin'

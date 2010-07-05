@@ -1,23 +1,7 @@
 Ragnarson website
 ---
 
-How to generate CSS from SASS using Compass (http://compass-style.org/)
-
-Install lastest SASS (part of HAML):
-  git clone git://github.com/nex3/haml.git
-  cd haml
-  sudo rake install
-
-Install Compass and 960gs plugin:
-  gem sources --add http://gems.github.com/
-  sudo gem install chriseppstein-compass
-  sudo gem install chriseppstein-compass-960-plugin
-
-Run:
-  compass -u
----
-
 How to run the site:
-  sudo gem install webgen
-
+  gem install bundler
+  bundle install
   rake
