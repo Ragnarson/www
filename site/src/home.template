@@ -21,9 +21,9 @@ template: ~
             <img src="{relocatable: images/ragnarson.png}" alt="Ragnarson"/>
           </a>
         </h1>
-        <div id="navigation">
+        <nav>
           {menu: {max_levels: 1, used_nodes: files}}
-        </div>
+        </nav>
       </div>
     </header>
 

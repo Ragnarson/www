@@ -18,9 +18,9 @@
             <img src="{relocatable: images/ragnarson.png}" alt="Ragnarson"/>
           </a>
         </div>
-        <div id="navigation">
+        <nav>
           {menu: {max_levels: 1, used_nodes: files}}
-        </div>
+        </nav>
       </div>
     </header>
 
