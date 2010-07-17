@@ -36,11 +36,11 @@
       </div>
     </div>
 
-    <div id="footer">
+    <footer>
       <div class="inner">
         <p>&copy; 2009 <a href="http://ragnarson.com/">Ragnarson</a></p>
       </div>
-    </div>
+    </footer>
 
     <script type="text/javascript">
     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
