@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="{relocatable: stylesheets/main.css}" />
     <link rel="stylesheet" href="{relocatable: stylesheets/skin_light.css}" />
     <title>{title:} | Ragnarson</title>
+    <!--[if lte IE 8]>
+      <script src="{relocatable: javascripts/html5.js}" type="text/javascript"></script>
+    <![endif]-->
   </head>
 
   <body id="{body_id:}" class="subpage">
