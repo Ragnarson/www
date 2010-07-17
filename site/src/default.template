@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <meta name="description" content="We enjoy every minute of our work with Ruby and Rails. Our systems are well designed, tested and maintainable." />
     <meta name="generator" content="webgen - http://webgen.rubyforge.org" />
-    <link rel="stylesheet" type="text/css" href="{relocatable: stylesheets/main.css}" />
-    <link rel="stylesheet" type="text/css" href="{relocatable: stylesheets/skin_light.css}" />
+    <link rel="stylesheet" href="{relocatable: stylesheets/main.css}" />
+    <link rel="stylesheet" href="{relocatable: stylesheets/skin_light.css}" />
     <title>{title:} | Ragnarson</title>
   </head>
 
