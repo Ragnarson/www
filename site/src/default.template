@@ -11,7 +11,7 @@
 
   <body id="{body_id:}" class="subpage">
 
-    <div id="header">
+    <header>
       <div class="inner">
         <div id="logo">
           <a href='{relocatable:/}'>
@@ -22,7 +22,7 @@
           {menu: {max_levels: 1, used_nodes: files}}
         </div>
       </div>
-    </div>
+    </header>
 
     <div id="main">
       <div class="inner">
