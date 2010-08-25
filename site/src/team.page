@@ -21,7 +21,7 @@ link_attrs:
 
   #bragi.member
     %h3 Łukasz Piestrzeniewicz
-    %h4 Developer, Team Leader, Company Owner
+    %h4 Developer, Team Leader, CEO
     %img{:src => '{relocatable: /images/team/bragi.jpg}', :alt => 'Łukasz Piestrzeniewicz'}
     .description
       %p
@@ -33,14 +33,13 @@ link_attrs:
       %li.blog
         %a{:href => 'http://blog.ragnarson.com/'} Blog
 
-  #kazjote.member
-    %h3 Kacper Bielecki
-    %h4 Developer, Team Leader
-    %img{:src => '{relocatable: /images/team/kazjote.png}', :alt => 'Kacper Bielecki'}
+  #maja.member
+    %h3 Maja Skowrońska
+    %h4 CCO
+    %img{:src => '{relocatable: /images/team/maja.jpg}', :alt => 'Maja Skowrońska'}
     .description
       %p
-        Ruby developer since 2007. Passionate programmer from kid. In his projects
-        focuses on maximizing user experience and producing pragmatic solutions.
+        Power broker and a voice of reason. Studies Computer Science on Technical University of Lodz but sees herself as a part of some menagement team. She's interested in data security. Still learning Ruby just to know what guys are talking about ;)
 
   #wijet.member
     %h3 Mariusz Pietrzyk
@@ -56,6 +55,15 @@ link_attrs:
           %a{:href => 'http://wijet.pl/'} Blog
 
 .members_row
+  #kazjote.member
+    %h3 Kacper Bielecki
+    %h4 Developer, Team Leader
+    %img{:src => '{relocatable: /images/team/kazjote.jpg}', :alt => 'Kacper Bielecki'}
+    .description
+      %p
+        Ruby developer since 2007. Passionate programmer from kid. In his projects
+        focuses on maximizing user experience and producing pragmatic solutions.
+
   #pr0d1r2.member
     %h3 Marcin Nowicki
     %h4 Developer, Team Leader
@@ -76,6 +84,7 @@ link_attrs:
       %p
         Great fan of Star Trek Borg culture. Runs on psychedelic trance, good food
         with wine, heavy workout, classic games and assimilation.
+
   #marcin_balinski.member
     %h3 Marcin Baliński
     %h4 Developer
@@ -88,18 +97,6 @@ link_attrs:
         simple as possible and to end each day with new knowledge. Marcin is a big
         fan of applied art, Gordon Ramsay's shows, American muscle-cars designed
         before 80's and thrash metal music.
-
-  #atw.member
-    %h3 Antoni Wójcik
-    %h4 Frontend Developer
-    %img{:src => '{relocatable: /images/team/atw.png}', :alt => 'Antoni Wójcik'}
-    .description
-      %p
-        Web developer since 2006. Focuses on writing clean, semantic HTML and
-        maintainable CSS. Interested in providing simple and usable user interface.
-      %p
-        Cognitive science student.
-
 
   #mandaryn.member
     %h3 Piotr Marciniak
@@ -127,13 +124,16 @@ link_attrs:
         %li.blog
           %a{:href => 'http://sevos.eax.pl/'} Blog
 
-  #koniko.member
-    %h3 Mateusz Konikowski
-    %h4 Developer
-    %img{:src => '{relocatable: /images/team/koniko.jpg}', :alt => 'Mateusz Konikowski'}
+  #atw.member
+    %h3 Antoni Wójcik
+    %h4 Frontend Developer
+    %img{:src => '{relocatable: /images/team/atw.png}', :alt => 'Antoni Wójcik'}
     .description
       %p
-        Mateusz started his adventure with Ruby on Rails in 2007. After experiencing variety of programming languages (from most common like java, c, c++ to some niche like ocaml, smalltalk or prolog) he finally discovered that ruby was a perfect one for him. In 2008-2009 he had one year brake for studying sociology in the Basque Country. Now he's back in the game with a mission to master RoR development. He loves traveling, bikeriding and boardgame playing. Positive thinking is his guideline.
+        Web developer since 2006. Focuses on writing clean, semantic HTML and
+        maintainable CSS. Interested in providing simple and usable user interface.
+      %p
+        Cognitive science student.
 
   #michalk.member
     %h3 Michał Kwiatkowski
@@ -186,3 +186,12 @@ link_attrs:
         fortune and fame (still in progress). In the ending of 2009, after his
         1,5 years adventure in game industry he decide to start professional
         carrier as ruby developer, joining Ragnarson.
+
+  #koniko.member
+    %h3 Mateusz Konikowski
+    %h4 Developer
+    %img{:src => '{relocatable: /images/team/koniko.jpg}', :alt => 'Mateusz Konikowski'}
+    .description
+      %p
+        Mateusz started his adventure with Ruby on Rails in 2007. After experiencing variety of programming languages (from most common like java, c, c++ to some niche like ocaml, smalltalk or prolog) he finally discovered that ruby was a perfect one for him. In 2008-2009 he had one year brake for studying sociology in the Basque Country. Now he's back in the game with a mission to master RoR development. He loves traveling, bikeriding and boardgame playing. Positive thinking is his guideline.
+
