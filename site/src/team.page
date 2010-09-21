@@ -202,4 +202,4 @@ link_attrs:
     %img{:src => '{relocatable: /images/team/bart.jpg}', :alt => 'Bartłomiej Kozal'}
     .description
       %p
-        Computer guy. Started programming in Ruby in 2009 and felt butterflies for it. Lately he works on interface design as a front-end ninja (throwing ninja stars are cool and funny). In his free time he plays unusual sports, hacky sack or frisbee. Huge fun of American culture - especially California.
+        Computer guy. Started programming in Ruby in 2009 and felt butterflies for it. Lately he works on interface design as a front-end ninja (throwing ninja stars are cool and funny). In his free time he plays unusual sports, hacky sack or frisbee. Huge fan of American culture - especially California.
