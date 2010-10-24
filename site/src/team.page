@@ -115,14 +115,14 @@ link_attrs:
       %p
         First steps in programming made in 1999. In 2004 switched to Linux
         environment and stayed for five years. Web developer since 2005.
-        He discovered Ruby in June 2009 after an exhausting Java project.
-        Joined Ragnarson team in October 2009.
+        He discovered Ruby in June 2009. Joined Ragnarson team in October 2009.
       %p
         He likes to analyze and solve problems, even if they're complex.
-        He loves travelling, TV series and recently is interested in aware career planning.
+        He loves traveling and TV series. Recently interested in career planning
+        and creating&mentoring start-ups.
       %ul.links
         %li.blog
-          %a{:href => 'http://sevos.eax.pl/'} Blog
+          %a{:href => 'http://blog.eax.pl/'} Blog
 
   #atw.member
     %h3 Antoni Wójcik
