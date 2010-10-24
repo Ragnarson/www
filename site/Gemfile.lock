@@ -1,37 +1,23 @@
---- 
-dependencies: 
-  compass: 
-    group: 
-    - :default
-    version: = 0.10.2
-  rake: 
-    group: 
-    - :default
-    version: ">= 0"
-  webgen: 
-    group: 
-    - :default
-    version: ">= 0"
-  compass-960-plugin: 
-    group: 
-    - :default
-    version: ">= 0"
-specs: 
-- rake: 
-    version: 0.8.7
-- cmdparse: 
-    version: 2.0.2
-- haml: 
-    version: 3.0.13
-- compass: 
-    version: 0.10.2
-- compass-960-plugin: 
-    version: 0.9.13
-- kramdown: 
-    version: 0.9.0
-- webgen: 
-    version: 0.5.12
-hash: 8fddacecd35e6af4ab88864b753b86f61895c2a3
-sources: 
-- Rubygems: 
-    uri: http://gemcutter.org
+GEM
+  remote: http://rubygems.org/
+  specs:
+    cmdparse (2.0.2)
+    compass (0.10.2)
+      haml (>= 3.0.4)
+    compass-960-plugin (0.10.0)
+      compass (>= 0.10.0)
+    haml (3.0.22)
+    kramdown (0.10.0)
+    rake (0.8.7)
+    webgen (0.5.14)
+      cmdparse (>= 2.0.2)
+      kramdown (= 0.10.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  compass (= 0.10.2)
+  compass-960-plugin
+  rake
+  webgen
