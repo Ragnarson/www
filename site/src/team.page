@@ -194,7 +194,7 @@ link_attrs:
     .description
       %p
         Mateusz started his adventure with Ruby on Rails in 2007. After experiencing variety of programming languages (from most common like java, c, c++ to some niche like ocaml, smalltalk or prolog) he finally discovered that ruby was a perfect one for him. In 2008-2009 he had one year brake for studying sociology in the Basque Country. Now he's back in the game with a mission to master RoR development. He loves traveling, bikeriding and boardgame playing. Positive thinking is his guideline.
-        
+
 
   #bart.member
     %h3 Bartłomiej Kozal
@@ -203,3 +203,7 @@ link_attrs:
     .description
       %p
         Computer guy. Started programming in Ruby in 2009 and felt butterflies for it. Lately he works on interface design as a front-end ninja (throwing ninja stars are cool and funny). In his free time he plays unusual sports, hacky sack or frisbee. Huge fan of American culture - especially California.
+
+    %ul.links
+      %li.blog
+        %a{:href => 'http://bkozal.github.com/'} Blog
