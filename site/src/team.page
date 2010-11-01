@@ -203,3 +203,12 @@ link_attrs:
     .description
       %p
         Computer guy. Started programming in Ruby in 2009 and felt butterflies for it. Lately he works on interface design as a front-end ninja (throwing ninja stars are cool and funny). In his free time he plays unusual sports, hacky sack or frisbee. Huge fun of American culture - especially California.
+
+
+  #placek.member
+    %h3 Paweł Placzyński
+    %h4 Team Leader, Developer
+    %img{ :src => '{relocatable: /images/team/placek.png}', :alt => 'Paweł Placzyński' }
+    .description
+      %p
+        When he was ten he's got Timex Sinclar 2068 on his birthday and immediately found programming in BASIC (on audio tapes) fun. Ruby and Ruby on Rails are his one of newest discovers - he started using it in 2009. Huge fan of global, open-source solutions as well as Tolkien's fantasy world. He loves bicycles, sailing, archery. He plays electric and bas guitar.
