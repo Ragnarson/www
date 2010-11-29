@@ -174,19 +174,6 @@ link_attrs:
         He enjoys watching a good TV series. Likes listening to jazz,
         psychill and goa trance.
 
-  #piotrmisiurek.member
-    %h3 Piotr Misiurek
-    %h4 Developer
-    %img{:src => '{relocatable: /images/team/piotrmisiurek.jpg}', :alt => 'Piotr Misiurek'}
-    .description
-      %p
-        Piotr began programming as early teenager. His first computer was to
-        slow to do anything else :) He met Ruby and Rails during christmas'07.
-        In the beginning he treat it as hobby and good tools to get Internet
-        fortune and fame (still in progress). In the ending of 2009, after his
-        1,5 years adventure in game industry he decide to start professional
-        carrier as ruby developer, joining Ragnarson.
-
   #koniko.member
     %h3 Mateusz Konikowski
     %h4 Developer
