@@ -10,6 +10,19 @@ link_attrs:
 %p Projects we currently develop and maintain
 
 --- name:content pipeline:tags,haml
+#winnie.project
+  %h3 Winnie Cloud
+  %a.image{:href => 'http://www.winniecloud.com/'}
+    %img{:src => '{relocatable:/images/projects/winniecloud.png}', :alt => 'Winnie Cloud screenshot'}/
+  .description
+    %p Our secure cloud hosting solution for Ruby on Rails applications.
+    %ul
+      %li Secure
+      %li Simple
+      %li Scalabe
+    %a.visit_site{:href => 'http://www.winniecloud.com/'} Visit site
+
+
 #jobeinstieg.project
   %h3 Jobeinstieg
   %a.image{:href => 'http://www.jobeinstieg.de/'}
