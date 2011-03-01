@@ -36,7 +36,7 @@ template: ~
 
     <div id="footer">
       <div class="inner">
-        <p>&copy; 2009 <a href="http://ragnarson.com/">Ragnarson</a></p>
+        <p>&copy; <a href="http://ragnarson.com/">Ragnarson</a></p>
       </div>
     </div>
 
