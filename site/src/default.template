@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="{relocatable: stylesheets/main.css}" />
     <link rel="stylesheet" type="text/css" href="{relocatable: stylesheets/skin_light.css}" />
     <title>{title:} | Ragnarson</title>
+    <link rel="shortcut icon" href="{relocatable: favicon.ico}">
   </head>
 
   <body id="{body_id:}" class="subpage">
