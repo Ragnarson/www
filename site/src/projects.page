@@ -62,6 +62,17 @@ link_attrs:
       %li Full social network for good cusine lovers
     %a.visit_site{:href => 'http://www.restaurants-kritik.de/'} Visit site
 
+#bellegs.project
+  %h3 Bellegs
+  %a.image{:href => 'http://www.bellegs.de/'}
+    %img{:src => '{relocatable:/images/projects/bellegs.png}', :alt => 'Bellegs.de screenshot'}/
+  .description
+    %p Shop with finest italian stocking, tights, socks etc.
+    %ul
+      %li Implemented in Spree (open source e-commerce for Ruby on Rails)
+      %li Integrated with Adyen payment system
+    %a.visit_site{:href => 'http://www.bellegs.de/'} Visit site
+
 #ekartenwelt.project
   %h3 eKartenwelt
   %a.image{:href => 'http://www.ekartenwelt.de/'}
