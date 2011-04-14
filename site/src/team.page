@@ -202,3 +202,11 @@ link_attrs:
     .description
       %p
         When he was ten he's got Timex Sinclar 2068 on his birthday and immediately found programming in BASIC (on audio tapes) fun. Ruby and Ruby on Rails are his one of newest discovers - he started using it in 2009. Huge fan of global, open-source solutions as well as Tolkien's fantasy world. He loves bicycles, sailing, archery. He plays electric and bas guitar.
+
+  #wojak.member
+    %h3 Wojtek Zieliński
+    %h4 Frontend Developer
+    %img{ :src => '{relocatable: /images/team/wojak.jpg}', :alt => 'Wojtek Zieliński' }
+    .description
+      %p
+        CSS designer in love with Ruby, Haml and Sass. Discovered Ruby in 2009, before that he worked with ActionScript and PHP. Passionate of art, design and heavy metal. After dark, he transforms into a crazy alchemist - mixing 2D, 3D and FX with code into explosive substances.
