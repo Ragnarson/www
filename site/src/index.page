@@ -16,28 +16,24 @@ template: home.template
 </div>
 
 <div class="content">
-  <div id="for_entrepreneurs">
-    <h2>For Entrepreneurs</h2>
-
-    <p>We are the team that can build your product:</p>
+  <div id="scalability_experts">
+    <h2>Scalability Experts</h2>
     <ul>
-      <li>experience in building internet startups</li>
-      <li>perfect communication skills</li>
-      <li>high quality of developed software</li>
-      <li>high speed of prototyping and development</li>
-      <li>established protocols for product handover</li>
+      <li>Our <a href="http://www.winniecloud.com/">Ruby on Rails cloud</a> can host your applications</li>
+      <li>We build <strong>applications that scale</strong> for large clusters of servers</li>
+      <li>We build large <strong>clusters of servers</strong></li>
+      <li>We <strong>build customer-tailored clustering solutions</strong> that can host any modern technology: Ruby on Rails, Node.js, Python, PHP, Java (no Windows/.NET, sorry)</li>
     </ul>
   </div>
 
-  <div id="for_developers">
-    <h2>For Developers</h2>
-    
-    <p>Join Ragnarson and become a part of team that:</p>
+  <div id="rails_developers">
+    <h2>Ruby on Rails Developers</h2>
     <ul>
-      <li>consists of best Polish Rubyists</li>
-      <li>follows best agile practices</li>
-      <li>uses new and exciting technologies</li>
-      <li>contributes to Open Source Software</li>
+      <li>Over <strong>five years</strong> on market</li>
+      <li>Specializing in <strong>building startups</strong> from grounds up</li>
+      <li>Focusing on <strong>communication</strong></li>
+      <li>Following the <strong>best agile</strong> practices</li>
+      <li>Contributing to <strong>Open Source</strong></li>
     </ul>
   </div>
 </div>
