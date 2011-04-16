@@ -59,6 +59,7 @@ task :auto_webgen do
     paths = Dir['src/**/*'].sort
     if old_paths != paths || paths.any? {|p| File.mtime(p) > time}
       begin
+        Rake::Task['compass'].execute({})
         Rake::Task['webgen'].execute({})
       rescue Webgen::Error => e
         puts e.message
@@ -77,5 +78,6 @@ end
 
 desc "Generates stylesheets"
 task :compass do
+  puts 'Generating stylesheets'
   `compass compile -e production --force`
 end
