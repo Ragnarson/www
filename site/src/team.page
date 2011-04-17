@@ -202,3 +202,18 @@ link_attrs:
     .description
       %p
         When he was ten he's got Timex Sinclar 2068 on his birthday and immediately found programming in BASIC (on audio tapes) fun. Ruby and Ruby on Rails are his one of newest discovers - he started using it in 2009. Huge fan of global, open-source solutions as well as Tolkien's fantasy world. He loves bicycles, sailing, archery. He plays electric and bas guitar.
+
+.members_row
+  #mrplum.member
+    %h3 Łukasz Śliwa
+    %h4 Software Developer
+    %img{ :src => '{relocatable: /images/team/mrplum.jpg}', :alt => 'Łukasz Śliwa' }
+    .description
+      %p
+        Łukasz wrote his first program (simple calculator) in 1999. He wrote his first commercial program in 2004. Since then he has been improving his programming skills and technics in many different ways. He discovered Ruby in 2008. Big fan of innovation, technology startups and growing companies. In his spare time he reads books, runs and swims. Loves solving problems.
+    %ul.links
+      %li.blog
+        %a{:href => 'http://lukaszsliwa.pl/' } Łukasz Śliwa
+      %li.blog
+        %a{:href => 'http://github.com/mrplum' } Github
+
