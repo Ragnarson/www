@@ -10,7 +10,7 @@ link_attrs:
 .members_row
   #marcin_bajer.member
     %h3 Marcin Bajer
-    %h4 Software Developer, Sysadmin
+    %h4 Developer, Sysadmin
     %img{:src => '{relocatable: /images/team/marcin_bajer.gif}', :alt => 'Marcin Bajer'}
     .description
       %p
@@ -137,7 +137,7 @@ link_attrs:
 
   #michalk.member
     %h3 Michał Kwiatkowski
-    %h4 Software Developer
+    %h4 Developer
     %img{:src => '{relocatable: /images/team/michal.jpg}', :alt => 'Michał Kwiatkowski'}
     .description
       %p
@@ -152,7 +152,7 @@ link_attrs:
 
   #staszek.member
     %h3 Stanisław Kolarzowski
-    %h4 Software Developer
+    %h4 Developer
     %img{:src => '{relocatable: /images/team/staszek.jpg}', :alt => 'Stanisław Kolarzowski'}
     .description
       %p
@@ -197,7 +197,7 @@ link_attrs:
 
   #placek.member
     %h3 Paweł Placzyński
-    %h4 Team Leader, Developer
+    %h4 Developer, Team Leader
     %img{ :src => '{relocatable: /images/team/placek.png}', :alt => 'Paweł Placzyński' }
     .description
       %p
@@ -214,7 +214,7 @@ link_attrs:
 
   #mrplum.member
     %h3 Łukasz Śliwa
-    %h4 Software Developer
+    %h4 Developer
     %img{ :src => '{relocatable: /images/team/mrplum.jpg}', :alt => 'Łukasz Śliwa' }
     .description
       %p
