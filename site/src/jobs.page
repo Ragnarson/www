@@ -10,56 +10,104 @@ link_attrs:
 %p So you want to join us?
 
 --- name:content pipeline:tags,haml
-#requirements.section
-  %h2 Requirements
-  %p First, make sure you are fulfilling these minimal requirements:
-  %ul
-    %li fluent in English,
-    %li knows The Ruby Way
-    %li experienced with RESTful Rails
-    %li bastard Unix/Linux operator from hell
-    %li writes RSpecs sober (may code drunk)
-    %li semantic XHTML proponent
-    %li swears by non-obtrusive jQuery
+#sales_manager.job
+  %h1 Sales/Customer Relationship Manager
 
-#nice_to_have.section
-  %h2 Nice to have
-  %p In addition there are some optional items that may give you advantage:
-  %ul
-    %li arcane knowledge of cross-browser SASS
-    %li Haml FTW!
-    %li humble Open Source Software supporter / commiter
+  .section.responsibilities
+    %h2 Responsibilities
+    %p We are looking for a person that will aid us with contacts with our customers. You will be responsible for:
+    %ul
+      %li Finding new customers for our outsourcing services
+      %li Negotiating contracts and rates (with full support on technical level from the whole team)
+      %li Maintaining contact with existing customers
+      %li Feeding with long-term projects a team of 20+ developers
 
-#paperwork.section
-  %h2 Necessary paperwork
-  %p
-    Prepare your CV, it must be fresh, simple, clean and in PDF.
-    Picture is not mandatory (but often helps).
-    Send it via e-mail to 
-    %a(href="mailto:recruitment@ragnarson.com") recruitment@ragnarson.com.
-    In this e-mail describe shortly why would you like to work with us.
-  %p In addition if you are a Citizen of Poland add following statement:
-  %blockquote
+    %h2 Requirements
+    %ul
+      %li Fluent English
+      %li Good communication skills
+      %li Experience in customer contact and selling outsourcing services
+      %li Experience in on-line work
+      %li Ability to set own goals and high self-responsibility
+      %li Will to help grow the company
+
+    %h2 Terms
+    %p As this position differs from our core way of working we are open to negotiations on employment terms.
+    %p However it might be beneficial to follow our standard procedure: we embrace freelancing with constant hourly rate plus monthly bonus from each negotiated contract.
+
+  .section.about
+    %h2 About Ragnarson Sp. z o. o.
+    %p We are successful company with a number of long-term customers. As we are growing we need a dedicated person for contacts with our customers and for actively finding new opportunities.
+    %p Our way of working is mature and well established - we are only interested in relationships that will bring value to both us and our customers. Our contracts are long term and rely on high quality work and professional approach - those are values we cherish and support.
+    %p Finding customers that match our requirements is not easy but doable: we are on the market for five years with uninterrupted service.
+
+    %h2 Necessary paperwork
     %p
-      Wyrażam zgodę na przetwarzanie moich danych osobowych zawartych w mojej
-      ofercie pracy dla potrzeb niezbędnych do realizacji procesu rekrutacji
-      zgodnie z Ustawą z dnia 29.08.1997r. o ochronie danych osobowych
+      Prepare your CV, it must be fresh, simple, clean and in PDF.
+      Picture is not mandatory (but often helps).
+      Send it via e-mail to
+      %a(href="mailto:recruitment@ragnarson.com") recruitment@ragnarson.com.
+      In this e-mail describe shortly why would you like to work with us.
+    %p In addition if you are a Citizen of Poland add following statement:
+    %blockquote
+      %p
+        Wyrażam zgodę na przetwarzanie moich danych osobowych zawartych w mojej
+        ofercie pracy dla potrzeb niezbędnych do realizacji procesu rekrutacji
+        zgodnie z Ustawą z dnia 29.08.1997r. o ochronie danych osobowych
 
-#test.section
-  %h2 The Test
-  %p
-    Even if you get that far know, that we only accept proven developers.
-    CV is nothing compared to a nice, clean commit on GitHub.
-  %p To be considered worthy show us your code!
-  %p If you haven't taken part in any OSS project yet, now is your chance:
-  %ul
-    %li Find a RSpec based Ruby project.
-    %li
-      Within that project find a ticket (feature, bug)
-      that matches will show your abilities well.
-    %li Get in touch with maintainer and accept that ticket.
-    %li Fix it, making sure your specs are throughout.
-    %li Push your commits and send us link to them.
-  %p
-    If your commit(s) will pass our internal inspection we will be glad
-    to talk about cooperation details.
+#developer.job
+  %h1 Developer
+
+  .requirements.section
+    %h2 Requirements
+    %p First, make sure you are fulfilling these minimal requirements:
+    %ul
+      %li fluent in English,
+      %li knows The Ruby Way
+      %li experienced with RESTful Rails
+      %li bastard Unix/Linux operator from hell
+      %li writes RSpecs sober (may code drunk)
+      %li semantic XHTML proponent
+      %li swears by non-obtrusive jQuery
+
+  .paperwork.section
+    %h2 Necessary paperwork
+    %p
+      Prepare your CV, it must be fresh, simple, clean and in PDF.
+      Picture is not mandatory (but often helps).
+      Send it via e-mail to
+      %a(href="mailto:recruitment@ragnarson.com") recruitment@ragnarson.com.
+      In this e-mail describe shortly why would you like to work with us.
+    %p In addition if you are a Citizen of Poland add following statement:
+    %blockquote
+      %p
+        Wyrażam zgodę na przetwarzanie moich danych osobowych zawartych w mojej
+        ofercie pracy dla potrzeb niezbędnych do realizacji procesu rekrutacji
+        zgodnie z Ustawą z dnia 29.08.1997r. o ochronie danych osobowych
+
+  .nice_to_have.section
+    %h2 Nice to have
+    %p In addition there are some optional items that may give you advantage:
+    %ul
+      %li arcane knowledge of cross-browser SASS
+      %li Haml FTW!
+      %li humble Open Source Software supporter / commiter
+
+  .test.section
+    %h2 The Test
+    %p
+      Even if you get that far know, that we only accept proven developers.
+      CV is nothing compared to a nice, clean commit on GitHub.
+    %p To be considered worthy show us your code!
+    %p If you haven't taken part in any OSS project yet, now is your chance:
+    %ul
+      %li Find a RSpec based Ruby project.
+      %li
+        Within that project find a ticket (feature, bug)
+        that matches will show your abilities well.
+      %li Get in touch with maintainer and accept that ticket.
+      %li Fix it, making sure your specs are throughout.
+      %li Push your commits and send us link to them.
+    %p
+      If your commit(s) will pass our internal inspection we will be glad
+      to talk about cooperation details.
