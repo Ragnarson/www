@@ -238,4 +238,10 @@ link_attrs:
     %ul.links
       %li.blog
         %a{:href => 'http://gotar.info/' } Oskar (Gotar) Szrajer
-
+  #maciek.member
+    %h3 Maciej Gałkiewicz
+    %h4 Sysadmin
+    %img{ :src => '{relocatable: /images/team/maciek.jpg}', :alt => 'Maciej Gałkiewicz' }
+    .description
+      %p
+        Sysadmin at Ragnarson since early 2010. Especially interested in computer networks and virtualization. Enjoys using Debian on a daily basis. In his free time tries to keep in shape.
