@@ -18,6 +18,9 @@ link_attrs:
       %p
         When not working, Marcin struggles with raising his two sons to become good programmers, but he'd rather be snowboarding or flying a glider (depending on the season) or taking pictures -
         %a{:href => 'http://www.flickr.com/photos/rrrodrigo/sets/72157623007618613/'} all year round.
+      %ul.links
+        %li.github
+          %a{:href => 'https://github.com/rrrodrigo'} Github
 
   #bragi.member
     %h3 Łukasz Piestrzeniewicz
@@ -32,6 +35,8 @@ link_attrs:
     %ul.links
       %li.blog
         %a{:href => 'http://blog.ragnarson.com/'} Blog
+      %li.github
+        %a{:href => 'https://github.com/bragi'} Github
 
   #maja.member
     %h3 Maja Skowrońska
@@ -53,6 +58,8 @@ link_attrs:
       %ul.links
         %li.blog
           %a{:href => 'http://wijet.pl/'} Blog
+        %li.github
+          %a{:href => 'https://github.com/wijet'} Github
 
 .members_row
   #kazjote.member
@@ -63,6 +70,9 @@ link_attrs:
       %p
         Ruby developer since 2007. Passionate programmer from kid. In his projects
         focuses on maximizing user experience and producing pragmatic solutions.
+      %ul.links
+        %li.github
+          %a{:href => 'https://github.com/kazjote'} Github
 
   #pr0d1r2.member
     %h3 Marcin Nowicki
@@ -84,6 +94,9 @@ link_attrs:
       %p
         Great fan of Star Trek Borg culture. Runs on psychedelic trance, good food
         with wine, heavy workout, classic games and assimilation.
+      %ul.links
+        %li.github
+          %a{:href => 'https://github.com/pr0d1r2'} Github
 
   #marcin_balinski.member
     %h3 Marcin Baliński
@@ -97,6 +110,9 @@ link_attrs:
         simple as possible and to end each day with new knowledge. Marcin is a big
         fan of applied art, Gordon Ramsay's shows, American muscle-cars designed
         before 80's and thrash metal music.
+      %ul.links
+        %li.github
+          %a{:href => 'https://github.com/marcinb'} Github
 
   #mandaryn.member
     %h3 Piotr Marciniak
@@ -105,6 +121,9 @@ link_attrs:
     .description
       %p
         Web developer since 2006. Started with Ruby on Rails, then had a too long fling with various Java frameworks to finally get back to Rails in 2009. Great fan of 'Getting Real', and simplicity in general. In his free time Peter does like to dance (folk, salsa) and recently has found his biggest hobby, raising a newborn son.
+      %ul.links
+        %li.github
+          %a{:href => 'https://github.com/Mandaryn'} Github
 
 .members_row
   #sevos.member
@@ -123,6 +142,8 @@ link_attrs:
       %ul.links
         %li.blog
           %a{:href => 'http://blog.eax.pl/'} Blog
+        %li.github
+          %a{:href => 'https://github.com/sevos'} Github
 
   #atw.member
     %h3 Antoni Wójcik
@@ -134,6 +155,9 @@ link_attrs:
         maintainable CSS. Interested in providing simple and usable user interface.
       %p
         Cognitive science student.
+      %ul.links
+        %li.github
+          %a{:href => 'https://github.com/atw'} Github
 
   #michalk.member
     %h3 Michał Kwiatkowski
@@ -149,6 +173,8 @@ link_attrs:
     %ul.links
       %li.blog
         %a{:href => 'http://joker.linuxstuff.pl'} Homepage
+      %li.github
+        %a{:href => 'https://github.com/infrared'} Github
 
   #staszek.member
     %h3 Stanisław Kolarzowski
@@ -157,6 +183,9 @@ link_attrs:
     .description
       %p
         Staszek has started his adventure with web development in 2003.  He had been flash developer for 2 years, before he decided to find new interesting technology. After years of searching and trying many of them like C++, Java, Assembler, PLC, Php and more he found Ruby in begining of 2009. He loved it and joined Ragnarson team in September 2009. Staszek likes spend his free time actively, especially doing some extreme sports. When he is not jumping on his bike, he probably is watching new episode of South Park or Family Guy.
+      %ul.links
+        %li.github
+          %a{:href => 'https://github.com/staszek'} Github
 
 .members_row
   #daan.member
@@ -173,6 +202,9 @@ link_attrs:
       %p
         He enjoys watching a good TV series. Likes listening to jazz,
         psychill and goa trance.
+      %ul.links
+        %li.github
+          %a{:href => 'https://github.com/h13ronim'} Github
 
   #sabcio.member
     %h3 Sebastian Wojtczak
@@ -181,6 +213,9 @@ link_attrs:
     .description
       %p
         Began web developing in plain HTML in junior high school. Tried PHP and after two projects had enough. Luckily found out Ruby on Rails in 2009 and now appreciates his work. In his free time loves hiking, quad riding or snowboarding depending on the season and running recently.
+      %ul.links
+        %li.github
+          %a{:href => 'https://github.com/sabcio'} Github
 
 
   #bart.member
@@ -193,6 +228,8 @@ link_attrs:
     %ul.links
       %li.blog
         %a{:href => 'http://bkozal.github.com/'} Blog
+      %li.github
+        %a{:href => 'https://github.com/bkozal'} Github
 
 
   #placek.member
@@ -202,6 +239,9 @@ link_attrs:
     .description
       %p
         When he was ten he's got Timex Sinclar 2068 on his birthday and immediately found programming in BASIC (on audio tapes) fun. Ruby and Ruby on Rails are his one of newest discovers - he started using it in 2009. Huge fan of global, open-source solutions as well as Tolkien's fantasy world. He loves bicycles, sailing, archery. He plays electric and bas guitar.
+      %ul.links
+        %li.github
+          %a{:href => 'https://github.com/placek'} Github
 
 .members_row
   #wojak.member
@@ -211,6 +251,9 @@ link_attrs:
     .description
       %p
         CSS designer in love with Ruby, Haml and Sass. Discovered Ruby in 2009, before that he worked with ActionScript and PHP. Passionate of art, design and heavy metal. After dark, he transforms into a crazy alchemist - mixing 2D, 3D and FX with code into explosive substances.
+      %ul.links
+        %li.github
+          %a{:href => 'https://github.com/Baael'} Github
 
   #mrplum.member
     %h3 Łukasz Śliwa
@@ -238,6 +281,9 @@ link_attrs:
     %ul.links
       %li.blog
         %a{:href => 'http://gotar.info/' } Oskar (Gotar) Szrajer
+      %li.github
+        %a{:href => 'https://github.com/gotar'} Github
+
   #maciek.member
     %h3 Maciej Gałkiewicz
     %h4 Sysadmin
