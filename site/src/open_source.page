@@ -55,8 +55,6 @@ link_attrs:
     %li
       %a(href="http://github.com/mandaryn")mandaryn
     %li
-      %a(href="http://github.com/matid")matid
-    %li
       %a(href="http://github.com/sevos/")sevos
     %li
       %a(href="http://github.com/wijet")wijet
