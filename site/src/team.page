@@ -38,14 +38,6 @@ link_attrs:
       %li.github
         %a{:href => 'https://github.com/bragi'} Github
 
-  #maja.member
-    %h3 Maja Skowrońska
-    %h4 CCO
-    %img{:src => '{relocatable: /images/team/maja.jpg}', :alt => 'Maja Skowrońska'}
-    .description
-      %p
-        Power broker and a voice of reason. Studies Computer Science on Technical University of Lodz but sees herself as a part of some menagement team. She's interested in data security. Still learning Ruby just to know what guys are talking about ;)
-
   #wijet.member
     %h3 Mariusz Pietrzyk
     %h4 Developer, Team Leader
@@ -61,18 +53,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/wijet'} Github
 
-.members_row
-  #kazjote.member
-    %h3 Kacper Bielecki
-    %h4 Developer, Team Leader
-    %img{:src => '{relocatable: /images/team/kazjote.jpg}', :alt => 'Kacper Bielecki'}
-    .description
-      %p
-        Ruby developer since 2007. Passionate programmer from kid. In his projects
-        focuses on maximizing user experience and producing pragmatic solutions.
-      %ul.links
-        %li.github
-          %a{:href => 'https://github.com/kazjote'} Github
 
   #pr0d1r2.member
     %h3 Marcin Nowicki
@@ -98,6 +78,7 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/pr0d1r2'} Github
 
+.members_row
   #marcin_balinski.member
     %h3 Marcin Baliński
     %h4 Developer
@@ -125,7 +106,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/Mandaryn'} Github
 
-.members_row
   #sevos.member
     %h3 Artur Roszczyk
     %h4 Developer
@@ -159,23 +139,7 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/atw'} Github
 
-  #michalk.member
-    %h3 Michał Kwiatkowski
-    %h4 Developer
-    %img{:src => '{relocatable: /images/team/michal.jpg}', :alt => 'Michał Kwiatkowski'}
-    .description
-      %p
-        Software developer. Programming in Ruby on Rails since 2006. His
-        interests include programming languages, automated testing and
-        artificial intelligence. Proponent of open source and agile software
-        development. In his spare time plays guitar, reads science fiction and
-        listens to jazz.
-    %ul.links
-      %li.blog
-        %a{:href => 'http://joker.linuxstuff.pl'} Homepage
-      %li.github
-        %a{:href => 'https://github.com/infrared'} Github
-
+.members_row
   #staszek.member
     %h3 Stanisław Kolarzowski
     %h4 Developer
@@ -187,7 +151,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/staszek'} Github
 
-.members_row
   #daan.member
     %h3 Marcin Michałowski
     %h4 Developer
@@ -232,6 +195,7 @@ link_attrs:
         %a{:href => 'https://github.com/bkozal'} Github
 
 
+.members_row
   #placek.member
     %h3 Paweł Placzyński
     %h4 Developer, Team Leader
@@ -243,7 +207,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/placek'} Github
 
-.members_row
   #wojak.member
     %h3 Wojtek Zieliński
     %h4 Frontend Developer
@@ -284,6 +247,7 @@ link_attrs:
       %li.github
         %a{:href => 'https://github.com/gotar'} Github
 
+.members_row
   #maciek.member
     %h3 Maciej Gałkiewicz
     %h4 Sysadmin
