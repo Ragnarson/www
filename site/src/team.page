@@ -53,7 +53,15 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/wijet'} Github
 
+  #monika.member
+    %h3 Monika Kania
+    %h4 Sales Manager, Customer Relationship
+    %img{:src => '{relocatable: /images/team/monika.jpg}', :alt => 'Monika Kania'}
+    .description
+      %p
+        Monika Kania provides a counterbalance to all the developers in the company. Because she likes people more than computers, deals with customer contacts, allowing the boys to concentrate on what they love. As an international management graduate is interested in other cultures, which combines with her passion for travelling.
 
+.members_row
   #pr0d1r2.member
     %h3 Marcin Nowicki
     %h4 Developer, Team Leader
@@ -78,7 +86,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/pr0d1r2'} Github
 
-.members_row
   #marcin_balinski.member
     %h3 Marcin Baliński
     %h4 Developer
@@ -125,6 +132,7 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/sevos'} Github
 
+.members_row
   #atw.member
     %h3 Antoni Wójcik
     %h4 Frontend Developer
@@ -139,7 +147,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/atw'} Github
 
-.members_row
   #staszek.member
     %h3 Stanisław Kolarzowski
     %h4 Developer
@@ -181,6 +188,7 @@ link_attrs:
           %a{:href => 'https://github.com/sabcio'} Github
 
 
+.members_row
   #bart.member
     %h3 Bartłomiej Kozal
     %h4 Developer
@@ -195,7 +203,6 @@ link_attrs:
         %a{:href => 'https://github.com/bkozal'} Github
 
 
-.members_row
   #placek.member
     %h3 Paweł Placzyński
     %h4 Developer, Team Leader
@@ -231,6 +238,7 @@ link_attrs:
       %li.blog
         %a{:href => 'http://github.com/mrplum' } Github
 
+.members_row
   #gotar.member
     %h3 Oskar Szrajer
     %h4 Developer
@@ -247,7 +255,6 @@ link_attrs:
       %li.github
         %a{:href => 'https://github.com/gotar'} Github
 
-.members_row
   #maciek.member
     %h3 Maciej Gałkiewicz
     %h4 Sysadmin
