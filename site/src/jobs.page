@@ -10,51 +10,6 @@ link_attrs:
 %p So you want to join us?
 
 --- name:content pipeline:tags,haml
-#sales_manager.job
-  %h1 Sales/Customer Relationship Manager
-
-  .section.responsibilities
-    %h2 Responsibilities
-    %p We are looking for a person that will aid us with contacts with our customers. You will be responsible for:
-    %ul
-      %li Finding new customers for our outsourcing services
-      %li Negotiating contracts and rates (with full support on technical level from the whole team)
-      %li Maintaining contact with existing customers
-      %li Feeding with long-term projects a team of 20+ developers
-
-    %h2 Requirements
-    %ul
-      %li Fluent English
-      %li Good communication skills
-      %li Experience in customer contact and selling outsourcing services
-      %li Experience in on-line work
-      %li Ability to set own goals and high self-responsibility
-      %li Will to help grow the company
-
-    %h2 Terms
-    %p As this position differs from our core way of working we are open to negotiations on employment terms.
-    %p However it might be beneficial to follow our standard procedure: we embrace freelancing with constant hourly rate plus monthly bonus from each negotiated contract.
-
-  .section.about
-    %h2 About Ragnarson Sp. z o. o.
-    %p We are successful company with a number of long-term customers. As we are growing we need a dedicated person for contacts with our customers and for actively finding new opportunities.
-    %p Our way of working is mature and well established - we are only interested in relationships that will bring value to both us and our customers. Our contracts are long term and rely on high quality work and professional approach - those are values we cherish and support.
-    %p Finding customers that match our requirements is not easy but doable: we are on the market for five years with uninterrupted service.
-
-    %h2 Necessary paperwork
-    %p
-      Prepare your CV, it must be fresh, simple, clean and in PDF.
-      Picture is not mandatory (but often helps).
-      Send it via e-mail to
-      %a(href="mailto:recruitment@ragnarson.com") recruitment@ragnarson.com.
-      In this e-mail describe shortly why would you like to work with us.
-    %p In addition if you are a Citizen of Poland add following statement:
-    %blockquote
-      %p
-        Wyrażam zgodę na przetwarzanie moich danych osobowych zawartych w mojej
-        ofercie pracy dla potrzeb niezbędnych do realizacji procesu rekrutacji
-        zgodnie z Ustawą z dnia 29.08.1997r. o ochronie danych osobowych
-
 #developer.job
   %h1 Developer
 
