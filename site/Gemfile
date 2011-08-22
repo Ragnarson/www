@@ -1,7 +1,5 @@
-# A sample Gemfile
-source :gemcutter
-#
-# gem "rails"
+source :rubygems
+
 gem 'rake'
 gem 'webgen'
 gem 'compass', "0.10.2"
