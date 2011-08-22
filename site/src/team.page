@@ -139,10 +139,7 @@ link_attrs:
     %img{:src => '{relocatable: /images/team/atw.png}', :alt => 'Antoni Wójcik'}
     .description
       %p
-        Web developer since 2006. Focuses on writing clean, semantic HTML and
-        maintainable CSS. Interested in providing simple and usable user interface.
-      %p
-        Cognitive science student.
+        Antoni will make Your site shine. When it comes to connect a complicated backend logic with a clean and usable interface, when it comes to show Your data in the nicest way, he will do that with a clocksmith's precision and an artistic approach.
       %ul.links
         %li.github
           %a{:href => 'https://github.com/atw'} Github
@@ -153,7 +150,9 @@ link_attrs:
     %img{:src => '{relocatable: /images/team/staszek.jpg}', :alt => 'Stanisław Kolarzowski'}
     .description
       %p
-        Staszek has started his adventure with web development in 2003.  He had been flash developer for 2 years, before he decided to find new interesting technology. After years of searching and trying many of them like C++, Java, Assembler, PLC, Php and more he found Ruby in begining of 2009. He loved it and joined Ragnarson team in September 2009. Staszek likes spend his free time actively, especially doing some extreme sports. When he is not jumping on his bike, he probably is watching new episode of South Park or Family Guy.
+        Great pragmatic programmer with enormous knowledge and eight-year-long experience, what makes him bulletproof even for the most difficult problems. He makes Ruby to shine more, as proffesionals do. 
+      %p
+        Stanisław is an incredible friendly and open minded person, professionally as well as in private life. After hours, he's passionate about wheels, and it doesn't matter how many of them.
       %ul.links
         %li.github
           %a{:href => 'https://github.com/staszek'} Github
