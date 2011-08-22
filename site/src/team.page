@@ -47,9 +47,7 @@ link_attrs:
     %img{:src => '{relocatable: /images/team/wijet.png}', :alt => 'Mariusz Pietrzyk'}
     .description
       %p
-        Amazed by the beauty of Ruby in 2007, has been working with Rails since
-        then. Always willing to explore and learn new technologies and tools. Puts
-        strong emphasis on clean and simple code.
+        Very reliable and helpful person. Mariusz is a well-rounder who is able to write code, debbug problematic servers and contact with clients at the same time. Always ready to fix some bugs and support workmates.
       %ul.links
         %li.blog
           %a{:href => 'http://wijet.pl/'} Blog
@@ -180,7 +178,7 @@ link_attrs:
     %img{ :src => '{relocatable: /images/team/sebastian.jpg}', :alt => 'Sebastian Wojtczak' }
     .description
       %p
-        Began web developing in plain HTML in junior high school. Tried PHP and after two projects had enough. Luckily found out Ruby on Rails in 2009 and now appreciates his work. In his free time loves hiking, quad riding or snowboarding depending on the season and running recently.
+        Sebastian is a fast learner who is not afraid of challanges. He always stays calm and puts on a brave face. Smoothly assimilates in new projects.
 
 
   #bart.member
@@ -189,7 +187,7 @@ link_attrs:
     %img{:src => '{relocatable: /images/team/bart.jpg}', :alt => 'Bartłomiej Kozal'}
     .description
       %p
-        Computer guy. Started programming in Ruby in 2009 and felt butterflies for it. Lately he works on interface design as a front-end ninja (throwing ninja stars are cool and funny). In his free time he plays unusual sports, hacky sack or frisbee. Huge fan of American culture - especially California.
+        Great front-end developer with taste. Fan of technical innovations. Bartek is always well-informed about upcoming changes important for web developers. Like all geeks he enjoys using the latest software for testing purposes. Always up-to-date in IT world. 
     %ul.links
       %li.blog
         %a{:href => 'http://bkozal.github.com/'} Blog
