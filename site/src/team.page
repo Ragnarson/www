@@ -28,10 +28,8 @@ link_attrs:
     %img{:src => '{relocatable: /images/team/bragi.jpg}', :alt => 'Łukasz Piestrzeniewicz'}
     .description
       %p
-        Active developer since 2003, with experience in real-time telecommunications
-        platforms, high availability servers, web applications. Focuses on good
-        communication with customers and designing application architectures that
-        are easy to grow.
+        Łukasz is communication freak and when there is a problem in this area he is probably the right 
+        person to solve it. Never, ever beats around the bush. A big lover of video games, cats and pretty girls.
     %ul.links
       %li.blog
         %a{:href => 'http://blog.ragnarson.com/'} Blog
@@ -68,20 +66,10 @@ link_attrs:
     %img{:src => '{relocatable: /images/team/pr0d1r2.jpg}', :alt => 'Marcin Nowicki'}
     .description
       %p
-        Marcin Nowicki aka Pr0d1r2 began his journey in 1990 starting with
-        Commodore C64 Basic and Assembler programming.
-      %p
-        After that was Amiga GUI programming and lots of games.
-      %p
-        In 1997 started using linux as main operating system and involved into
-        hardcore Bash, Assembler, C and C++ programming.
-      %p
-        He discovered Ruby in 2006 by secret project startup that was finished in 2008.
-      %p
-        In November 2008 joined Ragnarson Team in pursue of perfection...
-      %p
-        Great fan of Star Trek Borg culture. Runs on psychedelic trance, good food
-        with wine, heavy workout, classic games and assimilation.
+        Pr0d1r2 (Marcin's nick name) is a hardcore life-hacker and GTD fanatic. When you meet him, he
+        will most probably give you a ton of advices about how to improve your tools, work-process and productivity.
+        There are a rumors that he once hacked a teapot into working web-server.
+        Loves trance music and good wine.
       %ul.links
         %li.github
           %a{:href => 'https://github.com/pr0d1r2'} Github
@@ -108,7 +96,9 @@ link_attrs:
     %img{:src => '{relocatable: /images/team/mandaryn.jpg}', :alt => 'Piotr Marciniak'}
     .description
       %p
-        Web developer since 2006. Started with Ruby on Rails, then had a too long fling with various Java frameworks to finally get back to Rails in 2009. Great fan of 'Getting Real', and simplicity in general. In his free time Peter does like to dance (folk, salsa) and recently has found his biggest hobby, raising a newborn son.
+        Apart from being programmer Piotr is also a father of really cute boy and folk/salsa dancer. 
+        Great party companion and owner of a Band Hero set which he sometimes brings to the office
+        changing it into real rock stage.
       %ul.links
         %li.github
           %a{:href => 'https://github.com/Mandaryn'} Github
