@@ -82,6 +82,8 @@ link_attrs:
       %p
         Great fan of Star Trek Borg culture. Runs on psychedelic trance, good food
         with wine, heavy workout, classic games and assimilation.
+      %ul.thoughts
+        %li Marcin absolutely never pushed a code without tests
       %ul.links
         %li.github
           %a{:href => 'https://github.com/pr0d1r2'} Github
@@ -183,6 +185,8 @@ link_attrs:
     .description
       %p
         Began web developing in plain HTML in junior high school. Tried PHP and after two projects had enough. Luckily found out Ruby on Rails in 2009 and now appreciates his work. In his free time loves hiking, quad riding or snowboarding depending on the season and running recently.
+      %ul.thoughts
+        %li Sebastian doesn't talk too much, but commits a lot of valuable stuff - and that's the point!
       %ul.links
         %li.github
           %a{:href => 'https://github.com/sabcio'} Github
@@ -201,7 +205,6 @@ link_attrs:
         %a{:href => 'http://bkozal.github.com/'} Blog
       %li.github
         %a{:href => 'https://github.com/bkozal'} Github
-
 
   #placek.member
     %h3 Paweł Placzyński
@@ -246,9 +249,10 @@ link_attrs:
     .description
       %p
         As long as he can remember he always programming something. In 2007, fell in love with Ruby for good and bad. Devoted to Open Source, *nix OS administrator. In his spare time works as a graphic 2d/3d watching TV series or anime and reading fantasy books and mangas.
-
       %p
         From a child in love with japanese culture. Black belt master in japanese martial arts. Follower of Zen and harmony in all what he was doing.
+    %ul.thoughts
+      %li There is not a person on the Polish Ruby on Rails Forum who Gotar didn't help (900+ posts, wow!)
     %ul.links
       %li.blog
         %a{:href => 'http://gotar.info/' } Oskar (Gotar) Szrajer
