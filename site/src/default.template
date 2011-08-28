@@ -1,30 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{lang:}">
+<!DOCTYPE html>
+<html lang="{lang:}">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
     <meta name="description" content="We enjoy every minute of our work with Ruby and Rails. Our systems are well designed, tested and maintainable." />
     <meta name="generator" content="webgen - http://webgen.rubyforge.org" />
-    <link rel="stylesheet" type="text/css" href="{relocatable: stylesheets/main.css}" />
-    <link rel="stylesheet" type="text/css" href="{relocatable: stylesheets/skin_light.css}" />
+    <link rel="stylesheet" href="{relocatable: stylesheets/main.css}" />
+    <link rel="stylesheet" href="{relocatable: stylesheets/skin_light.css}" />
     <title>{title:} | Ragnarson</title>
     <link rel="shortcut icon" href="{relocatable: favicon.ico}">
+    <!--[if lte IE 8]>
+      <script src="{relocatable: javascripts/html5.js}" type="text/javascript"></script>
+    <![endif]-->
   </head>
 
   <body id="{body_id:}" class="subpage">
 
-    <div id="header">
+    <header>
       <div class="inner">
         <div id="logo">
           <a href='{relocatable:/}'>
             <img src="{relocatable: images/ragnarson.png}" alt="Ragnarson"/>
           </a>
         </div>
-        <div id="navigation">
+        <nav>
           {menu: {max_levels: 1, used_nodes: files}}
-        </div>
+        </nav>
       </div>
-    </div>
+    </header>
 
     <div id="main">
       <div class="inner">
@@ -38,11 +40,11 @@
       </div>
     </div>
 
-    <div id="footer">
+    <footer>
       <div class="inner">
         <p>&copy; <a href="http://ragnarson.com/">Ragnarson</a></p>
       </div>
-    </div>
+    </footer>
 
     <script type="text/javascript">
     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
