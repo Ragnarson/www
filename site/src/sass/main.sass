@@ -118,15 +118,16 @@ footer
     +grid(9, 16)
     margin-top: 2em
     text-align: right
-    font-size: 1.8em
-    p
+    h3
+      font-size: 1.8em
       margin: 1em 20px
+      font-weight: normal
       &.logo
         margin-top: 0
-    em
-      font-size: 1.3em
-      font-style: normal
-      color: $branding_color
+      em
+        font-size: 1.3em
+        font-style: normal
+        color: $branding_color
   .content
     +grid(7, 16)
     font-size: 1.1em
@@ -136,6 +137,44 @@ footer
     p
       margin: -0.7em 0 0.7em
       color: #999999
+
+#slideshow
+  #slidesContainer
+    margin: 0 auto
+    width: 480px
+    height: 200px
+    overflow: auto /* allow scrollbar */
+    position: relative
+  .slide
+    margin: 0 auto
+    width: 460px /* reduce by 20 pixels to avoid horizontal scroll */
+    height: 200px
+    h3
+      font-weight: bold
+      font-size: 1.8em
+      margin: 1em 0
+      text-align: left
+    p
+      text-align: left
+      font-size: 1em
+      img
+        float: right
+        margin: 0 1em
+  .control
+    display: block
+    width: 39px
+    height: 200px
+    text-indent: -10000px
+    position: absolute
+    cursor: pointer
+  #leftControl
+    top: 0
+    left: 0
+    background: transparent image-url("control_left.jpg") no-repeat 0 0
+  #rightControl
+    top: 0
+    right: 0
+    background: transparent image-url("control_right.jpg") no-repeat 0 0
 
 #scalability_experts, #rails_developers
   margin: 0 -10px
