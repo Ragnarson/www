@@ -4,7 +4,7 @@ $branding_color: #8ae234
 $grid_background_image_offset: -20px
 
 $background_color: #edecce
-$background_image: image-url("background_light.png")
+$background_image: image-url("bg.jpg")
 $background_gradient_image: image-url("background_gradient_light.png")
 
 $font_color: #333333
@@ -109,6 +109,7 @@ nav
 #main
   clear: both
   background-color: $background_color
+  background-image: $background_image
   color: $font_color
 
 footer
@@ -120,10 +121,6 @@ footer
 // home
 // --------------------------
 #home
-  #main
-    .inner
-      +grid-background-position(9, 16)
-      background-image: $background_image
   .subheader
     +grid(9, 16)
     margin-top: 2em
