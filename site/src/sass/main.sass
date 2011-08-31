@@ -3,6 +3,12 @@
 $branding_color: #8ae234
 $grid_background_image_offset: -20px
 
+$background_color: #edecce
+$background_image: image-url("background_light.png")
+$background_gradient_image: image-url("background_gradient_light.png")
+
+$font_color: #333333
+
 =border_bottom_dark
   border-bottom: 1px solid #e2dfad
 
@@ -48,6 +54,7 @@ header, footer
   display: block
   background-color: white
   background-repeat: repeat-x
+  background-image: $background_gradient_image
 
 header
   padding: 2em 0 3em
@@ -101,6 +108,8 @@ nav
 
 #main
   clear: both
+  background-color: $background_color
+  color: $font_color
 
 footer
   padding: 2em 0
@@ -114,6 +123,7 @@ footer
   #main
     .inner
       +grid-background-position(9, 16)
+      background-image: $background_image
   .subheader
     +grid(9, 16)
     margin-top: 2em

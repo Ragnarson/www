@@ -8,7 +8,6 @@ template: ~
     <meta name="description" content="We enjoy every minute of our work with Ruby and Rails. Our systems are well designed, tested and maintainable." />
     <meta name="generator" content="webgen - http://webgen.rubyforge.org" />
     <link rel="stylesheet" href="{relocatable: stylesheets/main.css}" />
-    <link rel="stylesheet" href="{relocatable: stylesheets/skin_light.css}" />
     <title>Ragnarson</title>
     <link rel="shortcut icon" href="{relocatable: favicon.ico}">
     <!--[if lte IE 8]>
