@@ -221,7 +221,7 @@ link_attrs:
     %img{ :src => '{relocatable: /images/team/mrplum.jpg}', :alt => 'Łukasz Śliwa' }
     .description
       %p
-        Łukasz wrote his first program (simple calculator) in 1999. He wrote his first commercial program in 2004. Since then he has been improving his programming skills and technics in many different ways. He discovered Ruby in 2008. Big fan of innovation, technology startups and growing companies. In his spare time he reads books, runs and swims. Loves solving problems.
+        Łukasz is a big fan of innovation, technology startups and growing companies. He always has some interesting news to share. Writes code with a speed of lightning which makes his colleagues think that he isn't actually one person. 
     %ul.links
       %li.blog
         %a{:href => 'http://lukaszsliwa.pl/' } Łukasz Śliwa
