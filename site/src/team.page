@@ -262,3 +262,14 @@ link_attrs:
     .description
       %p
         Sysadmin at Ragnarson since early 2010. Especially interested in computer networks and virtualization. Enjoys using Debian on a daily basis. In his free time tries to keep in shape.
+   
+  #konrad.member
+    %h3 Konrad Król
+    %h4 Developer
+    %img{ :src => '{relocatable: /images/team/konrad.jpg}', :alt => 'Konrad Król' }
+    .description
+      %p
+        Konrad has been interested in Ruby since February 2011. He really likes the simplicity of the code written in that language, as well as a large number of open source extensions available. After he joined Ragnarson company, he learned the Scrum methodology and BDD, what really fascinated him. One of many things in the world, that makes him happy is when his tests turn green. Fan of martial arts and motorization.
+      %ul.links
+        %li.github
+          %a{:href => 'https://github.com/kkrol89'} Github
