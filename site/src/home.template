@@ -31,9 +31,7 @@ template: ~
     </header>
 
     <div id="main">
-      <div class="inner">
-        <webgen:block name="content" />
-      </div>
+      <webgen:block name="content" />
     </div>
 
     <footer>
