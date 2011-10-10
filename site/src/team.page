@@ -273,3 +273,14 @@ link_attrs:
       %ul.links
         %li.github
           %a{:href => 'https://github.com/kkrol89'} Github
+
+  #mateusz.member
+    %h3 Mateusz Grotek
+    %h4 Developer
+    %img{ :src => '{relocatable: /images/team/mateusz.jpg}', :alt => 'Mateusz Grotek' }
+    .description
+      %p
+        Mateusz started using Linux when he was 15 and never stopped. He is in 100% dedicated to open-source solutions. Knows and likes many programming languages. In 2010 he got interested in dynamic languages: Smalltalk and Ruby. His experience with Ruby on Rails allows him to create functional and modern web services meeting every client expectation. He likes well-written science-fiction and music.
+      %ul.links
+        %li.github
+          %a{:href => 'https://github.com/unoduetre'} Github
