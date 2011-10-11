@@ -276,3 +276,15 @@ link_attrs:
         Specializes in: Running the company
       %p
         Quiet and calm. She has a great organizational skills. She manages the flow of money in the company. Barbara makes sure that everything is functioning properly and everyone is content.
+
+.members_row
+  #mateusz.member
+    %h3 Mateusz Grotek
+    %h4 Developer
+    %img{ :src => '{relocatable: /images/team/mateusz.jpg}', :alt => 'Mateusz Grotek' }
+    .description
+      %p
+        Mateusz started using Linux when he was 15 and never stopped. He is in 100% dedicated to open-source solutions. Knows and likes many programming languages. In 2010 he got interested in dynamic languages: Smalltalk and Ruby. His experience with Ruby on Rails allows him to create functional and modern web services meeting every client expectation. He likes well-written science-fiction and music.
+      %ul.links
+        %li.github
+          %a{:href => 'https://github.com/unoduetre'} Github
