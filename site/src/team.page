@@ -57,6 +57,8 @@ link_attrs:
     %img{:src => '{relocatable: /images/team/monika.jpg}', :alt => 'Monika Kania'}
     .description
       %p
+        Specializes in: Customer contact
+      %p
         Monika Kania provides a counterbalance to all the developers in the company. Because she likes people more than computers, deals with customer contacts, allowing the boys to concentrate on what they love. As an international management graduate is interested in other cultures, which combines with her passion for travelling.
 
 .members_row
@@ -257,7 +259,9 @@ link_attrs:
     %img{ :src => '{relocatable: /images/team/konrad.jpg}', :alt => 'Konrad Król' }
     .description
       %p
-        Konrad has been interested in Ruby since February 2011. He really likes the simplicity of the code written in that language, as well as a large number of open source extensions available. After he joined Ragnarson company, he learned the Scrum methodology and BDD, what really fascinated him. One of many things in the world, that makes him happy is when his tests turn green. Fan of martial arts and motorization.
+        Specializes in: Rails
+      %p
+        He really likes the simplicity of the code written in Ruby, as well as a large number of open source extensions available. After he joined Ragnarson company, he learned the Scrum methodology and BDD, what really fascinated him. Fan of martial arts and motorization.
       %ul.links
         %li.github
           %a{:href => 'https://github.com/kkrol89'} Github
