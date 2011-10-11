@@ -136,7 +136,9 @@ link_attrs:
     %img{:src => '{relocatable: /images/team/staszek.jpg}', :alt => 'Stanisław Kolarzowski'}
     .description
       %p
-        Staszek has started his adventure with web development in 2003.  He had been flash developer for 2 years, before he decided to find new interesting technology. After years of searching and trying many of them like C++, Java, Assembler, PLC, Php and more he found Ruby in begining of 2009. He loved it and joined Ragnarson team in September 2009. Staszek likes spend his free time actively, especially doing some extreme sports. When he is not jumping on his bike, he probably is watching new episode of South Park or Family Guy.
+        Specializes in: Rails
+      %p
+        Staszek has started his adventure with web development in 2003.  He had been flash developer for 2 years, before he decided to find new interesting technology. After years of searching and trying many of them he found Ruby in begining of 2009. Staszek likes spend his free time actively, especially doing some extreme sports.
       %ul.links
         %li.github
           %a{:href => 'https://github.com/staszek'} Github
@@ -233,10 +235,9 @@ link_attrs:
     %img{ :src => '{relocatable: /images/team/gotar.jpg}', :alt => 'Oskar Szrajer' }
     .description
       %p
-        As long as he can remember he always programming something. In 2007, fell in love with Ruby for good and bad. Devoted to Open Source, *nix OS administrator. In his spare time works as a graphic 2d/3d watching TV series or anime and reading fantasy books and mangas.
-
+        Specializes in: Scalability, Rails
       %p
-        From a child in love with japanese culture. Black belt master in japanese martial arts. Follower of Zen and harmony in all what he was doing.
+        Oskar is a great mentor, self-reliant and communicative. He is a very active participant in the specialistic forums. Oskar perfectly copes with processing big amount of data in real time. He is interested in japanese martial arts, is a black belt master.
     %ul.links
       %li.blog
         %a{:href => 'http://gotar.info/' } Oskar (Gotar) Szrajer
@@ -265,3 +266,13 @@ link_attrs:
       %ul.links
         %li.github
           %a{:href => 'https://github.com/kkrol89'} Github
+
+  #barbara.member
+    %h3 Barbara Niewiadomska
+    %h4
+    %img{:src => '{relocatable: /images/team/barbara.jpg}', :alt => 'Monika Kania'}
+    .description
+      %p
+        Specializes in: Running the company
+      %p
+        Quiet and calm. She has a great organizational skills. She manages the flow of money in the company. Barbara makes sure that everything is functioning properly and everyone is content.
