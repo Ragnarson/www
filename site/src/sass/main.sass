@@ -167,7 +167,6 @@ ul
 
 #projects
   h2
-    +border_bottom_dark
     +border_top_light
     margin: 0
     padding: 1em 0 0.1em
@@ -180,10 +179,8 @@ ul
       bottom: 2em
     +border_bottom_dark
     +border_top_light
-    &#jobmensa
+    &#winnie, &#pokerolymp
       border-top: none
-    &#mamily
-      border-bottom: none
     h3, .description
       +grid(4, 16)
       +alpha
@@ -239,6 +236,18 @@ ul
       text-transform: uppercase
       font-weight: normal
       height: 2em
+  .thoughts
+    color: #aaa
+    font-style: italic
+    list-style-type: none
+    line-height: 1.5em
+    padding-left: 0
+    margin: -0.5em 0 1em
+    li
+      margin-bottom: .5em
+      &:before
+        content: "„ "
+        font-size: 2em
 
 #jobs
   h2
