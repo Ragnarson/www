@@ -1,7 +1,13 @@
 @import 960/grid
 @import compass/utilities
+@import compass/css3
 
 $grid_background_image_offset: 0
+
+$default-text-shadow-color: rgba(white, 1)
+$default-text-shadow-blur: 0
+$default-text-shadow-v-offset: 1px
+$default-text-shadow-h-offset: -1px
 
 =grid-background-position($n, $cols, $offset: $grid_background_image_offset)
   background-position: 960px / $cols * $n + $offset 0
