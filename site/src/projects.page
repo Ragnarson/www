@@ -22,6 +22,19 @@ link_attrs:
       %li Scalabe
     %a.visit_site{:href => 'http://www.winniecloud.com/'} Visit site
 
+#tripsta.project
+  %h3 Tripsta
+  %a.image{:href => 'http://www.travelplanet24.com/'}
+    %img{:src => '{relocatable:/images/projects/tripsta.jpg}', :alt => 'Tripsta screenshot'}/
+  .description
+    %p Cluster for hosting applications from Tripsta family.
+    %ul
+      %li Architecture design
+      %li Fully automated failover
+      %li Maintenance
+      %li Monitoring and graphing
+      %li No single point of failure
+    %a.visit_site{:href => 'http://www.travelplanet24.com/'} Visit site
 
 #jobeinstieg.project
   %h3 Jobeinstieg
