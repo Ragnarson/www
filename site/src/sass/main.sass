@@ -296,18 +296,17 @@ footer
 
 #team
   .members_row
-    display: table-row
+    margin-left: -($ninesixty-gutter-width / 2)
+    overflow: auto
   .member
-    display: table-cell
     +grid(4, 16)
+    margin-bottom: 1em
     img
       width: 200px
       height: 200px
       +border_dark
       background-color: white
       padding: 9px
-    &#bragi
-      +alpha
     h3
       font-weight: bold
       font-size: 1.3em
@@ -320,6 +319,8 @@ footer
       text-transform: uppercase
       font-weight: normal
       height: 2em
+    ul
+      +horizontal-list
 
 #jobs
   h2
