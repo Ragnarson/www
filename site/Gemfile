@@ -1,8 +1,8 @@
 # A sample Gemfile
-source :gemcutter
+source :rubygems
 #
 # gem "rails"
 gem 'rake'
 gem 'webgen'
-gem 'compass', "0.10.2"
-gem 'compass-960-plugin'
+gem 'compass', "0.11.5"
+gem 'compass-960-plugin', "0.10.4"
