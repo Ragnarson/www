@@ -1,5 +1,6 @@
 ---
 title: Projects
+description: Projects we currently develop and maintain
 body_id: projects
 in_menu: true
 sort_info: 10
@@ -13,7 +14,7 @@ link_attrs:
 #winnie.project
   %h3 Winnie Cloud
   %a.image{:href => 'http://www.winniecloud.com/'}
-    %img{:src => '{relocatable:/images/projects/winniecloud.png}', :alt => 'Winnie Cloud screenshot'}/
+    %img{:src => '{relocatable:/images/projects/winniecloud.jpg}', :alt => 'Winnie Cloud screenshot'}/
   .description
     %p Our secure cloud hosting solution for Ruby on Rails applications.
     %ul
@@ -22,6 +23,19 @@ link_attrs:
       %li Scalabe
     %a.visit_site{:href => 'http://www.winniecloud.com/'} Visit site
 
+#tripsta.project
+  %h3 Tripsta
+  %a.image{:href => 'http://www.travelplanet24.com/'}
+    %img{:src => '{relocatable:/images/projects/tripsta.jpg}', :alt => 'Tripsta screenshot'}/
+  .description
+    %p Cluster for hosting applications from Tripsta family.
+    %ul
+      %li Architecture design
+      %li Fully automated failover
+      %li Maintenance
+      %li Monitoring and graphing
+      %li No single point of failure
+    %a.visit_site{:href => 'http://www.travelplanet24.com/'} Visit site
 
 #jobeinstieg.project
   %h3 Jobeinstieg
@@ -39,7 +53,7 @@ link_attrs:
 #jobmensa.project
   %h3 Jobmensa
   %a.image{:href => 'http://www.jobmensa.de/'}
-    %img{:src => '{relocatable:/images/projects/jobmensa.png}', :alt => 'Jobmensa.de screenshot'}/
+    %img{:src => '{relocatable:/images/projects/jobmensa.jpg}', :alt => 'Jobmensa.de screenshot'}/
   .description
     %p Temporary jobs for students with a twist.
     %ul
@@ -60,12 +74,12 @@ link_attrs:
       %li Reviews by well known critics
       %li Up-to-date culinary events
       %li Full social network for good cusine lovers
-    %a.visit_site{:href => 'http://www.restaurants-kritik.de/'} Visit site
+    %a.visit_site{:href => 'http://www.restaurant-kritik.de/'} Visit site
 
 #bellegs.project
   %h3 Bellegs
   %a.image{:href => 'http://www.bellegs.de/'}
-    %img{:src => '{relocatable:/images/projects/bellegs.png}', :alt => 'Bellegs.de screenshot'}/
+    %img{:src => '{relocatable:/images/projects/bellegs.jpg}', :alt => 'Bellegs.de screenshot'}/
   .description
     %p Shop with finest italian stocking, tights, socks etc.
     %ul
@@ -76,7 +90,7 @@ link_attrs:
 #ekartenwelt.project
   %h3 eKartenwelt
   %a.image{:href => 'http://www.ekartenwelt.de/'}
-    %img{:src => '{relocatable:/images/projects/ekartenwelt.png}', :alt => 'eKartenwelt.de screenshot'}/
+    %img{:src => '{relocatable:/images/projects/ekartenwelt.jpg}', :alt => 'eKartenwelt.de screenshot'}/
   .description
     %p Online cards service with Djabbi family members.
     %ul
@@ -88,7 +102,7 @@ link_attrs:
 #tutoria.project
   %h3 Tutoria
   %a.image{:href => 'http://www.tutoria.de/'}
-    %img{:src => '{relocatable:/images/projects/tutoria.png}', :alt => 'Tutoria.de screenshot'}/
+    %img{:src => '{relocatable:/images/projects/tutoria.jpg}', :alt => 'Tutoria.de screenshot'}/
   .description
     %ul
       %li Perfect matching based on student skills and employer expectations
@@ -100,7 +114,7 @@ link_attrs:
 #pokerring.project
   %h3 PokerRing
   %a.image{:href => 'http://www.pokerring.com/'}
-    %img{:src => '{relocatable:/images/projects/pokerring.png}', :alt => 'PokerRing.com screenshot'}/
+    %img{:src => '{relocatable:/images/projects/pokerring.jpg}', :alt => 'PokerRing.com screenshot'}/
   .description
     %ul
       %li Social network for poker players
@@ -114,7 +128,7 @@ link_attrs:
 #pokerolymp.project
   %h3 PokerOlymp
   %a.image{:href => 'http://www.pokerolymp.de/'}
-    %img{:src => '{relocatable:/images/projects/pokerolymp.png}', :alt => 'PokerOlymp.de screenshot'}/
+    %img{:src => '{relocatable:/images/projects/pokerolymp.jpg}', :alt => 'PokerOlymp.de screenshot'}/
   .description
     %p News site and community for German-speaking poker players. Includes among others:
     %ul
@@ -124,7 +138,7 @@ link_attrs:
 #mamily.project
   %h3 Mamily
   %a.image{:href => 'http://www.mamily.de/'}
-    %img{:src => '{relocatable:/images/projects/mamily.png}', :alt => 'Mamily.de screenshot'}/
+    %img{:src => '{relocatable:/images/projects/mamily.jpg}', :alt => 'Mamily.de screenshot'}/
   .description
     %p News site and community for German-speaking mothers. Includes among others:
     %ul

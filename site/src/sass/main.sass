@@ -1,7 +1,12 @@
 @import base.sass
 
-$branding_color: #8ae234
+$branding_color: #900
 $grid_background_image_offset: -20px
+
+$background_color: #edecce
+$background_image: image-url("bg_color.jpg")
+
+$font_color: #333333
 
 =border_bottom_dark
   border-bottom: 1px solid #e2dfad
@@ -17,6 +22,14 @@ body
   font-size: 0.75em
   +reset-box-model
   padding-bottom: 2em
+  background-color: white
+  background-image: image-url("bg.jpg")
+
+a
+  +link-colors(#1f1f88, #1f1f88, #b02626, #3c294e, #1f1f88)
+
+h1, h2, h3
+  +single-text-shadow
 
 h1
   font-size: 2em
@@ -36,20 +49,20 @@ ul
   li
     margin-bottom: 0.3em
 
-#header, #main, #footer
+header, #main, footer
   .inner
     +grid-container
 
-#header, #main
+header, #main
   .inner
     +clearfix
 
-#header, #footer
-  background-color: white
+header, footer
+  display: block
   background-repeat: repeat-x
 
-#header
-  padding: 2em 0 3em
+header
+  padding: 1.5em 0 1.8em
 
 #logo
   margin: 0.7em 0 0 2em
@@ -60,12 +73,11 @@ ul
     background-color: #1c2122
     color: #eeeeee
     text-decoration: none
-    border-bottom: 2px solid $branding_color
   a, img
     display: block
     float: left
 
-#navigation
+nav
   float: right
   margin-left: 5em
   li
@@ -100,55 +112,123 @@ ul
 
 #main
   clear: both
+  background-color: $background_color
+  background-image: $background_image
+  color: $font_color
+  border-top: 1px solid #fff
+  border-bottom: 1px solid darken($background_color, 10%)
 
-#footer
+footer
   padding: 2em 0
+  border-top: 1px solid #fff
   p
     text-align: right
     margin-right: 10px
+  a
+    +hover-link
 
-// home
-// --------------------------
 #home
-  #main
-    .inner
-      +grid-background-position(9, 16)
-  .subheader
-    +grid(9, 16)
-    margin-top: 2em
-    text-align: right
-    font-size: 1.8em
-    p
-      margin: 1em 20px
-      &.logo
-        margin-top: 0
-    em
-      font-size: 1.3em
-      font-style: normal
-      color: $branding_color
+  #main, footer
+    background: none
+    border-bottom: none
   .content
-    +grid(7, 16)
+    background-repeat: repeat-x
     font-size: 1.1em
+    border-top: 1px solid #fff
+    background: transparent image-url("shadow.png") 50% -10px no-repeat
+    .inner
+      +grid-container
+      padding-top: 3em
     h2
       font-weight: bold
       font-size: 1.1em
     p
       margin: -0.7em 0 0.7em
       color: #999999
+  footer
+    .inner
+      border-top: 2px solid #ddd
+      margin-top: 1em
+
+#intro, #portfolio
+  clear: both
+  background-color: $background_color
+  background-image: $background_image
+  color: $font_color
+#intro
+  text-align: center
+  border-bottom: 1px solid darken($background_color, 10%)
+  img.logo
+    margin: 8em 0 5em
+  h3
+    font-size: 1.8em
+    margin: 1em 90px 2em
+    font-weight: normal
+    em
+      font-size: 1.3em
+      font-style: normal
+      color: $branding_color
+
+#portfolio
+  border-top: 1px solid #fff
+  border-bottom: 1px solid darken($background_color, 10%)
+  h2
+    font-size: 1.05em
+    font-weight: normal
+
+#slideshow
+  position: relative
+  margin: .5em 0 1.5em
+  #slidesContainer
+    margin: 0 auto
+    width: 480px
+    height: 200px
+    overflow: auto
+    border: 1px solid darken($background_color, 10%)
+    background: #f7f6ed
+  .slide
+    margin: 0 auto
+    width: 460px
+    height: 200px
+    h3
+      font-weight: bold
+      font-size: 1.8em
+      margin: 1em 0.6em
+      text-align: left
+    p
+      text-align: left
+      font-size: 1em
+      margin-left: 1em
+      img
+        float: right
+        margin: 0 1em
+  .control
+    display: block
+    position: absolute
+    top: 80px
+    width: 40px
+    height: 40px
+    text-indent: -10000px
+    cursor: pointer
+  #leftControl
+    left: 100px
+    background: transparent image-url("control_left.png") no-repeat 0 0
+  #rightControl
+    right: 100px
+    background: transparent image-url("control_right.png") no-repeat 0 0
 
 #scalability_experts, #rails_developers
-  margin: 0 -10px
-  padding: 10px 30px
+  +grid(6, 12)
+  line-height: 1.5em
+  h2
+    font-size: 1.2em
+    margin-bottom: 1.2em
   li
-    margin-bottom: 0.45em
+    margin-bottom: 1em
 
 #scalability_experts
-  +border_bottom_dark
   a
     font-weight: bold
-
-#rails_developers
-  +border_top_light
 
 .subpage
   .title
@@ -167,7 +247,6 @@ ul
 
 #projects
   h2
-    +border_bottom_dark
     +border_top_light
     margin: 0
     padding: 1em 0 0.1em
@@ -176,11 +255,11 @@ ul
   .project
     +clearfix
     padding:
-      top: 2em
-      bottom: 2em
+      top: 4em
+      bottom: 4em
     +border_bottom_dark
     +border_top_light
-    &#jobmensa
+    &#winnie, &#pokerolymp
       border-top: none
     &#mamily
       border-bottom: none
@@ -196,8 +275,7 @@ ul
       float: right
       height: 200px
       overflow: hidden
-      img
-        +border_dark
+      +border_dark
     p
       margin: -0.7em 0 0.7em
     a.visit_site
@@ -215,18 +293,17 @@ ul
 
 #team
   .members_row
-    display: table-row
+    margin-left: -($ninesixty-gutter-width / 2)
+    overflow: auto
   .member
-    display: table-cell
     +grid(4, 16)
+    margin-bottom: 1em
     img
       width: 200px
       height: 200px
       +border_dark
       background-color: white
       padding: 9px
-    &#bragi
-      +alpha
     h3
       font-weight: bold
       font-size: 1.3em
@@ -239,6 +316,8 @@ ul
       text-transform: uppercase
       font-weight: normal
       height: 2em
+    ul
+      +horizontal-list
 
 #jobs
   h2
@@ -255,8 +334,6 @@ ul
   .job
     margin-bottom: 2em
     +clearfix
-  #developer
-    border-top: 1px solid #333
 
 #contact
   a.email

@@ -1,5 +1,6 @@
 ---
 title: Team members
+description: Who we are
 body_id: team
 in_menu: true
 sort_info: 20
@@ -14,24 +15,161 @@ link_attrs:
     %img{:src => '{relocatable: /images/team/marcin_bajer.gif}', :alt => 'Marcin Bajer'}
     .description
       %p
-        Marcin wrote his first program in 1984, in BASIC on a ZX Spectrum. Probably that's why some teammates call him Grandpa. Tired of waiting for his C programs to compile, he tried Bash, Perl, TCL and Python until discovering Ruby in 2004. His first Rails app used version 1.0.0 of the framework. With some sysadmin skills acquired over the years, Marcin keeps our servers and apps running.
+        Specializes in: Rails, Administration
       %p
-        When not working, Marcin struggles with raising his two sons to become good programmers, but he'd rather be snowboarding or flying a glider (depending on the season) or taking pictures -
-        %a{:href => 'http://www.flickr.com/photos/rrrodrigo/sets/72157623007618613/'} all year round.
+        Responsible and scrupulous. Marcin is one of pioneers Ruby on Rails in Poland. As an experienced developer with extensive knowledge he can cope with large and complex projects which he can easily keep in framework. Marcin has great organizational skills with strong urge for accomplishment.
       %ul.links
         %li.github
           %a{:href => 'https://github.com/rrrodrigo'} Github
 
+  #marcin_balinski.member
+    %h3 Marcin Baliński
+    %h4 Developer
+    %img{:src => '{relocatable: /images/team/marcin_balinski.jpg}', :alt => 'Marcin Baliński'}
+    .description
+      %p
+        Specializes in: Rails, Facebook, iPhone
+      %p
+        Man of many talents. Apart from great Ruby on Rails knowledge he is very good in creating Facebook applications. His skills can surprise you many times. Marcin always tries to keep things as simple as possible and to end each day with new knowledge.
+      %ul.links
+        %li.github
+          %a{:href => 'https://github.com/marcinb'} Github
+
+  #maciek.member
+    %h3 Maciej Gałkiewicz
+    %h4 Sysadmin
+    %img{ :src => '{relocatable: /images/team/maciek.jpg}', :alt => 'Maciej Gałkiewicz' }
+    .description
+      %p
+        Specializes in: System Administration, Cloud computing
+      %p
+        Maciej is a networking expert. He effectively manages application clusters, his specialities are operating systems and cluster file systems. Maciej takes care of the daily application functioning.
+
+  #mateusz.member
+    %h3 Mateusz Grotek
+    %h4 Developer
+    %img{ :src => '{relocatable: /images/team/mateusz.jpg}', :alt => 'Mateusz Grotek' }
+    .description
+      %p
+        Specializes in: Rails
+      %p
+        Mateusz is in 100% dedicated to open-source solutions. Knows and likes many programming languages. In 2010 he got interested in dynamic languages: Smalltalk and Ruby. His experience with Ruby on Rails allows him to create functional and modern web services. He likes well-written science-fiction and music.
+      %ul.links
+        %li.github
+          %a{:href => 'https://github.com/unoduetre'} Github
+
+.members_row
+  #monika.member
+    %h3 Monika Kania
+    %h4 Sales Manager, Customer Relationship
+    %img{:src => '{relocatable: /images/team/monika.jpg}', :alt => 'Monika Kania'}
+    .description
+      %p
+        Specializes in: Customer contact
+      %p
+        Monika Kania provides a counterbalance to all the developers in the company. Because she likes people more than computers, deals with customer contacts, allowing the boys to concentrate on what they love. As an international management graduate is interested in other cultures, which combines with her passion for travelling.
+
+  #staszek.member
+    %h3 Stanisław Kolarzowski
+    %h4 Developer
+    %img{:src => '{relocatable: /images/team/staszek.jpg}', :alt => 'Stanisław Kolarzowski'}
+    .description
+      %p
+        Specializes in: Rails
+      %p
+        Staszek has started his adventure with web development in 2003.  He had been flash developer for 2 years, before he decided to find new interesting technology. After years of searching and trying many of them he found Ruby in begining of 2009. Staszek likes spend his free time actively, especially doing some extreme sports.
+      %ul.links
+        %li.github
+          %a{:href => 'https://github.com/staszek'} Github
+
+  #bart.member
+    %h3 Bartłomiej Kozal
+    %h4 Developer
+    %img{:src => '{relocatable: /images/team/bart.jpg}', :alt => 'Bartłomiej Kozal'}
+    .description
+      %p
+        Specializes in: Frontend, JavaScript, CSS/HTML, Graphics Design, Rails
+      %p
+        Great front-end developer with taste. Fan of technical innovations. Bartek is always well-informed about upcoming changes important for web developers. Like all geeks he enjoys using the latest software for testing purposes. Always up-to-date in IT world.
+    %ul.links
+      %li.blog
+        %a{:href => 'http://bkozal.github.com/'} Blog
+      %li.github
+        %a{:href => 'https://github.com/bkozal'} Github
+
+  #konrad.member
+    %h3 Konrad Król
+    %h4 Developer
+    %img{ :src => '{relocatable: /images/team/konrad.jpg}', :alt => 'Konrad Król' }
+    .description
+      %p
+        Specializes in: Rails
+      %p
+        He really likes the simplicity of the code written in Ruby, as well as a large number of open source extensions available. After he joined Ragnarson company, he learned the Scrum methodology and BDD, what really fascinated him. Fan of martial arts and motorization.
+      %ul.links
+        %li.github
+          %a{:href => 'https://github.com/kkrol89'} Github
+
+.members_row
+  #mandaryn.member
+    %h3 Piotr Marciniak
+    %h4 Developer
+    %img{:src => '{relocatable: /images/team/mandaryn.jpg}', :alt => 'Piotr Marciniak'}
+    .description
+      %p
+        Specializes in: Frontend, Rails
+      %p
+        Calm and patient. He copes well with difficult customers needs. He is perfect in work with large, complex projects. His skills help him with achieving great results.
+      %ul.links
+        %li.github
+          %a{:href => 'https://github.com/Mandaryn'} Github
+
+  #daan.member
+    %h3 Marcin Michałowski
+    %h4 Developer
+    %img{:src => '{relocatable: /images/team/daan.jpg}', :alt => 'Marcin Michałowski'}
+    .description
+      %p
+        Specializes in: Rails
+      %p
+        He is catalyst of change. It is because of his great love for new technologies and constant knowledge expansion. He is perfect in working with already existing services and coping with complex problems. Marcin can easily change very complex services into simple and perfectly maintain them.
+      %ul.links
+        %li.github
+          %a{:href => 'https://github.com/h13ronim'} Github
+
+  #barbara.member
+    %h3 Barbara Niewiadomska
+    %h4 Assistant
+    %img{:src => '{relocatable: /images/team/barbara.jpg}', :alt => 'Monika Kania'}
+    .description
+      %p
+        Specializes in: Running the company
+      %p
+        Quiet and calm. She has a great organizational skills. She manages the flow of money in the company. Barbara makes sure that everything is functioning properly and everyone is content.
+
+  #pr0d1r2.member
+    %h3 Marcin Nowicki
+    %h4 Developer, Team Leader
+    %img{:src => '{relocatable: /images/team/pr0d1r2.jpg}', :alt => 'Marcin Nowicki'}
+    .description
+      %p
+        Specializes in: Rails, Agile
+      %p
+        Marcin is a huge fan of methodology tools which optimize the job of developer. When you meet him, he will most probably give you a ton of advices about how to improve your tools, work-process and productivity. He is a powerhouse to work with extremely demanding projects.
+      %ul.links
+        %li.github
+          %a{:href => 'https://github.com/pr0d1r2'} Github
+
+.members_row
   #bragi.member
     %h3 Łukasz Piestrzeniewicz
     %h4 Developer, Team Leader, CEO
     %img{:src => '{relocatable: /images/team/bragi.jpg}', :alt => 'Łukasz Piestrzeniewicz'}
     .description
       %p
-        Active developer since 2003, with experience in real-time telecommunications
-        platforms, high availability servers, web applications. Focuses on good
-        communication with customers and designing application architectures that
-        are easy to grow.
+        Specializes in: Communication, Scalability, Mentoring
+      %p
+        Łukasz is obsessed with communication and is the right person to solve any problems in this area. Never, ever beats around the bush. In his spare time he likes to solve scalability problems and be a mentor, also for those that do not want to be mentored.
     %ul.links
       %li.blog
         %a{:href => 'http://blog.ragnarson.com/'} Blog
@@ -41,77 +179,30 @@ link_attrs:
   #wijet.member
     %h3 Mariusz Pietrzyk
     %h4 Developer, Team Leader
-    %img{:src => '{relocatable: /images/team/wijet.png}', :alt => 'Mariusz Pietrzyk'}
+    %img{:src => '{relocatable: /images/team/wijet.jpg}', :alt => 'Mariusz Pietrzyk'}
     .description
       %p
-        Amazed by the beauty of Ruby in 2007, has been working with Rails since
-        then. Always willing to explore and learn new technologies and tools. Puts
-        strong emphasis on clean and simple code.
+        Specializes in: Scalability, Cloud computing, Rails
+      %p
+        Brilliant and witty, good team leader. He copes with the most complex project management. Co-founder and lead developer of the largest Polish cloud computing. He is an inconspicuous developer with great ideas. In many cases has unique approach which helps out others.
       %ul.links
         %li.blog
           %a{:href => 'http://wijet.pl/'} Blog
         %li.github
           %a{:href => 'https://github.com/wijet'} Github
 
-  #monika.member
-    %h3 Monika Kania
-    %h4 Sales Manager, Customer Relationship
-    %img{:src => '{relocatable: /images/team/monika.jpg}', :alt => 'Monika Kania'}
-    .description
-      %p
-        Monika Kania provides a counterbalance to all the developers in the company. Because she likes people more than computers, deals with customer contacts, allowing the boys to concentrate on what they love. As an international management graduate is interested in other cultures, which combines with her passion for travelling.
-
-.members_row
-  #pr0d1r2.member
-    %h3 Marcin Nowicki
+  #placek.member
+    %h3 Paweł Placzyński
     %h4 Developer, Team Leader
-    %img{:src => '{relocatable: /images/team/pr0d1r2.jpg}', :alt => 'Marcin Nowicki'}
+    %img{ :src => '{relocatable: /images/team/placek.jpg}', :alt => 'Paweł Placzyński' }
     .description
       %p
-        Marcin Nowicki aka Pr0d1r2 began his journey in 1990 starting with
-        Commodore C64 Basic and Assembler programming.
+        Specializes in: Rails
       %p
-        After that was Amiga GUI programming and lots of games.
-      %p
-        In 1997 started using linux as main operating system and involved into
-        hardcore Bash, Assembler, C and C++ programming.
-      %p
-        He discovered Ruby in 2006 by secret project startup that was finished in 2008.
-      %p
-        In November 2008 joined Ragnarson Team in pursue of perfection...
-      %p
-        Great fan of Star Trek Borg culture. Runs on psychedelic trance, good food
-        with wine, heavy workout, classic games and assimilation.
+        Paweł is young, skilled programmer. He has great communicational and organizational skills which help him with organization Ruby events in Łódź. He is a huge fan of global, open-source solutions.
       %ul.links
         %li.github
-          %a{:href => 'https://github.com/pr0d1r2'} Github
-
-  #marcin_balinski.member
-    %h3 Marcin Baliński
-    %h4 Developer
-    %img{:src => '{relocatable: /images/team/marcin_balinski.png}', :alt => 'Marcin Baliński'}
-    .description
-      %p
-        Marcin discovered Ruby in 2007 and instantly fell in love amused by it's
-        elegant beauty. At the beginning of 2008 he joined Ragnarson in their
-        mission of creating kick-ass rails apps. Always tries to keep things as
-        simple as possible and to end each day with new knowledge. Marcin is a big
-        fan of applied art, Gordon Ramsay's shows, American muscle-cars designed
-        before 80's and thrash metal music.
-      %ul.links
-        %li.github
-          %a{:href => 'https://github.com/marcinb'} Github
-
-  #mandaryn.member
-    %h3 Piotr Marciniak
-    %h4 Developer
-    %img{:src => '{relocatable: /images/team/mandaryn.jpg}', :alt => 'Piotr Marciniak'}
-    .description
-      %p
-        Web developer since 2006. Started with Ruby on Rails, then had a too long fling with various Java frameworks to finally get back to Rails in 2009. Great fan of 'Getting Real', and simplicity in general. In his free time Peter does like to dance (folk, salsa) and recently has found his biggest hobby, raising a newborn son.
-      %ul.links
-        %li.github
-          %a{:href => 'https://github.com/Mandaryn'} Github
+          %a{:href => 'https://github.com/placek'} Github
 
   #sevos.member
     %h3 Artur Roszczyk
@@ -119,13 +210,9 @@ link_attrs:
     %img{:src => '{relocatable: /images/team/sevos.jpg}', :alt => 'Artur Roszczyk'}
     .description
       %p
-        First steps in programming made in 1999. In 2004 switched to Linux
-        environment and stayed for five years. Web developer since 2005.
-        He discovered Ruby in June 2009. Joined Ragnarson team in October 2009.
+        Specializes in: Rails, SCRUM, Algorithms, Mentoring
       %p
-        He likes to analyze and solve problems, even if they're complex.
-        He loves traveling and TV series. Recently interested in career planning
-        and creating&mentoring start-ups.
+        Mentor and problem solver. Easily switches perspective to come up with new solutions for architecture problems. Great mentor, easily and smoothly shares knowledge teaching also those that are resistant to change.
       %ul.links
         %li.blog
           %a{:href => 'http://blog.eax.pl/'} Blog
@@ -133,48 +220,47 @@ link_attrs:
           %a{:href => 'https://github.com/sevos'} Github
 
 .members_row
+  #mrplum.member
+    %h3 Łukasz Śliwa
+    %h4 Developer
+    %img{ :src => '{relocatable: /images/team/mrplum.jpg}', :alt => 'Łukasz Śliwa' }
+    .description
+      %p
+        Specializes in: Rails
+      %p
+        Łukasz is a big fan of innovation, technology startups and growing companies. He always has some interesting news to share. Writes code with a speed of lightning which makes his colleagues think that he isn't actually one person.
+    %ul.links
+      %li.blog
+        %a{:href => 'http://lukaszsliwa.pl/' } Łukasz Śliwa
+      %li.blog
+        %a{:href => 'http://github.com/mrplum' } Github
+
+  #gotar.member
+    %h3 Oskar Szrajer
+    %h4 Developer
+    %img{ :src => '{relocatable: /images/team/gotar.jpg}', :alt => 'Oskar Szrajer' }
+    .description
+      %p
+        Specializes in: Scalability, Rails
+      %p
+        Oskar is a great mentor, self-reliant and communicative. He is a very active participant in the specialistic forums. Oskar perfectly copes with processing big amount of data in real time. He is interested in japanese martial arts, is a black belt master.
+    %ul.links
+      %li.blog
+        %a{:href => 'http://gotar.info/' } Oskar (Gotar) Szrajer
+      %li.github
+        %a{:href => 'https://github.com/gotar'} Github
   #atw.member
     %h3 Antoni Wójcik
     %h4 Frontend Developer
-    %img{:src => '{relocatable: /images/team/atw.png}', :alt => 'Antoni Wójcik'}
+    %img{:src => '{relocatable: /images/team/atw.jpg}', :alt => 'Antoni Wójcik'}
     .description
       %p
-        Web developer since 2006. Focuses on writing clean, semantic HTML and
-        maintainable CSS. Interested in providing simple and usable user interface.
+        Specializes in: Frontend, CSS/HTML
       %p
-        Cognitive science student.
+        Quiet but thorough. You can sometimes notice his presence in the project only by effects of his work: your interfaces become clear and useful and your HTML and CSS code passes even the most detailed inspection without remarks. In his spare time a cognitivists.
       %ul.links
         %li.github
           %a{:href => 'https://github.com/atw'} Github
-
-  #staszek.member
-    %h3 Stanisław Kolarzowski
-    %h4 Developer
-    %img{:src => '{relocatable: /images/team/staszek.jpg}', :alt => 'Stanisław Kolarzowski'}
-    .description
-      %p
-        Staszek has started his adventure with web development in 2003.  He had been flash developer for 2 years, before he decided to find new interesting technology. After years of searching and trying many of them like C++, Java, Assembler, PLC, Php and more he found Ruby in begining of 2009. He loved it and joined Ragnarson team in September 2009. Staszek likes spend his free time actively, especially doing some extreme sports. When he is not jumping on his bike, he probably is watching new episode of South Park or Family Guy.
-      %ul.links
-        %li.github
-          %a{:href => 'https://github.com/staszek'} Github
-
-  #daan.member
-    %h3 Marcin Michałowski
-    %h4 Developer
-    %img{:src => '{relocatable: /images/team/daan.jpg}', :alt => 'Marcin Michałowski'}
-    .description
-      %p
-        Professionally connected with the servers administration and web
-        development since 2002. Fan of the web standards, open licensing
-        and GTD methodology. Programmed in a variety of strange things like
-        PHP or TCL where everything is a string. Very satisfied Ruby
-        developer since 2006.
-      %p
-        He enjoys watching a good TV series. Likes listening to jazz,
-        psychill and goa trance.
-      %ul.links
-        %li.github
-          %a{:href => 'https://github.com/h13ronim'} Github
 
   #sabcio.member
     %h3 Sebastian Wojtczak
@@ -182,105 +268,23 @@ link_attrs:
     %img{ :src => '{relocatable: /images/team/sebastian.jpg}', :alt => 'Sebastian Wojtczak' }
     .description
       %p
-        Began web developing in plain HTML in junior high school. Tried PHP and after two projects had enough. Luckily found out Ruby on Rails in 2009 and now appreciates his work. In his free time loves hiking, quad riding or snowboarding depending on the season and running recently.
+        Specializes in: Rails, Cloud computing
+      %p
+        Sebastian is a fast learner who is not afraid of challenges. He always stays calm and puts on a brave face. Smoothly assimilates in new projects. Although he is young, he is very good in programming.
       %ul.links
         %li.github
           %a{:href => 'https://github.com/sabcio'} Github
 
-
 .members_row
-  #bart.member
-    %h3 Bartłomiej Kozal
-    %h4 Developer
-    %img{:src => '{relocatable: /images/team/bart.jpg}', :alt => 'Bartłomiej Kozal'}
-    .description
-      %p
-        Computer guy. Started programming in Ruby in 2009 and felt butterflies for it. Lately he works on interface design as a front-end ninja (throwing ninja stars are cool and funny). In his free time he plays unusual sports, hacky sack or frisbee. Huge fan of American culture - especially California.
-    %ul.links
-      %li.blog
-        %a{:href => 'http://bkozal.github.com/'} Blog
-      %li.github
-        %a{:href => 'https://github.com/bkozal'} Github
-
-
-  #placek.member
-    %h3 Paweł Placzyński
-    %h4 Developer, Team Leader
-    %img{ :src => '{relocatable: /images/team/placek.png}', :alt => 'Paweł Placzyński' }
-    .description
-      %p
-        When he was ten he's got Timex Sinclar 2068 on his birthday and immediately found programming in BASIC (on audio tapes) fun. Ruby and Ruby on Rails are his one of newest discovers - he started using it in 2009. Huge fan of global, open-source solutions as well as Tolkien's fantasy world. He loves bicycles, sailing, archery. He plays electric and bas guitar.
-      %ul.links
-        %li.github
-          %a{:href => 'https://github.com/placek'} Github
-
   #wojak.member
     %h3 Wojtek Zieliński
     %h4 Frontend Developer
     %img{ :src => '{relocatable: /images/team/wojak.jpg}', :alt => 'Wojtek Zieliński' }
     .description
       %p
-        CSS designer in love with Ruby, Haml and Sass. Discovered Ruby in 2009, before that he worked with ActionScript and PHP. Passionate of art, design and heavy metal. After dark, he transforms into a crazy alchemist - mixing 2D, 3D and FX with code into explosive substances.
+        Specializes in: Frontend, CSS/HTML, Graphics
+      %p
+        Talented frontend developer. He creates interesting and attractive interfaces. He has such a good knowledge of Rails that can help other Ruby on Rails developers in their work.
       %ul.links
         %li.github
           %a{:href => 'https://github.com/Baael'} Github
-
-  #mrplum.member
-    %h3 Łukasz Śliwa
-    %h4 Developer
-    %img{ :src => '{relocatable: /images/team/mrplum.jpg}', :alt => 'Łukasz Śliwa' }
-    .description
-      %p
-        Łukasz wrote his first program (simple calculator) in 1999. He wrote his first commercial program in 2004. Since then he has been improving his programming skills and technics in many different ways. He discovered Ruby in 2008. Big fan of innovation, technology startups and growing companies. In his spare time he reads books, runs and swims. Loves solving problems.
-    %ul.links
-      %li.blog
-        %a{:href => 'http://lukaszsliwa.pl/' } Łukasz Śliwa
-      %li.blog
-        %a{:href => 'http://github.com/mrplum' } Github
-
-.members_row
-  #gotar.member
-    %h3 Oskar Szrajer
-    %h4 Developer
-    %img{ :src => '{relocatable: /images/team/gotar.jpg}', :alt => 'Oskar Szrajer' }
-    .description
-      %p
-        As long as he can remember he always programming something. In 2007, fell in love with Ruby for good and bad. Devoted to Open Source, *nix OS administrator. In his spare time works as a graphic 2d/3d watching TV series or anime and reading fantasy books and mangas.
-
-      %p
-        From a child in love with japanese culture. Black belt master in japanese martial arts. Follower of Zen and harmony in all what he was doing.
-    %ul.links
-      %li.blog
-        %a{:href => 'http://gotar.info/' } Oskar (Gotar) Szrajer
-      %li.github
-        %a{:href => 'https://github.com/gotar'} Github
-
-  #maciek.member
-    %h3 Maciej Gałkiewicz
-    %h4 Sysadmin
-    %img{ :src => '{relocatable: /images/team/maciek.jpg}', :alt => 'Maciej Gałkiewicz' }
-    .description
-      %p
-        Sysadmin at Ragnarson since early 2010. Especially interested in computer networks and virtualization. Enjoys using Debian on a daily basis. In his free time tries to keep in shape.
-   
-  #konrad.member
-    %h3 Konrad Król
-    %h4 Developer
-    %img{ :src => '{relocatable: /images/team/konrad.jpg}', :alt => 'Konrad Król' }
-    .description
-      %p
-        Konrad has been interested in Ruby since February 2011. He really likes the simplicity of the code written in that language, as well as a large number of open source extensions available. After he joined Ragnarson company, he learned the Scrum methodology and BDD, what really fascinated him. One of many things in the world, that makes him happy is when his tests turn green. Fan of martial arts and motorization.
-      %ul.links
-        %li.github
-          %a{:href => 'https://github.com/kkrol89'} Github
-
-  #mateusz.member
-    %h3 Mateusz Grotek
-    %h4 Developer
-    %img{ :src => '{relocatable: /images/team/mateusz.jpg}', :alt => 'Mateusz Grotek' }
-    .description
-      %p
-        Mateusz started using Linux when he was 15 and never stopped. He is in 100% dedicated to open-source solutions. Knows and likes many programming languages. In 2010 he got interested in dynamic languages: Smalltalk and Ruby. His experience with Ruby on Rails allows him to create functional and modern web services meeting every client expectation. He likes well-written science-fiction and music.
-      %ul.links
-        %li.github
-          %a{:href => 'https://github.com/unoduetre'} Github
