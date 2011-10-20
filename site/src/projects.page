@@ -87,6 +87,17 @@ link_attrs:
       %li Integrated with Adyen payment system
     %a.visit_site{:href => 'http://www.bellegs.de/'} Visit site
 
+#gourmeo.project
+  %h3 Gourmeo
+  %a.image{:href => 'http://www.gourmeo.com/de'}
+    %img{:src => '{relocatable:/images/projects/gourmeo.jpg}', :alt => 'gourmeo.de screenshot'}/
+  .description
+    %p
+      Gourmeo is an innovative online reservation service for first-class
+      restaurants with exquisite kitchens internationally. With Gourmeo,
+      conveniently reserve a table online in the restaurant of your choice, and
+      enjoy refined culinary variety.
+
 #ekartenwelt.project
   %h3 eKartenwelt
   %a.image{:href => 'http://www.ekartenwelt.de/'}
