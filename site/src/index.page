@@ -36,6 +36,12 @@ template: home.template
             <img src="{relocatable:/images/projects/front_page_jobmensa.jpg}" />
             Project that is close to our hearts. Working closely with StudiTemps GmbH we have built one of the best German job boards for students.</p>
         </div>
+        <div class="slide">
+          <h3>Bellegs</h3>
+          <p>
+            <img src="{relocatable:/images/projects/front_page_bellegs.png}" />
+            Implemented in Spree (open source e-commerce for Ruby on Rails) shop with finest italian stocking, tights, socks etc. Integrated with Adyen payment system.</p>
+        </div>
       </div>
     </div>
   </div>
