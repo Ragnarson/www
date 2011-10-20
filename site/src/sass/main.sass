@@ -280,7 +280,7 @@ footer
       margin: -0.7em 0 0.7em
     a.visit_site
       float: right
-      background: #dcd6b3 image-url("arrow.png") 93% 50% no-repeat
+      background: #b0a87d image-url("arrow.png") 93% 50% no-repeat
       color: white
       text-decoration: none
       padding: 0.1em 1.5em 0.1em 1em
@@ -289,7 +289,7 @@ footer
       margin-top: 1em
       +border-radius(3px)
       &:focus, &:hover, &:active
-        background-color: #c4bd99
+        background-color: darken(#b0a87d, 10%)
 
 #team
   .members_row
@@ -326,10 +326,10 @@ footer
     margin: 0.2em 0
   .section
     +grid(8, 16)
-  .responsibilities, .requirements
+  .responsibilities, .nice_to_have
     +alpha
     clear: both
-  .about, .nice_to_have
+  .about, .requirements
     +omega
   .job
     margin-bottom: 2em

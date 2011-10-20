@@ -87,6 +87,17 @@ link_attrs:
       %li Integrated with Adyen payment system
     %a.visit_site{:href => 'http://www.bellegs.de/'} Visit site
 
+#gourmeo.project
+  %h3 Gourmeo
+  %a.image{:href => 'http://www.gourmeo.com/de'}
+    %img{:src => '{relocatable:/images/projects/gourmeo.jpg}', :alt => 'gourmeo.de screenshot'}/
+  .description
+    %p
+      Gourmeo is an innovative online reservation service for first-class
+      restaurants with exquisite kitchens internationally. With Gourmeo,
+      conveniently reserve a table online in the restaurant of your choice, and
+      enjoy refined culinary variety.
+
 #ekartenwelt.project
   %h3 eKartenwelt
   %a.image{:href => 'http://www.ekartenwelt.de/'}
@@ -123,6 +134,18 @@ link_attrs:
       %li Own poker league with various rankings and leader-boards
     %a.visit_site{:href => 'http://www.pokerring.com/'} Visit site
 
+#stizun.project
+  %h3 Lincomp
+  %a.image{:href => 'http://lincomp.ch/'}
+    %img{:src => '{relocatable:/images/projects/stizun.jpg}', :alt => 'Lincomp.ch screenshot'}/
+  .description
+    %p Shop specializing in custom-made PCs and notebooks. Easy management thanks to
+    %ul
+      %li Possibility to create compound products
+      %li Managing supply items from suppliers, so that product creation is easy
+      %li Importing products from CSV files
+    %a.visit_site{:href => 'http://lincomp.ch'} Visit site
+
 %h2 Previous projects
 
 #pokerolymp.project
@@ -147,3 +170,4 @@ link_attrs:
       %li Forums
       %li Picture, movie sharing
     %a.visit_site{:href => 'http://www.mamily.de/'} Visit site
+
