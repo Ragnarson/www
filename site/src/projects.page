@@ -97,6 +97,7 @@ link_attrs:
       restaurants with exquisite kitchens internationally. With Gourmeo,
       conveniently reserve a table online in the restaurant of your choice, and
       enjoy refined culinary variety.
+    %a.visit_site{:href => 'http://www.gourmeo.com/de'} Visit site
 
 #ekartenwelt.project
   %h3 eKartenwelt
