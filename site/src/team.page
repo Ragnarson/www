@@ -184,18 +184,6 @@ link_attrs:
           %a{:href => 'http://wijet.pl/'} Blog
         %li.github
           %a{:href => 'https://github.com/wijet'} Github
-  #mateusz.member
-    %h3 Mateusz Grotek
-    %h4 Developer
-    %img{ :src => '{relocatable: /images/team/mateusz.jpg}', :alt => 'Mateusz Grotek' }
-    .description
-      %p
-        Specializes in: Rails
-      %p
-        Mateusz is in 100% dedicated to open-source solutions. Knows and likes many programming languages. In 2010 he got interested in dynamic languages: Smalltalk and Ruby. His experience with Ruby on Rails allows him to create functional and modern web services. He likes well-written science-fiction and music.
-      %ul.links
-        %li.github
-          %a{:href => 'https://github.com/unoduetre'} Github
 
   #monika.member
     %h3 Monika Kania
@@ -222,7 +210,6 @@ link_attrs:
       %li.github
         %a{:href => 'https://github.com/gotar'} Github
 
-.members_row
   #placek.member
     %h3 Paweł Placzyński
     %h4 Developer, Team Leader
@@ -236,6 +223,7 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/placek'} Github
 
+.members_row
   #mandaryn.member
     %h3 Piotr Marciniak
     %h4 Developer
@@ -275,7 +263,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/staszek'} Github
 
-.members_row
   #wojak.member
     %h3 Wojtek Zieliński
     %h4 Frontend Developer
