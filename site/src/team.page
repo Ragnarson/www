@@ -275,3 +275,16 @@ link_attrs:
       %ul.links
         %li.github
           %a{:href => 'https://github.com/Baael'} Github
+
+  #lte.member
+    %h3 Piotr Niełacny
+    %h4 Developer
+    %img{:src => '{relocatable: /images/team/lte.jpg}', :alt => 'Piotr Niełacny'}
+    .description
+      %p
+        Specializes in: Rails, Security
+      %p
+        Piotrek started his adventure with ruby looking for books for Python. Unfortunately, he found nothing and bought a book about Ruby. Piotrek likes things related to security and cryptography. Ruby is his passion.
+      %ul.links
+        %li.github
+          %a{:href => 'https://github.com/LTe'} Github
