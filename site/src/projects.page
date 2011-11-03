@@ -37,6 +37,78 @@ link_attrs:
       %li No single point of failure
     %a.visit_site{:href => 'http://www.travelplanet24.com/'} Visit site
 
+#gourmeo.project
+  %h3 Gourmeo
+  %a.image{:href => 'http://www.gourmeo.com/de'}
+    %img{:src => '{relocatable:/images/projects/gourmeo.jpg}', :alt => 'gourmeo.de screenshot'}/
+  .description
+    %p
+      Gourmeo is an innovative online reservation service for first-class
+      restaurants with exquisite kitchens internationally. With Gourmeo,
+      conveniently reserve a table online in the restaurant of your choice, and
+      enjoy refined culinary variety.
+    %a.visit_site{:href => 'http://www.gourmeo.com/de'} Visit site
+
+#tutoria.project
+  %h3 Tutoria
+  %a.image{:href => 'http://www.tutoria.de/'}
+    %img{:src => '{relocatable:/images/projects/tutoria.jpg}', :alt => 'Tutoria.de screenshot'}/
+  .description
+    %ul
+      %li Perfect matching based on student skills and employer expectations
+      %li Bayesian filter based job offer qualification
+      %li Geocoding for localized offers
+      %li Full invoicing platform
+    %a.visit_site{:href => 'http://www.tutoria.de/'} Visit site
+
+#stizun.project
+  %h3 Lincomp
+  %a.image{:href => 'http://lincomp.ch/'}
+    %img{:src => '{relocatable:/images/projects/stizun.jpg}', :alt => 'Lincomp.ch screenshot'}/
+  .description
+    %p Shop specializing in custom-made PCs and notebooks. Easy management thanks to
+    %ul
+      %li Possibility to create compound products
+      %li Managing supply items from suppliers, so that product creation is easy
+      %li Importing products from CSV files
+    %a.visit_site{:href => 'http://lincomp.ch'} Visit site
+
+#restaurant-kritik.project
+  %h3 Restaurant-Kritik
+  %a.image{:href => 'http://www.restaurant-kritik.de/'}
+    %img{:src => '{relocatable:/images/projects/restaurant-kritik.jpg}', :alt => 'Restaurant-Kritik.de screenshot'}/
+  .description
+    %p Largest collection of restaurant reviews in Germany
+    %ul
+      %li Localized collection of restaurants with detailed info
+      %li Reviews by well known critics
+      %li Up-to-date culinary events
+      %li Full social network for good cusine lovers
+    %a.visit_site{:href => 'http://www.restaurant-kritik.de/'} Visit site
+
+#bellegs.project
+  %h3 Bellegs
+  %a.image{:href => 'http://www.bellegs.de/'}
+    %img{:src => '{relocatable:/images/projects/bellegs.jpg}', :alt => 'Bellegs.de screenshot'}/
+  .description
+    %p Shop with finest italian stocking, tights, socks etc.
+    %ul
+      %li Implemented in Spree (open source e-commerce for Ruby on Rails)
+      %li Integrated with Adyen payment system
+    %a.visit_site{:href => 'http://www.bellegs.de/'} Visit site
+
+#ekartenwelt.project
+  %h3 eKartenwelt
+  %a.image{:href => 'http://www.ekartenwelt.de/'}
+    %img{:src => '{relocatable:/images/projects/ekartenwelt.jpg}', :alt => 'eKartenwelt.de screenshot'}/
+  .description
+    %p Online cards service with Djabbi family members.
+    %ul
+      %li Cards customization
+      %li User area with addressbook, bookmarks and card directories
+      %li High performance (up to 650k sent cards per month)
+    %a.visit_site{:href => 'http://www.ekartenwelt.de/'} Visit site
+
 #jobeinstieg.project
   %h3 Jobeinstieg
   %a.image{:href => 'http://www.jobeinstieg.de/'}
@@ -63,66 +135,6 @@ link_attrs:
       %li Full invoicing platform
     %a.visit_site{:href => 'http://www.jobmensa.de/'} Visit site
 
-#restaurant-kritik.project
-  %h3 Restaurant-Kritik
-  %a.image{:href => 'http://www.restaurant-kritik.de/'}
-    %img{:src => '{relocatable:/images/projects/restaurant-kritik.jpg}', :alt => 'Restaurant-Kritik.de screenshot'}/
-  .description
-    %p Largest collection of restaurant reviews in Germany
-    %ul
-      %li Localized collection of restaurants with detailed info
-      %li Reviews by well known critics
-      %li Up-to-date culinary events
-      %li Full social network for good cusine lovers
-    %a.visit_site{:href => 'http://www.restaurant-kritik.de/'} Visit site
-
-#bellegs.project
-  %h3 Bellegs
-  %a.image{:href => 'http://www.bellegs.de/'}
-    %img{:src => '{relocatable:/images/projects/bellegs.jpg}', :alt => 'Bellegs.de screenshot'}/
-  .description
-    %p Shop with finest italian stocking, tights, socks etc.
-    %ul
-      %li Implemented in Spree (open source e-commerce for Ruby on Rails)
-      %li Integrated with Adyen payment system
-    %a.visit_site{:href => 'http://www.bellegs.de/'} Visit site
-
-#gourmeo.project
-  %h3 Gourmeo
-  %a.image{:href => 'http://www.gourmeo.com/de'}
-    %img{:src => '{relocatable:/images/projects/gourmeo.jpg}', :alt => 'gourmeo.de screenshot'}/
-  .description
-    %p
-      Gourmeo is an innovative online reservation service for first-class
-      restaurants with exquisite kitchens internationally. With Gourmeo,
-      conveniently reserve a table online in the restaurant of your choice, and
-      enjoy refined culinary variety.
-    %a.visit_site{:href => 'http://www.gourmeo.com/de'} Visit site
-
-#ekartenwelt.project
-  %h3 eKartenwelt
-  %a.image{:href => 'http://www.ekartenwelt.de/'}
-    %img{:src => '{relocatable:/images/projects/ekartenwelt.jpg}', :alt => 'eKartenwelt.de screenshot'}/
-  .description
-    %p Online cards service with Djabbi family members.
-    %ul
-      %li Cards customization
-      %li User area with addressbook, bookmarks and card directories
-      %li High performance (up to 650k sent cards per month)
-    %a.visit_site{:href => 'http://www.ekartenwelt.de/'} Visit site
-
-#tutoria.project
-  %h3 Tutoria
-  %a.image{:href => 'http://www.tutoria.de/'}
-    %img{:src => '{relocatable:/images/projects/tutoria.jpg}', :alt => 'Tutoria.de screenshot'}/
-  .description
-    %ul
-      %li Perfect matching based on student skills and employer expectations
-      %li Bayesian filter based job offer qualification
-      %li Geocoding for localized offers
-      %li Full invoicing platform
-    %a.visit_site{:href => 'http://www.tutoria.de/'} Visit site
-
 #pokerring.project
   %h3 PokerRing
   %a.image{:href => 'http://www.pokerring.com/'}
@@ -134,18 +146,6 @@ link_attrs:
       %li Games, quizzes and poker school
       %li Own poker league with various rankings and leader-boards
     %a.visit_site{:href => 'http://www.pokerring.com/'} Visit site
-
-#stizun.project
-  %h3 Lincomp
-  %a.image{:href => 'http://lincomp.ch/'}
-    %img{:src => '{relocatable:/images/projects/stizun.jpg}', :alt => 'Lincomp.ch screenshot'}/
-  .description
-    %p Shop specializing in custom-made PCs and notebooks. Easy management thanks to
-    %ul
-      %li Possibility to create compound products
-      %li Managing supply items from suppliers, so that product creation is easy
-      %li Importing products from CSV files
-    %a.visit_site{:href => 'http://lincomp.ch'} Visit site
 
 %h2 Previous projects
 
@@ -171,4 +171,3 @@ link_attrs:
       %li Forums
       %li Picture, movie sharing
     %a.visit_site{:href => 'http://www.mamily.de/'} Visit site
-
