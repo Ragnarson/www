@@ -291,6 +291,16 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/staszek'} Github
 
+  #szymon_szypulski.member
+    %h3 Szymon Szypulski
+    %h4 Sysadmin
+    %img{:src => '{relocatable: /images/team/szymon_szypulski.jpg}', :alt => 'Szymon Szypulski'}
+    .description
+      %p
+        Specializes in: Linux & Windows Administration
+      %p
+        Geek who tinkers with open source software on day-to-day basis. Loves new technical gadgets and innovations. Apart from IT, big fan of big and a bit smaller firearms.
+
   #wojak.member
     %h3 Wojtek Zieliński
     %h4 Frontend Developer
