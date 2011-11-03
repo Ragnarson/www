@@ -210,6 +210,21 @@ link_attrs:
       %li.github
         %a{:href => 'https://github.com/gotar'} Github
 
+  #pawel_luczak.member
+    %h3 Paweł Łuczak
+    %h4 Developer
+    %img{ :src => '{relocatable: /images/team/pawel_luczak.jpg}', :alt => 'Paweł Łuczak' }
+    .description
+      %p
+        Specializes in: Rails
+      %p
+        Paweł is fascinated by by Ruby's
+        %abbr(title="There's more than one way to do it") TIMTOWTDI
+        \. He is very good at HTML/CSS, JavaScript and integration of
+        applications with popular social networks. He likes engaging in new
+        sturtups and analyse theirs success possibilities.
+
+.members_row
   #placek.member
     %h3 Paweł Placzyński
     %h4 Developer, Team Leader
@@ -223,7 +238,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/placek'} Github
 
-.members_row
   #mandaryn.member
     %h3 Piotr Marciniak
     %h4 Developer
@@ -263,6 +277,7 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/sabcio'} Github
 
+.members_row
   #staszek.member
     %h3 Stanisław Kolarzowski
     %h4 Developer
@@ -276,7 +291,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/staszek'} Github
 
-.members_row
   #wojak.member
     %h3 Wojtek Zieliński
     %h4 Frontend Developer
