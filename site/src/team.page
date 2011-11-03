@@ -40,7 +40,7 @@ link_attrs:
   #barbara.member
     %h3 Barbara Niewiadomska
     %h4 Assistant
-    %img{:src => '{relocatable: /images/team/barbara.jpg}', :alt => 'Monika Kania'}
+    %img{:src => '{relocatable: /images/team/barbara.jpg}', :alt => 'Barbara Niewiadomska'}
     .description
       %p
         Specializes in: Running the company
