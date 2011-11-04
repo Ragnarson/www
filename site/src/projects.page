@@ -109,6 +109,19 @@ link_attrs:
       %li High performance (up to 650k sent cards per month)
     %a.visit_site{:href => 'http://www.ekartenwelt.de/'} Visit site
 
+#experteer.project
+  %h3 Experteer
+  %a.image{:href => 'http://www.experteer.de/'}
+    %img{:src => '{relocatable:/images/projects/experteer.jpg}', :alt => 'Experteer.de screenshot'}/
+  .description
+    %p World wide experts recruiting portal.
+    %ul
+      %li google friendly job posting catalog
+      %li log statistics aggregations
+      %li large data imports from another sites
+      %li upgrade rails version in main application
+    %a.visit_site{:href => 'http://www.experteer.de/'} Visit site
+
 #jobeinstieg.project
   %h3 Jobeinstieg
   %a.image{:href => 'http://www.jobeinstieg.de/'}
