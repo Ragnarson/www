@@ -58,7 +58,7 @@ link_attrs:
     %ul
       %li Google-friendly job posting catalog
       %li log statistics aggregations
-      %li large data imports from another sites
+      %li large data imports from partners
       %li Ruby on Rails upgrade on main application
     %a.visit_site{:href => 'http://www.experteer.de/'} Visit site
 
