@@ -335,6 +335,41 @@ footer
     margin-bottom: 2em
     +clearfix
 
+#development
+  p.intro
+    font-size: 1.4em
+    text-align: center
+    margin: 70px 0 50px
+  #process
+    +reset-box-model
+    margin: 30px 0 20px
+    background: transparent image-url("development/arrows.png") 50% 57px no-repeat
+    +clearfix
+  .step
+    +grid(4, 16)
+    padding-top: 160px
+    background:
+      color: transparent
+      image: image-url("development/icons.png")
+      repeat: no-repeat
+    line-height: 1.75em
+    h2
+      font-weight: normal
+      text-align: center
+      margin: 20px 0
+    p, li
+      color: #555
+  #initial-analysis
+    +alpha
+    background-position: 0 0
+  #deep-project-analysis
+    background-position: -220px 0
+  #implementation
+    background-position: -440px 0
+  #maintenance
+    +omega
+    background-position: -660px 0
+
 #contact
   a.email
     white-space: nowrap

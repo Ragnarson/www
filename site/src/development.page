@@ -11,27 +11,41 @@ link_attrs:
 %p Why it's good to work with us?
 
 --- name:content pipeline:tags,haml
-%h2 We provide working implementation as soon as possible.
+%p.intro We offer you professional services of our developers. We work according to following programme.
 
-%h3 Scrum Applied
+%ul#process
+  %li.step#initial-analysis
+    %h2 Initial analysis
+    %p Problem analysis based on interview with client.
+    %ul
+      %li We get to know each other and analyze the problem together.
+      %li We help you to define the needs and requirements.
+      %li To make sure that we can help you we compare your needs to our people and their skills.
 
-%p 
-  We use
-  %a(href="http://www.controlchaos.com/about/") Scrum
-  on daily basis. This means we have a sustained productivity and weekly sanity check on project's progress. This also means we have a constant output and we are providing visible results on at least weekly basis.
 
-%h3 Benefits for customers
+  %li.step#deep-project-analysis
+    %h2 Deep project analysis
+    %p In this step the developer helps to find the most effective solutions and creates with you a full list of user stories.
+    %ul
+      %li One or two of our developers sit down with you and divide the project into simple tasks.
+      %li We estimate cost of each task in hours what helps you to manage the project budget.
+      %li The developers try to find the best solutions supporting your business model.
 
-%ul
-  %li You always know where the project is heading
-  %li You see progress on weekly basis
-  %li You can easily change direction where project is going
-  %li You can easing prioritize features and have them delivered fast
-  
-%h3 Benefits for developers
 
-%ul
-  %li No stress - you estimate time required to implement things
-  %li No burnout - you work 40h per week, max
-  %li Fast learning - good communication means fast knowledge flow
-  %li Simple goals - you always have a list of things to do and it's always short enough to manage
+  %li.step#implementation
+    %h2 Implementation
+    %p We stick to our professionalism – we favor quality over short-term results. Our methodologies of choice are Scrum, Kanban or lean approach.
+    %ul
+      %li We make sure your project can be easy hand over and maintainable.
+      %li We use BDD (form of TDD) focused on integration testing – outside-in approach.
+      %li We can go for constant delivery (when using Scrum) but we prefer more lean approach of constant deploy.
+      %li You have full control over costs by prioritizing things during implementation.
+
+
+  %li.step#maintenance
+    %h2 Maintenance
+    %p We provide professional maintenance and service.
+    %ul
+      %li We focus on bugs fixing, modifying, upgrading and rewriting.
+      %li Constant monitoring helps us to make sure that your project is doing well.
+      %li We also specialize in building the cluster systems.
