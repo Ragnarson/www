@@ -38,7 +38,7 @@ link_attrs:
     %ul
       %li We make sure your project can be easy hand over and maintainable.
       %li We use BDD (form of TDD) focused on integration testing – outside-in approach.
-      %li We can go for constant delivery (when using Scrum) but we prefer more lean approach of constant deploy.
+      %li We can go for continous delivery (when using Scrum) but we prefer more lean approach of continous deploy.
       %li You have full control over costs by prioritizing things during implementation.
 
 
@@ -46,6 +46,6 @@ link_attrs:
     %h2 Maintenance
     %p We provide professional maintenance and service.
     %ul
-      %li We focus on bugs fixing, modifying, upgrading and rewriting.
-      %li Constant monitoring helps us to make sure that your project is doing well.
+      %li We focus on bugs fixing, modifying, upgrading and refactoring.
+      %li Continous monitoring helps us to make sure that your project is doing well.
       %li We also specialize in building the cluster systems.
