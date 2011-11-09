@@ -259,7 +259,7 @@ footer
       bottom: 4em
     +border_bottom_dark
     +border_top_light
-    &#winnie, &#pokerolymp
+    &#backpack, &#pokerolymp
       border-top: none
     &#mamily
       border-bottom: none
@@ -290,6 +290,35 @@ footer
       +border-radius(3px)
       &:focus, &:hover, &:active
         background-color: darken(#b0a87d, 10%)
+  #backpack
+    h3, .description
+      +grid(8, 12)
+      +alpha
+    h3
+      font-size: 1.6em
+    .image
+      float: right
+      background: #fff
+      padding: 9px
+      width: auto
+      height: auto
+      +omega
+    p
+      margin-bottom: 1.5em
+      font-size: 1.1em
+
+#backpack-page
+  #main
+    img
+      float: right
+      background: #fff
+      padding: 9px
+      +border_dark
+      margin-top: 1em
+    .description
+      +grid(8, 12)
+      +alpha
+      font-size: 1.1em
 
 #team
   .members_row

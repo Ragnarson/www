@@ -1,0 +1,62 @@
+---
+title: BackPack use case
+description: Projects we currently develop and maintain
+body_id: backpack-page
+in_menu: false
+sort_info: 10
+
+--- name:content pipeline:tags,haml
+
+%img{:src => '{relocatable:/images/projects/backpack.png}', :alt => 'BackPack'}
+.description
+  %p
+    Statistics is a powerful tool when used properly. The only problem with
+    statistics is sheer number of data you have to go through to get useful
+    information.
+  %p
+    Tripsta generates around 30GB of search data throughout the day.
+    This data is used to present users with flights of their choice and
+    otherwise remains unused. However it is a source of valuable business
+    intelligence - it just needs to be properly summarized.
+  %p
+    Major problem is amount of data. In addition each search result
+    consists of a large tree of items with collections in both branches
+    and leaves. Using SQL to store this means large normalization effort.
+    Queries that get results from such database need to go through large
+    number of joins making it slow and unmaintainable.
+  %p
+    Using document/NoSQL databases might look as better option. However
+    nesting of the data means problems with generating reports. Tests
+    with CouchDB done by other teams resulted in responses measured in
+    tens of seconds per report.
+  %p
+    Statistics like this can only be useful for automated use if are
+    generated within milliseconds. Our goal was to get below 250ms per
+    statistic.  Considering that we are dealing with 5,5 TB of data
+    from half of the year that is necessary to get accurate statistics
+    it's not trivial.
+  %p
+    In addition collection of data should be fast to not disrupt user
+    searches. Here our goal was to get below 50ms per search collection.
+  %p
+    We have built a separate service based on Goliath that handles data
+    collection and statistics. We have based our solution on map/reduce
+    pattern. Results are collected as fast as possible and dumped to
+    filesystem. Their processing is queued up using Resque/Redis.
+    Response time is a steady 1ms, way below our limit.
+  %p
+    Each result needs to be processed and intelligence data needs to
+    be extracted from it. It takes 300ms for each Resque worker to
+    extract necessary information. As this is done in background it
+    doesn't impact overall application performance and when necessary
+    can be scaled to multiple computing nodes without a problem.
+  %p
+    For each report worker extracts only minimum amount of data and puts
+    it into highly optimized table in standard SQL store. Since each
+    report has it's own table querying it is extremely fast. Depending on
+    the report we are getting results in  range of 0,7-45ms. Again this
+    is way below our goal.
+  %p
+    What looked like impossible task in the beginning in the end become
+    a small project. Right tools for this job made final code concise,
+    fast and easy to maintain.

@@ -11,6 +11,23 @@ link_attrs:
 %p Projects we currently develop and maintain
 
 --- name:content pipeline:tags,haml
+
+#backpack.project
+  %h3 BackPack use case
+  %a.image{:href => '{relocatable: /projects/backpack.html}'}
+    %img{:src => '{relocatable:/images/projects/backpack.png}', :alt => 'BackPack'}/
+  .description
+    %p
+      Statistics is a powerful tool when used properly. The only problem with
+      statistics is sheer number of data you have to go through to get useful
+      information.
+    %p
+      Tripsta generates around 30GB of search data throughout the day.
+      This data is used to present users with flights of their choice and
+      otherwise remains unused. However it is a source of valuable business
+      intelligence - it just needs to be properly summarized.
+    %a.visit_site{:href => '{relocatable: /projects/backpack.html}'} Read more
+
 #winnie.project
   %h3 Winnie Cloud
   %a.image{:href => 'http://www.winniecloud.com/'}
