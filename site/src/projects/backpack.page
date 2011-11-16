@@ -60,3 +60,4 @@ sort_info: 10
     What looked like impossible task in the beginning in the end become
     a small project. Right tools for this job made final code concise,
     fast and easy to maintain.
+  %a.back{:href => '{relocatable: /projects.html}'} Back to projects
