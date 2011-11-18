@@ -7,9 +7,6 @@ sort_info: 30
 link_attrs:
   :link_text: <em>Development</em> How we work
 
---- name:subtitle pipeline:tags,haml
-%p Why it's good to work with us?
-
 --- name:content pipeline:tags,haml
 %p.intro We offer you professional services of our developers. We work according to following programme.
 

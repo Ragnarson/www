@@ -7,9 +7,6 @@ sort_info: 10
 link_attrs:
   :link_text: <em>Projects</em> What we do
 
---- name:subtitle pipeline:tags,haml
-%p Projects we currently develop and maintain
-
 --- name:content pipeline:tags,haml
 
 #backpack

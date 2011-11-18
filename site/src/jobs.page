@@ -7,9 +7,6 @@ sort_info: 30
 link_attrs:
   :link_text: <em>Jobs</em> Join our team
 
---- name:subtitle pipeline:tags,haml
-%p So you want to join us?
-
 --- name:content pipeline:tags,haml
 #developer.job
   %h1 Developer

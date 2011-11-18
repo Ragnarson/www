@@ -7,9 +7,6 @@ sort_info: 40
 link_attrs:
   :link_text: <em>Open Source</em> We share
 
---- name:subtitle pipeline:tags,haml
-%p We share our code with community
-
 --- name:content pipeline:tags,haml
 #representations.project
   %h3 Representations

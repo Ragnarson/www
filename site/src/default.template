@@ -29,13 +29,8 @@
 
     <div id="main">
       <div class="inner">
-        <div class="title">
-          <h1>{title:}</h1>
-          <webgen:block name='subtitle' node='first' notfound='ignore' />
-        </div>
-        <div class="content">
-          <webgen:block name="content" />
-        </div>
+        <h1>{title:}</h1>
+        <webgen:block name="content" />
       </div>
     </div>
 
