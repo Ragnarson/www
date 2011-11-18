@@ -17,7 +17,7 @@ link_attrs:
   .description
     %p Rails helpers paradigm switch and syntax change to object oriented and model specific.
     %p 
-      %a.visit_site(href="http://github.com/bragi/representations") See github page
+      %a(href="http://github.com/bragi/representations") See github page
 
 #validates_xml.project
   %h3 Validates XML
@@ -25,7 +25,7 @@ link_attrs:
   .description
     %p Rails plugin to validate XML correctness of ActiveRecord fields.
     %p 
-      %a.visit_site(href="http://github.com/bragi/validates_xml") See github page
+      %a(href="http://github.com/bragi/validates_xml") See github page
 
 #ragnarson_com.project
   %h3 Ragnarson.com
@@ -33,7 +33,7 @@ link_attrs:
   .description
     %p This very page, it's contents and history on CC-NC-SA license
     %p 
-      %a.visit_site(href="http://github.com/bragi/Ragnarson.com") See github page
+      %a(href="http://github.com/bragi/Ragnarson.com") See github page
 
 #app.project
   %h3 App
@@ -41,7 +41,7 @@ link_attrs:
   .description
     %p Simple application configuration for Rails apps
     %p 
-      %a.visit_site(href="http://github.com/bragi/app") See github page
+      %a(href="http://github.com/bragi/app") See github page
 
 #others.project
   %h3 Our github accounts
