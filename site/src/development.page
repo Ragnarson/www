@@ -8,7 +8,7 @@ link_attrs:
   :link_text: <em>Development</em> How we work
 
 --- name:content pipeline:tags,haml
-%p.intro We offer you professional services of our developers. We work according to following programme.
+%h1 How do we work
 
 %ul#process
   %li.step#initial-analysis

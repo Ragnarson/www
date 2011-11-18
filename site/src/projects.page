@@ -8,6 +8,7 @@ link_attrs:
   :link_text: <em>Projects</em> What we do
 
 --- name:content pipeline:tags,haml
+%h1 Projects
 
 #backpack
   %h3 BackPack use case

@@ -8,6 +8,8 @@ link_attrs:
   :link_text: <em>Team</em> Who we are
 
 --- name:content pipeline:tags,haml
+%h1 Team members
+
 .members_row
   #atw.member
     %h3 Antoni Wójcik

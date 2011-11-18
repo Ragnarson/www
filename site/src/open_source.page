@@ -8,6 +8,8 @@ link_attrs:
   :link_text: <em>Open Source</em> We share
 
 --- name:content pipeline:tags,haml
+%h1 Open Source
+
 #representations.project
   %h3 Representations
   %a(href="http://github.com/bragi/representations")

@@ -8,6 +8,8 @@ link_attrs:
   :link_text: <em>Jobs</em> Join our team
 
 --- name:content pipeline:tags,haml
+%h1 Jobs
+
 #developer.job
   %h1 Developer
 
