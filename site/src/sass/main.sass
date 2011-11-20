@@ -259,6 +259,14 @@ footer
     margin-bottom: 0
 
 #projects
+  .heading
+    +grid(12, 12)
+    +border_bottom_dark
+  h1
+    margin-bottom: 0
+  p.subtitle
+    margin: 0 0 0.2em
+    color: #999999
   h2
     +grid(12, 12)
     clear: left
@@ -293,8 +301,10 @@ footer
     p
       margin: -0.7em 0 0.7em
   #backpack
+    clear: left
     +clearfix
     +border_bottom_dark
+    +border_top_light
     padding: 4em 0
     h3, .description
       +grid(9, 16)
@@ -317,6 +327,10 @@ footer
 
 #backpack-page
   #main
+    .inner
+      padding-bottom: 2em
+    h1
+      +grid(16, 16)
     img
       float: right
       background: #fff
@@ -324,10 +338,21 @@ footer
       +border_dark
       margin-top: 2em
     .description
-      +grid(9, 16)
-      +alpha
       font-size: 1.1em
       margin-top: 1em
+      p
+        +grid(9, 16)
+    .back
+      clear: left
+    .charts
+      +reset-box-model
+      clear: left
+      list-style: none
+      li
+        +grid(4, 12)
+        +clearfix
+      img
+        float: none
 
 #team
   .members_row

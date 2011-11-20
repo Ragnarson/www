@@ -7,7 +7,9 @@ sort_info: 10
 
 --- name:content pipeline:tags,haml
 
-%img{:src => '{relocatable:/images/projects/backpack.png}', :alt => 'BackPack'}
+%h1 BackPack use case
+
+%img{:src => '{relocatable:/images/projects/backpack-2.png}', :alt => 'BackPack'}
 .description
   %p
     Statistics is a powerful tool when used properly. The only problem with
@@ -44,6 +46,13 @@ sort_info: 10
     pattern. Results are collected as fast as possible and dumped to
     filesystem. Their processing is queued up using Resque/Redis.
     Response time is a steady 1ms, way below our limit.
+  %ul.charts
+    %li
+      %img{:src => '{relocatable:/images/projects/munin_backpack_requests.png}', :alt => 'Number of requests per second chart'}
+    %li
+      %img{:src => '{relocatable:/images/projects/munin_backpack_time.png}', :alt => 'Average worker time chart'}
+    %li
+      %img{:src => '{relocatable:/images/projects/munin_backpack_req_time.png}', :alt => 'Average request time chart'}
   %p
     Each result needs to be processed and intelligence data needs to
     be extracted from it. It takes 300ms for each Resque worker to
