@@ -47,6 +47,48 @@ template: home.template
   </div>
 </div>
 
+<div id="testimonials">
+  <div class="inner">
+    <ul>
+      <li>
+        <cite>
+          <img src="{relocatable:/images/testimonials/daria_saharova.jpg}" />
+        </cite>
+        <div class="testimonial">
+          <blockquote>
+            <p>
+              My experience with Ragnarson is entirely positive. They are
+              skilled professionals with collaborative attitude. They created
+              just what I needed. I can truly recommend their services.
+            </p>
+          </blockquote>
+          <cite>
+            <em>Daria Saharova</em>, Bellegs
+          </cite>
+        </div>
+      </li>
+      <li>
+        <cite>
+          <img src="{relocatable:/images/testimonials/heika_lachmund.jpg}" />
+        </cite>
+        <div class="testimonial">
+          <blockquote>
+            <p>
+              I work with Ragnarson for several years and I find it to be
+              a reliable company. The developers have a great knowledge and
+              they are always engaged in their work. I am highly pleased with
+              cooperation with them.
+            </p>
+          </blockquote>
+          <cite>
+            <em>Heika Lachmund</em>, eKartenwelt
+          </cite>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
 <div class="content">
   <div class="inner">
     <div id="scalability_experts">
