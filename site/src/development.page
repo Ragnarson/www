@@ -8,9 +8,9 @@ link_attrs:
   :link_text: <em>Development</em> How we work
 
 --- name:content pipeline:tags,haml
-%h1 How do we work
+%h1.process How do we work
 
-%ul#process
+%ul.process
   %li.step#initial-analysis
     %h2 Initial analysis
     %p Problem analysis based on interview with client.
@@ -46,3 +46,11 @@ link_attrs:
       %li We focus on bugs fixing, modifying, upgrading and refactoring.
       %li Continuous monitoring helps us to make sure that your project is doing well.
       %li We also specialize in building the cluster systems.
+
+%h1.benefits Why it's good to work with us
+
+%ul.benefits
+  %li You always know where the project is heading
+  %li You see progress on weekly basis
+  %li You can easily change direction where project is going
+  %li You can easing prioritize features and have them delivered fast
