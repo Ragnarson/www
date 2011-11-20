@@ -1,0 +1,96 @@
+#projects
+  .heading
+    +grid(12, 12)
+    +border_bottom_dark
+  h1
+    margin-bottom: 0
+  p.subtitle
+    margin: 0 0 0.2em
+    color: #999999
+  h2
+    +grid(12, 12)
+    clear: left
+    margin: 0
+    padding: 1em 0 0.1em
+    font-size: 2em
+    font-weight: normal
+    +border_top_light
+  .projects_row
+    +border_top_light
+    +border_bottom_dark
+    clear: both
+    +clearfix
+    &.previous
+      border: none
+  .project
+    +grid(4, 12)
+    +clearfix
+    margin: 3em 10px 2em
+    h3
+      font-weight: bold
+      font-size: 1.2em
+    .image
+      display: block
+      background: #fff
+      padding: 9px
+      width: 280px
+      overflow: hidden
+      +border_dark
+      img
+        width: 280px
+    p
+      margin: -0.7em 0 0.7em
+  #backpack
+    clear: left
+    +clearfix
+    +border_bottom_dark
+    +border_top_light
+    padding: 4em 0
+    h3, .description
+      +grid(9, 16)
+      margin-bottom: 0
+    h3
+      font-size: 1.6em
+    .image
+      float: right
+      background: #fff
+      padding: 9px
+      width: auto
+      height: auto
+      +border_dark
+      margin-right: 10px
+    p
+      margin-bottom: 1.5em
+      font-size: 1.1em
+    a.visit_site
+      margin-top: 0
+
+#backpack-page
+  #main
+    .inner
+      padding-bottom: 2em
+    h1
+      +grid(16, 16)
+    img
+      float: right
+      background: #fff
+      padding: 9px
+      +border_dark
+      margin-top: 2em
+    .description
+      font-size: 1.1em
+      margin-top: 1em
+      p
+        +grid(9, 16)
+    .back
+      clear: left
+      margin-left: 10px
+    .charts
+      +reset-box-model
+      clear: left
+      list-style: none
+      li
+        +grid(4, 12)
+        +clearfix
+      img
+        float: none
