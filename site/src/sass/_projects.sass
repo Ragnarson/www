@@ -68,30 +68,32 @@
 #backpack-page
   #main
     .inner
-      padding-bottom: 2em
+      padding:
+        bottom: 2em
+        top: 2em
     h1
-      +grid(16, 16)
-    img
-      float: right
-      background: #fff
-      padding: 9px
-      +border_dark
-      margin-top: 2em
+      +grid(9, 16)
+      font-size: 3em
     .description
-      font-size: 1.1em
+      font-size: 1.15em
       margin-top: 1em
       p
         +grid(9, 16)
     .back
       clear: left
       margin-left: 10px
-    .charts
+    .pictures
+      +grid(7, 16)
       +reset-box-model
-      clear: left
-      list-style: none
+      float: right
+      +no-bullets
       li
-        +grid(4, 12)
         +clearfix
       img
-        float: none
-        width: 280px
+        float: right
+        clear: right
+        background: #fff
+        padding: 9px
+        +border_dark
+        margin-top: 2em
+        width: 360px
