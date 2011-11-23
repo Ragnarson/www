@@ -65,12 +65,15 @@ header, #main
   .inner
     +clearfix
 
+#main
+  margin-top: -10px
+
 header, footer
   display: block
   background-repeat: repeat-x
 
 header
-  padding: 1.5em 0 1.8em
+  padding: 1.5em 0 0
 
 #logo
   margin: 0.7em 0 0 2em
@@ -88,11 +91,16 @@ header
 nav
   float: right
   margin-left: 5em
+  ul
+    +clearfix
+    margin-bottom: 0
   li
     float: left
     overflow: hidden
     list-style: none
     text-transform: lowercase
+    margin-bottom: 0
+    padding-bottom: 25px
   a, span
     float: left
     padding: 0 20px 0 12px
@@ -115,8 +123,10 @@ nav
     border-width: 2px
     em
       color: black
-  li.webgen-menu-item-selected span
-    border-color: black
+  li.webgen-menu-item-selected
+    background: transparent image-url("menu_selected.png") 50% 100% no-repeat
+    span
+      border-color: black
 
 #main
   clear: both
