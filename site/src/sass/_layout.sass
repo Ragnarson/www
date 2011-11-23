@@ -93,22 +93,14 @@ nav
     overflow: hidden
     list-style: none
     text-transform: lowercase
-    &.webgen-menu-item-selected
-      span
-        color: black
-        border-color: black
   a, span
     float: left
-    padding: 0 1.7em 0 1em
+    padding: 0 20px 0 12px
     border-left: 1px solid #cccccc
   a
     color: #999999
     outline: none
     text-decoration: none
-    &:focus, &:hover, &:active
-      border-color: black
-      color: black
-      background-color: #f6f6f6
   em
     display: block
     font-weight: bold
@@ -117,6 +109,14 @@ nav
     font-size: 1.4em
     margin-bottom: 0.3em
     text-transform: capitalize
+  li.webgen-menu-item-selected span, a:focus, a:hover, a:active
+    color: black
+    padding-left: 11px
+    border-width: 2px
+    em
+      color: black
+  li.webgen-menu-item-selected span
+    border-color: black
 
 #main
   clear: both
