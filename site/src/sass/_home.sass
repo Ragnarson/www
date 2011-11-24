@@ -97,13 +97,19 @@
     +no-bullets
     li
       +grid(6, 12)
+      margin:
+        bottom: 2em
+        top: 2em
       img
         width: 120px
         float: left
         margin-right: 25px
+        background: #fff
+        padding: 9px
+        +border_dark
       .testimonial
         float: left
-        width: 65%
+        width: 55%
       cite
         font-style: normal
         em
@@ -111,6 +117,11 @@
           font-weight: bold
       blockquote
         +reset-box-model
+      &.lincomp
+        +grid(6, 12)
+        +grid-prefix(3, 12)
+        .testimonial
+          width: 100%
 
 #scalability_experts, #rails_developers
   +grid(6, 12)

@@ -50,7 +50,7 @@ template: home.template
 <div id="testimonials">
   <div class="inner">
     <ul>
-      <li>
+      <li clacc="bellegs">
         <cite>
           <img src="{relocatable:/images/testimonials/daria_saharova.jpg}" />
         </cite>
@@ -59,7 +59,7 @@ template: home.template
             <p>
               My experience with Ragnarson is entirely positive. They are
               skilled professionals with collaborative attitude. They created
-              just what I needed. I can truly recommend their services.
+              just what I&nbsp;needed. I&nbsp;can truly recommend their services.
             </p>
           </blockquote>
           <cite>
@@ -67,21 +67,36 @@ template: home.template
           </cite>
         </div>
       </li>
-      <li>
+      <li class="ekartenwelt">
         <cite>
           <img src="{relocatable:/images/testimonials/heika_lachmund.jpg}" />
         </cite>
         <div class="testimonial">
           <blockquote>
             <p>
-              I work with Ragnarson for several years and I find it to be
-              a reliable company. The developers have a great knowledge and
-              they are always engaged in their work. I am highly pleased with
+              I work with Ragnarson for several years and I&nbsp;find it to be
+              a&nbsp;reliable company. The developers have a&nbsp;great knowledge and
+              they are always engaged in their work. I&nbsp;am highly pleased with
               cooperation with them.
             </p>
           </blockquote>
           <cite>
             <em>Heika Lachmund</em>, eKartenwelt
+          </cite>
+        </div>
+      </li>
+      <li class="lincomp">
+        <div class="testimonial">
+          <blockquote>
+            <p>
+              Ragnarson gives us well-integrated, tested code that drops
+              right into our own Ruby on Rails projects, and the turnaround
+              times are great. This flexibility and speed lets us improve our
+              software exactly when and how we need to.
+            </p>
+          </blockquote>
+          <cite>
+            <em>Ramón Cahenzli</em>, Lincomp
           </cite>
         </div>
       </li>
