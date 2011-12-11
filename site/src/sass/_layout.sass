@@ -65,9 +65,6 @@ header, #main
   .inner
     +clearfix
 
-#main
-  margin-top: -10px
-
 header, footer
   display: block
   background-repeat: repeat-x
@@ -93,14 +90,13 @@ nav
   margin-left: 5em
   ul
     +clearfix
-    margin-bottom: 0
+    margin-bottom: 25px
   li
     float: left
     overflow: hidden
     list-style: none
     text-transform: lowercase
     margin-bottom: 0
-    padding-bottom: 25px
   a, span
     float: left
     padding: 0 20px 0 12px
@@ -119,12 +115,12 @@ nav
     text-transform: capitalize
   li.webgen-menu-item-selected span, a:focus, a:hover, a:active
     color: black
-    padding-left: 11px
-    border-width: 2px
+    padding-left: 9px
+    border-width: 4px
     em
       color: black
   li.webgen-menu-item-selected
-    background: transparent image-url("menu_selected.png") 50% 100% no-repeat
+    background: transparent image-url("menu_selected.png") 4px 50% no-repeat
     span
       border-color: black
 
