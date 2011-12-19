@@ -63,7 +63,7 @@ template: home.template
             </p>
           </blockquote>
           <cite>
-            <em>Daria Saharova</em>, Bellegs
+            <em>Daria Saharova</em>, <a href="projects.html#bellegs">Bellegs</a>
           </cite>
         </div>
       </li>
@@ -81,7 +81,7 @@ template: home.template
             </p>
           </blockquote>
           <cite>
-            <em>Heika Lachmund</em>, eKartenwelt
+            <em>Heika Lachmund</em>, <a href="projects.html#ekartenwelt">eKartenwelt</a>
           </cite>
         </div>
       </li>
@@ -96,7 +96,7 @@ template: home.template
             </p>
           </blockquote>
           <cite>
-            <em>Ramón Cahenzli</em>, Lincomp
+            <em>Ramón Cahenzli</em>, <a href="projects.html#stizun">Lincomp</a>
           </cite>
         </div>
       </li>
@@ -113,7 +113,7 @@ template: home.template
             </p>
           </blockquote>
           <cite>
-            <em>Arved Klöhn</em>
+            <em>Arved Klöhn</em>, <a href="projects.html#pokerring">PokerRing</a> &amp; <a href="projects.html#pokerolymp">PokerOlymp</a>
           </cite>
         </div>
       </li>
