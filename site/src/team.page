@@ -37,7 +37,7 @@ link_attrs:
         Mentor and problem solver. Easily switches perspective to come up with new solutions for architecture problems. Great mentor, easily and smoothly shares knowledge teaching also those that are resistant to change.
       %ul.links
         %li.blog
-          %a{:href => 'http://blog.eax.pl/'} Blog
+          %a{:href => 'http://sevos.github.com/'} Blog
         %li.github
           %a{:href => 'https://github.com/sevos'} Github
 
