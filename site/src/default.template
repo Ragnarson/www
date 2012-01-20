@@ -18,7 +18,7 @@
       <div class="inner">
         <div id="logo">
           <a href='{relocatable:/}'>
-            <img src="{relocatable: images/ragnarson.png}" alt="Ragnarson"/>
+            <img src="{relocatable: images/ragnarson-logo.png}" alt="Ragnarson"/>
           </a>
         </div>
         <nav>

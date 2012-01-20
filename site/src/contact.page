@@ -5,7 +5,7 @@ body_id: contact
 in_menu: true
 sort_info: 100
 link_attrs:
-  :link_text: <em>Contact</em> Questions &amp; comments
+  :link_text: <em>Contact</em>
 
 --- pipeline:tags,haml
 %h1 Contact

@@ -1,54 +1,84 @@
 ---
 title: Home
 description: Ruby on Rails and scalability experts
-in_menu: true
+in_menu: false
+body_id: index
 sort_info: 0
 link_attrs:
-  :link_text: <em>Home</em> Perfect Programmers
-template: home.template
+  :link_text: <em>Home</em>
 
 ---
-<div id="intro">
+<div id="content">
   <div class="inner">
-    <img src="{relocatable:/images/ragnarson-logo.png}" class="logo" alt="Ragnarson - perfect programmers" />
-
-    <h3>
-      We <em>enjoy</em> every minute of our work with Ruby and Rails.
-      Our systems are <em>well designed</em>, <em>tested</em> and <em>maintainable</em>.
-    </h3>
+    <div class="entrepreneur">
+      <h3>You <strong>Entrepreneur</strong></h3>
+      <ul>
+        <li>Have an idea</li>
+        <li>Have determination to turn this idea into reality</li>
+        <li>Have funding</li>
+        <li>Are open for cooperation</li>
+      </ul>
+    </div>
+    <div class="startup-builder">
+      <h3>We <strong>Startup builder</strong></h3>
+      <ul>
+        <li>Have experience in building applications for startups</li>
+        <li>Have knowledge of Ruby on Rails</li>
+        <li>Have expertise in non-standard solutions</li>
+      </ul>
+    </div>
   </div>
 </div>
 
 <div id="portfolio">
   <div class="inner">
-    <h2>Proud creators of:</h2>
-    <div id="slideshow">
-      <div id="slidesContainer">
-        <div class="slide">
-          <h3>Winnie Cloud</h3>
-          <p>
-            <a href="http://www.winniecloud.com/"><img src="{relocatable:/images/projects/front_page_winniecloud.jpg}" alt="Winnie Cloud - Ruby on Rails hosting" /></a>
-            Fast, cheap and security focused cloud hosting service for Ruby on Rails applications. Build from scratch to support our own deployments has grown to be a complete offering for multiple startups.</p>
-        </div>
-        <div class="slide">
-          <h3>Jobmensa</h3>
-          <p>
-            <img src="{relocatable:/images/projects/front_page_jobmensa.jpg}" />
-            Project that is close to our hearts. Working closely with StudiTemps GmbH we have built one of the best German job boards for students.</p>
-        </div>
-        <div class="slide">
-          <h3>Bellegs</h3>
-          <p>
-            <img src="{relocatable:/images/projects/front_page_bellegs.png}" />
-            Implemented in Spree (open source e-commerce for Ruby on Rails) shop with finest italian stocking, tights, socks etc. Integrated with Adyen payment system.</p>
-        </div>
-      </div>
+  <h2>Our work <small><a href="projects.html">See more</a></small></h2>
+  <div id="winnie" class="project">
+    <div class="description">
+      <h3>Winnie Cloud</h3>
+      <p>
+        Fast, cheap and security focused cloud hosting service for Ruby
+        on Rails applications. Build from scratch to support our own
+        deployments has grown to be a complete offering for multiple
+        startups.
+      </p>
+    </div>
+    <div class="screenshot">
+      <a href="http://www.winniecloud.com/"><img src="{relocatable:/images/projects/front_page_winniecloud.png}" alt="Winnie Cloud - Ruby on Rails hosting" /></a>
     </div>
   </div>
+  <div id="jobmensa" class="project">
+    <div class="description">
+      <h3>Jobmensa</h3>
+      <p>
+        Project that is close to our hearts. Working closely with
+        StudiTemps GmbH we have built one of the best German job boards
+        for students.
+      </p>
+    </div>
+    <div class="screenshot">
+      <img src="{relocatable:/images/projects/front_page_jobmensa.png}" />
+    </div>
+  </div>
+  <div id="bellegs" class="project">
+    <div class="description">
+      <h3>Bellegs</h3>
+      <p>
+        Implemented in Spree (open source e-commerce for Ruby on Rails)
+        shop with finest italian stocking, tights, socks etc. Integrated
+        with Adyen payment system.
+      </p>
+    </div>
+    <div class="screenshot">
+      <img src="{relocatable:/images/projects/front_page_bellegs.png}" />
+    </div>
+  </div>
+      </div>
 </div>
 
 <div id="testimonials">
   <div class="inner">
+    <h2>Testimonials</h2>
     <ul>
       <li clacc="bellegs">
         <cite>
@@ -85,66 +115,22 @@ template: home.template
           </cite>
         </div>
       </li>
-      <li class="lincomp">
-        <div class="testimonial">
-          <blockquote>
-            <p>
-              Ragnarson gives us well-integrated, tested code that drops
-              right into our own Ruby on Rails projects, and the turnaround
-              times are great. This flexibility and speed lets us improve our
-              software exactly when and how we need to.
-            </p>
-          </blockquote>
-          <cite>
-            <em>Ramón Cahenzli</em>, <a href="projects.html#stizun">Lincomp</a>
-          </cite>
-        </div>
-      </li>
-      <li class="arved-klohn">
-        <div class="testimonial">
-          <blockquote>
-            <p>
-              We are working with Ragnarson for over 5 years now. With
-              the help of their developers we built up two extensive sites.
-              The work with Ragnarson developers is very pleasant, as they
-              deliver on time, put a lot of thought into the code and the
-              sites itself and are able to handle problems within minutes
-              of notice.
-            </p>
-          </blockquote>
-          <cite>
-            <em>Arved Klöhn</em>, <a href="projects.html#pokerring">PokerRing</a> &amp; <a href="projects.html#pokerolymp">PokerOlymp</a>
-          </cite>
-        </div>
-      </li>
+
     </ul>
   </div>
 </div>
 
-<div class="content">
+<div id="home-contact">
   <div class="inner">
-    <div id="scalability_experts">
-      <h2>Scalability Experts</h2>
-      <ul>
-        <li>Our <a href="http://www.winniecloud.com/">Ruby on Rails cloud</a> can host your applications</li>
-        <li>We build <strong>applications that scale</strong> for large clusters of servers</li>
-        <li>We build large <strong>clusters of servers</strong></li>
-        <li>We <strong>build customer-tailored clustering solutions</strong> that can host any modern technology: Ruby on Rails, Node.js, Python, PHP, Java (no Windows/.NET, sorry)</li>
-      </ul>
-    </div>
-
-    <div id="rails_developers">
-      <h2>Ruby on Rails Developers</h2>
-      <ul>
-        <li>Over <strong>five years</strong> on market</li>
-        <li>Specializing in <strong>building startups</strong> from grounds up</li>
-        <li>Focusing on <strong>communication</strong></li>
-        <li>Following the <strong>best agile</strong> practices</li>
-        <li>Contributing to <strong>Open Source</strong></li>
-      </ul>
-    </div>
+    <h3>Contact us</h3>
+    <p>
+      Ragnarson Sp. z o.o.<br />
+      Łąkowa 11<br />
+      90-562 Łódź<br />
+      Polska / Poland<br />
+      <a href="mailto:biz@ragnarson.com">biz@ragnarson.com</a>
+    </p>
   </div>
 </div>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js" type="text/javascript"></script>
-<script src="{relocatable:javascripts/slideshow.js}" type="text/javascript"></script>

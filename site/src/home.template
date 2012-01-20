@@ -21,7 +21,7 @@ template: ~
       <div class="inner">
         <h1 id="logo">
           <a href='{relocatable:/}'>
-            <img src="{relocatable: images/ragnarson.png}" alt="Ragnarson"/>
+            <img src="{relocatable: images/ragnarson-logo.png}" alt="Ragnarson"/>
           </a>
         </h1>
         <nav>

@@ -5,7 +5,7 @@ body_id: development
 in_menu: true
 sort_info: 30
 link_attrs:
-  :link_text: <em>Development</em> How we work
+  :link_text: <em>Development</em>
 
 --- name:content pipeline:tags,haml
 %h1.process How do we work

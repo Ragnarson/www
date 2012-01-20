@@ -1,15 +1,13 @@
+#index
+  #main
+    > .inner
+      margin: 0
+      width: auto
 #home
   #main, footer
     background: none
     border-bottom: none
   .content
-    background-repeat: repeat-x
-    font-size: 1.1em
-    border-top: 1px solid #fff
-    background: transparent image-url("shadow.png") 50% -10px no-repeat
-    .inner
-      +grid-container
-      padding-top: 3em
     h2
       font-weight: bold
       font-size: 1.1em
@@ -24,11 +22,9 @@
 #intro, #portfolio, #testimonials
   clear: both
   background-color: $background_color
-  background-image: $background_image
   color: $font_color
 #intro
   text-align: center
-  border-bottom: 1px solid darken($background_color, 10%)
   img.logo
     margin: 8em 0 5em
   h3
@@ -40,87 +36,167 @@
       font-style: normal
       color: $branding_color
 
-#portfolio, #testimonials
-  border-top: 1px solid #fff
-  border-bottom: 1px solid darken($background_color, 10%)
+#portfolio, #testimonials, #content, #home-contact
+  .inner
+    +grid-container
   h2
-    +grid(12, 12)
-    font-size: 1.05em
+    font-size: 2em
     font-weight: normal
 
-#slideshow
-  clear: left
-  position: relative
-  margin: .5em 0 1.5em
-  #slidesContainer
-    margin: 0 auto
-    width: 480px
-    height: 200px
-    overflow: auto
-    border: 1px solid darken($background_color, 10%)
-    background: #f7f6ed
-  .slide
-    margin: 0 auto
-    width: 460px
-    height: 200px
-    h3
-      font-weight: bold
-      font-size: 1.8em
-      margin: 1em 0.6em
-      text-align: left
-    p
-      text-align: left
-      font-size: 1em
-      margin-left: 1em
-      img
+#portfolio, #testimonials
+  h2
+    +border-bottom-dark
+    margin-bottom: 0
+    padding: 10px 10px 20px
+    font-weight: bold
+    small
+      float: right
+      font-size: 0.6em
+      font-weight: normal
+
+#portfolio
+  background-color: #dccea7
+  padding: 10px 0
+  h2
+    border-bottom: 1px solid darken(#dccea7, 10%)
+  .project
+    +clearfix
+    padding: 40px 0
+    clear: both
+    .description
+      +grid(6, 12)
+      h3
+        font-size: 1.6em
+        margin-top: 2em
+      p
+        font-size: 1.4em
+      h3, p
+        margin-left: 0
+        margin-right: 20px
+    .screenshot
+      +grid(6, 12)
+      float: right
+    img
+      width: 420px
+      float: right
+      background: lighten(#dccea7, 70%)
+      padding: 9px
+      border: 1px solid darken(#dccea7, 10%)
+    &#winnie
+      border-bottom: 1px solid darken(#dccea7, 10%)
+      border-top: 1px solid lighten(#dccea7, 10%)
+    &#jobmensa
+      border-bottom: 1px solid darken(#dccea7, 10%)
+      border-top: 1px solid lighten(#dccea7, 10%)
+      .description
         float: right
-        margin: 0 1em
-  .control
-    display: block
-    position: absolute
-    top: 80px
-    width: 40px
-    height: 40px
-    text-indent: -10000px
-    cursor: pointer
-  #leftControl
-    left: 100px
-    background: transparent image-url("control_left.png") no-repeat 0 0
-  #rightControl
-    right: 100px
-    background: transparent image-url("control_right.png") no-repeat 0 0
+        h3, p
+          margin-left: 20px
+          margin-right: 0
+      .screenshot
+        float: left
+      img
+        float: left
+    &#bellegs
+      border-top: 1px solid lighten(#dccea7, 10%)
+
+#content
+  .entrepreneur, .startup-builder
+    +grid(12, 12)
+    h3
+      font-size: 1.8em
+      float: left
+      strong
+        font-size: 2.8em
+        display: block
+    ul
+      float: left
+      +no-bullets
+      +reset-box-model
+      font-size: 1.4em
+      width: 440px
+      margin: 0
+  .entrepreneur
+    padding: 5em 0
+    +border-bottom-dark
+    h3
+      margin: 0 3em 0 0
+    ul
+      margin-top: 0
+      float: right
+  .startup-builder
+    padding: 5em 0
+    +border-top-light
+    h3
+      float: right
+      margin: 0
+    ul
+      margin: 0.2em 0 0 0
 
 #testimonials
-  padding: 2em 0
+  padding: 2em 0 2em
   ul
     +reset-box-model
     +no-bullets
+    +border-top-light
+    padding-top: 3em
     li
-      +grid(6, 12)
+      +grid(12, 12)
       margin:
         bottom: 2em
-        top: 2em
+        top: 4em
       img
-        width: 120px
+        width: 160px
         float: left
-        margin-right: 25px
-        background: #fff
+        margin-right: 35px
+        background: lighten(#EDECCE, 50%)
         padding: 9px
         +border_dark
+        margin-left: 75px
       .testimonial
-        float: left
-        width: 55%
-      cite
-        font-style: normal
-        em
+        cite
           font-style: normal
-          font-weight: bold
+          font-size: 1.5em
+          background: lighten(#EDECCE, 50%)
+          +border_dark
+          display: block
+          padding: .75em 0
+          em
+            font-style: italic
+            font-weight: bold
       blockquote
         +reset-box-model
-      &.lincomp, &.arved-klohn
-        +grid(6, 12)
+        font-family: georgia, "Times New Roman", serif
+        font-size: 1.6em
+        padding-right: 150px
+        margin-top: -50px
+        font-style: italic
+      &.ekartenwelt
+        margin-top: 8em
+        img
+          float: right
+          margin-left: 35px
+          margin-right: 75px
         .testimonial
-          width: 100%
+          cite
+            text-align: right
+        blockquote
+          padding: 0 0 0 150px
+          text-align: right
+
+#home-contact
+  padding: 1em 0 3em
+  background-color: #dccea7
+  h3
+    +grid(5, 12)
+    text-align: right
+    font-size: 3.5em
+    margin-left: 40px
+    margin-right: 40px
+  p
+    +grid(5, 12)
+    font-size: 1.4em
+    margin-top: 2.2em
 
 #scalability_experts, #rails_developers
   +grid(6, 12)

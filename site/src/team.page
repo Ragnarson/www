@@ -5,7 +5,7 @@ body_id: team
 in_menu: true
 sort_info: 20
 link_attrs:
-  :link_text: <em>Team</em> Who we are
+  :link_text: <em>Team</em>
 
 --- name:content pipeline:tags,haml
 %h1 Team members

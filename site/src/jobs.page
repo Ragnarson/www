@@ -5,7 +5,7 @@ body_id: jobs
 in_menu: true
 sort_info: 30
 link_attrs:
-  :link_text: <em>Jobs</em> Join our team
+  :link_text: <em>Jobs</em>
 
 --- name:content pipeline:tags,haml
 %h1 Jobs
