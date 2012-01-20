@@ -37,7 +37,7 @@ link_attrs:
         Mentor and problem solver. Easily switches perspective to come up with new solutions for architecture problems. Great mentor, easily and smoothly shares knowledge teaching also those that are resistant to change.
       %ul.links
         %li.blog
-          %a{:href => 'http://blog.eax.pl/'} Blog
+          %a{:href => 'http://sevos.github.com/'} Blog
         %li.github
           %a{:href => 'https://github.com/sevos'} Github
 
@@ -69,6 +69,19 @@ link_attrs:
         %a{:href => 'https://github.com/bkozal'} Github
 
 .members_row
+  #grk.member
+    %h3 Grzesiek Kołodziejczyk
+    %h4 Developer
+    %img{ :src => '{relocatable: /images/team/grk.jpg}', :alt => 'Grzesiek Kołodziejczyk' }
+    .description
+      %p.specialization
+        Specializes in:
+        %em Scalability, Cloud computing, Rails
+      %p Ahead of flock. Always looking forward to new challenges and technologies - especially in scalability and high performance computing. At the same time has enough patience to carefully polish his boring assignments. Writes especially high quality code paying attention to even the smallest details.
+      %ul.links
+        %li.github
+          %a{:href => 'https://github.com/grk'} Github
+
   #konrad.member
     %h3 Konrad Król
     %h4 Developer
@@ -115,6 +128,7 @@ link_attrs:
       %li.blog
         %a{:href => 'http://github.com/mrplum' } Github
 
+.members_row
   #maciek.member
     %h3 Maciej Gałkiewicz
     %h4 Sysadmin
@@ -126,7 +140,6 @@ link_attrs:
       %p
         Maciej is a networking expert. He effectively manages application clusters, his specialities are operating systems and cluster file systems. Maciej takes care of the daily application functioning.
 
-.members_row
   #marcin_bajer.member
     %h3 Marcin Bajer
     %h4 Developer, Sysadmin
@@ -169,6 +182,7 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/h13ronim'} Github
 
+.members_row
   #pr0d1r2.member
     %h3 Marcin Nowicki
     %h4 Developer, Team Leader
@@ -183,7 +197,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/pr0d1r2'} Github
 
-.members_row
   #wijet.member
     %h3 Mariusz Pietrzyk
     %h4 Developer, Team Leader
@@ -227,6 +240,7 @@ link_attrs:
       %li.github
         %a{:href => 'https://github.com/gotar'} Github
 
+.members_row
   #pawel_luczak.member
     %h3 Paweł Łuczak
     %h4 Developer
@@ -242,7 +256,6 @@ link_attrs:
         applications with popular social networks. He likes engaging in new
         sturtups and analyse theirs success possibilities.
 
-.members_row
   #placek.member
     %h3 Paweł Placzyński
     %h4 Developer, Team Leader
@@ -285,6 +298,7 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/LTe'} Github
 
+.members_row
   #sabcio.member
     %h3 Sebastian Wojtczak
     %h4 Developer
@@ -299,7 +313,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/sabcio'} Github
 
-.members_row
   #staszek.member
     %h3 Stanisław Kolarzowski
     %h4 Developer
