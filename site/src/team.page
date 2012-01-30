@@ -213,7 +213,7 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/wijet'} Github
 
-  #monika.member
+  #michal.member
     %h3 Michał Kwiatkowski
     %h4 Code anarchist
     %img{:src => '{relocatable: /images/team/michal.jpg}', :alt => 'Michał Kwiatkowski'}
