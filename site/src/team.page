@@ -329,20 +329,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/sabcio'} Github
 
-  #staszek.member
-    %h3 Stanisław Kolarzowski
-    %h4 Developer
-    %img{:src => '{relocatable: /images/team/staszek.jpg}', :alt => 'Stanisław Kolarzowski'}
-    .description
-      %p.specialization
-        Specializes in:
-        %em Rails
-      %p
-        Staszek has started his adventure with web development in 2003. After years of searching and trying many of new interesting technologies, he found Ruby in begining of 2009. Staszek likes spend his free time actively, especially doing some extreme sports.
-      %ul.links
-        %li.github
-          %a{:href => 'https://github.com/staszek'} Github
-
   #szymon_szypulski.member
     %h3 Szymon Szypulski
     %h4 Sysadmin
