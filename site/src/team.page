@@ -229,18 +229,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/mkwiatkowski'} Github
 
-  #monika.member
-    %h3 Monika Kania
-    %h4 Sales Manager, Customer Relationship
-    %img{:src => '{relocatable: /images/team/monika.jpg}', :alt => 'Monika Kania'}
-    .description
-      %p.specialization
-        Specializes in:
-        %em Customer contact
-      %p
-        Monika Kania provides a counterbalance to all the developers in the company. Because she likes people more than computers, deals with customer contacts, allowing the boys to concentrate on what they love. As an international management graduate is interested in other cultures, which combines with her passion for travelling.
-
-.members_row
   #gotar.member
     %h3 Oskar Szrajer
     %h4 Developer
@@ -257,6 +245,7 @@ link_attrs:
       %li.github
         %a{:href => 'https://github.com/gotar'} Github
 
+.members_row
   #pawel_luczak.member
     %h3 Paweł Łuczak
     %h4 Developer
@@ -300,7 +289,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/Mandaryn'} Github
 
-.members_row
   #lte.member
     %h3 Piotr Niełacny
     %h4 Developer
@@ -315,6 +303,7 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/LTe'} Github
 
+.members_row
   #sabcio.member
     %h3 Sebastian Wojtczak
     %h4 Developer
