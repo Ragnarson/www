@@ -8,7 +8,15 @@ link_attrs:
   :link_text: <em>Open Source</em>
 
 --- name:content pipeline:tags,haml
+
 %h1 Open Source
+
+%p
+  We are trying to return to Open Source what we're getting from it.
+%p
+  Our team, lead by Bartek Kozal hosts meetings of
+  %a(href="http://lrug.pl") Łódź Ruby User Group
+  on regular basis.
 
 #representations.project
   %h3 Representations
