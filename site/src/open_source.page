@@ -57,10 +57,6 @@ link_attrs:
     %li
       %a(href="http://github.com/bragi")bragi
     %li
-      %a(href="http://github.com/grin")grin
-    %li
-      %a(href="http://github.com/kazjote")kazjote
-    %li
       %a(href="http://github.com/mandaryn")mandaryn
     %li
       %a(href="http://github.com/sevos/")sevos
