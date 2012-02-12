@@ -64,9 +64,9 @@ link_attrs:
         Great front-end developer with taste. Fan of technical innovations. Bartek is always well-informed about upcoming changes important for web developers. Like all geeks he enjoys using the latest software for testing purposes. Always up-to-date in IT world.
     %ul.links
       %li.blog
-        %a{:href => 'http://bkozal.github.com/'} Blog
+        %a{:href => 'http://bkzl.github.com/'} Blog
       %li.github
-        %a{:href => 'https://github.com/bkozal'} Github
+        %a{:href => 'https://github.com/bkzl'} Github
 
 .members_row
   #grk.member
