@@ -13,18 +13,18 @@ link_attrs:
     <div class="entrepreneur">
       <h3>You <strong>Entrepreneur</strong></h3>
       <ul>
-        <li>Have an idea</li>
-        <li>Have determination to turn this idea into reality</li>
-        <li>Have funding</li>
-        <li>Are open for cooperation</li>
+        <li>You <strong>have an idea</strong></li>
+        <li>You <strong>have determination to turn this idea into reality</strong></li>
+        <li>You <strong>have funding</strong></li>
+        <li>You <strong>are open for cooperation</strong></li>
       </ul>
     </div>
     <div class="startup-builder">
       <h3>We <strong>Startup builder</strong></h3>
       <ul>
-        <li>Have experience in building applications for startups</li>
-        <li>Have knowledge of Ruby on Rails</li>
-        <li>Have expertise in non-standard solutions</li>
+        <li>We <strong>have experience in building applications for startups</strong></li>
+        <li>We <strong>have knowledge of Ruby on Rails</strong></li>
+        <li>We <strong>have expertise in non-standard solutions</strong></li>
       </ul>
     </div>
     <img class="code" src="{relocatable:/images/index_code.png}" />

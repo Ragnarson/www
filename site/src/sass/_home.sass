@@ -19,22 +19,10 @@
       border-top: 2px solid #ddd
       margin-top: 1em
 
-#intro, #portfolio, #testimonials
+#portfolio, #testimonials
   clear: both
   background-color: $background_color
   color: $font_color
-#intro
-  text-align: center
-  img.logo
-    margin: 8em 0 5em
-  h3
-    font-size: 1.8em
-    margin: 1em 90px 2em
-    font-weight: normal
-    em
-      font-size: 1.3em
-      font-style: normal
-      color: $branding_color
 
 #portfolio, #testimonials, #content, #home-contact
   .inner
@@ -113,12 +101,17 @@
     h3
       font-size: 2em
       margin-bottom: 12px
+      strong
+        color: #980000
     ul
       +no-bullets
       +reset-box-model
       font-size: 1.4em
       width: 440px
       margin: 0
+      strong
+        color: #980000
+        font-weight: normal
   .startup-builder
     margin:
       top: 0
