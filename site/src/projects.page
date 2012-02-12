@@ -35,17 +35,17 @@ link_attrs:
     %a.visit_site{:href => '{relocatable: /projects/backpack.html}'} Read more
 
 .projects_row
-  #winnie.project
-    %a.image{:href => 'http://www.winniecloud.com/'}
-      %img{:src => '{relocatable:/images/projects/winniecloud.jpg}', :alt => 'Winnie Cloud screenshot'}/
-    %h3 Winnie Cloud
+  #shelly.project
+    %a.image{:href => 'http://www.shellycloud.com/'}
+      %img{:src => '{relocatable:/images/projects/shellycloud.jpg}', :alt => 'Shelly Cloud screenshot'}/
+    %h3 Shelly Cloud
     .description
       %p Our secure cloud hosting solution for Ruby on Rails applications.
       %ul
         %li Secure
         %li Simple
         %li Scalabe
-      %a.visit_site{:href => 'http://www.winniecloud.com/'} Visit site
+      %a.visit_site{:href => 'http://www.shellycloud.com/'} Visit site
 
   #tripsta.project
     %a.image{:href => 'http://www.travelplanet24.com/'}

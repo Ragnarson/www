@@ -35,9 +35,9 @@ link_attrs:
 <div id="portfolio">
   <div class="inner">
   <h2>Our work <small><a href="projects.html">See more</a></small></h2>
-  <div id="winnie" class="project">
+  <div id="shelly" class="project">
     <div class="description">
-      <h3>Winnie Cloud</h3>
+      <h3>Shelly Cloud</h3>
       <p>
         Fast, cheap and security focused cloud hosting service for Ruby
         on Rails applications. Build from scratch to support our own
@@ -46,7 +46,7 @@ link_attrs:
       </p>
     </div>
     <div class="screenshot">
-      <a href="http://www.winniecloud.com/"><img src="{relocatable:/images/projects/front_page_winniecloud.png}" alt="Winnie Cloud - Ruby on Rails hosting" /></a>
+      <a href="http://www.shellycloud.com/"><img src="{relocatable:/images/projects/front_page_shellycloud.png}" alt="Shelly Cloud - Ruby on Rails hosting" /></a>
     </div>
   </div>
   <div id="jobmensa" class="project">
