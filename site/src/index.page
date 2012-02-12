@@ -27,6 +27,8 @@ link_attrs:
         <li>Have expertise in non-standard solutions</li>
       </ul>
     </div>
+    <img class="code" src="{relocatable:/images/index_code.png}" />
+    <img class="site" src="{relocatable:/images/index_site.png}" />
   </div>
 </div>
 
@@ -80,7 +82,7 @@ link_attrs:
   <div class="inner">
     <h2>Testimonials</h2>
     <ul>
-      <li clacc="bellegs">
+      <li class="bellegs">
         <cite>
           <img src="{relocatable:/images/testimonials/daria_saharova.jpg}" />
         </cite>
