@@ -80,7 +80,7 @@ link_attrs:
 
 <div id="testimonials">
   <div class="inner">
-    <h2>Testimonials</h2>
+    <h2>Testimonials <small><a href="testimonials.html">See more</a></small></h2>
     <ul>
       <li class="bellegs">
         <cite>

@@ -1,0 +1,86 @@
+---
+title: Testimonials
+description: Testimonials from our customers
+body_id: testimonials-page
+in_menu: false
+sort_info: 10
+link_attrs:
+  :link_text: <em>Testimonials</em>
+
+---
+<div id="testimonials">
+  <div class="inner">
+    <h2>Testimonials</h2>
+    <ul>
+      <li class="bellegs">
+        <cite>
+          <img src="{relocatable:/images/testimonials/daria_saharova.jpg}" />
+        </cite>
+        <div class="testimonial">
+          <blockquote>
+            <p>
+              My experience with Ragnarson is entirely positive. They are
+              skilled professionals with collaborative attitude. They created
+              just what I&nbsp;needed. I&nbsp;can truly recommend their services.
+            </p>
+          </blockquote>
+          <cite>
+            <em>Daria Saharova</em>, <a href="projects.html#bellegs">Bellegs</a>
+          </cite>
+        </div>
+      </li>
+      <li class="ekartenwelt">
+        <cite>
+          <img src="{relocatable:/images/testimonials/heika_lachmund.jpg}" />
+        </cite>
+        <div class="testimonial">
+          <blockquote>
+            <p>
+              I work with Ragnarson for several years and I&nbsp;find it to be
+              a&nbsp;reliable company. The developers have a&nbsp;great knowledge and
+              they are always engaged in their work. I&nbsp;am highly pleased with
+              cooperation with them.
+            </p>
+          </blockquote>
+          <cite>
+            <em>Heika Lachmund</em>, <a href="projects.html#ekartenwelt">eKartenwelt</a>
+          </cite>
+        </div>
+      </li>
+      <li class="lincomp">
+        <div class="testimonial">
+          <blockquote>
+            <p>
+              Ragnarson gives us well-integrated, tested code that drops
+              right into our own Ruby on Rails projects, and the turnaround
+              times are great. This flexibility and speed lets us improve our
+              software exactly when and how we need to.
+            </p>
+          </blockquote>
+          <cite>
+            <em>Ramón Cahenzli</em>, <a href="projects.html#stizun">Lincomp</a>
+          </cite>
+        </div>
+      </li>
+      <li class="arved-klohn">
+        <div class="testimonial">
+          <blockquote>
+            <p>
+              We are working with Ragnarson for over 5 years now. With
+              the help of their developers we built up two extensive sites.
+              The work with Ragnarson developers is very pleasant, as they
+              deliver on time, put a lot of thought into the code and the
+              sites itself and are able to handle problems within minutes
+              of notice.
+            </p>
+          </blockquote>
+          <cite>
+            <em>Arved Klöhn</em>,
+            <a href="projects.html#pokerring">PokerRing</a> &amp;
+            <a href="projects.html#pokerolymp">PokerOlymp</a>
+          </cite>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
