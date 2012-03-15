@@ -37,7 +37,7 @@ link_attrs:
 .projects_row
   #shelly.project
     %a.image{:href => 'http://www.shellycloud.com/'}
-      %img{:src => '{relocatable:/images/projects/shellycloud.jpg}', :alt => 'Shelly Cloud screenshot'}/
+      %img{:src => '{relocatable:/images/projects/shellycloud.png}', :alt => 'Shelly Cloud screenshot'}/
     %h3 Shelly Cloud
     .description
       %p Our secure cloud hosting solution for Ruby on Rails applications.
