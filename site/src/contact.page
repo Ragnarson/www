@@ -23,9 +23,9 @@ link_attrs:
 %h2 Address
 
 %p#address
-  Łąkowa 11
+  Aleja Kościuszki 32 lok. 7
   %br/
-  90-562 Łódź
+  90-419 Łódź
   %br/
   Polska / Poland
 
@@ -36,7 +36,7 @@ link_attrs:
 
 :javascript
   $(document).ready(function(){
-    var ragnarsonAddress = new google.maps.LatLng(51.761557,19.440034);
+    var ragnarsonAddress = new google.maps.LatLng(51.76614,19.45466);
     var mapOptions = {
       zoom: 15,
       center: ragnarsonAddress,
