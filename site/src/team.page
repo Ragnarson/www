@@ -356,3 +356,14 @@ link_attrs:
       %ul.links
         %li.github
           %a{:href => 'https://github.com/Baael'} Github
+.members_row
+  #usecide.member
+    %h3 Ignacy Kasperowicz
+    %h4 Sysadmin
+    %img{:src => '{relocatable: /images/team/usecide.jpg}', :alt => 'Ignacy Kasperowicz'}
+    .description
+      %p.specialization
+        Specializes in:
+        %em Linux administration, Data storage, Hardware prototyping
+      %p
+        Pasionate geek who has left corporate galaxy to explore Open Source universe. Loves neat soultions for both high scale infrastructures and assembler quirks. In some circles called hardware ninja.
