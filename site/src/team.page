@@ -25,22 +25,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/atw'} Github
 
-  #sevos.member
-    %h3 Artur Roszczyk
-    %h4 Developer
-    %img{:src => '{relocatable: /images/team/sevos.jpg}', :alt => 'Artur Roszczyk'}
-    .description
-      %p.specialization
-        Specializes in:
-        %em Rails, SCRUM, Algorithms, Mentoring
-      %p
-        Mentor and problem solver. Easily switches perspective to come up with new solutions for architecture problems. Great mentor, easily and smoothly shares knowledge teaching also those that are resistant to change.
-      %ul.links
-        %li.blog
-          %a{:href => 'http://sevos.github.com/'} Blog
-        %li.github
-          %a{:href => 'https://github.com/sevos'} Github
-
   #barbara.member
     %h3 Barbara Niewiadomska
     %h4 Assistant
