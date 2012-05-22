@@ -52,7 +52,6 @@ link_attrs:
       %li.github
         %a{:href => 'https://github.com/bkzl'} Github
 
-.members_row
   #grk.member
     %h3 Grzesiek Kołodziejczyk
     %h4 Developer
@@ -66,6 +65,7 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/grk'} Github
 
+.members_row
   #usecide.member
     %h3 Ignacy Kasperowicz
     %h4 Sysadmin
@@ -107,7 +107,6 @@ link_attrs:
       %li.github
         %a{:href => 'https://github.com/bragi'} Github
 
-.members_row
   #maciek.member
     %h3 Maciej Gałkiewicz
     %h4 Sysadmin
@@ -119,6 +118,7 @@ link_attrs:
       %p
         Maciej is a networking expert. He effectively manages application clusters, his specialities are operating systems and cluster file systems. Maciej takes care of the daily application functioning.
 
+.members_row
   #marcin_bajer.member
     %h3 Marcin Bajer
     %h4 Developer, Sysadmin
@@ -161,7 +161,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/h13ronim'} Github
 
-.members_row
   #pr0d1r2.member
     %h3 Marcin Nowicki
     %h4 Developer, Team Leader
@@ -176,6 +175,7 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/pr0d1r2'} Github
 
+.members_row
   #wijet.member
     %h3 Mariusz Pietrzyk
     %h4 Developer, Team Leader
@@ -222,7 +222,6 @@ link_attrs:
           are not expressed easily and acts delicately to ensure as much happiness on both
           sides as possible. You will be happy to sign contract with her.
 
-.members_row
   #gotar.member
     %h3 Oskar Szrajer
     %h4 Developer
@@ -239,6 +238,7 @@ link_attrs:
       %li.github
         %a{:href => 'https://github.com/gotar'} Github
 
+.members_row
   #pawel_luczak.member
     %h3 Paweł Łuczak
     %h4 Developer
@@ -282,7 +282,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/Mandaryn'} Github
 
-.members_row
   #lte.member
     %h3 Piotr Niełacny
     %h4 Developer
@@ -297,6 +296,7 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/LTe'} Github
 
+.members_row
   #sabcio.member
     %h3 Sebastian Wojtczak
     %h4 Developer
