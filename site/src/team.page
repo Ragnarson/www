@@ -77,20 +77,6 @@ link_attrs:
       %p
         Pasionate geek who has left corporate galaxy to explore Open Source universe. Loves neat soultions for both high scale infrastructures and assembler quirks. In some circles called hardware ninja.
 
-  #konrad.member
-    %h3 Konrad Król
-    %h4 Developer
-    %img{ :src => '{relocatable: /images/team/konrad.jpg}', :alt => 'Konrad Król' }
-    .description
-      %p.specialization
-        Specializes in:
-        %em Rails
-      %p
-        He really likes the simplicity of the code written in Ruby, as well as a large number of open source extensions available. After he joined Ragnarson company, he learned the Scrum methodology and BDD, what really fascinated him. Fan of martial arts and motorization.
-      %ul.links
-        %li.github
-          %a{:href => 'https://github.com/kkrol89'} Github
-
   #bragi.member
     %h3 Łukasz Piestrzeniewicz
     %h4 Developer, Team Leader, CEO
@@ -118,7 +104,6 @@ link_attrs:
       %p
         Maciej is a networking expert. He effectively manages application clusters, his specialities are operating systems and cluster file systems. Maciej takes care of the daily application functioning.
 
-.members_row
   #marcin_bajer.member
     %h3 Marcin Bajer
     %h4 Developer, Sysadmin
@@ -133,6 +118,7 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/rrrodrigo'} Github
 
+.members_row
   #marcin_balinski.member
     %h3 Marcin Baliński
     %h4 Developer
@@ -175,7 +161,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/pr0d1r2'} Github
 
-.members_row
   #wijet.member
     %h3 Mariusz Pietrzyk
     %h4 Developer, Team Leader
@@ -192,6 +177,7 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/wijet'} Github
 
+.members_row
   #michal.member
     %h3 Michał Kwiatkowski
     %h4 Code anarchist
@@ -238,7 +224,6 @@ link_attrs:
       %li.github
         %a{:href => 'https://github.com/gotar'} Github
 
-.members_row
   #pawel_luczak.member
     %h3 Paweł Łuczak
     %h4 Developer
@@ -254,6 +239,7 @@ link_attrs:
         applications with popular social networks. He likes engaging in new
         sturtups and analyse theirs success possibilities.
 
+.members_row
   #placek.member
     %h3 Paweł Placzyński
     %h4 Developer, Team Leader
@@ -296,7 +282,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/LTe'} Github
 
-.members_row
   #sabcio.member
     %h3 Sebastian Wojtczak
     %h4 Developer
@@ -311,6 +296,7 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/sabcio'} Github
 
+.members_row
   #szymon_szypulski.member
     %h3 Szymon Szypulski
     %h4 Sysadmin
@@ -321,17 +307,3 @@ link_attrs:
         %em Linux & Windows Administration
       %p
         Geek who tinkers with open source software on day-to-day basis. Loves new technical gadgets and innovations. Apart from IT, big fan of big and a bit smaller firearms.
-
-  #wojak.member
-    %h3 Wojtek Zieliński
-    %h4 Frontend Developer
-    %img{ :src => '{relocatable: /images/team/wojak.jpg}', :alt => 'Wojtek Zieliński' }
-    .description
-      %p.specialization
-        Specializes in:
-        %em Frontend, CSS/HTML, Graphics
-      %p
-        Talented frontend developer. He creates interesting and attractive interfaces. He has such a good knowledge of Rails that can help other Ruby on Rails developers in their work.
-      %ul.links
-        %li.github
-          %a{:href => 'https://github.com/Baael'} Github
