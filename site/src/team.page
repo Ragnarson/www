@@ -297,6 +297,22 @@ link_attrs:
           %a{:href => 'https://github.com/LTe'} Github
 
 .members_row
+  #ravbaker.member
+    %h3 Rafał Piekarski
+    %h4 Developer
+    %img{:src => '{relocatable: /images/team/ravbaker.jpg}', :alt => 'Rafał Piekarski'}
+    .description
+      %p.specialization
+        Specializes in:
+        %em Optimization, JavaScript, Rails, ReThinking
+      %p
+        Rafał loves to learn new things. He is passionate about speed, quality and information retrieval. Likes to read about startups and innovations. After work: loving husband addicted to movies and music.
+      %ul.links
+        %li.blog
+          %a{:href => 'http://at.ravbaker.net/'} Homepage
+        %li.github
+          %a{:href => 'https://github.com/RaVbaker'} Github
+
   #sabcio.member
     %h3 Sebastian Wojtczak
     %h4 Developer
