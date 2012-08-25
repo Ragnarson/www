@@ -252,7 +252,7 @@ link_attrs:
         %abbr(title="There's more than one way to do it") TIMTOWTDI
         \. He is very good at HTML/CSS, JavaScript and integration of
         applications with popular social networks. He likes engaging in new
-        sturtups and analyse theirs success possibilities.
+        startups and analyse theirs success possibilities.
 
   #placek.member
     %h3 Paweł Placzyński
@@ -297,6 +297,22 @@ link_attrs:
           %a{:href => 'https://github.com/LTe'} Github
 
 .members_row
+  #ravbaker.member
+    %h3 Rafał Piekarski
+    %h4 Developer
+    %img{:src => '{relocatable: /images/team/ravbaker.jpg}', :alt => 'Rafał Piekarski'}
+    .description
+      %p.specialization
+        Specializes in:
+        %em Optimization, JavaScript, Rails, ReThinking
+      %p
+        Rafał loves to learn new things. He is passionate about speed, quality and information retrieval. Likes to read about startups and innovations. After work: loving husband addicted to movies and music.
+      %ul.links
+        %li.blog
+          %a{:href => 'http://at.ravbaker.net/'} Homepage
+        %li.github
+          %a{:href => 'https://github.com/RaVbaker'} Github
+
   #sabcio.member
     %h3 Sebastian Wojtczak
     %h4 Developer
