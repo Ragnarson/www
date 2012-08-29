@@ -207,7 +207,7 @@ link_attrs:
           %a{:href => 'http://joker.linuxstuff.pl/'} Homepage
         %li.github
           %a{:href => 'https://github.com/mkwiatkowski'} Github
-          
+
   #michal_podlecki.member
     %h3 Michał Podlecki
     %h4 DEVELOPER
@@ -297,20 +297,6 @@ link_attrs:
           %a{:href => 'https://github.com/Mandaryn'} Github
 
 .members_row
-  #lte.member
-    %h3 Piotr Niełacny
-    %h4 Developer
-    %img{:src => '{relocatable: /images/team/lte.jpg}', :alt => 'Piotr Niełacny'}
-    .description
-      %p.specialization
-        Specializes in:
-        %em Rails, Security
-      %p
-        Piotrek started his adventure with ruby looking for books for Python. Unfortunately, he found nothing and bought a book about Ruby. Piotrek likes things related to security and cryptography. Ruby is his passion.
-      %ul.links
-        %li.github
-          %a{:href => 'https://github.com/LTe'} Github
-
   #ravbaker.member
     %h3 Rafał Piekarski
     %h4 Developer
