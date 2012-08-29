@@ -207,6 +207,20 @@ link_attrs:
           %a{:href => 'http://joker.linuxstuff.pl/'} Homepage
         %li.github
           %a{:href => 'https://github.com/mkwiatkowski'} Github
+          
+  #michal_podlecki.member
+    %h3 Michał Podlecki
+    %h4 DEVELOPER
+    %img{:src => '{relocatable: /images/team/michal_podlecki.jpg}', :alt => 'Michał Podlecki'}
+    .description
+      %p.specialization
+        Specializes in:
+        %em Javascript, Ruby
+      %p
+        Javascript admirer, fascinated by Ruby world, curious about implementation of each piece of code which falls into his hands. He is pretty sure that taking difficult challenges is the best way to raise qualifications and enrich programming skills. Every day smiling and looking for good music.
+      %ul.links
+        %li.github
+          %a{:href => 'https://github.com/michalpodlecki'} Github
 
   #natalia.member
     %h3 Natalia Zdrzynicka
@@ -222,6 +236,7 @@ link_attrs:
           are not expressed easily and acts delicately to ensure as much happiness on both
           sides as possible. You will be happy to sign contract with her.
 
+.members_row
   #gotar.member
     %h3 Oskar Szrajer
     %h4 Developer
@@ -238,7 +253,6 @@ link_attrs:
       %li.github
         %a{:href => 'https://github.com/gotar'} Github
 
-.members_row
   #pawel_luczak.member
     %h3 Paweł Łuczak
     %h4 Developer
@@ -282,6 +296,7 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/Mandaryn'} Github
 
+.members_row
   #lte.member
     %h3 Piotr Niełacny
     %h4 Developer
@@ -296,7 +311,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/LTe'} Github
 
-.members_row
   #ravbaker.member
     %h3 Rafał Piekarski
     %h4 Developer
