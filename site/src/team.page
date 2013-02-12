@@ -119,6 +119,20 @@ link_attrs:
         Maciej is a networking expert. He effectively manages application clusters, his specialities are operating systems and cluster file systems. Maciej takes care of the daily application functioning.
 
 .members_row
+  #maciej_malecki.member
+    %h3 Maciej Małecki
+    %h4 Developer
+    %img{ :src => '{relocatable: /images/team/maciej_malecki.jpg}', :alt => 'Maciej Małecki' }
+    .description
+      %p.specialization
+        Specializes in:
+        %em Rails
+      %p
+        Maciek is very young programmer who is fascinated by Ruby on Rails. He is interested in human beatbox.
+      %ul.links
+        %li.github
+          %a{ :href => 'https://github.com/smt116' } Github
+
   #marcin_bajer.member
     %h3 Marcin Bajer
     %h4 Developer, Sysadmin
@@ -161,6 +175,7 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/h13ronim'} Github
 
+.members_row
   #pr0d1r2.member
     %h3 Marcin Nowicki
     %h4 Developer, Team Leader
@@ -175,7 +190,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/pr0d1r2'} Github
 
-.members_row
   #wijet.member
     %h3 Mariusz Pietrzyk
     %h4 Developer, Team Leader
@@ -222,6 +236,7 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/michalpodlecki'} Github
 
+.members_row
   #natalia.member
     %h3 Natalia Zdrzynicka
     %h4 Sales Manager, Customer Relationship
@@ -236,7 +251,6 @@ link_attrs:
           are not expressed easily and acts delicately to ensure as much happiness on both
           sides as possible. You will be happy to sign contract with her.
 
-.members_row
   #gotar.member
     %h3 Oskar Szrajer
     %h4 Developer
@@ -282,6 +296,7 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/placek'} Github
 
+.members_row
   #mandaryn.member
     %h3 Piotr Marciniak
     %h4 Developer
@@ -296,7 +311,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/Mandaryn'} Github
 
-.members_row
   #ravbaker.member
     %h3 Rafał Piekarski
     %h4 Developer
