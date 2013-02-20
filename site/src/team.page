@@ -147,49 +147,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/rrrodrigo'} Github
 
-  #marcin_balinski.member
-    %h3 Marcin Baliński
-    %h4 Developer
-    %img{:src => '{relocatable: /images/team/marcin_balinski.jpg}', :alt => 'Marcin Baliński'}
-    .description
-      %p.specialization
-        Specializes in:
-        %em Rails, Facebook, iPhone
-      %p
-        Man of many talents. Apart from great Ruby on Rails knowledge he is very good in creating Facebook applications. His skills can surprise you many times. Marcin always tries to keep things as simple as possible and to end each day with new knowledge.
-      %ul.links
-        %li.github
-          %a{:href => 'https://github.com/marcinb'} Github
-
-  #daan.member
-    %h3 Marcin Michałowski
-    %h4 Developer
-    %img{:src => '{relocatable: /images/team/daan.jpg}', :alt => 'Marcin Michałowski'}
-    .description
-      %p.specialization
-        Specializes in:
-        %em Rails
-      %p
-        He is catalyst of change. It is because of his great love for new technologies and constant knowledge expansion. He is perfect in working with already existing services and coping with complex problems. Marcin can easily change very complex services into simple and perfectly maintain them.
-      %ul.links
-        %li.github
-          %a{:href => 'https://github.com/h13ronim'} Github
-
-.members_row
-  #pr0d1r2.member
-    %h3 Marcin Nowicki
-    %h4 Developer, Team Leader
-    %img{:src => '{relocatable: /images/team/pr0d1r2.jpg}', :alt => 'Marcin Nowicki'}
-    .description
-      %p.specialization
-        Specializes in:
-        %em Rails, Agile
-      %p
-        Marcin is a huge fan of methodology tools which optimize the job of developer. When you meet him, he will most probably give you a ton of advices about how to improve your tools, work-process and productivity. He is a powerhouse to work with extremely demanding projects.
-      %ul.links
-        %li.github
-          %a{:href => 'https://github.com/pr0d1r2'} Github
-
   #wijet.member
     %h3 Mariusz Pietrzyk
     %h4 Developer, Team Leader
@@ -222,6 +179,7 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/mkwiatkowski'} Github
 
+.members_row
   #michal_podlecki.member
     %h3 Michał Podlecki
     %h4 DEVELOPER
@@ -236,7 +194,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/michalpodlecki'} Github
 
-.members_row
   #natalia.member
     %h3 Natalia Zdrzynicka
     %h4 Sales Manager, Customer Relationship
@@ -282,6 +239,7 @@ link_attrs:
         applications with popular social networks. He likes engaging in new
         startups and analyse theirs success possibilities.
 
+.members_row
   #placek.member
     %h3 Paweł Placzyński
     %h4 Developer, Team Leader
@@ -296,7 +254,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/placek'} Github
 
-.members_row
   #mandaryn.member
     %h3 Piotr Marciniak
     %h4 Developer
@@ -341,6 +298,7 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/sabcio'} Github
 
+.members_row
   #szymon_szypulski.member
     %h3 Szymon Szypulski
     %h4 Sysadmin
