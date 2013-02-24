@@ -195,9 +195,9 @@ link_attrs:
           %a{:href => 'https://github.com/michalpodlecki'} Github
 
   #natalia.member
-    %h3 Natalia Zdrzynicka
+    %h3 Natalia Piestrzeniewicz
     %h4 Sales Manager, Customer Relationship
-    %img{:src => '{relocatable: /images/team/natalia.jpg}', :alt => 'Natalia Zdrzynicka'}
+    %img{:src => '{relocatable: /images/team/natalia.jpg}', :alt => 'Natalia Piestrzeniewicz'}
     .description
       %p.specialization
         Specializes in:
