@@ -1,7 +1,5 @@
-# A sample Gemfile
-source :rubygems
-#
-# gem "rails"
+source 'https://rubygems.org'
+
 gem 'rake'
 gem 'webgen'
 gem 'haml'
