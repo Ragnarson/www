@@ -319,7 +319,7 @@ link_attrs:
         Specializes in:
         %em Ruby, JRuby, Rails
       %p
-        Szymon is a Ruby passionate loving to build new things and make ideas become reality. In spare time he creates nifty Vim plugins and improves his terminal setup.
+        Szymon is a Ruby passionate developer loving to build new things and make ideas become reality. In spare time he creates nifty Vim plugins and improves his terminal setup.
       %ul.links
         %li.github
           %a{:href => 'https://github.com/szw'} Github
