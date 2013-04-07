@@ -65,6 +65,6 @@ link_attrs:
     %li
       %a(href="http://github.com/h13ronim")h13ronim
     %li
-      %a(href="http://github.com/bkozal")bkozal
+      %a(href="http://github.com/bkzl")bkzl
     %li
       %a(href="http://github.com/marcinb")marcinb
