@@ -73,7 +73,7 @@ end
 
 desc "Publishes the site"
 task :publish => :webgen do
-  `rsync -trvz --delete out/ bragi-web@sandbox.carriles.pl:/home/bragi-web/ragnarson.com`
+  `rsync -trvz --delete out/ bragi-web@sandbox2.ragnarson.com:/home/bragi-web/ragnarson.com`
 end
 
 desc "Generates stylesheets"
