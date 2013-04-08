@@ -77,6 +77,20 @@ link_attrs:
       %p
         Pasionate geek who has left corporate galaxy to explore Open Source universe. Loves neat soultions for both high scale infrastructures and assembler quirks. In some circles called hardware ninja.
 
+  #jonasz_grochowski.member
+    %h3 Jonasz Grochowski
+    %h4 Developer
+    %img{:src => '{relocatable: /images/team/jonasz_grochowski.jpg}', :alt => 'Jonasz Grochowski'}
+    .description
+      %p.specialization
+        Specializes in:
+        %em Rails
+      %p
+        Ambitious programmer enthralled by Ruby on Rails. Enjoys figuring out solutions to new challanges. Also fascinated by medieval sword fighting and in his free time is dabbling into video games modding.
+      %ul.links
+        %li.github
+          %a{:href => 'https://github.com/tensaioni'} Github
+
   #kdunee.member
     %h3 Kosma Dunikowski
     %h4 Developer
@@ -107,6 +121,7 @@ link_attrs:
       %li.github
         %a{:href => 'https://github.com/bragi'} Github
 
+.members_row
   #maciek.member
     %h3 Maciej Gałkiewicz
     %h4 Sysadmin
@@ -118,7 +133,6 @@ link_attrs:
       %p
         Maciej is a networking expert. He effectively manages application clusters, his specialities are operating systems and cluster file systems. Maciej takes care of the daily application functioning.
 
-.members_row
   #maciej_malecki.member
     %h3 Maciej Małecki
     %h4 Developer
@@ -163,6 +177,7 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/wijet'} Github
 
+.members_row
   #michal.member
     %h3 Michał Kwiatkowski
     %h4 Code anarchist
@@ -179,7 +194,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/mkwiatkowski'} Github
 
-.members_row
   #michal_podlecki.member
     %h3 Michał Podlecki
     %h4 DEVELOPER
@@ -224,6 +238,7 @@ link_attrs:
       %li.github
         %a{:href => 'https://github.com/gotar'} Github
 
+.members_row
   #pawel_luczak.member
     %h3 Paweł Łuczak
     %h4 Developer
@@ -239,7 +254,6 @@ link_attrs:
         applications with popular social networks. He likes engaging in new
         startups and analyse theirs success possibilities.
 
-.members_row
   #placek.member
     %h3 Paweł Placzyński
     %h4 Developer, Team Leader
@@ -284,6 +298,7 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/RaVbaker'} Github
 
+.members_row
   #sabcio.member
     %h3 Sebastian Wojtczak
     %h4 Developer
@@ -298,7 +313,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/sabcio'} Github
 
-.members_row
   #szymon_szypulski.member
     %h3 Szymon Szypulski
     %h4 Sysadmin
