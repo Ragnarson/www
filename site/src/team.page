@@ -196,7 +196,7 @@ link_attrs:
 
   #michal_podlecki.member
     %h3 Michał Podlecki
-    %h4 DEVELOPER
+    %h4 Developer
     %img{:src => '{relocatable: /images/team/michal_podlecki.jpg}', :alt => 'Michał Podlecki'}
     .description
       %p.specialization
