@@ -59,12 +59,8 @@ link_attrs:
     %li
       %a(href="http://github.com/mandaryn")mandaryn
     %li
-      %a(href="http://github.com/sevos/")sevos
-    %li
       %a(href="http://github.com/wijet")wijet
-    %li
-      %a(href="http://github.com/h13ronim")h13ronim
     %li
       %a(href="http://github.com/bkzl")bkzl
     %li
-      %a(href="http://github.com/marcinb")marcinb
+      %a(href="http://github.com/mkwiatkowski")mkwiatkowski
