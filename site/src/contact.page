@@ -28,7 +28,8 @@ link_attrs:
   90-419 Łódź
   %br/
   Polska / Poland
-
+  %br/
+  NIP / VAT EU - PL7272768902
 
 %script(src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript")
 
