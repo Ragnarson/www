@@ -14,9 +14,14 @@ link_attrs:
 %p
   We are trying to return to Open Source what we're getting from it.
 %p
-  Our team, lead by Oskar Szrajer hosts meetings of
-  %a(href="http://trug.pl") Trójmiasto Ruby User Group
-  on regular basis.
+  Our team hosts meetings of local Ruby User Groups on regular basis:
+  %ul
+    %li
+      %a(href="http://lrug.pl") Łódź Ruby User Group
+      lead by Bartek Kozal
+    %li
+      %a(href="http://trug.pl") Trójmiasto Ruby User Group
+      lead by Oskar Szrajer
 
 #representations.project
   %h3 Representations
