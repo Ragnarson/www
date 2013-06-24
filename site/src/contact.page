@@ -31,6 +31,12 @@ link_attrs:
   %br/
   NIP / VAT EU - PL7272768902
 
+%p
+  %br/
+  Aleja Niepodległości 807 m. 5
+  %br/
+  81-810 Sopot
+
 %script(src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript")
 
 %script(src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js" type="text/javascript")
@@ -38,14 +44,19 @@ link_attrs:
 :javascript
   $(document).ready(function(){
     var ragnarsonAddress = new google.maps.LatLng(51.76614,19.45466);
+    var trojmiasto = new google.maps.LatLng(54.444567,18.55962);
     var mapOptions = {
-      zoom: 15,
+      zoom: 6,
       center: ragnarsonAddress,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     };
     var map = new google.maps.Map(document.getElementById('map'), mapOptions);
     var marker = new google.maps.Marker({
         position: ragnarsonAddress,
+        map: map
+    });
+    var marker = new google.maps.Marker({
+        position: trojmiasto,
         map: map
     });
   });
