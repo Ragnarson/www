@@ -229,7 +229,7 @@ link_attrs:
     .description
       %p.specialization
         Specializes in:
-        %em backend, multi-threads Ruby programming
+        %em Backend, Multi-threads Ruby programming
       %p
         Oskar is a great mentor, self-reliant and communicative. He is a very active participant in the specialistic forums. Oskar perfectly copes with processing big amount of data in real time. He is interested in japanese martial arts, is a black belt master.
     %ul.links
