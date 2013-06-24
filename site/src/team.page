@@ -196,7 +196,7 @@ link_attrs:
 
   #michal_podlecki.member
     %h3 Michał Podlecki
-    %h4 DEVELOPER
+    %h4 Developer
     %img{:src => '{relocatable: /images/team/michal_podlecki.jpg}', :alt => 'Michał Podlecki'}
     .description
       %p.specialization
@@ -224,12 +224,12 @@ link_attrs:
 
   #gotar.member
     %h3 Oskar Szrajer
-    %h4 Developer
+    %h4 Zen coder
     %img{ :src => '{relocatable: /images/team/gotar.jpg}', :alt => 'Oskar Szrajer' }
     .description
       %p.specialization
         Specializes in:
-        %em Scalability, Rails
+        %em backend, multi-threads Ruby programming
       %p
         Oskar is a great mentor, self-reliant and communicative. He is a very active participant in the specialistic forums. Oskar perfectly copes with processing big amount of data in real time. He is interested in japanese martial arts, is a black belt master.
     %ul.links
