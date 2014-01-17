@@ -76,6 +76,9 @@ link_attrs:
         %em Linux administration, Data storage, Hardware prototyping
       %p
         Pasionate geek who has left corporate galaxy to explore Open Source universe. Loves neat soultions for both high scale infrastructures and assembler quirks. In some circles called hardware ninja.
+      %ul.links
+        %li.github
+          %a{:href => 'https://github.com/usecide'} Github
 
   #jonasz_grochowski.member
     %h3 Jonasz Grochowski
