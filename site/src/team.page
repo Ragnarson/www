@@ -242,21 +242,6 @@ link_attrs:
         %a{:href => 'https://github.com/gotar'} Github
 
 .members_row
-  #pawel_luczak.member
-    %h3 Paweł Łuczak
-    %h4 Developer
-    %img{ :src => '{relocatable: /images/team/pawel_luczak.jpg}', :alt => 'Paweł Łuczak' }
-    .description
-      %p.specialization
-        Specializes in:
-        %em Rails
-      %p
-        Paweł is fascinated by by Ruby's
-        %abbr(title="There's more than one way to do it") TIMTOWTDI
-        \. He is very good at HTML/CSS, JavaScript and integration of
-        applications with popular social networks. He likes engaging in new
-        startups and analyse theirs success possibilities.
-
   #placek.member
     %h3 Paweł Placzyński
     %h4 Developer, Team Leader
@@ -301,7 +286,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/RaVbaker'} Github
 
-.members_row
   #sabcio.member
     %h3 Sebastian Wojtczak
     %h4 Developer
@@ -316,6 +300,7 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/sabcio'} Github
 
+.members_row
   #szymon_szypulski.member
     %h3 Szymon Szypulski
     %h4 Sysadmin
@@ -326,17 +311,3 @@ link_attrs:
         %em Linux & Windows Administration
       %p
         Geek who tinkers with open source software on day-to-day basis. Loves new technical gadgets and innovations. Apart from IT, big fan of big and a bit smaller firearms.
-
-  #szw.member
-    %h3 Szymon Wrożyński
-    %h4 Developer
-    %img{:src => '{relocatable: /images/team/szw.jpg}', :alt => 'Szymon Wrożyński'}
-    .description
-      %p.specialization
-        Specializes in:
-        %em Ruby, JRuby, Rails
-      %p
-        Szymon is a Ruby passionate developer loving to build new things and make ideas become reality. In spare time he creates nifty Vim plugins and improves his terminal setup.
-      %ul.links
-        %li.github
-          %a{:href => 'https://github.com/szw'} Github
