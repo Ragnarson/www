@@ -211,20 +211,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/michalpodlecki'} Github
 
-  #natalia.member
-    %h3 Natalia Piestrzeniewicz
-    %h4 Sales Manager, Customer Relationship
-    %img{:src => '{relocatable: /images/team/natalia.jpg}', :alt => 'Natalia Piestrzeniewicz'}
-    .description
-      %p.specialization
-        Specializes in:
-        %em People contact
-        %p
-          Most humane. Natalia is a counterpart to technical team. Easily gets in contact
-          with both customer and developers. She finds needs of everyone, even those that
-          are not expressed easily and acts delicately to ensure as much happiness on both
-          sides as possible. You will be happy to sign contract with her.
-
   #gotar.member
     %h3 Oskar Szrajer
     %h4 Zen coder
@@ -241,7 +227,6 @@ link_attrs:
       %li.github
         %a{:href => 'https://github.com/gotar'} Github
 
-.members_row
   #placek.member
     %h3 Paweł Placzyński
     %h4 Developer, Team Leader
@@ -256,6 +241,7 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/placek'} Github
 
+.members_row
   #mandaryn.member
     %h3 Piotr Marciniak
     %h4 Developer
@@ -300,7 +286,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/sabcio'} Github
 
-.members_row
   #szymon_szypulski.member
     %h3 Szymon Szypulski
     %h4 Sysadmin
