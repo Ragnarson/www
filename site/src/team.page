@@ -108,21 +108,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/idengager'} Github
 
-  #kdunee.member
-    %h3 Kosma Dunikowski
-    %h4 Developer
-    %img{:src => '{relocatable: /images/team/kdunee.jpg}', :alt => 'Kosma Dunikowski'}
-    .description
-      %p.specialization
-        Specializes in:
-        %em Rails, Frontend
-      %p
-        Kosma is a young newcomer to Ruby, who enjoys its beauty and expressiveness after many years of working with not-so-satisfying tools. Always eager to learn better solutions and new technologies.
-    %ul.links
-      %li.github
-        %a{:href => 'https://github.com/kdunee'} Github
-
-.members_row
   #bragi.member
     %h3 Łukasz Piestrzeniewicz
     %h4 Developer, Team Leader, CEO
@@ -139,6 +124,7 @@ link_attrs:
       %li.github
         %a{:href => 'https://github.com/bragi'} Github
 
+.members_row
   #maciek.member
     %h3 Maciej Gałkiewicz
     %h4 Sysadmin
@@ -178,7 +164,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/rrrodrigo'} Github
 
-.members_row
   #wijet.member
     %h3 Mariusz Pietrzyk
     %h4 Developer, Team Leader
@@ -195,6 +180,7 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/wijet'} Github
 
+.members_row
   #michal.member
     %h3 Michał Kwiatkowski
     %h4 Code anarchist
@@ -241,7 +227,6 @@ link_attrs:
       %li.github
         %a{:href => 'https://github.com/gotar'} Github
 
-.members_row
   #placek.member
     %h3 Paweł Placzyński
     %h4 Developer, Team Leader
@@ -256,6 +241,7 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/placek'} Github
 
+.members_row
   #mandaryn.member
     %h3 Piotr Marciniak
     %h4 Developer
@@ -300,7 +286,6 @@ link_attrs:
         %li.github
           %a{:href => 'https://github.com/sabcio'} Github
 
-.members_row
   #szymon_szypulski.member
     %h3 Szymon Szypulski
     %h4 Sysadmin
