@@ -1,0 +1,10 @@
+doctype html
+html
+  head
+    meta charset="utf-8"
+    title
+      | Ragnarson
+    = stylesheet_link_tag "ragnarson"
+  body
+    = yield
+    = javascript_include_tag  "ragnarson"
