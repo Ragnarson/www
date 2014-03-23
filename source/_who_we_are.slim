@@ -1,54 +1,20 @@
-h3
+h3 id="who-we-are"
   | Who we are
-figure
-  img src="http://placekitten.com/g/170/240" alt="Picture of kitten"
-  figcaption
-    h4
-      | John Doe
-    h5
-      | Developer
-    ul
-      li= link_to 'GitHub', '#'
-      li= link_to 'Twitter', '#'
-figure
-  img src="http://placekitten.com/g/170/240" alt="Picture of kitten"
-  figcaption
-    h4
-      | John Doe
-    h5
-      | Developer
-    ul
-      li= link_to 'GitHub', '#'
-      li= link_to 'Twitter', '#'
-figure
-  img src="http://placekitten.com/g/170/240" alt="Picture of kitten"
-  figcaption
-    h4
-      | John Doe
-    h5
-      | Developer
-    ul
-      li= link_to 'GitHub', '#'
-      li= link_to 'Twitter', '#'
-figure
-  img src="http://placekitten.com/g/170/240" alt="Picture of kitten"
-  figcaption
-    h4
-      | John Doe
-    h5
-      | Developer
-    ul
-      li= link_to 'GitHub', '#'
-      li= link_to 'Twitter', '#'
-figure
-  img src="http://placekitten.com/g/170/240" alt="Picture of kitten"
-  figcaption
-    h4
-      | John Doe
-    h5
-      | Developer
-    ul
-      li= link_to 'GitHub', '#'
-      li= link_to 'Twitter', '#'
 
-= link_to 'Hire us', '#'
+div class="grid"
+  - data.team.each do |card|
+    div class="grid__item one-quarter"
+      div class="card"
+        = card_image_tag card.id
+        div class="box card__box"
+          div class="card__box__inner"
+            h4 class="card__player"
+              = card.player
+            h5 class="card__rank"
+              = card.rank
+            ul class="nav card__web"
+              li= link_to_github card.github
+              li= link_to_twitter card.twitter
+
+div class="lead"
+  = link_to 'Hire us', '#', class: "btn btn--large"

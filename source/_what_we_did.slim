@@ -1,62 +1,32 @@
-h3
+h3 id="what-we-did"
   | What we did
-h4
-  | Project name
-p
-  | Statistics is a powerful tool when used properly. The only problem with
-    statistics is sheer number of data you have to go through to get useful
-    information.
-p
-  | Major problem is amount of data. In addition each search result consists
-    of a large tree of items with collections in both branches and leaves.
-    Using SQL to store this means large normalization effort. Queries that
-    get results from such database need to go through large number of joins
-    making it slow and unmaintainable.
-dl
-  dt
-    | MVP
-  dd
-    | in one month
-  dt
-    | 100%
-  dd
-    | growth
-blockquote
-  p
-    | My experience with Ragnarson is entirely positive. They are skilled
-      professionals with collaborative attitude. They created just what
-      I needed. I can truly recommend their services.
-p
-  | John Doe, example.com
-h4
-  | Project name
-p
-  | Statistics is a powerful tool when used properly. The only problem with
-    statistics is sheer number of data you have to go through to get useful
-    information.
-p
-  | Major problem is amount of data. In addition each search result consists
-    of a large tree of items with collections in both branches and leaves.
-    Using SQL to store this means large normalization effort. Queries that
-    get results from such database need to go through large number of joins
-    making it slow and unmaintainable.
-dl
-  dt
-    | MVP
-  dd
-    | in one month
-  dt
-    | 100%
-  dd
-    | growth
-blockquote
-  p
-    | My experience with Ragnarson is entirely positive. They are skilled
-      professionals with collaborative attitude. They created just what
-      I needed. I can truly recommend their services.
-p
-  | John Doe, example.com
 
-= link_to 'Tell us about your project', '#'
-span
-  | We will do our best to help you
+- data.projects.each_with_index do |project, index|
+  div class=reversible_grid(index)
+    div class="grid__item one-half"
+      h4
+        = link_to project.name, project.link, class: 'link--clean'
+      = simple_format project.description
+      div class="quote"
+        = testimonial_image_tag project.id
+        blockquote
+          = simple_format project.testimonial.text
+        p class="quote__author"
+          ' #{project.testimonial.author},
+          = link_to project.name, project.link
+
+    div class="grid__item one-half text--center"
+      = link_to project_image_tag(project.id), project.link
+      div class="badge-group"
+        - project.badges.each do |key, value|
+          dl class="badge"
+            dt= key
+            dd= value
+
+  - unless last_project?(project)
+    hr class="rule"
+
+div class="lead"
+  = link_to 'Tell us about your project', '#', class: 'btn btn--large'
+  small
+    | We will do our best to help you

@@ -1,0 +1,55 @@
+@mixin clearfix
+  &:after
+    content: ""
+    display: table
+    clear: both
+
+@mixin text-hide
+  font: 0/0 a
+  text-shadow: none
+  background-color: transparent
+  color: transparent
+  border: 0
+
+@mixin overlaying-hr
+  overflow: hidden
+
+  &:before,
+  &:after
+    position: relative
+    display: inline-block
+    width: 50%
+    height: 1px
+    vertical-align: 20%
+    background-color: $border-color
+    content: ""
+
+  &:before
+    right: $base-spacing-unit
+    margin-left: -50%
+
+  &:after
+    left: $base-spacing-unit
+    margin-right: -50%
+
+@mixin triangle($direction, $size: $base-spacing-unit, $background-color: $object-background)
+  $height: $size
+  $width: round($height * 0.6)
+
+  &:before
+    position: absolute
+    left: -$width
+    top: $height
+    display: block
+    border-style: solid
+    border-color: transparent
+    content: ''
+
+    @if $direction == left
+      border-width: halve($height) $width halve($height) 0
+      border-right-color: $object-background
+
+@mixin vertical-align
+  position: relative
+  top: 50%
+  transform: translateY(-50%)

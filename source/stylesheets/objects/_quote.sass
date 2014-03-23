@@ -1,0 +1,21 @@
+.quote
+  @extend %box
+  +triangle(left)
+  position: relative
+  margin-left: $quote-avatar-position
+
+.quote__face
+  position: absolute
+  top: $halve-spacing-unit
+  left: -$quote-avatar-position
+  max-width: $double-spacing-unit
+  max-height: $double-spacing-unit
+  border-radius: 50%
+
+.quote__author
+  +typecsset-font-size(14px)
+  margin-top: -$halve-spacing-unit
+  text-align: right
+
+  &:before
+    content: '— '

@@ -1,5 +1,5 @@
 doctype html
-html lang="en"
+html class="wf-loading" lang="en"
   head
     meta charset="utf-8"
     title
@@ -7,4 +7,10 @@ html lang="en"
     = stylesheet_link_tag "ragnarson"
   body
     = yield
-    = javascript_include_tag  "ragnarson"
+
+    = javascript_include_tag  "//use.typekit.net/idi7gsh.js"
+    = javascript_include_tag  "smooth-scroll"
+
+    javascript:
+      Typekit.load();
+      smoothScroll.init();

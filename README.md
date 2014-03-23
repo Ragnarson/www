@@ -14,5 +14,11 @@ We need to do that to publish our site anyway. :)
 ```sh
 $ git clone git@github.com:Ragnarson/Ragnarson.com.git
 $ bundle install
-$ middleman
+$ bunde exec middleman
+```
+
+#### Deployment
+
+```sh
+$ bunde exec middleman deploy
 ```

@@ -1,0 +1,23 @@
+.btn
+  display: inline-block
+  padding: $quarter-spacing-unit $halve-spacing-unit
+  text-decoration: none
+  color: $btn-color
+  border: 0
+  background-color: $brand-color
+  border-radius: $base-border-radius
+  box-shadow: 0 3px darken($brand-color, 30%)
+  transition: background-color .3s
+
+  + small
+    margin-top: $halve-spacing-unit
+
+  &:hover
+    background-color: lighten($brand-color, 7%)
+
+.btn--large
+  padding: $halve-spacing-unit $base-spacing-unit
+  font-size: $typecsset-h5-size
+
+.btn--inline
+  margin-left: $halve-spacing-unit

@@ -1,9 +1,13 @@
-header
-  h1
-    | Ragnarson
-  nav
-    ul
-      li= link_to 'What we do', '#'
-      li= link_to 'What we did', '#'
-      li= link_to 'Who we are', '#'
-      li= link_to 'What we do', '#'
+header class="header"
+  div class="container"
+    div class="grid grid--middle"
+      div class="grid__item one-third"
+        h1 class="brand"
+          | Ragnarson
+      div class="grid__item two-thirds text--right"
+        nav
+          ul class="nav nav--main"
+            li= link_to 'What we do', '#what-we-do', 'data-scroll' => ''
+            li= link_to 'What we did', '#what-we-did', 'data-scroll' => ''
+            li= link_to 'Who we are', '#who-we-are', 'data-scroll' => ''
+            li= link_to 'Contact Us', '#contact-us', 'data-scroll' => ''

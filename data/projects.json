@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Project name",
+    "link": "http://example.com",
+    "description": "Statistics is a powerful tool when used properly. The only problem with statistics is sheer number of data you have to go through to get useful information.\n\nMajor problem is amount of data. In addition each search result consists of a large tree of items with collections in both branches and leaves. Using SQL to store this means large normalization effort. Queries that get results from such database need to go through large number of joins making it slow and unmaintainable.",
+    "testimonial": {
+      "text": "My experience with Ragnarson is entirely positive. They are skilled professionals with collaborative attitude. They created just what I needed. I can truly recommend their services.",
+      "author": "John Doe",
+      "avatar": 1
+    },
+    "badges": {
+      "MVP": "in one month",
+      "100%": "growth"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Project name",
+    "link": "http://example.com",
+    "description": "Statistics is a powerful tool when used properly. The only problem with statistics is sheer number of data you have to go through to get useful information.\n\nMajor problem is amount of data. In addition each search result consists of a large tree of items with collections in both branches and leaves. Using SQL to store this means large normalization effort. Queries that get results from such database need to go through large number of joins making it slow and unmaintainable.",
+    "testimonial": {
+      "text": "My experience with Ragnarson is entirely positive. They are skilled professionals with collaborative attitude. They created just what I needed. I can truly recommend their services.",
+      "author": "John Doe",
+      "avatar": 2
+    },
+    "badges": {
+      "MVP": "in one month",
+      "100%": "growth"
+    }
+  }
+]
