@@ -1,58 +1,127 @@
 [
   {
-    "id": 1,
-    "player": "John Doe",
-    "rank": "Developer",
-    "github": "johndoe",
-    "twitter": "johndoe"
+    "player": "Łukasz Piestrzeniewicz",
+    "rank": "CEO",
+    "avatar": "bragi.jpg",
+    "github": "bragi",
+    "twitter": "bragiragnarson"
   },
   {
-    "id": 1,
-    "player": "John Doe",
-    "rank": "Developer",
-    "github": "johndoe",
-    "twitter": "johndoe"
+    "player": "Barbara Niewiadomska",
+    "rank": "Office Manager",
+    "avatar": "basia.jpg"
   },
   {
-    "id": 1,
-    "player": "John Doe",
-    "rank": "Developer",
-    "github": "johndoe",
-    "twitter": "johndoe"
+    "player": "Maciej Gałkiewicz",
+    "rank": "Customer Relations Manager",
+    "avatar": "macias.jpg",
+    "github": "mgalkiewicz",
+    "twitter": "mgalkiewicz"
   },
   {
-    "id": 1,
-    "player": "John Doe",
+    "player": "Marcin Bajer",
     "rank": "Developer",
-    "github": "johndoe",
-    "twitter": "johndoe"
+    "avatar": "marcin.png",
+    "github": "rrrodrigo",
+    "twitter": "rrrodrigo"
   },
   {
-    "id": 1,
-    "player": "John Doe",
+    "player": "Jonasz Grochowski",
     "rank": "Developer",
-    "github": "johndoe",
-    "twitter": "johndoe"
+    "avatar": "jonasz.png",
+    "github": "tensaioni"
   },
   {
-    "id": 1,
-    "player": "John Doe",
+    "player": "Kasia Jarmołkowicz",
     "rank": "Developer",
-    "github": "johndoe",
-    "twitter": "johndoe"
+    "avatar": "kasia.jpg",
+    "github": "idengager",
+    "twitter": "_idengager"
   },
   {
-    "id": 1,
-    "player": "John Doe",
+    "player": "Ignacy Kasperowicz",
     "rank": "Developer",
-    "github": "johndoe",
-    "twitter": "johndoe"
+    "avatar": "ignacy.png",
+    "github": "usecide",
+    "twitter": "usecide"
   },
   {
-    "id": 1,
-    "player": "John Doe",
+    "player": "Grzesiek Kołodziejczyk",
     "rank": "Developer",
-    "github": "johndoe",
-    "twitter": "johndoe"
+    "avatar": "grk.jpg",
+    "github": "grk",
+    "twitter": "grzesieq"
+  },
+  {
+    "player": "Bartłomiej Kozal",
+    "rank": "Developer",
+    "avatar": "bkzl.jpg",
+    "github": "bkzl",
+    "twitter": "_bkzl"
+  },
+  {
+    "player": "Maciej Małecki",
+    "rank": "Developer",
+    "avatar": "student.png",
+    "github": "smt116",
+    "twitter": "smefju"
+  },
+  {
+    "player": "Piotr Marciniak",
+    "rank": "Developer",
+    "avatar": "mandaryn.jpg",
+    "github": "mandaryn"
+  },
+  {
+    "player": "Rafał Piekarski",
+    "rank": "Developer",
+    "avatar": "rafal.png",
+    "github": "ravbaker",
+    "twitter": "ravbaker"
+  },
+  {
+    "player": "Mariusz Pietrzyk",
+    "rank": "Developer",
+    "avatar": "wijet.jpg",
+    "github": "wijet",
+    "twitter": "wijet"
+  },
+  {
+    "player": "Paweł Placzyński",
+    "rank": "Developer",
+    "avatar": "placek.jpg",
+    "github": "placek"
+  },
+  {
+    "player": "Michał Podlecki",
+    "rank": "Developer",
+    "avatar": "michal.png",
+    "github": "michalpodlecki",
+    "twitter": "michal_podlecki"
+  },
+  {
+    "player": "Oskar Szrajer",
+    "rank": "Developer",
+    "avatar": "oskar.png",
+    "github": "gotar",
+    "twitter": "oskarszrajer"
+  },
+  {
+    "player": "Szymon Szypulski",
+    "rank": "Developer",
+    "avatar": "szymon.png",
+    "github": "szymonpk"
+  },
+  {
+    "player": "Sebastian Wojtczak",
+    "rank": "Developer",
+    "avatar": "seba.jpg",
+    "github": "sabcio"
+  },
+  {
+    "player": "Antoni Wójcik",
+    "rank": "Developer",
+    "avatar": "antek.png",
+    "github": "atw"
   }
 ]

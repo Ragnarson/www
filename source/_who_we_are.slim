@@ -5,7 +5,7 @@ div class="grid"
   - data.team.each do |card|
     div class="grid__item one-quarter"
       div class="card"
-        = card_image_tag card.id
+        = card_image_tag card.avatar
         div class="box card__box"
           div class="card__box__inner"
             h4 class="card__player"
@@ -13,8 +13,10 @@ div class="grid"
             h5 class="card__rank"
               = card.rank
             ul class="nav card__web"
-              li= link_to_github card.github
-              li= link_to_twitter card.twitter
+              - if card.github
+                li= link_to_github card.github
+              - if card.twitter
+                li= link_to_twitter card.twitter
 
 div class="lead"
   = link_to 'Hire us', '#', class: "btn btn--large"

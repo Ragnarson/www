@@ -6,22 +6,27 @@ h3 id="what-we-did"
     div class="grid__item one-half"
       h4
         = link_to project.name, project.link, class: 'link--clean'
+
       = simple_format project.description
-      div class="quote"
-        = testimonial_image_tag project.id
-        blockquote
-          = simple_format project.testimonial.text
-        p class="quote__author"
-          ' #{project.testimonial.author},
-          = link_to project.name, project.link
+
+      - if project.testimonial
+        div class="quote"
+          = testimonial_image_tag project.testimonial.avatar
+          blockquote
+            = simple_format project.testimonial.text
+          p class="quote__author"
+            ' #{project.testimonial.author},
+            = link_to project.name, project.link
 
     div class="grid__item one-half text--center"
       = link_to project_image_tag(project.id), project.link
-      div class="badge-group"
-        - project.badges.each do |key, value|
-          dl class="badge"
-            dt= key
-            dd= value
+
+      - if project.badges
+        div class="badge-group"
+          - project.badges.each do |key, value|
+            dl class="badge"
+              dt= key
+              dd= value
 
   - unless last_project?(project)
     hr class="rule"
@@ -29,4 +34,4 @@ h3 id="what-we-did"
 div class="lead"
   = link_to 'Tell us about your project', '#', class: 'btn btn--large'
   small
-    | We will do our best to help you
+    | We do our best to help you

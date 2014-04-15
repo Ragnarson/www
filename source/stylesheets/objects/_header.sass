@@ -1,2 +1,17 @@
 .header
   background: $object-background
+
+.header--sticky
+  position: fixed
+  width: 100%
+  background: $object-alt-background
+  z-index: 2
+  animation: slide-in .3s
+
+  .brand
+    background-image: image-url('brand-inverse.svg')
+
+  .nav--main > li > a
+    color: $box-alt-heading-color
+    padding-top: ($base-spacing-unit / 1.5)
+    padding-bottom: ($base-spacing-unit / 1.5)

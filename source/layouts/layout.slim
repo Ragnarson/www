@@ -1,16 +1,13 @@
 doctype html
-html class="wf-loading" lang="en"
+html lang="en"
   head
     meta charset="utf-8"
     title
       | Ragnarson
     = stylesheet_link_tag "ragnarson"
+    = javascript_include_tag "//use.typekit.net/idi7gsh.js"
+
   body
     = yield
-
-    = javascript_include_tag  "//use.typekit.net/idi7gsh.js"
-    = javascript_include_tag  "smooth-scroll"
-
-    javascript:
-      Typekit.load();
-      smoothScroll.init();
+    = javascript_include_tag "smooth-scroll"
+    = javascript_include_tag "ragnarson"

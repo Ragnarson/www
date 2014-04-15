@@ -17,15 +17,15 @@ helpers do
   end
 
   def project_image_tag(id)
-    image_tag "project/#{id}.jpg"
+    image_tag "project/#{id}.png"
   end
 
-  def testimonial_image_tag(id)
-    image_tag "project/testimonial/#{id}.jpg", class: 'quote__face'
+  def testimonial_image_tag(avatar)
+    image_tag "project/testimonial/#{avatar}", class: 'quote__face'
   end
 
-  def card_image_tag(id)
-    image_tag "team/#{id}.jpg"
+  def card_image_tag(avatar)
+    image_tag "team/#{avatar}"
   end
 
   def link_to_github(nick)
