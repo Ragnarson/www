@@ -12,6 +12,5 @@ stickyHeader =
   init: ->
     window.onscroll = @detectSticky
 
-Typekit.load()
 smoothScroll.init()
 stickyHeader.init()

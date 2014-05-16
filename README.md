@@ -25,7 +25,6 @@ $ bunde exec middleman deploy
 
 #### To do
 
-- [ ] Typekit
 - [ ] RWD
 - [ ] Move to Sinatra & deploy on Shelly
 - [ ] Newsletter

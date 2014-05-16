@@ -7,6 +7,9 @@ html lang="en"
     = stylesheet_link_tag "ragnarson"
     = javascript_include_tag "//use.typekit.net/idi7gsh.js"
 
+    javascript:
+      Typekit.load();
+
   body
     = yield
     = javascript_include_tag "smooth-scroll"
