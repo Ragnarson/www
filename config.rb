@@ -17,7 +17,7 @@ helpers do
   end
 
   def project_image_tag(id)
-    image_tag "project/#{id}.png"
+    image_tag "project/#{id}.png", class: 'thumbnail'
   end
 
   def testimonial_image_tag(avatar)

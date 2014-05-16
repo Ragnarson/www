@@ -25,9 +25,8 @@ $ bunde exec middleman deploy
 
 #### To do
 
-- [ ] Screenshots
-- [ ] RWD
 - [ ] Typekit
+- [ ] RWD
 - [ ] Move to Sinatra & deploy on Shelly
 - [ ] Newsletter
 - [ ] Contact form
@@ -36,7 +35,7 @@ $ bunde exec middleman deploy
 
 ##### Going live
 
-- [ ] Ensure that all links and buttons work 
+- [ ] Ensure that all links and buttons work
 - [ ] Uncomment GA
 - [ ] Unblock robots
 - [ ] Disable relative_assets in config.rb
