@@ -12,5 +12,19 @@ stickyHeader =
   init: ->
     window.onscroll = @detectSticky
 
+rwdNav =
+  init: ->
+    trigger = document.querySelector('[data-rwd-nav]')
+
+    onClick = (event) ->
+      navClass = event.target.getAttribute('data-rwd-nav')
+      nav = document.querySelector(navClass)
+
+      event.preventDefault()
+      nav.classList.toggle('nav--main--rwd')
+
+    trigger.addEventListener('click', onClick)
+
 smoothScroll.init()
 stickyHeader.init()
+rwdNav.init()

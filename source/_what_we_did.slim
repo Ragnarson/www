@@ -3,7 +3,17 @@ h3 id="what-we-did"
 
 - data.projects.each_with_index do |project, index|
   div class=reversible_grid(index)
-    div class="grid__item one-half"
+    div class="grid__item one-half phone--one-whole mobile--one-whole text--center"
+      = link_to project_image_tag(project.id), project.link
+
+      - if project.badges
+        div class="badge-group"
+          - project.badges.each do |key, value|
+            dl class="badge"
+              dt= key
+              dd= value
+
+    div class="grid__item one-half phone--one-whole mobile--one-whole"
       h4
         = link_to project.name, project.link, class: 'link--clean'
 
@@ -17,16 +27,6 @@ h3 id="what-we-did"
           p class="quote__author"
             ' #{project.testimonial.author},
             = link_to project.name, project.link
-
-    div class="grid__item one-half text--center"
-      = link_to project_image_tag(project.id), project.link
-
-      - if project.badges
-        div class="badge-group"
-          - project.badges.each do |key, value|
-            dl class="badge"
-              dt= key
-              dd= value
 
   - unless last_project?(project)
     hr class="rule"

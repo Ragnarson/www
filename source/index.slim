@@ -11,6 +11,10 @@ header class="header" data-sticky="480"
             li= link_to 'What we did', '#what-we-did', 'data-scroll' => ''
             li= link_to 'Who we are', '#who-we-are', 'data-scroll' => ''
             li= link_to 'Contact Us', '#contact-us', 'data-scroll' => ''
+          ul class="nav nav--rwd"
+            li
+              = link_to '&#8203;', '#', class: 'nav--rwd__navicon',
+                'data-rwd-nav' => '.nav--main'
 
 div class="hero"
   div class="container"

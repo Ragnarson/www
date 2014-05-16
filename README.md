@@ -25,7 +25,6 @@ $ bunde exec middleman deploy
 
 #### To do
 
-- [ ] RWD
 - [ ] Move to Sinatra & deploy on Shelly
 - [ ] Newsletter
 - [ ] Contact form

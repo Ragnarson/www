@@ -53,3 +53,7 @@
   position: relative
   top: 50%
   transform: translateY(-50%)
+
+@mixin until($width)
+  @media only screen and (max-width: $width)
+    @content

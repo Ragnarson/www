@@ -1,4 +1,4 @@
-activate :livereload
+# activate :livereload
 activate :autoprefixer
 
 set :css_dir, 'stylesheets'
@@ -12,7 +12,7 @@ helpers do
 
   def reversible_grid(index)
     css = "grid"
-    css.concat " grid--rev" if index.odd?
+    css.concat " grid--rev" if index.even?
     css
   end
 
@@ -25,7 +25,7 @@ helpers do
   end
 
   def card_image_tag(avatar)
-    image_tag "team/#{avatar}"
+    image_tag "team/#{avatar}", class: 'card__avatar'
   end
 
   def link_to_github(nick)
