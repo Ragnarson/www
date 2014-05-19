@@ -22,19 +22,3 @@ $ bunde exec middleman
 ```sh
 $ bunde exec middleman deploy
 ```
-
-#### To do
-
-- [ ] Move to Sinatra & deploy on Shelly
-- [ ] Newsletter
-- [ ] Contact form
-- [ ] Favicon
-- [ ] Retina ready
-
-##### Going live
-
-- [ ] Ensure that all links and buttons work
-- [ ] Uncomment GA
-- [ ] Unblock robots
-- [ ] Disable relative_assets in config.rb
-- [ ] CNAME

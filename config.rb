@@ -1,4 +1,4 @@
-# activate :livereload
+activate :livereload
 activate :autoprefixer
 
 set :css_dir, 'stylesheets'

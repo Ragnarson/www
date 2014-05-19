@@ -53,12 +53,13 @@ div class="grid"
             our customers. Now it is available to general public.
             Shelly Cloud is a complete, dedicated platform for hosting Ruby
             and Ruby on Rails applications.
-/
-  div class="grid grid--center"
-    div class="grid__item one-half"
-      form class="box box--alt"
-        label for="email"
-          | Sign up to get pdf about developers
-        input class="nine-twelfths" id="email" type="text" placeholder="e.g. johndoe@example.com"
-        button class="btn btn--inline" type="submit"
-          | Sign up
+
+div class="grid grid--center"
+  div class="grid__item one-half"
+    form class="box box--alt" method="post" action="http://www-backend.shellyapp.com/newsletter"
+      label for="email"
+        | We prepared PDF which explains how we work with our clients.
+          Provide your email to get it now.
+      input class="seven-twelfths" id="email" type="text" name="email" placeholder="e.g. johndoe@example.com"
+      button class="btn btn--inline" type="submit"
+        | Send me the PDF
