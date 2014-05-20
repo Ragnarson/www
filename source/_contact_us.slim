@@ -10,6 +10,8 @@ div class="grid"
       | Aleja Kościuszki 32/7
       br
       | 90-419 Łódź, Poland
+      br
+      = mail_to 'biz@ragnarson.com'
       small
         br
         | NIP/VAT-EU: PL7272768902
@@ -35,13 +37,13 @@ div class="grid"
       | Business contact
     p
       | Opportunities, general questions, comments, and concerns should be
-        #{link_to "sent to Maciej and Łukasz", "#"}, via email.
+        #{mail_to "biz@ragnarson.com", "sent to Maciej and Łukasz"}, via email.
     h5
       | Job contact
     p
       |
         Questions regarding recruitment and employment should be sent to
-        #{link_to "jobs@ragnarson.com"}
+        #{mail_to "jobs@ragnarson.com"}
 
   div class="grid__item one-half phone--one-whole mobile--one-whole"
     form class="box box--alt" method="post" action="http://www-backend.shellyapp.com/contact"
