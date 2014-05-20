@@ -12,7 +12,7 @@ We need to do that to publish our site anyway. :)
 #### Development
 
 ```sh
-$ git clone git@github.com:Ragnarson/Ragnarson.com.git
+$ git clone git@github.com:Ragnarson/www.git
 $ bundle install
 $ bunde exec middleman
 ```
