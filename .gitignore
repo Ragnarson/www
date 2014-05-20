@@ -1,8 +1,5 @@
-site/out
-site/src/stylesheets
-site/webgen.cache
-site/.sass-cache
-site/.bundle
-*.*~
+/.bundle
+/build
+/.sass-cache
+/.cache
 .DS_Store
-site/src/sass/.sass-cache/

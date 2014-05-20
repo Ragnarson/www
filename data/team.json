@@ -1,0 +1,127 @@
+[
+  {
+    "player": "Łukasz Piestrzeniewicz",
+    "rank": "CEO",
+    "avatar": "bragi.jpg",
+    "github": "bragi",
+    "twitter": "bragiragnarson"
+  },
+  {
+    "player": "Barbara Niewiadomska",
+    "rank": "Office Manager",
+    "avatar": "basia.jpg"
+  },
+  {
+    "player": "Maciej Gałkiewicz",
+    "rank": "Customer Relations Manager",
+    "avatar": "macias.jpg",
+    "github": "mgalkiewicz",
+    "twitter": "mgalkiewicz"
+  },
+  {
+    "player": "Marcin Bajer",
+    "rank": "Developer",
+    "avatar": "marcin.png",
+    "github": "rrrodrigo",
+    "twitter": "rrrodrigo"
+  },
+  {
+    "player": "Jonasz Grochowski",
+    "rank": "Developer",
+    "avatar": "jonasz.png",
+    "github": "tensaioni"
+  },
+  {
+    "player": "Kasia Jarmołkowicz",
+    "rank": "Developer",
+    "avatar": "kasia.jpg",
+    "github": "idengager",
+    "twitter": "_idengager"
+  },
+  {
+    "player": "Ignacy Kasperowicz",
+    "rank": "Developer",
+    "avatar": "ignacy.png",
+    "github": "usecide",
+    "twitter": "usecide"
+  },
+  {
+    "player": "Grzesiek Kołodziejczyk",
+    "rank": "Developer",
+    "avatar": "grk.jpg",
+    "github": "grk",
+    "twitter": "grzesieq"
+  },
+  {
+    "player": "Bartłomiej Kozal",
+    "rank": "Developer",
+    "avatar": "bkzl.jpg",
+    "github": "bkzl",
+    "twitter": "_bkzl"
+  },
+  {
+    "player": "Maciej Małecki",
+    "rank": "Developer",
+    "avatar": "student.png",
+    "github": "smt116",
+    "twitter": "smefju"
+  },
+  {
+    "player": "Piotr Marciniak",
+    "rank": "Developer",
+    "avatar": "mandaryn.jpg",
+    "github": "mandaryn"
+  },
+  {
+    "player": "Rafał Piekarski",
+    "rank": "Developer",
+    "avatar": "rafal.png",
+    "github": "ravbaker",
+    "twitter": "ravbaker"
+  },
+  {
+    "player": "Mariusz Pietrzyk",
+    "rank": "Developer",
+    "avatar": "wijet.jpg",
+    "github": "wijet",
+    "twitter": "wijet"
+  },
+  {
+    "player": "Paweł Placzyński",
+    "rank": "Developer",
+    "avatar": "placek.jpg",
+    "github": "placek"
+  },
+  {
+    "player": "Michał Podlecki",
+    "rank": "Developer",
+    "avatar": "michal.png",
+    "github": "michalpodlecki",
+    "twitter": "michal_podlecki"
+  },
+  {
+    "player": "Oskar Szrajer",
+    "rank": "Developer",
+    "avatar": "oskar.png",
+    "github": "gotar",
+    "twitter": "oskarszrajer"
+  },
+  {
+    "player": "Szymon Szypulski",
+    "rank": "Developer",
+    "avatar": "szymon.png",
+    "github": "szymonpk"
+  },
+  {
+    "player": "Sebastian Wojtczak",
+    "rank": "Developer",
+    "avatar": "seba.jpg",
+    "github": "sabcio"
+  },
+  {
+    "player": "Antoni Wójcik",
+    "rank": "Developer",
+    "avatar": "antek.png",
+    "github": "atw"
+  }
+]

@@ -1,0 +1,22 @@
+h3 id="who-we-are"
+  | Who we are
+
+div class="grid"
+  - data.team.each do |card|
+    div class="grid__item one-quarter phone--one-whole mobile--one-third"
+      div class="card"
+        = card_image_tag card.avatar
+        div class="box card__box"
+          div class="card__box__inner"
+            h4 class="card__player"
+              = card.player
+            h5 class="card__rank"
+              = card.rank
+            ul class="nav card__web"
+              - if card.github
+                li= link_to_github card.github
+              - if card.twitter
+                li= link_to_twitter card.twitter
+
+div class="lead"
+  = link_to 'Hire us', '#contact-us', 'data-scroll' => '', class: "btn btn--large"

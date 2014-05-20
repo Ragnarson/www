@@ -1,0 +1,76 @@
+.card
+  position: relative
+  margin-bottom: $base-spacing-unit
+
+.card__box
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  text-align: center
+  background: $card-box-background
+  border-radius: 0
+  opacity: 0
+  transition: opacity .3s
+
+  .card:hover &
+    opacity: 1
+
+.card__box__inner
+  +vertical-align
+
+.card__player
+  +typecsset-font-size(20px)
+  font-weight: normal
+
+.card__rank
+  +typecsset-font-size(16px)
+  font-weight: normal
+  color: $muted-color
+
+.card__web
+  > li
+    margin-left: $quarter-spacing-unit
+    margin-right: $quarter-spacing-unit
+
++until($breakpoint-phone)
+  .card
+    position: inherit
+
+  .card__avatar
+    max-height: 100px
+    float: left
+    clear: both
+    margin-right: $halve-spacing-unit
+    margin-bottom: $base-spacing-unit
+
+  .card__box
+    position: inherit
+    top: inherit
+    left: inherit
+    width: inherit
+    height: inherit
+    opacity: 1
+    text-align: left
+    padding: 0
+    float: left
+
+  .card__box__inner
+    position: inherit
+    top: inherit
+    transform: none
+
+  .card__player
+    +typecsset-font-size(18px)
+    margin-bottom: 0
+
+  .card__rank
+    +typecsset-font-size(14px)
+    margin-bottom: $quarter-spacing-unit
+
+  .card__web
+    > li
+      max-width: 24px
+      margin-left: 0
+      margin-right: $quarter-spacing-unit

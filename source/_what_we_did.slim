@@ -1,0 +1,35 @@
+h3 id="what-we-did"
+  | What we did
+
+- data.projects.each_with_index do |project, index|
+  div class=reversible_grid(index)
+    div class="grid__item one-half phone--one-whole mobile--one-whole text--center"
+      = link_to project_image_tag(project.id), project.link
+
+      - if project.badges
+        div class="badge-group"
+          - project.badges.each do |key, value|
+            dl class="badge"
+              dt= key
+              dd= value
+
+    div class="grid__item one-half phone--one-whole mobile--one-whole"
+      h4
+        = link_to project.name, project.link, class: 'link--clean'
+
+      = simple_format project.description
+
+      - if project.testimonial
+        div class="quote"
+          = testimonial_image_tag project.testimonial.avatar
+          blockquote
+            = simple_format project.testimonial.text
+          p class="quote__author"
+            ' #{project.testimonial.author},
+            = link_to project.name, project.link
+
+  - unless last_project?(project)
+    hr class="rule"
+
+div class="lead"
+  = link_to 'Tell us about your project', '#contact-us', 'data-scroll' => '', class: 'btn btn--large'

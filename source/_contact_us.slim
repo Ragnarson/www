@@ -1,0 +1,68 @@
+h3 id="contact-us"
+  | Contact Us
+
+div class="grid"
+  div class="grid__item one-half phone--one-whole text--center"
+    = image_tag 'office/lodz.png'
+    h4 class="lead--base-spacing"
+      | Main Office
+    address
+      | Aleja Kościuszki 32/7
+      br
+      | 90-419 Łódź, Poland
+      br
+      = mail_to 'biz@ragnarson.com'
+      small
+        br
+        | NIP/VAT-EU: PL7272768902
+        br
+        | KRS: 0000365781
+        br
+        | REGON: 100960955
+    hr class="rule rule--phone"
+  div class="grid__item one-half phone--one-whole text--center"
+    = image_tag 'office/sopot.png', class: 'img--center'
+    h4 class="lead--base-spacing"
+      | Branch Office
+    address
+      | Aleja Niepodległości 807/5
+      br
+      | 81-810 Sopot, Poland
+
+hr class="rule"
+
+div class="grid"
+  div class="grid__item one-half phone--one-whole mobile--one-whole"
+    h5
+      | Business contact
+    p
+      | Opportunities, general questions, comments, and concerns should be
+        #{mail_to "biz@ragnarson.com", "sent to Maciej and Łukasz"}, via email.
+    h5
+      | Job contact
+    p
+      |
+        Questions regarding recruitment and employment should be sent to
+        #{mail_to "jobs@ragnarson.com"}
+
+  div class="grid__item one-half phone--one-whole mobile--one-whole"
+    form class="box box--alt" method="post" action="http://www-backend.shellyapp.com/contact"
+      div class="form-field"
+        label for="name"
+          | Your name
+        input(class="one-whole" placeholder="e.g. John Doe"
+          id="name" type="text" name="name")
+
+      div class="form-field"
+        label for="email"
+          | Your email
+        input(class="one-whole" placeholder="e.g. johndoe@example.com"
+          id="email" type="email" name="email")
+
+      div class="form-field"
+        label for="message"
+          | Message
+        textarea class="one-whole" id="message" name="message"
+
+      button class="btn one-half phone--one-whole lead--halve-spacing" type="submit"
+        | Send us a message

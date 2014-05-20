@@ -1,0 +1,82 @@
+*,
+*:before,
+*:after
+  box-sizing: border-box
+
+body
+  font-family: $base-font-family
+  color: $base-color
+
+h1,
+h2,
+h3,
+h4,
+h5
+  font-weight: 300
+
+h1,
+h2,
+h3
+  text-align: center
+
+h2
+  font-size: $typecsset-h4-size
+
+h3
+  +overlaying-hr
+  margin-top: $double-spacing-unit
+  margin-bottom: $double-spacing-unit
+  font-size: $typecsset-h4-size
+  color: $muted-color
+
+h4
+  font-size: $typecsset-h3-size
+
+h5
+  font-size: $typecsset-h4-size
+
+a
+  color: $link-color
+
+small
+  display: block
+  color: $muted-color
+
+img
+  max-width: 100%
+  vertical-align: bottom
+
+ul,
+ol,
+dd
+  margin-left: $base-spacing-unit
+
+p + ul,
+p + ol,
+p + dd
+  margin-top: -$halve-spacing-unit
+  margin-bottom: $halve-spacing-unit
+
+label
+  display: block
+  margin-bottom: $quarter-spacing-unit
+
+input[type=text], input[type=email], textarea
+  padding: $quarter-spacing-unit $halve-spacing-unit
+  vertical-align: middle
+  line-height: $typecsset-base-line-height
+  color: $base-color
+  border: 0
+
+textarea
+  height: quadruple($base-spacing-unit)
+
+blockquote
+  margin-left: 0
+  font-style: italic
+  text-indent: 0
+  color: $muted-color
+
+address
+  margin-bottom: 0
+  font-style: normal

@@ -1,7 +1,0 @@
-Ragnarson website
----
-
-How to run the site:
-  gem install bundler
-  bundle install
-  rake
