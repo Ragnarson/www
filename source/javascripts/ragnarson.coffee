@@ -1,16 +1,16 @@
-stickyHeader =
-  detectSticky: ->
-    header = document.querySelector('[data-sticky]')
+altHeader =
+  detectAltHeader: ->
+    header = document.querySelector('[data-alt-header]')
     scrollPosition = window.scrollY
-    triggerPosition = header.getAttribute('data-sticky')
+    triggerPosition = header.getAttribute('data-alt-header')
 
-    if scrollPosition > triggerPosition
-      header.classList.add('header--sticky')
+    if scrollPosition >= triggerPosition
+      header.classList.add('header--alt')
     else
-      header.classList.remove('header--sticky')
+      header.classList.remove('header--alt')
 
   init: ->
-    window.onscroll = @detectSticky
+    window.onscroll = @detectAltHeader
 
 rwdNav =
   init: ->
@@ -25,6 +25,6 @@ rwdNav =
 
     trigger.addEventListener('click', onClick)
 
-smoothScroll.init()
-stickyHeader.init()
+smoothScroll.init({offset: 116})
+altHeader.init()
 rwdNav.init()
