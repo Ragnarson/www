@@ -58,6 +58,20 @@
     "avatar": "dominik.png"
   },
   {
+    "player": "Artur Krzemiński-Freda",
+    "rank": "Developer",
+    "avatar": "artur.png",
+    "github": "Fredar",
+    "twitter": "Akfreda"
+  },
+  {
+    "player": "Maciej Kubiak",
+    "rank": "Developer",
+    "avatar": "maciej_kubiak.png",
+    "github": "buffot",
+    "twitter": "maciej_kubiak"
+  },
+  {
     "player": "Bartłomiej Kozal",
     "rank": "Developer",
     "avatar": "bkzl.jpg",
@@ -76,6 +90,13 @@
     "rank": "Developer",
     "avatar": "mandaryn.jpg",
     "github": "mandaryn"
+  },
+  {
+    "player": "Mateusz Nowakowski",
+    "rank": "Developer",
+    "avatar": "nowakov.png",
+    "github": "nowakov",
+    "twitter": "nowakov"
   },
   {
     "player": "Rafał Piekarski",
@@ -116,6 +137,13 @@
     "rank": "Developer",
     "avatar": "szymon.png",
     "github": "szymonpk"
+  },
+  {
+    "player": "Stanisław Tuszyński",
+    "rank": "Developer",
+    "avatar": "stanislaw.png",
+    "github": "stuszynski",
+    "twitter": "R4yTr4cer"
   },
   {
     "player": "Sebastian Wojtczak",
