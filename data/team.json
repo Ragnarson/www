@@ -1,22 +1,22 @@
 [
   {
     "player": "Łukasz Piestrzeniewicz",
-    "rank": "CEO",
+    "rank": "Founder",
     "avatar": "bragi.jpg",
     "github": "bragi",
     "twitter": "bragiragnarson"
   },
   {
-    "player": "Barbara Niewiadomska",
-    "rank": "Office Manager",
-    "avatar": "basia.jpg"
-  },
-  {
     "player": "Maciej Gałkiewicz",
-    "rank": "Customer Relations Manager",
+    "rank": "CEO",
     "avatar": "macias.jpg",
     "github": "mgalkiewicz",
     "twitter": "mgalkiewicz"
+  },
+  {
+    "player": "Barbara Niewiadomska",
+    "rank": "Office Manager",
+    "avatar": "basia.jpg"
   },
   {
     "player": "Marcin Bajer",
