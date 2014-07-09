@@ -28,7 +28,7 @@
   {
     "player": "Jonasz Grochowski",
     "rank": "Developer",
-    "avatar": "jonasz.png",
+    "avatar": "jonasz.jpg",
     "github": "tensaioni"
   },
   {
@@ -67,7 +67,7 @@
   {
     "player": "Maciej Kubiak",
     "rank": "Developer",
-    "avatar": "maciej_kubiak.png",
+    "avatar": "maciej_kubiak.jpg",
     "github": "buffot",
     "twitter": "maciej_kubiak"
   },
@@ -81,7 +81,7 @@
   {
     "player": "Maciej Małecki",
     "rank": "Developer",
-    "avatar": "student.png",
+    "avatar": "maciek.jpg",
     "github": "smt116",
     "twitter": "smefju"
   },
@@ -121,27 +121,27 @@
   {
     "player": "Michał Podlecki",
     "rank": "Developer",
-    "avatar": "michal.png",
+    "avatar": "michal.jpg",
     "github": "michalpodlecki",
     "twitter": "michal_podlecki"
   },
   {
     "player": "Oskar Szrajer",
     "rank": "Developer",
-    "avatar": "oskar.png",
+    "avatar": "oskar.jpg",
     "github": "gotar",
     "twitter": "oskarszrajer"
   },
   {
     "player": "Szymon Szypulski",
     "rank": "Developer",
-    "avatar": "szymon.png",
+    "avatar": "szymon.jpg",
     "github": "szymonpk"
   },
   {
     "player": "Stanisław Tuszyński",
     "rank": "Developer",
-    "avatar": "stanislaw.png",
+    "avatar": "stanislaw.jpg",
     "github": "stuszynski",
     "twitter": "R4yTr4cer"
   },
@@ -154,7 +154,7 @@
   {
     "player": "Antoni Wójcik",
     "rank": "Developer",
-    "avatar": "antek.png",
+    "avatar": "antek.jpg",
     "github": "atw"
   }
 ]
