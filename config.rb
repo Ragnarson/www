@@ -35,6 +35,10 @@ helpers do
   def link_to_twitter(nick)
     link_to image_tag('icn-twitter.svg'), "https://twitter.com/#{nick}"
   end
+
+  def ribbon(card)
+    "ribbon" if card.player == "Łukasz Piestrzeniewicz"
+  end
 end
 
 configure :build do
