@@ -7,11 +7,6 @@
     "twitter": "bragiragnarson"
   },
   {
-    "player": "Barbara Niewiadomska",
-    "rank": "Office Manager",
-    "avatar": "basia.jpg"
-  },
-  {
     "player": "Maciej Gałkiewicz",
     "rank": "CEO",
     "avatar": "macias.jpg",
@@ -97,11 +92,22 @@
     "avatar": "agnieszka.jpg"
   },
   {
+    "player": "Barbara Niewiadomska",
+    "rank": "Office Manager",
+    "avatar": "basia.jpg"
+  },
+  {
     "player": "Mateusz Nowakowski",
     "rank": "Developer",
     "avatar": "nowakov.png",
     "github": "nowakov",
     "twitter": "nowakov"
+  },
+  {
+    "player": "Adam Okoń",
+    "rank": "Developer",
+    "avatar": "adam.jpg",
+    "github": "aokon"
   },
   {
     "player": "Rafał Piekarski",
@@ -161,11 +167,5 @@
     "rank": "Developer",
     "avatar": "antek.jpg",
     "github": "atw"
-  },
-  {
-    "player": "Adam Okoń",
-    "rank": "Developer",
-    "avatar": "adam.jpg",
-    "github": "aokon"
   }
 ]
