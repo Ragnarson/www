@@ -3,13 +3,15 @@
     "id": 1,
     "name": "Shelly Cloud",
     "link": "http://shellycloud.com",
-    "description": "Hosting Ruby or Ruby on Rails applications is not a trivial task. There are many different services which have to be installed, configured and maintained. After developing several different applications for our customers we realized that keeping all those servers in shape is a huge pain and it could have been done better. Shelly Cloud is an ultra fast Platform-as-a-Service with exceptional support, a complete professional hosting solution for those who want to save their time, effort, money and sleep well at night."
+    "description": "Hosting Ruby or Ruby on Rails applications is not a trivial task. There are many different services which have to be installed, configured and maintained. After developing several different applications for our customers we realized that keeping all those servers in shape is a huge pain and it could have been done better. Shelly Cloud is an ultra fast Platform-as-a-Service with exceptional support, a complete professional hosting solution for those who want to save their time, effort, money and sleep well at night.",
+    "thumbnail": "1.png"
   },
   {
     "id": 2,
     "name": "BookingSync",
     "link": "http://bookingsync.com",
     "description": "BookingSync solves the problem of renting rooms or entire properties from owner perspective. There are a lot of different marketing websites through which their customers make reservations but it is difficult to manage the rentals without a centralized application. BookingSync do just that and ease your reservations and marketing process. It makes properties' owners and agents save time and book more.",
+    "thumbnail": "2.png",
     "testimonial": {
       "author": "Sébastien Grosjean, CEO, 2014",
       "text": "After cooperating with many different web agencies, I finally came across Ragnarson. They provided me with meticulous and skilled developers who helped me achieve high quality work while meeting deadlines. They have been able to raise my expectations which help us do better for our customers.",
@@ -20,13 +22,15 @@
     "id": 3,
     "name": "Tripsta",
     "link": "http://tripsta.com",
-    "description": "Tripsta generates around 30GB of search data throughout the day. This data is used to present users with flights of their choice and otherwise remains unused. However it is a source of valuable business intelligence - it just needs to be properly summarized.\n\nWe have built a separate service based on Goliath that handles data collection and statistics. We have based our solution on map/reduce pattern. Results are collected as fast as possible and dumped to filesystem. Their processing is queued up using Resque/Redis. Response time is a steady 1ms, way below our limit.\n\nEach result needs to be processed and intelligence data needs to be extracted from it. It takes 300ms for each Resque worker to extract necessary information. As this is done in background it doesn't impact overall application performance and when necessary can be scaled to multiple computing nodes without a problem."
+    "description": "Tripsta generates around 30GB of search data throughout the day. This data is used to present users with flights of their choice and otherwise remains unused. However it is a source of valuable business intelligence - it just needs to be properly summarized.\n\nWe have built a separate service based on Goliath that handles data collection and statistics. We have based our solution on map/reduce pattern. Results are collected as fast as possible and dumped to filesystem. Their processing is queued up using Resque/Redis. Response time is a steady 1ms, way below our limit.\n\nEach result needs to be processed and intelligence data needs to be extracted from it. It takes 300ms for each Resque worker to extract necessary information. As this is done in background it doesn't impact overall application performance and when necessary can be scaled to multiple computing nodes without a problem.",
+    "thumbnail": "3.png"
   },
   {
     "id": 4,
     "name": "Locafox",
     "link": "https://www.locafox.de",
     "description": "Imagine the situation that you need to buy something in your city. Finding the shops, checking the price and availability might be a very tedious task if you have to call each of them. Locafox relieves the pain of browsing through local shops and dealers in search of the best offer. All details you need are available on a single page which speeds up the whole process.",
+    "thumbnail": "4.jpg",
     "testimonial": {
       "author": "Rob Morgan, CTO, 2014",
       "text": "Choosing to work with Ragnarson was crucial for the execution of our product. Through close collaboration we were able to rapidly launch an MVP in weeks, not months, test it and begin working on our greater platform.",
@@ -38,6 +42,7 @@
     "name": "Memorado",
     "link": "http://memorado.de",
     "description": "Working out the body is a popular daily routine for many people. It helps them to keep in shape, relax and stay healthy. It is possible to do the same for your brain in order to enhance your memory and concentration abilities. Memorado provides you with an on-line training and games specifically designed for this purpose.",
+    "thumbnail": "5.png",
     "testimonial": {
       "author": "Marius Jeuck, Co-Founder, 2014",
       "text": "Ragnarson did exactly what we were looking for. In less than 4 months of development they finished an MVP, three days before the deadline. It gave us a significant boost in convincing investors.",
@@ -49,6 +54,7 @@
     "name": "Restaurant Kritik",
     "link": "http://restaurant-kritik.de",
     "description": "Visiting a restaurant for the first time is always a little bit risky. We usually don't know much about the place, it's service or quality of meals. Restaurant-Kritik helps you with finding the most suitable restaurant for you. Choose the location and make a deliberate choice based on reviews written by actual customers.",
+    "thumbnail": "6.png",
     "testimonial": {
       "author": "Carsten Jutzi, CEO, 2014",
       "text": "Long term relationship with Ragnarson (almost 5 years) was very profitable for me. Developers and administrators constantly support our product, develop and maintain the application and take care of IT infrastructure. I can focus on my business goals and not worry about a technicality.",

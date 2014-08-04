@@ -4,7 +4,7 @@ h3 id="what-we-did"
 - data.projects.each_with_index do |project, index|
   div class=reversible_grid(index)
     div class="grid__item one-half phone--one-whole mobile--one-whole text--center"
-      = link_to project_image_tag(project.id), project.link
+      = link_to project_image_tag(project.thumbnail), project.link
 
       - if project.badges
         div class="badge-group"

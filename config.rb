@@ -16,8 +16,8 @@ helpers do
     css
   end
 
-  def project_image_tag(id)
-    image_tag "project/#{id}.png", class: 'thumbnail'
+  def project_image_tag(image)
+    image_tag "project/#{image}", class: 'thumbnail'
   end
 
   def testimonial_image_tag(avatar)
