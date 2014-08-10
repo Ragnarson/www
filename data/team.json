@@ -67,6 +67,12 @@
     "twitter": "maciej_kubiak"
   },
   {
+    "player": "Dominika Kucharska",
+    "rank": "Developer",
+    "avatar": "dominika.png",
+    "github": "misiaak"
+  },
+  {
     "player": "Bartłomiej Kozal",
     "rank": "Developer",
     "avatar": "bkzl.jpg",
@@ -85,6 +91,12 @@
     "rank": "Developer",
     "avatar": "mandaryn.jpg",
     "github": "mandaryn"
+  },
+  {
+    "player": "Michał Marcinkowski",
+    "rank": "Developer",
+    "avatar": "michal_marcinkowski.png",
+    "github": "mmarcinkowski"
   },
   {
     "player": "Agnieszka Marczyńska",
