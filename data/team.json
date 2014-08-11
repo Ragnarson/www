@@ -179,5 +179,12 @@
     "rank": "Developer",
     "avatar": "antek.jpg",
     "github": "atw"
+  },
+  {
+    "player": "Mateusz Grotha",
+    "rank": "Developer"
+    "avatar": "cookie.png",
+    "github": "biscoitinho"
+    "twitter": "CodeCookieMan"
   }
 ]
