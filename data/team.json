@@ -26,6 +26,13 @@
     "avatar": "jonasz.jpg",
     "github": "tensaioni"
   },
+	{
+    "player": "Mateusz Grotha",
+    "rank": "Developer",
+    "avatar": "cookie.png",
+    "github": "biscoitinho",
+    "twitter": "CodeCookieMan"
+  }
   {
     "player": "Kasia Jarmołkowicz",
     "rank": "Developer",
@@ -179,12 +186,5 @@
     "rank": "Developer",
     "avatar": "antek.jpg",
     "github": "atw"
-  },
-  {
-    "player": "Mateusz Grotha",
-    "rank": "Developer"
-    "avatar": "cookie.png",
-    "github": "biscoitinho"
-    "twitter": "CodeCookieMan"
   }
 ]
