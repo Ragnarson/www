@@ -39,6 +39,16 @@ helpers do
   def ribbon(card)
     "ribbon" if card.player == "Łukasz Piestrzeniewicz"
   end
+
+  def captcha_answer_tag
+    "<input id=\"captcha-answer\" name=\"captcha_answer\" type=\"text\" size=\"10\" class=\"one-whole\" placeholder=\"four characters from captcha image\"/>"
+  end
+
+  def captcha_image_tag
+    captcha_session = rand(9000) + 1000
+    "<input name=\"captcha_session\" type=\"hidden\" value=\"#{captcha_session}\"/>\n" +
+    "<img id=\"captcha-image\" src=\"http://captchator.com/captcha/image/#{captcha_session}\"/>"
+  end
 end
 
 configure :build do

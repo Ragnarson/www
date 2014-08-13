@@ -64,5 +64,11 @@ div class="grid"
           | Message
         textarea class="one-whole" id="message" name="message"
 
+      div class="form-field"
+        = captcha_image_tag
+        label
+          | Captcha
+        = captcha_answer_tag
+
       button class="btn one-half phone--one-whole lead--halve-spacing" type="submit"
         | Send us a message
