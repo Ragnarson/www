@@ -108,6 +108,7 @@ GEM
     rails-assets-csswizardry-grids (2.2.0)
     rails-assets-normalize-css (3.0.1)
     rails-assets-typecsset (0.3.0)
+    rails-assets-zepto (1.1.4)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -148,4 +149,5 @@ DEPENDENCIES
   rails-assets-csswizardry-grids
   rails-assets-normalize-css
   rails-assets-typecsset
+  rails-assets-zepto
   slim

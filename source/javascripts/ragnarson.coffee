@@ -1,30 +1,21 @@
-altHeader =
-  detectAltHeader: ->
-    header = document.querySelector('[data-alt-header]')
-    scrollPosition = window.scrollY
-    triggerPosition = header.getAttribute('data-alt-header')
+#= require zepto
 
-    if scrollPosition >= triggerPosition
-      header.classList.add('header--alt')
-    else
-      header.classList.remove('header--alt')
+detectAltHeader = ->
+  header = $('[data-alt-header]')
+  scrollPosition = $(window).scrollTop()
+  triggerPosition = header.attr('data-alt-header')
 
-  init: ->
-    window.onscroll = @detectAltHeader
+  header.toggleClass('header--alt', scrollPosition >= triggerPosition)
 
-rwdNav =
-  init: ->
-    trigger = document.querySelector('[data-rwd-nav]')
 
-    onClick = (event) ->
-      navClass = event.target.getAttribute('data-rwd-nav')
-      nav = document.querySelector(navClass)
+rwdNav = (event) ->
+  event.preventDefault()
 
-      event.preventDefault()
-      nav.classList.toggle('nav--main--rwd')
+  nav = $(event.target).attr('data-rwd-nav')
+  $(nav).toggleClass('nav--main--rwd')
 
-    trigger.addEventListener('click', onClick)
 
 smoothScroll.init({offset: 116})
-altHeader.init()
-rwdNav.init()
+
+$(window).on 'scroll', detectAltHeader
+$('[data-rwd-nav]').on 'click', rwdNav
