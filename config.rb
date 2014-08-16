@@ -1,3 +1,5 @@
+require 'lib/custom_helpers'
+
 activate :livereload
 activate :autoprefixer
 
@@ -5,41 +7,7 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
 
-helpers do
-  def last_project?(project)
-    project == data.projects.last
-  end
-
-  def reversible_grid(index)
-    css = "grid"
-    css.concat " grid--rev" if index.even?
-    css
-  end
-
-  def project_image_tag(image)
-    image_tag "project/#{image}", class: 'thumbnail'
-  end
-
-  def testimonial_image_tag(avatar)
-    image_tag "project/testimonial/#{avatar}", class: 'quote__face'
-  end
-
-  def card_image_tag(avatar)
-    image_tag "team/#{avatar}", class: 'card__avatar'
-  end
-
-  def link_to_github(nick)
-    link_to image_tag('icn-github.svg'), "https://github.com/#{nick}"
-  end
-
-  def link_to_twitter(nick)
-    link_to image_tag('icn-twitter.svg'), "https://twitter.com/#{nick}"
-  end
-
-  def ribbon(card)
-    "ribbon" if card.player == "Łukasz Piestrzeniewicz"
-  end
-end
+helpers CustomHelpers
 
 configure :build do
   activate :minify_css
