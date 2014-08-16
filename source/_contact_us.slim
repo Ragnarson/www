@@ -47,6 +47,13 @@ div class="grid"
 
   div class="grid__item one-half phone--one-whole mobile--one-whole"
     form class="box box--alt" method="post" action="http://www-backend.shellyapp.com/contact"
+      - # anti-spam field
+      div class="form-field hidden"
+        label for="username"
+          | Your username
+        input(class="one-whole" placeholder="e.g. Acme"
+          id="username" type="text" name="username")
+
       div class="form-field"
         label for="name"
           | Your name
