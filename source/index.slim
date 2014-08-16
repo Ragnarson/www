@@ -1,4 +1,4 @@
-header class="header" data-alt-header="400"
+header class="header js-header"
   div class="container"
     div class="grid grid--middle"
       div class="grid__item one-third"
@@ -6,15 +6,14 @@ header class="header" data-alt-header="400"
           | Ragnarson
       div class="grid__item two-thirds text--right"
         nav
-          ul class="nav nav--main"
+          ul class="nav nav--main js-nav-main"
             li= link_to 'What we do', '#what-we-do', 'data-scroll' => ''
             li= link_to 'What we did', '#what-we-did', 'data-scroll' => ''
             li= link_to 'Who we are', '#who-we-are', 'data-scroll' => ''
             li= link_to 'Contact Us', '#contact-us', 'data-scroll' => ''
           ul class="nav nav--rwd"
             li
-              = link_to '&#8203;', '#', class: 'nav--rwd__navicon',
-                'data-rwd-nav' => '.nav--main'
+              = link_to '&#8203;', '#', class: 'nav--rwd__navicon js-nav-main-rwd-navicon'
 
 div class="hero"
   div class="container"
