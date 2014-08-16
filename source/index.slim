@@ -4,27 +4,27 @@ header class="header js-header"
       div class="grid__item one-third"
         h1 class="brand"
           | Ragnarson
-      div class="grid__item two-thirds text--right"
+      div class="grid__item two-thirds text-right"
         nav
-          ul class="nav nav--main js-nav-main"
+          ul class="nav nav-main js-nav-main"
             li= link_to 'What we do', '#what-we-do', 'data-scroll' => ''
             li= link_to 'What we did', '#what-we-did', 'data-scroll' => ''
             li= link_to 'Who we are', '#who-we-are', 'data-scroll' => ''
             li= link_to 'Contact Us', '#contact-us', 'data-scroll' => ''
-          ul class="nav nav--rwd"
+          ul class="nav nav-main-rwd"
             li
-              = link_to '&#8203;', '#', class: 'nav--rwd__navicon js-nav-main-rwd-navicon'
+              = link_to '&#8203;', '#', class: 'nav-main-rwd-navicon js-nav-main-rwd-navicon'
 
 div class="hero"
   div class="container"
-    h1 class="hero__slogan"
+    h1 class="hero-slogan"
       | Transform your idea into a working product
     h2
       | We are Ruby and JavaScript developers
       br
       | specialized in building web applications for startups since 2006
     div class="lead"
-      = link_to 'Work with us', '#contact-us', 'data-scroll' => '', class: 'btn btn--large'
+      = link_to 'Work with us', '#contact-us', 'data-scroll' => '', class: 'btn btn-large'
 
 div class="container"
   = partial 'what_we_do'

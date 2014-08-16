@@ -11,7 +11,7 @@
   color: transparent
   border: 0
 
-@mixin overlaying-hr
+@mixin hr-overlaying
   overflow: hidden
 
   &:before,
@@ -49,11 +49,11 @@
       border-width: halve($height) $width halve($height) 0
       border-right-color: $object-background
 
-@mixin vertical-align
+@mixin align-middle
   position: relative
   top: 50%
   transform: translateY(-50%)
 
-@mixin until($width)
+@mixin breakpoint($width)
   @media only screen and (max-width: $width)
     @content

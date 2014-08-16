@@ -2,9 +2,9 @@ h3 id="contact-us"
   | Contact Us
 
 div class="grid"
-  div class="grid__item one-half phone--one-whole text--center"
+  div class="grid__item one-half phone--one-whole text-center"
     = image_tag 'office/lodz.png'
-    h4 class="lead--base-spacing"
+    h4 class="lead-base-spacing"
       | Main Office
     address
       | Aleja Kościuszki 32/7
@@ -19,10 +19,10 @@ div class="grid"
         | KRS: 0000365781
         br
         | REGON: 100960955
-    hr class="rule rule--phone"
-  div class="grid__item one-half phone--one-whole text--center"
+    hr class="rule rule-phone"
+  div class="grid__item one-half phone--one-whole text-center"
     = image_tag 'office/sopot.png', class: 'img--center'
-    h4 class="lead--base-spacing"
+    h4 class="lead-base-spacing"
       | Branch Office
     address
       | Aleja Niepodległości 807/5
@@ -46,7 +46,7 @@ div class="grid"
         #{mail_to "jobs@ragnarson.com"}
 
   div class="grid__item one-half phone--one-whole mobile--one-whole"
-    form class="box box--alt" method="post" action="http://www-backend.shellyapp.com/contact"
+    form class="box box-alt" method="post" action="http://www-backend.shellyapp.com/contact"
       - # anti-spam field
       div class="form-field hidden"
         label for="username"
@@ -71,5 +71,5 @@ div class="grid"
           | Message
         textarea class="one-whole" id="message" name="message"
 
-      button class="btn one-half phone--one-whole lead--halve-spacing" type="submit"
+      button class="btn one-half phone--one-whole lead-halve-spacing" type="submit"
         | Send us a message

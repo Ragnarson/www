@@ -14,11 +14,11 @@ module CustomHelpers
   end
 
   def testimonial_image_tag(avatar)
-    image_tag "project/testimonial/#{avatar}", class: 'quote__face'
+    image_tag "project/testimonial/#{avatar}", class: 'quote-avatar'
   end
 
   def card_image_tag(avatar)
-    image_tag "team/#{avatar}", class: 'card__avatar'
+    image_tag "team/#{avatar}", class: 'card-avatar'
   end
 
   def link_to_github(nick)

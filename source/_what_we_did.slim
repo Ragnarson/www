@@ -3,7 +3,7 @@ h3 id="what-we-did"
 
 - data.projects.each_with_index do |project, index|
   div class=reversible_grid(index)
-    div class="grid__item one-half phone--one-whole mobile--one-whole text--center"
+    div class="grid__item one-half phone--one-whole mobile--one-whole text-center"
       = link_to project_image_tag(project.thumbnail), project.link
 
       - if project.badges
@@ -15,7 +15,7 @@ h3 id="what-we-did"
 
     div class="grid__item one-half phone--one-whole mobile--one-whole"
       h4
-        = link_to project.name, project.link, class: 'link--clean'
+        = link_to project.name, project.link, class: 'link-clean'
 
       = simple_format project.description
 
@@ -24,7 +24,7 @@ h3 id="what-we-did"
           = testimonial_image_tag project.testimonial.avatar
           blockquote
             = simple_format project.testimonial.text
-          p class="quote__author"
+          p class="quote-body"
             ' #{project.testimonial.author},
             = link_to project.name, project.link
 
@@ -32,4 +32,4 @@ h3 id="what-we-did"
     hr class="rule"
 
 div class="lead"
-  = link_to 'Tell us about your project', '#contact-us', 'data-scroll' => '', class: 'btn btn--large'
+  = link_to 'Tell us about your project', '#contact-us', 'data-scroll' => '', class: 'btn btn-large'

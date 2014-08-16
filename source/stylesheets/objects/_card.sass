@@ -2,7 +2,7 @@
   position: relative
   margin-bottom: $base-spacing-unit
 
-.card__box
+.card-box
   position: absolute
   top: 0
   left: 0
@@ -17,35 +17,35 @@
   .card:hover &
     opacity: 1
 
-.card__box__inner
-  +vertical-align
+.card-box-inner
+  +align-middle
 
-.card__player
+.card-box-player
   +typecsset-font-size(20px)
   font-weight: normal
 
-.card__rank
+.card-box-rank
   +typecsset-font-size(16px)
   font-weight: normal
   color: $muted-color
 
-.card__web
+.card-box-social
   > li
     margin-left: $quarter-spacing-unit
     margin-right: $quarter-spacing-unit
 
-+until($breakpoint-phone)
++breakpoint($breakpoint-phone)
   .card
     position: inherit
 
-  .card__avatar
+  .card-avatar
     max-height: 100px
     float: left
     clear: both
     margin-right: $halve-spacing-unit
     margin-bottom: $base-spacing-unit
 
-  .card__box
+  .card-box
     position: inherit
     top: inherit
     left: inherit
@@ -56,21 +56,21 @@
     padding: 0
     float: left
 
-  .card__box__inner
+  .card-box-inner
     position: inherit
     top: inherit
     transform: none
     background: transparent
 
-  .card__player
+  .card-box-player
     +typecsset-font-size(18px)
     margin-bottom: 0
 
-  .card__rank
+  .card-box-rank
     +typecsset-font-size(14px)
     margin-bottom: $quarter-spacing-unit
 
-  .card__web
+  .card-box-social
     > li
       max-width: 24px
       margin-left: 0

@@ -4,9 +4,9 @@
   background: linear-gradient(45deg, $hero-base-background, $hero-alt-background)
   color: $hero-color
 
-.hero__slogan
+.hero-slogan
   +typecsset-font-size(48px)
 
-+until($breakpoint-phone)
-  .hero__slogan
++breakpoint($breakpoint-phone)
+  .hero-slogan
     +typecsset-font-size(40px)

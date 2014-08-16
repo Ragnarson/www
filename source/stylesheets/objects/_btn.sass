@@ -15,15 +15,15 @@
   &:hover
     background-color: lighten($brand-color, 7%)
 
-.btn--large
+.btn-large
   padding: $halve-spacing-unit $base-spacing-unit
   font-size: $typecsset-h5-size
 
-.btn--inline
+.btn-inline
   margin-left: $halve-spacing-unit
 
-+until($breakpoint-mobile)
-  .btn--inline
++breakpoint($breakpoint-mobile)
+  .btn-inline
     margin-top: $halve-spacing-unit
     margin-left: 0
     width: 100%

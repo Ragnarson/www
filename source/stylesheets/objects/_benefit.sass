@@ -2,17 +2,17 @@
   margin-bottom: $double-spacing-unit
   text-align: center
 
-.benefit__logo
+.benefit-img
   min-height: 280px
 
-.benefit__description
+.benefit-desc
   border-top: 1px solid $border-color
   text-align: start
 
-+until($breakpoint-mobile)
-  .benefit__logo
++breakpoint($breakpoint-mobile)
+  .benefit-img
     min-height: inherit
 
-  .benefit__description
+  .benefit-desc
     border-top: none
 

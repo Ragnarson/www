@@ -4,9 +4,9 @@
   border-top: none
   border-bottom: 1px dashed $border-color
 
-.rule--phone
+.rule-phone
   display: none
 
-+until($breakpoint-phone)
-  .rule--phone
++breakpoint($breakpoint-phone)
+  .rule-phone
     display: block
