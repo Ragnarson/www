@@ -1,21 +1,14 @@
 #= require zepto
 
-detectAltHeader = ->
-  header = $('.js-header')
-  triggerPosition = 400
-  scrollPosition = $(window).scrollTop()
+toggleAltHeader = (event) ->
+  windowScrollTop = $(window).scrollTop()
+  $('.js-header').toggleClass('header--alt', windowScrollTop >= event.data.breakpoint)
 
-  header.toggleClass('header--alt', scrollPosition >= triggerPosition)
-
-
-rwdNav = (event) ->
+toggleRwdMainNav = (event) ->
   event.preventDefault()
-  nav = $('.js-nav-main')
-
-  $(nav).toggleClass('nav--main--rwd')
-
+  $('.js-nav-main').toggleClass('nav--main--rwd')
 
 smoothScroll.init({offset: 116})
 
-$(window).on 'scroll', detectAltHeader
-$('.js-nav-main-rwd-navicon').on 'click', rwdNav
+$(window).on 'scroll', breakpoint: 400, toggleAltHeader
+$('.js-nav-main-rwd-navicon').on 'click', toggleRwdMainNav
