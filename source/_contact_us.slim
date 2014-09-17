@@ -38,12 +38,32 @@ div class="grid"
     p
       | Opportunities, general questions, comments, and concerns should be
         #{mail_to "biz@ragnarson.com", "sent to Maciej"}, via email.
+
     h5
       | Job contact
     p
-      |
-        Questions regarding recruitment and employment should be sent to
+      | Questions regarding recruitment and employment should be sent to
         #{mail_to "jobs@ragnarson.com"}
+
+    h5
+      | Follow us
+    ul class="fa-ul"
+      li
+        = link_to "https://twitter.com/ragnarsoncom", class: "link-twitter" do
+          i class="fa-li fa fa-lg fa-twitter"
+          | Twitter
+      li
+        = link_to "https://facebook.com/ragnarson", class: "link-facebook" do
+          i class="fa-li fa fa-lg fa-facebook"
+          | Facebook
+      li
+        = link_to "https://plus.google.com/100443212153441506644", class: "link-google-plus" do
+          i class="fa-li fa fa-lg fa-google-plus"
+          | Google+
+      li
+        = link_to "https://github.com/ragnarson", class: "link-github" do
+          i class="fa-li fa fa-lg fa-github"
+          | GitHub
 
   div class="grid__item one-half phone--one-whole mobile--one-whole"
     form class="box box-alt" method="post" action="http://www-backend.shellyapp.com/contact"
