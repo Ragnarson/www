@@ -15,6 +15,9 @@
     color: $base-color
     transition: all .3s
 
+  > li > a.nav-main-rwd-navicon
+    padding-right: 0
+
 .nav-main
   > li > a
     &:hover
@@ -25,21 +28,10 @@
   display: none
 
 .nav-main-rwd-navicon
-  position: relative
+  +typecsset-font-size(24px)
 
-  &:before
-    position: absolute
-    top: 38%
-    width: $base-spacing-unit
-    height: .3em
-    background: $base-color
-    box-shadow: 0 .45em 0 0 $base-color, 0 .9em 0 0 $base-color
-    transition: all .3s
-    content: ""
-
-  &:hover:before
-    background: $brand-color
-    box-shadow: 0 .45em 0 0 $brand-color, 0 .9em 0 0 $brand-color
+  &:hover
+    color: $brand-color
 
 .header-alt
 
@@ -52,9 +44,7 @@
       background: $object-alt-background
 
   .nav-main-rwd-navicon
-    &:before
-      background: $box-alt-heading-color
-      box-shadow: 0 .45em 0 0 $box-alt-heading-color, 0 .9em 0 0 $box-alt-heading-color
+    color: $box-alt-heading-color
 
 +breakpoint($breakpoint-navigation)
   .nav-main

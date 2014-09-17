@@ -30,9 +30,12 @@
   color: $muted-color
 
 .card-box-social
+  +typecsset-font-size(24px)
   > li
     margin-left: $quarter-spacing-unit
     margin-right: $quarter-spacing-unit
+    > a
+      color: $base-color
 
 +breakpoint($breakpoint-phone)
   .card
@@ -71,7 +74,7 @@
     margin-bottom: $quarter-spacing-unit
 
   .card-box-social
+    +typecsset-font-size(20px)
     > li
-      max-width: 24px
       margin-left: 0
       margin-right: $quarter-spacing-unit

@@ -22,11 +22,15 @@ module CustomHelpers
   end
 
   def link_to_github(nick)
-    link_to image_tag('icn-github.svg'), "https://github.com/#{nick}"
+    link_to "https://github.com/#{nick}" do
+      %q(<i class="fa fa-github"></i>)
+    end
   end
 
   def link_to_twitter(nick)
-    link_to image_tag('icn-twitter.svg'), "https://twitter.com/#{nick}"
+    link_to "https://twitter.com/#{nick}" do
+      %q(<i class="fa fa-twitter"></i>)
+    end
   end
 
   def ribbon(card)

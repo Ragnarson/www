@@ -36,6 +36,8 @@ GEM
     eventmachine (1.0.3)
     execjs (2.2.1)
     ffi (1.9.3)
+    font-awesome-sass (4.2.0)
+      sass (~> 3.2)
     haml (4.0.5)
       tilt
     hike (1.2.3)
@@ -142,6 +144,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  font-awesome-sass
   middleman
   middleman-autoprefixer
   middleman-deploy
