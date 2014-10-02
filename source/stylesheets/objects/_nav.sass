@@ -18,6 +18,9 @@
   > li > a.nav-main-rwd-navicon
     padding-right: 0
 
+.nav-social-media
+  padding-left: $base-spacing-unit * 1.4
+
 .nav-main
   > li > a
     &:hover
@@ -39,6 +42,12 @@
     > li > a
       color: $box-alt-heading-color
 
+  .nav-social-media
+    > li > a
+      color: $box-alt-heading-color
+      &:hover
+        color: $brand-color
+
   .nav-main-rwd
     > li
       background: $object-alt-background
@@ -47,7 +56,7 @@
     color: $box-alt-heading-color
 
 +breakpoint($breakpoint-navigation)
-  .nav-main
+  .nav-main, .nav-social-media
     display: none
     position: fixed
     top: $base-spacing-unit * 3
@@ -63,3 +72,6 @@
 
   .nav-main-rwd
     display: block
+
+  .social-media
+    padding-bottom: $base-spacing-unit
