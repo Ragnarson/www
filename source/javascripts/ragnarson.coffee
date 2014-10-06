@@ -6,7 +6,9 @@ toggleAltHeader = (event) ->
 
 toggleRwdMainNav = (event) ->
   event.preventDefault()
+  event.stopPropagation()
   $('.js-nav-main').toggleClass('nav-main-rwd')
+  $(document).on 'click', toggleRwdMainNav
 
 scrollToSection = (event) ->
   event.preventDefault()
