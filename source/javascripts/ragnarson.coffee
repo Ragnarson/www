@@ -29,3 +29,35 @@ scrollToSection = (event) ->
 $(window).on 'scroll', breakpoint: 400, toggleAltHeader
 $('.js-nav-main-rwd-navicon').on 'click', toggleRwdMainNav
 $('.js-smooth-scroll').on 'click', {offset: -116, duration: 300}, scrollToSection
+
+navMenuHeight = undefined
+sections = undefined
+navMenu = undefined
+
+setSections = () ->
+  navMenu = $('.js-nav-main')
+  navMenuHeight = navMenu.height()
+  sections = []
+  $navbarlinks = navMenu.find('a')
+  $navbarlinks.map( ->
+    item = ($($(this).attr('href')))
+    sections.push item
+  )
+
+scrollSpy = () ->
+  id = null
+  fromTop = $(this).scrollTop() + navMenuHeight * 3
+
+  for section in sections
+    if fromTop > section.offset().top
+      scrolled_id = section.attr('id')
+  if scrolled_id != id
+    id = scrolled_id
+    $('a', navMenu).removeClass('current')
+    $('a[href="#' + id + '"]', navMenu).addClass('current')
+    console.log 'menu change' + id
+
+$(document).ready ->
+  setSections()
+$(window).scroll ->
+  scrollSpy()
