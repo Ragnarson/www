@@ -44,26 +44,22 @@ div class="grid"
     p
       | Questions regarding recruitment and employment should be sent to
         #{mail_to "jobs@ragnarson.com"}
-
-    h5
-      | Follow us
-    ul class="fa-ul"
+    ul class="nav social-media"
       li
-        = link_to "https://twitter.com/ragnarsoncom", class: "link-twitter" do
-          i class="fa-li fa fa-lg fa-twitter"
-          | Twitter
+        = link_to "https://twitter.com/ragnarsoncom" do
+          i class="icon-twitter"
       li
-        = link_to "https://facebook.com/ragnarson", class: "link-facebook" do
-          i class="fa-li fa fa-lg fa-facebook"
-          | Facebook
+        = link_to "https://github.com/ragnarson" do
+          i class="icon-github"
       li
-        = link_to "https://plus.google.com/100443212153441506644", class: "link-google-plus" do
-          i class="fa-li fa fa-lg fa-google-plus"
-          | Google+
+        = link_to "https://facebook.com/ragnarson" do
+          i class="icon-facebook"
       li
-        = link_to "https://github.com/ragnarson", class: "link-github" do
-          i class="fa-li fa fa-lg fa-github"
-          | GitHub
+        = link_to "https://plus.google.com/100443212153441506644" do
+          i class="icon-gplus"
+      li
+        = link_to "https://www.linkedin.com/company/560916" do
+          i class="icon-linkedin"
 
   div class="grid__item one-half phone--one-whole mobile--one-whole"
     form class="box box-alt" method="post" action="http://www-backend.shellyapp.com/contact"

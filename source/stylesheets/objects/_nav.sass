@@ -13,7 +13,7 @@
     padding: $base-spacing-unit
     text-decoration: none
     color: $base-color
-    transition: all .3s
+    transition: box-shadow .3s
 
   > li > a.nav-main-rwd-navicon
     padding-right: 0
@@ -30,8 +30,20 @@
 .nav-main-rwd-navicon
   +typecsset-font-size(24px)
 
+.nav-main-rwd-navicon,
+.nav-main-social-media > li > a
+  color: $base-color
+
   &:hover
     color: $brand-color
+
+.nav-main-social-media
+  +typecsset-font-size(18px)
+  margin-left: $base-spacing-unit * 1.5
+
+  > li
+    margin-left: halve($quarter-spacing-unit)
+    margin-right: halve($quarter-spacing-unit)
 
 .header-alt
 
@@ -43,11 +55,16 @@
     > li
       background: $object-alt-background
 
-  .nav-main-rwd-navicon
+  .nav-main-rwd-navicon,
+  .nav-main-social-media > li > a
     color: $box-alt-heading-color
 
+    &:hover
+      color: $brand-color
+
 +breakpoint($breakpoint-navigation)
-  .nav-main
+  .nav-main,
+  .nav-social-media
     display: none
     position: fixed
     top: $base-spacing-unit * 3

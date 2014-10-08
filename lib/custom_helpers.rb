@@ -23,13 +23,13 @@ module CustomHelpers
 
   def link_to_github(nick)
     link_to "https://github.com/#{nick}" do
-      %q(<i class="fa fa-github"></i>)
+      %q(<i class="icon-github"></i>)
     end
   end
 
   def link_to_twitter(nick)
     link_to "https://twitter.com/#{nick}" do
-      %q(<i class="fa fa-twitter"></i>)
+      %q(<i class="icon-twitter"></i>)
     end
   end
 
@@ -37,5 +37,3 @@ module CustomHelpers
     "ribbon" if card.player == "Łukasz Piestrzeniewicz"
   end
 end
-
-
