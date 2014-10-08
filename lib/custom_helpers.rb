@@ -23,13 +23,13 @@ module CustomHelpers
 
   def link_to_github(nick)
     link_to "https://github.com/#{nick}" do
-      %q(<i class="icon-github-circled icon-small"></i>)
+      %q(<i class="icon-github"></i>)
     end
   end
 
   def link_to_twitter(nick)
     link_to "https://twitter.com/#{nick}" do
-      %q(<i class="icon-twitter-circled icon-small"></i>)
+      %q(<i class="icon-twitter"></i>)
     end
   end
 

@@ -1,10 +1,12 @@
 .social-media
-  > li > a
-    padding-right: $base-spacing-unit * 0.15
-    padding-left: $base-spacing-unit * 0.15
-    text-decoration: none
-    font-size: 1em
-    color: $base-color
-    transition: all .3s
-    &:hover
-      color: $brand-color
+  +typecsset-font-size(32px)
+
+  > li
+    margin-left: halve($quarter-spacing-unit)
+    margin-right: halve($quarter-spacing-unit)
+
+    > a
+      color: $object-alt-background
+
+      &:hover
+        color: $brand-color

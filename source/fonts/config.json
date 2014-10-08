@@ -9,50 +9,50 @@
     {
       "uid": "559647a6f430b3aeadbecd67194451dd",
       "css": "menu",
-      "code": 59394,
+      "code": 59393,
       "src": "fontawesome"
+    },
+    {
+      "uid": "d94334f23acba022bfd68e49d76b31bb",
+      "css": "github",
+      "code": 59397,
+      "src": "entypo"
     },
     {
       "uid": "91daf8fde1042a363514ca7e42d89570",
       "css": "github-circled",
+      "code": 59398,
+      "src": "entypo"
+    },
+    {
+      "uid": "d090355c31f497b61d676416c1fd39fb",
+      "css": "twitter",
       "code": 59399,
       "src": "entypo"
     },
     {
       "uid": "0419da6446cb4f31093e2022793571ca",
       "css": "twitter-circled",
-      "code": 59398,
+      "code": 59392,
       "src": "entypo"
     },
     {
       "uid": "ce1d525f3f31024c6a6b38f5e9a88953",
       "css": "facebook-circled",
-      "code": 59397,
+      "code": 59394,
       "src": "entypo"
     },
     {
       "uid": "818a6c2a76c89800632c0335e9cdafee",
       "css": "gplus-circled",
-      "code": 59392,
+      "code": 59395,
       "src": "entypo"
     },
     {
       "uid": "21adad41ffebf469b2370d26bcb8a3c4",
       "css": "linkedin-circled",
-      "code": 59400,
+      "code": 59396,
       "src": "entypo"
-    },
-    {
-      "uid": "4a98de1ada96673f8b43a600fd50d569",
-      "css": "github-circled-reversed",
-      "code": 59395,
-      "src": "typicons"
-    },
-    {
-      "uid": "b523a5bcf8d08725038873d89bb003fd",
-      "css": "twitter-circled-reversed",
-      "code": 59393,
-      "src": "typicons"
     }
   ]
 }
