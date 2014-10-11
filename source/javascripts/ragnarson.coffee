@@ -23,9 +23,26 @@ scrollToSection = (event) ->
     ).bind(@), 10)
 
   target = $(event.target).attr("href")
-  offset = $(target).offset().top + event.data.offset
+  offset = $(target).offset().top - event.data.offset
   smoothScroll($(window), offset, event.data.duration)
 
+initScrollSpy = ->
+  document.sections = []
+  $('.js-nav-main').find('a').each ->
+    document.sections.push $(@).attr('href')
+
+scrollSpy = ->
+  scrollPosition = $(window).scrollTop() + event.data.offset
+  for section in document.sections
+    if scrollPosition >= $(section).offset().top
+      activeSection = $(section).attr('id')
+
+  navMain = $('.js-nav-main')
+  navMain.find('a').removeClass('active')
+  navMain.find("a[href='##{activeSection}']").addClass('active')
+
 $(window).on 'scroll', breakpoint: 400, toggleAltHeader
+$(window).on 'scroll', offset: 117, scrollSpy
+$(document).on 'ready', initScrollSpy
 $('.js-nav-main-rwd-navicon').on 'click', toggleRwdMainNav
-$('.js-smooth-scroll').on 'click', {offset: -116, duration: 300}, scrollToSection
+$('.js-smooth-scroll').on 'click', {offset: 116, duration: 300}, scrollToSection
