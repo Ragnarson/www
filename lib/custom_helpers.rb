@@ -18,7 +18,9 @@ module CustomHelpers
   end
 
   def card_image_tag(avatar)
-    image_tag "team/#{avatar}", class: 'card-avatar'
+    /(?<file_name>\A\w+).(?<file_existension>\w+\z)/ =~ avatar.to_s
+    "<img class='card-avatar' srcset='images/team/#{file_name}.#{file_existension},
+    images/team/#{file_name}_2x.#{file_existension} 2x'>"
   end
 
   def link_to_github(nick)
