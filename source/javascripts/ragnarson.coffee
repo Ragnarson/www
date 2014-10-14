@@ -1,4 +1,4 @@
-#= require zepto
+//= require zepto
 
 toggleAltHeader = (event) ->
   windowScrollTop = $(window).scrollTop()
@@ -9,6 +9,12 @@ toggleRwdMainNav = (event) ->
   event.stopPropagation()
   $('.js-nav-main').toggleClass('nav-main-rwd')
   $(document).on 'click', toggleRwdMainNav
+
+toggleCard = (event) ->
+  cardBox = $(event.target).find('.js-card-box')
+  if cardBox.css('opacity') == 0 then cardBox.css('opacity', 1) else cardBox.css('opacity', 0)
+
+$('.js-card').on 'tap', toggleCard
 
 scrollToSection = (event) ->
   event.preventDefault()
