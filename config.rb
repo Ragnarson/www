@@ -1,7 +1,11 @@
 require 'lib/custom_helpers'
+require 'lib/app_backend'
+
 
 activate :livereload
 activate :autoprefixer
+
+use AppBackend
 
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
