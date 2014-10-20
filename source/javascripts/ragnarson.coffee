@@ -41,8 +41,22 @@ scrollSpy = ->
   navMain.find('a').removeClass('active')
   navMain.find("a[href='##{activeSection}']").addClass('active')
 
+contactForm = ->
+  form = $('.js-contact-form')
+  form.submit (event) ->
+    form = $(@)
+    $.ajax
+      type: form.attr("method")
+      url: form.attr("action")
+      dataType: 'json'
+      data: form.serialize()
+      succes: (data) ->
+        alert "ok"
+    event.preventDefault()
+
 $(window).on 'scroll', breakpoint: 400, toggleAltHeader
 $(window).on 'scroll', offset: 117, scrollSpy
 $(document).on 'ready', initScrollSpy
+$(document).on 'ready', contactForm
 $('.js-nav-main-rwd-navicon').on 'click', toggleRwdMainNav
 $('.js-smooth-scroll').on 'click', {offset: 116, duration: 300}, scrollToSection
