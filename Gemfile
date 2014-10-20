@@ -5,6 +5,7 @@ gem "middleman"
 gem "middleman-livereload"
 gem "middleman-autoprefixer"
 gem "middleman-deploy"
+gem "middleman-sprockets", '>= 3.3.10'
 gem "slim"
 
 gem "rails-assets-normalize-css"
