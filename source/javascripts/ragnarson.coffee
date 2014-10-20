@@ -1,4 +1,5 @@
 #= require zepto
+#= require zepto-touch
 
 toggleAltHeader = (event) ->
   windowScrollTop = $(window).scrollTop()
@@ -41,8 +42,13 @@ scrollSpy = ->
   navMain.find('a').removeClass('active')
   navMain.find("a[href='##{activeSection}']").addClass('active')
 
+toggleActiveCard = ->
+  $(@).toggleClass('.js-card-active')
+
 $(window).on 'scroll', breakpoint: 400, toggleAltHeader
 $(window).on 'scroll', offset: 117, scrollSpy
 $(document).on 'ready', initScrollSpy
 $('.js-nav-main-rwd-navicon').on 'click', toggleRwdMainNav
 $('.js-smooth-scroll').on 'click', {offset: 116, duration: 300}, scrollToSection
+$('.js-card').on 'tap', toggleActiveCard
+
