@@ -4,7 +4,7 @@ h3 id="who-we-are"
 div class="grid"
   - data.team.each do |card|
     div class="grid__item one-quarter phone--one-whole mobile--one-third"
-      div class="card"
+      div class="js-card card"
         = card_image_tag card.avatar
         div class="box card-box #{ribbon(card)}"
           div class="card-box-inner"
