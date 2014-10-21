@@ -62,7 +62,7 @@ div class="grid"
           i class="icon-linkedin"
 
   div class="grid__item one-half phone--one-whole mobile--one-whole"
-    form class="box box-alt" method="post" action="http://www-backend.shellyapp.com/contact"
+    form class="js-contact-form box box-alt" method="post" action="http://www-backend.shellyapp.com/contact"
       - # anti-spam field
       div class="form-field hidden"
         label for="username"
@@ -73,19 +73,19 @@ div class="grid"
       div class="form-field"
         label for="name"
           | Your name
-        input(class="one-whole" placeholder="e.g. John"
+        input(class="js-contact-name one-whole" placeholder="e.g. John"
           id="name" type="text" name="name")
 
       div class="form-field"
         label for="email"
           | Your email
-        input(class="one-whole" placeholder="e.g. john@example.com"
+        input(class="js-contact-email one-whole" placeholder="e.g. john@example.com"
           id="email" type="email" name="email")
 
       div class="form-field"
         label for="message"
           | Message
-        textarea class="one-whole" id="message" name="message"
+        textarea class="js-contact-message one-whole" id="message" name="message"
 
       button class="btn one-half phone--one-whole lead-halve-spacing" type="submit"
         | Send us a message
