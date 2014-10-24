@@ -23,6 +23,20 @@ module CustomHelpers
     images/team/#{file_name}_2x.#{file_existension} 2x'>"
   end
 
+  def hdpi_image(options={})
+    css_class = options[:class]
+    /(?<file_path>.*)([.])(?<file_existension>.{3})/ =~ options[:path]
+
+    hdpi_file = "#{file_path}_2x.#{file_existension}"
+    img_tag =  "<img #{class?(css_class)} srcset='#{file_path}.#{file_existension}"
+
+    File.exist?("./source/#{hdpi_file}") ? "#{img_tag}, #{hdpi_file} 2x'>" : "#{img_tag} srcset='#{file_path}.#{file_existension}'>"
+  end
+
+  def class?(css_class)
+    "class='#{css_class}'" unless css_class.nil?
+  end
+
   def link_to_github(nick)
     link_to "https://github.com/#{nick}" do
       %q(<i class="icon-github"></i>)
