@@ -79,14 +79,18 @@ validateForm = (input) ->
   validateFormat(input)
   validateLength($('#message'))
 
+flash = (message, type) ->
+  $('.flash-container').append("<span class='flash'>" + message + "</span>")
+                       .addClass(type)
+
 flashAfterSubmit = ->
   if Object.keys(errors).length == 0
-    alert 'OK!'
+    flash 'OK!', 'success'
   else
     errorList =
       for e in Object.keys(errors)
-        '\n - ' + e + ' ' + errors[e]
-    alert 'Sorry! There were some errors with your form:' + errorList
+        ' ' + e + ' ' + errors[e]
+    flash 'Sorry! There were some errors with your form:' + errorList, 'error'
 
 $('.js-newsletter-email').on 'keyup', ->
   validateFormat($(this))
@@ -94,6 +98,7 @@ $('.js-newsletter-email').on 'keyup', ->
 $('.js-newsletter-form').on 'submit', ->
   errors ={}
   validateFormat($(this).find('#email'))
+  event.preventDefault() unless Object.keys(errors).length == 0
   flashAfterSubmit()
 
 $('.js-contact-name').on 'keyup', ->
@@ -107,4 +112,8 @@ $('.js-contact-message').on 'keyup', ->
 
 $('.js-contact-form').on 'submit', ->
   validateForm($(this).find('#email'))
+  event.preventDefault() unless Object.keys(errors).length == 0
   flashAfterSubmit()
+
+$('.flash-container').on 'click', ->
+  $(this).find('.flash').remove()
