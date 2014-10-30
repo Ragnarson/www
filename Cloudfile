@@ -1,0 +1,18 @@
+staging-backend:
+  ruby_version: 2.1.4 # 2.1.2, 2.1.1, 2.1.0, 2.0.0, 1.9.3, jruby or rbx
+  environment: production # RAILS_ENV
+  domains:
+    - staging-backend.shellyapp.com
+  servers:
+    app1:
+      size: small
+      thin: 2
+      # delayed_job: 1
+      # sidekiq: 1
+      # clockwork: on
+      # whenever: on
+      # elasticsearch: on
+      databases:
+        # - postgresql
+        # - mongodb
+        # - redis
