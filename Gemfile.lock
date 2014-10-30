@@ -135,6 +135,9 @@ GEM
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     sass (3.3.14)
+    shelly-dependencies (0.2.4)
+      rake
+      thin
     sinatra (1.4.5)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -191,6 +194,7 @@ DEPENDENCIES
   rails-assets-zepto
   rails-assets-zepto-touch
   rake
+  shelly-dependencies
   sinatra
   slim
   sqlite3
