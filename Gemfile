@@ -8,6 +8,10 @@ gem "middleman-deploy"
 gem "middleman-sprockets", '>= 3.3.10'
 gem "slim"
 
+gem "shelly-dependencies"
+gem "rake"
+gem "rack"
+gem "thin"
 gem "sinatra"
 gem "sqlite3"
 gem "activerecord"
