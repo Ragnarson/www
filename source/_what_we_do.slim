@@ -56,11 +56,12 @@ div class="grid"
 
 div class="grid grid--center"
   div class="grid__item two-thirds mobile--one-whole phone--one-whole"
-    form class="js-newsletter-form box box-alt" method="post" action="http://www-backend.shellyapp.com/newsletter"
+    form class="box box-alt" method="post" action="http://www-backend.shellyapp.com/newsletter"
       label for="email"
         | Check out our brief document about starting the cooperation,
           expectations from both sides and short introduction
           to project management.
-      input class="js-newsletter-email seven-twelfths mobile--one-whole phone--one-whole" id="email" type="text" name="email" placeholder="e.g. john@example.com"
+      input(class="seven-twelfths mobile--one-whole phone--one-whole" id="email"
+        type="email" name="email" placeholder="e.g. john@example.com" required="")
       button class="btn btn-inline" type="submit"
         | Send me the PDF
