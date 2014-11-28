@@ -74,18 +74,18 @@ div class="grid"
         label for="name"
           | Your name
         input(class="one-whole" placeholder="e.g. John"
-          id="name" type="text" name="name")
+          id="name" type="text" name="name" required="")
 
       div class="form-field"
         label for="email"
           | Your email
         input(class="one-whole" placeholder="e.g. john@example.com"
-          id="email" type="email" name="email")
+          id="email" type="email" name="email" required="")
 
       div class="form-field"
         label for="message"
           | Message
-        textarea class="one-whole" id="message" name="message"
+        textarea class="one-whole" id="message" name="message" required=""
 
       button class="btn one-half phone--one-whole lead-halve-spacing" type="submit"
         | Send us a message

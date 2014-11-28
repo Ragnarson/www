@@ -51,4 +51,3 @@ $(document).on 'ready', initScrollSpy
 $('.js-nav-main-rwd-navicon').on 'click', toggleRwdMainNav
 $('.js-smooth-scroll').on 'click', {offset: 116, duration: 300}, scrollToSection
 $('.js-card').on 'tap', toggleActiveCard
-
