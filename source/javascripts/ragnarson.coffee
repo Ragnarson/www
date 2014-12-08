@@ -45,9 +45,25 @@ scrollSpy = ->
 toggleActiveCard = ->
   $(@).toggleClass('.js-card-active')
 
+submitForm = (event) ->
+  form = $(@)
+  $.ajax
+    type: form.attr("method")
+    url: form.attr("action")
+    dataType: 'json'
+    data: form.serialize()
+    success: (data) ->
+      alert "The form has been sent successfully"
+      form.get(0).reset()
+    error: (data) ->
+      alert "Something goes wrong. Please retry"
+  event.preventDefault()
+
 $(window).on 'scroll', breakpoint: 400, toggleAltHeader
 $(window).on 'scroll', offset: 117, scrollSpy
 $(document).on 'ready', initScrollSpy
+$('.js-contact-form').on 'submit', submitForm
+$('.js-newsletter-form').on 'submit', submitForm
 $('.js-nav-main-rwd-navicon').on 'click', toggleRwdMainNav
 $('.js-smooth-scroll').on 'click', {offset: 116, duration: 300}, scrollToSection
 $('.js-card').on 'tap', toggleActiveCard
