@@ -3,8 +3,23 @@
   width: $brand-width
   height: $brand-height
   margin-bottom: 0
-  background-image: image-url('brand.svg')
+  background-image: image-url('brand.png')
+  background-size: $brand-width $brand-height
 
 .header-alt
   .brand
-    background-image: image-url('brand-inverse.svg')
+    background-image: image-url('brand-inverse.png')
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)
+  .brand
+    background-image: image-url('brand-2x.png')
+  .header-alt
+    .brand
+      background-image: image-url('brand-inverse-3x.png')
+
+@media (-webkit-min-device-pixel-ratio: 3), (min-resolution: 250dpi)
+  .brand
+    background-image: image-url('brand-3x.png')
+  .header-alt
+    .brand
+      background-image: image-url('brand-inverse-3x.png')
