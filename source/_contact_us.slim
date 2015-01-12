@@ -1,91 +1,103 @@
-h3 id="contact-us"
-  | Contact Us
+div class="section section--inverse"
+  div class="container"
 
-div class="grid"
-  div class="grid__item one-half phone--one-whole text-center"
-    = image_tag 'office/lodz.png'
-    h4 class="lead-base-spacing"
-      | Main Office
-    address
-      | Aleja Kościuszki 32/7
-      br
-      | 90-419 Łódź, Poland
-      br
-      = mail_to 'biz@ragnarson.com'
-      small
-        br
-        | NIP/VAT-EU: PL7272768902
-        br
-        | KRS: 0000365781
-        br
-        | REGON: 100960955
-    hr class="rule rule-phone"
-  div class="grid__item one-half phone--one-whole text-center"
-    = image_tag 'office/sopot.png', class: 'img--center'
-    h4 class="lead-base-spacing"
-      | Branch Office
-    address
-      | Aleja Niepodległości 807/5
-      br
-      | 81-810 Sopot, Poland
+    h1 id="contact-us"
+      | Contact us
 
-hr class="rule"
+    div class="grid"
+      div class="grid__item one-third palm--one-whole text-center"
+        = image_tag 'office/lodz.png'
+        h4 class="lead-base-spacing"
+          | Main Office
+        address
+          | Aleja Kościuszki 32/7
+          br
+          | 90-419 Łódź, Poland
+          br
+          = mail_to 'biz@ragnarson.com'
+          small
+            br
+            | NIP/VAT-EU: PL7272768902
+            br
+            | KRS: 0000365781
+            br
+            | REGON: 100960955
+        hr class="rule rule-phone"
+      div class="grid__item one-third palm--one-whole text-center"
+        = image_tag 'office/sopot.png', class: 'img--center'
+        h4 class="lead-base-spacing"
+          | Branch Office
+        address
+          | Aleja Niepodległości 807/5
+          br
+          | 81-810 Sopot, Poland
+        hr class="rule rule-phone"
+      div class="grid__item one-third palm--one-whole text-center"
+        = responsive_image_tag 'office/berlin.png', 'office/berlin-2x.png', class: 'img--center'
+        h4 class="lead-base-spacing"
+          | Berlin Office
+        address
+          | Alte Jakobstrasse 92
+          br
+          | 10179, Berlin, Germany
 
-div class="grid"
-  div class="grid__item one-half phone--one-whole mobile--one-whole"
-    h5
-      | Business contact
-    p
-      | Opportunities, general questions, comments, and concerns should be
-        #{mail_to "biz@ragnarson.com", "sent to Maciej"}, via email.
+    hr class="rule"
 
-    h5
-      | Job contact
-    p
-      | Questions regarding recruitment and employment should be sent to
-        #{mail_to "jobs@ragnarson.com"}
-    ul class="nav social-media"
-      li
-        = link_to "https://twitter.com/ragnarsoncom" do
-          i class="icon-twitter"
-      li
-        = link_to "https://github.com/ragnarson" do
-          i class="icon-github"
-      li
-        = link_to "https://facebook.com/ragnarson" do
-          i class="icon-facebook"
-      li
-        = link_to "https://plus.google.com/100443212153441506644" do
-          i class="icon-gplus"
-      li
-        = link_to "https://www.linkedin.com/company/560916" do
-          i class="icon-linkedin"
+    div class="grid"
+      div class="grid__item one-half palm--one-whole"
+        h5
+          | Business contact
+        p
+          | Opportunities, general questions, comments, and concerns should be
+            #{mail_to "biz@ragnarson.com", "sent to Maciej"}, via email.
 
-  div class="grid__item one-half phone--one-whole mobile--one-whole"
-    form class="box box-alt" method="post" action="http://www-backend.shellyapp.com/contact"
-      - # anti-spam field
-      div class="form-field hidden"
-        label for="username"
-          | Your username
-        input(class="one-whole" placeholder="e.g. Acme"
-          id="username" type="text" name="username")
+        h5
+          | Job contact
+        p
+          | Questions regarding recruitment and employment should be sent to
+            #{mail_to "jobs@ragnarson.com"}
+        ul class="nav social-media"
+          li
+            = link_to "https://twitter.com/ragnarsoncom" do
+              i class="icon-twitter"
+          li
+            = link_to "https://github.com/ragnarson" do
+              i class="icon-github"
+          li
+            = link_to "https://facebook.com/ragnarson" do
+              i class="icon-facebook"
+          li
+            = link_to "https://plus.google.com/100443212153441506644" do
+              i class="icon-gplus"
+          li
+            = link_to "https://www.linkedin.com/company/560916" do
+              i class="icon-linkedin"
 
-      div class="form-field"
-        label for="name"
-          | Your name
-        input(class="one-whole" placeholder="e.g. John"
-          id="name" type="text" name="name" required="")
+      div class="grid__item one-half palm--one-whole"
+        form class="box box-alt" method="post" action="http://www-backend.shellyapp.com/contact"
+          - # anti-spam field
+          div class="form-field hidden"
+            label for="username"
+              | Your username
+            input(class="one-whole" placeholder="e.g. Acme"
+              id="username" type="text" name="username")
 
-      div class="form-field"
-        label for="email"
-          | Your email
-        input(class="one-whole" placeholder="e.g. john@example.com"
-          id="email" type="email" name="email" required="")
+          div class="form-field"
+            label for="name"
+              | Your name
+            input(class="one-whole" placeholder="e.g. John"
+              id="name" type="text" name="name" required="")
 
-      div class="form-field"
-        label for="message"
-          | Message
-        textarea class="one-whole" id="message" name="message" required=""
+          div class="form-field"
+            label for="email"
+              | Your email
+            input(class="one-whole" placeholder="e.g. john@example.com"
+              id="email" type="email" name="email" required="")
 
-      button class="btn one-half phone--one-whole lead-halve-spacing" type="submit"
-        | Send us a message
+          div class="form-field"
+            label for="message"
+              | Message
+            textarea class="one-whole" id="message" name="message" required=""
+
+          button class="btn one-half portable--one-whole lead-halve-spacing" type="submit"
+            | Send us a message

@@ -9,8 +9,13 @@ module CustomHelpers
     css
   end
 
+  def responsive_image_tag(image, image_2x, options = {})
+    srcset = "#{image_path(image)} 1x, #{image_path(image_2x)} 2x"
+    image_tag image, options.merge(srcset: srcset)
+  end
+
   def project_image_tag(image)
-    image_tag "project/#{image}", class: 'thumbnail'
+    responsive_image_tag "project/#{image}.png", "project/#{image}-2x.png"
   end
 
   def testimonial_image_tag(avatar)

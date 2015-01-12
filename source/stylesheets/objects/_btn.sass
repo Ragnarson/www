@@ -2,18 +2,19 @@
   display: inline-block
   padding: $quarter-spacing-unit $halve-spacing-unit
   text-decoration: none
+  font-family: $header-font-family
   color: $btn-color
   border: 0
-  background-color: $brand-color
+  background-color: $btn-background-color
   border-radius: $base-border-radius
-  box-shadow: 0 3px darken($brand-color, 30%)
+  box-shadow: 0 3px $btn-shadow-color
   transition: background-color .3s
 
   + small
     margin-top: $halve-spacing-unit
 
   &:hover
-    background-color: lighten($brand-color, 7%)
+    background-color: $btn-hover-color
 
 .btn-large
   padding: $halve-spacing-unit $base-spacing-unit
@@ -22,7 +23,7 @@
 .btn-inline
   margin-left: $halve-spacing-unit
 
-+breakpoint($breakpoint-mobile)
++breakpoint($breakpoint-palm)
   .btn-inline
     margin-top: $halve-spacing-unit
     margin-left: 0

@@ -1,8 +1,10 @@
-$container-width: 980px
+$container-width: 1200px
 
-$breakpoint-phone: 599px
-$breakpoint-mobile: 767px
-$breakpoint-navigation: 850px
+$breakpoint-palm: '(max-width: 480px)'
+$breakpoint-lap: '(min-width: 481px) and (max-width: 1023px)'
+$breakpoint-portable: '(max-width: 1023px)'
+$breakpoint-desk: '(min-width: 1024px)'
+$breakpoint-navigation: '(max-width: 850px)'
 
-$breakpoints: 'phone' '(max-width: #{$breakpoint-phone})', 'mobile' '(min-width: #{$breakpoint-phone+1}) and (max-width: #{$breakpoint-mobile})', 'navigation' '(max-width: #{$breakpoint-navigation})'
-$breakpoint-has-widths: 'phone', 'mobile'
+
+$breakpoints: 'palm' $breakpoint-palm, 'lap' $breakpoint-lap, 'portable' $breakpoint-portable, 'desk' $breakpoint-desk, 'navigation' $breakpoint-navigation

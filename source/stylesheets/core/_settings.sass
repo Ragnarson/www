@@ -1,6 +1,21 @@
+$red-dark: #A03058
+$red: #F73B68
+$red-light: #fe5c81
+$red-lightest: #F29C9A
+$red-accent: #D31B3A
+
+$blue-dark: #043E4E
+$blue: #34638B
+$blue-light: #258ABC
+$blue-lightest: #B0E1F0
+
+$gray-light: #F4F2F3
+
 $base-spacing-unit: $typecsset-base-line-height
-$base-font-family: 'proxima-nova', sans-serif
-$base-color: #111
+$base-font-family: 'franziska', sans-serif
+$sans-font-family: 'lato', sans-serif
+$header-font-family: $sans-font-family
+$base-color: #333
 $base-border-radius: 5px
 
 $quarter-spacing-unit: quarter($base-spacing-unit)
@@ -11,23 +26,30 @@ $quadruple-spacing-unit: quadruple($base-spacing-unit)
 $muted-color: rgba($base-color, .4)
 $link-color: #2fadfc
 $border-color: #d7d7d7
+$inverse-color: $gray-light
+$inverse-muted-color: rgba($inverse-color, .4)
 
-$object-background: #f3f3f3
-$object-alt-background: #434343
+$object-background: $gray-light
+$object-alt-background: #414143
+$object-alt-background-dark: #2F2F2F
+$object-alt-background-text-color: $gray-light
 
-$brand-color: #fe3866
+$brand-color: $red
 $brand-height: 31px
 $brand-width: 184px
 
 $btn-color: white
+$btn-background-color: $red
+$btn-shadow-color: $red-dark
+$btn-hover-color: $red-light
 
-$hero-color: white
-$hero-base-background: #2fadfc
-$hero-alt-background: #03ffe4
+$hero-color: $base-color
+$hero-base-background: #E8E9EB
+$hero-alt-background: #FEFEFE
 
-$quote-avatar-position: $base-spacing-unit * 3
+$quote-avatar-position: $base-spacing-unit * 2
 
-$box-alt-color: rgba(white, .8)
+$box-alt-color: $inverse-color
 $box-alt-link-color: lighten($link-color, 10%)
 $box-alt-heading-color: white
 

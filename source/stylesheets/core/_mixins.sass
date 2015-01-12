@@ -14,23 +14,20 @@
 @mixin hr-overlaying
   overflow: hidden
 
-  &:before,
   &:after
     position: relative
     display: inline-block
-    width: 50%
-    height: 1px
-    vertical-align: 20%
-    background-color: $border-color
+    width: 70%
+    height: 5px
+    vertical-align: 15%
+    background-color: $base-color
     content: ""
-
-  &:before
-    right: $base-spacing-unit
-    margin-left: -50%
-
-  &:after
     left: $base-spacing-unit
     margin-right: -50%
+
+  +breakpoint($breakpoint-palm)
+    &:after
+      display: none
 
 @mixin triangle($direction, $size: $base-spacing-unit, $background-color: $object-background)
   $height: $size
@@ -54,6 +51,6 @@
   top: 50%
   transform: translateY(-50%)
 
-@mixin breakpoint($width)
-  @media only screen and (max-width: $width)
+@mixin breakpoint($breakpoint)
+  @media only screen and #{$breakpoint}
     @content

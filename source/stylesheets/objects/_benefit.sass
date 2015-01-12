@@ -3,16 +3,26 @@
   text-align: center
 
 .benefit-img
+  position: relative
   min-height: 280px
 
+  img
+    position: absolute
+    bottom: 0
+    left: 0
+    right: 0
+    margin-left: auto
+    margin-right: auto
+
 .benefit-desc
-  border-top: 1px solid $border-color
   text-align: start
 
-+breakpoint($breakpoint-mobile)
++breakpoint($breakpoint-palm)
   .benefit-img
     min-height: inherit
 
+    img
+      position: inherit
+
   .benefit-desc
     border-top: none
-

@@ -12,24 +12,25 @@ h2,
 h3,
 h4,
 h5
-  font-weight: 300
+  font-weight: 700
+  font-family: $header-font-family
 
 h1,
-h2,
-h3
-  text-align: center
+  +hr-overlaying
+  +typecsset-font-size(52px)
 
 h2
   font-size: $typecsset-h4-size
 
 h3
-  +hr-overlaying
   margin-top: $double-spacing-unit
   margin-bottom: $double-spacing-unit
   font-size: $typecsset-h4-size
   color: $muted-color
 
 h4
+  font-family: $base-font-family
+  font-style: italic
   font-size: $typecsset-h3-size
 
 h5
@@ -73,7 +74,6 @@ textarea
 
 blockquote
   margin-left: 0
-  font-style: italic
   text-indent: 0
   color: $muted-color
 

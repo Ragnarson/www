@@ -1,67 +1,72 @@
-h3 id="what-we-do"
-  | What we do
+div class="section section--alt"
+  div class="container"
 
-div class="grid"
-  div class="grid__item one-third phone--one-whole mobile--one-whole"
-    div class="benefit"
-      div class="benefit-img"
-        = image_tag 'benefit/web.png'
-      div class="benefit-desc"
-        h4 class="lead"
-          | Web applications
-        p
-          | Development of web applications is our core business. We love
-            working with Ruby programming language and we use it on daily
-            basis. Other technologies and frameworks are chosen individually
-            for each project. From business point of view most of our work
-            fall into one of the following scenarios:
-        ul
-          li
-            | rapid MVP development
-          li
-            | long-term development of post MVP products
-          li
-            | maintenance of existing and legacy projects
-          li
-            | teaching and passing development to your local team
+    h1 id="what-we-do"
+      | What we do
 
-  div class="grid__item one-third phone--one-whole mobile--one-whole"
-    div class="benefit"
-      div class="benefit-img"
-        = image_tag 'benefit/infrastructure.png'
-      div class="benefit-desc"
-        h4 class="lead"
-          | Infrastructure
-        p
-          | Designing, building and maintaining server infrastructure requires
-            a lot of knowledge, time and effort. We have mastered Linux server
-            administration over the years. Our area of expertise are:
-            automatization, virtualization, distributed network storage,
-            monitoring, backups, high availability, databases and hosting
-            of web applications.
+    div class="grid"
+      div class="grid__item one-third portable--one-whole"
+        div class="benefit"
+          div class="grid__item one-whole palm--one-whole lap--one-third benefit-img"
+            = responsive_image_tag 'benefit/web.png', 'benefit/web-2x.png'
+          div class="grid__item one-whole palm--one-whole lap--two-thirds benefit-img benefit-desc"
+            h4 class="lead"
+              | Web applications
+            p class="text-justified"
+              | Development of web applications is our core business. We love
+                working with Ruby programming language and we use it on daily
+                basis. Other technologies and frameworks are chosen individually
+                for each project. From business point of view most of our work
+                fall into one of the following scenarios:
+            ul
+              li
+                | rapid MVP development
+              li
+                | long-term development of post MVP products
+              li
+                | maintenance of existing and legacy projects
+              li
+                | teaching and passing development to your local team
+        div class="rule rule-phone"
 
-  div class="grid__item one-third phone--one-whole mobile--one-whole"
-    div class="benefit"
-      div class="benefit-img"
-        = image_tag 'benefit/hosting.png'
-      div class="benefit-desc"
-        h4 class="lead"
-          | Hosting
-        p
-          | Putting a web application on-line always requires a hosting
-            solution. In early 2010 we decided to develop a PaaS to support
-            our customers. Now it is available to general public.
-            Shelly Cloud is a complete, dedicated platform for hosting Ruby
-            and Ruby on Rails applications.
+      div class="grid__item one-third portable--one-whole"
+        div class="benefit"
+          div class="grid__item one-whole palm--one-whole lap--one-third benefit-img"
+            = responsive_image_tag 'benefit/infrastructure.png', 'benefit/infrastructure-2x.png'
+          div class="grid__item one-whole palm--one-whole lap--two-thirds benefit-img benefit-desc"
+            h4 class="lead"
+              | Infrastructure
+            p class="text-justified"
+              | Designing, building and maintaining server infrastructure requires
+                a lot of knowledge, time and effort. We have mastered Linux server
+                administration over the years. Our area of expertise are:
+                automatization, virtualization, distributed network storage,
+                monitoring, backups, high availability, databases and hosting
+                of web applications.
+        div class="rule rule-phone"
 
-div class="grid grid--center"
-  div class="grid__item two-thirds mobile--one-whole phone--one-whole"
-    form class="box box-alt" method="post" action="http://www-backend.shellyapp.com/newsletter"
-      label for="email"
-        | Check out our brief document about starting the cooperation,
-          expectations from both sides and short introduction
-          to project management.
-      input(class="seven-twelfths mobile--one-whole phone--one-whole" id="email"
-        type="email" name="email" placeholder="e.g. john@example.com" required="")
-      button class="btn btn-inline" type="submit"
-        | Send me the PDF
+      div class="grid__item one-third portable--one-whole"
+        div class="benefit"
+          div class="grid__item one-whole palm--one-whole lap--one-third benefit-img"
+            = responsive_image_tag 'benefit/hosting.png', 'benefit/hosting-2x.png'
+          div class="grid__item one-whole palm--one-whole lap--two-thirds benefit-img benefit-desc"
+            h4 class="lead"
+              | Hosting
+            p class="text-justified"
+              | Putting a web application on-line always requires a hosting
+                solution. In early 2010 we decided to develop a PaaS to support
+                our customers. Now it is available to general public.
+                Shelly Cloud is a complete, dedicated platform for hosting Ruby
+                and Ruby on Rails applications.
+
+    div class="grid grid--center"
+      div class="grid__item two-thirds portable--one-whole"
+        form class="box box-alt" method="post" action="http://www-backend.shellyapp.com/newsletter"
+          label for="email"
+            | Check out our brief document about starting the cooperation,
+              expectations from both sides and short introduction
+              to project management.
+          input(class="eight-twelfths palm--one-whole" id="email"
+            type="email" name="email" placeholder="e.g. john@example.com" required="")
+          button class="btn btn-inline" type="submit"
+            | Send me the PDF
