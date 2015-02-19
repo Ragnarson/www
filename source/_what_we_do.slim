@@ -61,12 +61,11 @@ div class="section section--alt"
 
     div class="grid grid--center"
       div class="grid__item two-thirds portable--one-whole"
-        form class="box box-alt" method="post" action="http://www-backend.shellyapp.com/newsletter"
-          label for="email"
+        div class="box box-alt"
+          p class="text-justified"
             | Check out our brief document about starting the cooperation,
               expectations from both sides and short introduction
               to project management.
-          input(class="eight-twelfths palm--one-whole" id="email"
-            type="email" name="email" placeholder="e.g. john@example.com" required="")
-          button class="btn btn-inline" type="submit"
-            | Send me the PDF
+          div class="text-center"
+            = link_to "/pdf/how_we_work.pdf", class: "btn btn-inline", target: "_blank" do
+              | Download the PDF
