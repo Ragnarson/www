@@ -1,5 +1,5 @@
 #= require zepto
-#= require zepto-touch
+#= require zeptotouch
 
 toggleAltHeader = (event) ->
   windowScrollTop = $(window).scrollTop()
