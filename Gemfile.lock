@@ -110,7 +110,7 @@ GEM
     rails-assets-normalize-css (3.0.1)
     rails-assets-typecsset (0.3.0)
     rails-assets-zepto (1.1.4)
-    rails-assets-zepto-touch (1.1.4)
+    rails-assets-zeptotouch (1.1.4)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -154,5 +154,5 @@ DEPENDENCIES
   rails-assets-normalize-css
   rails-assets-typecsset
   rails-assets-zepto
-  rails-assets-zepto-touch
+  rails-assets-zeptotouch
   slim
