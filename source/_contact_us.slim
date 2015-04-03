@@ -51,53 +51,26 @@ div class="section section--inverse"
           | Opportunities, general questions, comments, and concerns should be
             #{mail_to "biz@ragnarson.com", "sent to Maciej"}, via email.
 
+      div class="grid__item one-half palm--one-whole"
         h5
           | Job contact
         p
-          | Questions regarding recruitment and employment should be sent to
-            #{mail_to "jobs@ragnarson.com"}
-        ul class="nav social-media"
-          li
-            = link_to "https://twitter.com/ragnarsoncom" do
-              i class="icon-twitter"
-          li
-            = link_to "https://github.com/ragnarson" do
-              i class="icon-github"
-          li
-            = link_to "https://facebook.com/ragnarson" do
-              i class="icon-facebook"
-          li
-            = link_to "https://plus.google.com/100443212153441506644" do
-              i class="icon-gplus"
-          li
-            = link_to "https://www.linkedin.com/company/560916" do
-              i class="icon-linkedin"
+          | Read more about our recruitment process, view open positions and apply at
+            #{link_to "jobs.ragnarson.com", "http://jobs.ragnarson.com"}.
 
-      div class="grid__item one-half palm--one-whole"
-        form class="box box-alt" method="post" action="http://www-backend.shellyapp.com/contact"
-          - # anti-spam field
-          div class="form-field hidden"
-            label for="username"
-              | Your username
-            input(class="one-whole" placeholder="e.g. Acme"
-              id="username" type="text" name="username")
-
-          div class="form-field"
-            label for="name"
-              | Your name
-            input(class="one-whole" placeholder="e.g. John"
-              id="name" type="text" name="name" required="")
-
-          div class="form-field"
-            label for="email"
-              | Your email
-            input(class="one-whole" placeholder="e.g. john@example.com"
-              id="email" type="email" name="email" required="")
-
-          div class="form-field"
-            label for="message"
-              | Message
-            textarea class="one-whole" id="message" name="message" required=""
-
-          button class="btn one-half portable--one-whole lead-halve-spacing" type="submit"
-            | Send us a message
+    ul class="nav social-media"
+      li
+        = link_to "https://twitter.com/ragnarsoncom" do
+          i class="icon-twitter"
+      li
+        = link_to "https://github.com/ragnarson" do
+          i class="icon-github"
+      li
+        = link_to "https://facebook.com/ragnarson" do
+          i class="icon-facebook"
+      li
+        = link_to "https://plus.google.com/100443212153441506644" do
+          i class="icon-gplus"
+      li
+        = link_to "https://www.linkedin.com/company/560916" do
+          i class="icon-linkedin"
