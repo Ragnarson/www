@@ -18,10 +18,12 @@ header class="header js-header"
       div class="grid__item eight-twelfths text-right"
         nav
           ul class="nav nav-main js-nav-main"
-            li= link_to 'What we do', '#what-we-do', class: 'js-smooth-scroll'
-            li= link_to 'What we did', '#what-we-did', class: 'js-smooth-scroll'
-            li= link_to 'Who we are', '#who-we-are', class: 'js-smooth-scroll'
-            li= link_to 'Contact us', '#contact-us', class: 'js-smooth-scroll'
+            li= link_to 'What we do', '#what-we-do', class: 'js-scroll-spy js-smooth-scroll'
+            li= link_to 'What we did', '#what-we-did', class: 'js-scroll-spy js-smooth-scroll'
+            li= link_to 'Who we are', '#who-we-are', class: 'js-scroll-spy js-smooth-scroll'
+            li= link_to 'Contact us', '#contact-us', class: 'js-scroll-spy js-smooth-scroll'
+            li= link_to 'Jobs', 'http://jobs.ragnarson.com'
+            li= link_to 'Blog', 'http://blog.ragnarson.com'
           ul class="nav nav-main-rwd"
             li
               = link_to '#', class: 'nav-main-rwd-navicon js-nav-main-rwd-navicon' do

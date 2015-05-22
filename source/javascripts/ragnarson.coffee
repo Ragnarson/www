@@ -29,10 +29,10 @@ scrollToSection = (event) ->
 
 initScrollSpy = ->
   document.sections = []
-  $('.js-nav-main').find('a').each ->
+  $('.js-nav-main').find('.js-scroll-spy').each ->
     document.sections.push $(@).attr('href')
 
-scrollSpy = ->
+scrollSpy = (event) ->
   scrollPosition = $(window).scrollTop() + event.data.offset
   for section in document.sections
     if scrollPosition >= $(section).offset().top
