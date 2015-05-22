@@ -1,4 +1,4 @@
-require "rubygems"
+require "bundler/setup"
 require "middleman-core/load_paths"
 
 Middleman.setup_load_paths
