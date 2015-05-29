@@ -41,4 +41,11 @@ module CustomHelpers
   def ribbon(card)
     "ribbon" if card.player == "Łukasz Piestrzeniewicz"
   end
+
+  def nav_link_to(link, url, opts={})
+    if current_resource.url == url_for(url)
+      opts[:class] = "active"
+    end
+    link_to(link, url, opts)
+  end
 end

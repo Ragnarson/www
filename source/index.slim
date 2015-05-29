@@ -1,49 +1,7 @@
-header class="header js-header"
-  div class="container"
-    div class="grid grid--middle"
-      div class="grid__item two-twelfths"
-        div class="brand"
-          | Ragnarson
-      div class="grid__item two-twelfths"
-        ul class="nav nav-main-social-media"
-          li
-            = link_to "https://twitter.com/ragnarsoncom" do
-              i class="icon-twitter-blank"
-          li
-            = link_to "https://github.com/ragnarson" do
-              i class="icon-github-blank"
-          li
-            = link_to "https://www.facebook.com/ragnarson" do
-              i class="icon-facebook-blank"
-      div class="grid__item eight-twelfths text-right"
-        nav
-          ul class="nav nav-main js-nav-main"
-            li= link_to 'What we do', '#what-we-do', class: 'js-scroll-spy js-smooth-scroll'
-            li= link_to 'What we did', '#what-we-did', class: 'js-scroll-spy js-smooth-scroll'
-            li= link_to 'Who we are', '#who-we-are', class: 'js-scroll-spy js-smooth-scroll'
-            li= link_to 'Contact us', '#contact-us', class: 'js-scroll-spy js-smooth-scroll'
-            li= link_to 'Jobs', 'http://jobs.ragnarson.com'
-            li= link_to 'Blog', 'http://blog.ragnarson.com'
-          ul class="nav nav-main-rwd"
-            li
-              = link_to '#', class: 'nav-main-rwd-navicon js-nav-main-rwd-navicon' do
-                i class="icon-menu"
+= partial 'header'
 
-div class="hero"
-  div class="container"
-    h1 class="hero-slogan"
-      | We build web applications
-    span class="hero-copy"
-      | We are Ruby and JavaScript developers
-      br
-      | specialized in building web applications for startups since 2006
-    div class="lead"
-      = link_to 'Work with us', '#contact-us', 'data-scroll' => '', class: 'btn btn-large'
-
+= partial 'hero'
 = partial 'what_we_do'
-= partial 'what_we_did'
-= partial 'who_we_are'
-= partial 'contact_us'
+= partial 'pdf_download'
 
-  footer class="footer"
-    | &copy; #{Time.now.year} Ragnarson sp. z o.o.
+= partial 'footer'
