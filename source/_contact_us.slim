@@ -6,7 +6,7 @@ div class="section"
 
     div class="grid"
       div class="grid__item one-third palm--one-whole text-center"
-        = image_tag 'office/lodz.png'
+        = responsive_image_tag 'office/lodz.png', 'office/lodz-2x.png', class: 'img--center'
         h4 class="lead-base-spacing"
           | Main Office
         address
@@ -24,7 +24,7 @@ div class="section"
             | REGON: 100960955
         hr class="rule rule-phone"
       div class="grid__item one-third palm--one-whole text-center"
-        = image_tag 'office/sopot.png', class: 'img--center'
+        = responsive_image_tag 'office/sopot.png', 'office/sopot-2x.png', class: 'img--center'
         h4 class="lead-base-spacing"
           | Branch Office
         address
