@@ -1,28 +1,31 @@
-.benefit
-  margin-bottom: $double-spacing-unit
+.benefit__img
   text-align: center
 
-.benefit-img
-  position: relative
-  min-height: 280px
+.benefit__desc
+  padding-bottom: $base-spacing-unit
 
-  img
-    position: absolute
-    bottom: 0
-    left: 0
-    right: 0
-    margin-left: auto
-    margin-right: auto
++breakpoint($breakpoint-desk)
+  .benefit
+    margin-left: -$gutter
+    display: table
 
-.benefit-desc
-  text-align: start
+  .benefit__img,
+  .benefit__desc
+    display: table-cell
+    width: 50%
+    padding-left: $gutter
+    padding-top: $base-spacing-unit
 
-+breakpoint($breakpoint-palm)
-  .benefit-img
-    min-height: inherit
+  .benefit__img
+    vertical-align: bottom
 
-    img
-      position: inherit
+  .benefit__desc
+    padding-bottom: $base-spacing-unit
+    vertical-align: middle
 
-  .benefit-desc
-    border-top: none
+.benefit--rev
+  direction: rtl
+  text-align: left
+  .benefit__img,
+  .benefit__desc
+    direction: ltr
