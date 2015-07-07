@@ -1,6 +1,6 @@
 .hero
-  padding-top: $base-spacing-unit * 7
-  padding-bottom: $base-spacing-unit * 5
+  padding-top: $base-spacing-unit * 6
+  padding-bottom: $base-spacing-unit * 4
   color: $hero-color
   background-color: $hero-background
   border-bottom: 1px solid $border-color
@@ -15,3 +15,12 @@
 +breakpoint($breakpoint-palm)
   .hero-slogan
     +typecsset-font-size(40px)
+
+.hero-mascot
+  text-align: right
+  img
+    padding-top: $base-spacing-unit
+    padding-right: $base-spacing-unit
+
+  +breakpoint($breakpoint-palm)
+    display: none
