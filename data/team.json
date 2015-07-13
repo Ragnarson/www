@@ -1,24 +1,38 @@
 [
   {
-    "player": "Łukasz Piestrzeniewicz",
-    "rank": "Founder",
-    "avatar": "bragi.jpg",
-    "github": "bragi",
-    "twitter": "bragiragnarson"
-  },
-  {
     "player": "Maciej Gałkiewicz",
-    "rank": "CEO",
+    "rank": "CEO, Co-owner",
     "avatar": "macias.jpg",
     "github": "mgalkiewicz",
     "twitter": "mgalkiewicz"
   },
   {
     "player": "Marcin Bajer",
-    "rank": "Developer",
+    "rank": "Co-owner",
     "avatar": "marcin.jpg",
     "github": "rrrodrigo",
     "twitter": "rrrodrigo"
+  },
+  {
+    "player": "Grzesiek Kołodziejczyk",
+    "rank": "Co-owner",
+    "avatar": "grk.jpg",
+    "github": "grk",
+    "twitter": "_codefu"
+  },
+  {
+    "player": "Mariusz Pietrzyk",
+    "rank": "Co-owner",
+    "avatar": "wijet.jpg",
+    "github": "wijet",
+    "twitter": "wijet"
+  },
+  {
+    "player": "Oskar Szrajer",
+    "rank": "Co-owner",
+    "avatar": "oskar.jpg",
+    "github": "gotar",
+    "twitter": "oskarszrajer"
   },
   {
     "player": "Karol Galanciak",
@@ -45,13 +59,6 @@
     "rank": "Developer",
     "avatar": "przemek.jpg",
     "github": "p55"
-  },
-  {
-    "player": "Grzesiek Kołodziejczyk",
-    "rank": "Developer",
-    "avatar": "grk.jpg",
-    "github": "grk",
-    "twitter": "_codefu"
   },
   {
     "player": "Dominik Koślin",
@@ -135,13 +142,6 @@
     "github": "aokon"
   },
   {
-    "player": "Mariusz Pietrzyk",
-    "rank": "Developer",
-    "avatar": "wijet.jpg",
-    "github": "wijet",
-    "twitter": "wijet"
-  },
-  {
     "player": "Michał Podlecki",
     "rank": "Developer",
     "avatar": "michal.jpg",
@@ -153,13 +153,6 @@
     "rank": "Headhunter",
     "avatar": "alina.jpg",
     "twitter": "alinascura"
-  },
-  {
-    "player": "Oskar Szrajer",
-    "rank": "Developer",
-    "avatar": "oskar.jpg",
-    "github": "gotar",
-    "twitter": "oskarszrajer"
   },
   {
     "player": "Szymon Szypulski",
