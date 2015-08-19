@@ -99,6 +99,12 @@
     "github": "dawidlenkiewicz"
   },
   {
+    "player": "Agnieszka Lipniak",
+    "rank": "Headhunter",
+    "avatar": "agnieszka.jpg",
+    "twitter": "proatut"
+  },
+  {
     "player": "Maciej Małecki",
     "rank": "Developer",
     "avatar": "maciek.jpg",
@@ -116,12 +122,6 @@
     "rank": "Developer",
     "avatar": "michal_marcinkowski.jpg",
     "github": "mmarcinkowski"
-  },
-  {
-    "player": "Agnieszka Marczyńska",
-    "rank": "Headhunter",
-    "avatar": "agnieszka.jpg",
-    "twitter": "proatut"
   },
   {
     "player": "Barbara Niewiadomska",
