@@ -9,29 +9,48 @@ div class="section section--inverse"
           | Opportunities, general questions, comments, and concerns should be
             #{mail_to "biz@ragnarson.com", "sent to Maciej"}, via email.
 
-      div class="grid__item one-half palm--one-whole"
         h5
           | Job contact
         p
           | Read more about our recruitment process, view open positions and apply at
             #{link_to "jobs.ragnarson.com", "http://jobs.ragnarson.com"}.
 
-    ul class="nav social-media social-media--inverse"
-      li
-        = link_to "https://twitter.com/ragnarsoncom" do
-          i class="icon-twitter"
-      li
-        = link_to "https://github.com/ragnarson" do
-          i class="icon-github"
-      li
-        = link_to "https://facebook.com/ragnarson" do
-          i class="icon-facebook"
-      li
-        = link_to "https://plus.google.com/100443212153441506644" do
-          i class="icon-gplus"
-      li
-        = link_to "https://www.linkedin.com/company/560916" do
-          i class="icon-linkedin"
+      div class="grid__item one-half palm--one-whole"
+        h5 Company info
+        p class="muted"
+          | Ragnarson sp. z o.o. z siedzibą w Łodzi
+          br
+          | Al. Kościuszki 32/7, 90-419 Łódź
+          br
+          | Sąd Rejonowy dla Łodzi-Śródmieścia w Łodzi
+          br
+          | XX Wydział Gospodarczy
+          br
+          | KRS: 0000365781
+          br
+          | NIP: 7272768902
+          br
+          | REGON: 100960955
+          br
+          | Kapitał zakładowy: 30.000 złotych
 
-    footer class="footer"
-      | &copy; #{Time.now.year} Ragnarson sp. z o.o.
+    div class="grid"
+      div class="grid__item one-half"
+        ul class="nav social-media social-media--inverse"
+          li
+            = link_to "https://twitter.com/ragnarsoncom" do
+              i class="icon-twitter"
+          li
+            = link_to "https://github.com/ragnarson" do
+              i class="icon-github"
+          li
+            = link_to "https://facebook.com/ragnarson" do
+              i class="icon-facebook"
+          li
+            = link_to "https://plus.google.com/100443212153441506644" do
+              i class="icon-gplus"
+          li
+            = link_to "https://www.linkedin.com/company/560916" do
+              i class="icon-linkedin"
+      div class="grid__item one-half text-right"
+        | &copy; #{Time.now.year} Ragnarson sp. z o.o.
