@@ -7,13 +7,6 @@
     "twitter": "mgalkiewicz"
   },
   {
-    "player": "Marcin Bajer",
-    "rank": "Co-owner",
-    "avatar": "marcin.jpg",
-    "github": "rrrodrigo",
-    "twitter": "rrrodrigo"
-  },
-  {
     "player": "Grzesiek Kołodziejczyk",
     "rank": "Co-owner",
     "avatar": "grk.jpg",
@@ -33,6 +26,13 @@
     "avatar": "oskar.jpg",
     "github": "gotar",
     "twitter": "oskarszrajer"
+  },
+  {
+    "player": "Marcin Bajer",
+    "rank": "Developer",
+    "avatar": "marcin.jpg",
+    "github": "rrrodrigo",
+    "twitter": "rrrodrigo"
   },
   {
     "player": "Adrian Chęciński",
