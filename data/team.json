@@ -138,6 +138,12 @@
     "github": "mmarcinkowski"
   },
   {
+    "player": "Piotr Misiurek",
+    "rank": "Developer",
+    "avatar": "piotr.jpg",
+    "github": "PiotrMisiurek"
+  },
+  {
     "player": "Barbara Niewiadomska",
     "rank": "Office Manager",
     "avatar": "basia.jpg"
@@ -193,11 +199,5 @@
     "rank": "Developer",
     "avatar": "antek.jpg",
     "github": "atw"
-  },
-  {
-    "player": "Piotr Misiurek",
-    "rank": "Developer",
-    "avatar": "piotr.jpg",
-    "github": "PiotrMisiurek"
   }
 ]
