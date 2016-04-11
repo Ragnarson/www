@@ -39,7 +39,7 @@ div class="section section--inverse"
           br
           | Kapitał zakładowy: 32.000 złotych
 
-    div class="grid"
+    div class="grid grid--middle"
       div class="grid__item one-half"
         ul class="nav social-media social-media--inverse"
           li
@@ -58,4 +58,5 @@ div class="section section--inverse"
             = link_to "https://www.linkedin.com/company/560916" do
               i class="icon-linkedin"
       div class="grid__item one-half text-right"
-        | &copy; #{Time.now.year} Ragnarson sp. z o.o.
+        = link_to 'Brand Guidelines', 'guidelines.html'
+        = " | &copy; #{Time.now.year} Ragnarson sp. z o.o."

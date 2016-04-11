@@ -1,0 +1,66 @@
+.box
+  position: relative
+  border-radius: 10px
+  margin-bottom: $base-spacing-unit
+
+.box--brand
+  background-color: $brand-color
+
+.box--base
+  background-color: $base-color
+
+.box--sample
+  height: 95px
+  width: 90%
+
+.box--showcase
+  padding: $double-spacing-unit $halve-spacing-unit
+  border: 1px solid $border-color
+  text-align: center
+
+.box--negative
+  background-color: $base-color
+  border: 1px solid $base-color
+
+.box--spacing
+  display: inline-block
+  padding: $base-spacing-unit
+
+.box--has-footer
+  $box-height: 252px
+  $box-footer-height: 56px
+  display: flex
+  align-items: center
+  justify-content: center
+  height: $box-height
+
+  > *
+    margin-top: -$box-footer-height
+
+.box__caption
+  position: absolute
+  top: $quarter-spacing-unit
+  left: $halve-spacing-unit
+  font-family: $sans-font-family
+  color: $muted-color
+  +typecsset-font-size(14px)
+
+  .box--negative > &
+    color: rgba(white, .4)
+
+.box__footer
+  position: absolute
+  bottom: 0
+  left: 0
+  width: 100%
+  padding: $halve-spacing-unit
+  background-color: $gray-light
+  border-bottom-left-radius: 10px
+  border-bottom-right-radius: 10px
+  text-align: center
+  font-family: $sans-font-family
+  +typecsset-font-size(17px)
+
+  > a
+    text-decoration: none
+    color: $brand-color
