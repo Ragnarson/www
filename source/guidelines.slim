@@ -10,17 +10,17 @@ div class="section"
     div class="grid"
       div class="grid__item one-third palm--one-whole"
         div class="box box--showcase box--has-footer"
-          = responsive_image_tag 'guidelines/horizontal-sub.png', 'guidelines/horizontal-sub-2x.png'
+          = image_tag 'guidelines/horizontal-sub.svg'
           div class="box__footer"
             a href="public/horizontal-sub.zip" Download logo with caption
       div class="grid__item one-third palm--one-whole"
         div class="box box--showcase box--has-footer"
-          = responsive_image_tag 'guidelines/horizontal.png', 'guidelines/horizontal-2x.png'
+          = image_tag 'guidelines/horizontal.svg'
           div class="box__footer"
             a href="public/horizontal.zip" Download logo without caption
       div class="grid__item one-third palm--one-whole"
         div class="box box--showcase box--has-footer"
-          = responsive_image_tag 'guidelines/square.png', 'guidelines/square-2x.png'
+          = image_tag 'guidelines/square.svg'
           div class="box__footer"
             a href="public/square.zip" Download emblem
 
@@ -36,7 +36,7 @@ div class="section"
       div class="grid__item two-thirds palm--one-whole"
         div class="box box--showcase"
           span class="box__caption" Chromatic
-          = responsive_image_tag 'guidelines/horizontal-sub.png', 'guidelines/horizontal-sub-2x.png'
+          = image_tag 'guidelines/horizontal-sub.svg'
     div class="grid"
       div class="grid__item one-third palm--one-whole"
         p
@@ -44,23 +44,23 @@ div class="section"
       div class="grid__item two-thirds palm--one-whole"
         div class="box box--showcase"
           span class="box__caption" Monochromatic
-          = responsive_image_tag 'guidelines/horizontal-sub-mono.png', 'guidelines/horizontal-sub-mono-2x.png'
+          = image_tag 'guidelines/horizontal-sub-mono.svg'
         div class="box box--showcase box--negative"
           span class="box__caption" Reversed Monochromatic
-          = responsive_image_tag 'guidelines/horizontal-sub-negative.png', 'guidelines/horizontal-sub-negative-2x.png'
+          = image_tag 'guidelines/horizontal-sub-negative.svg'
         div class="grid"
           div class="grid__item one-third palm--one-whole"
             div class="box box--showcase"
               span class="box__caption" Chromatic
-              = responsive_image_tag 'guidelines/square.png', 'guidelines/square-2x.png'
+              = image_tag 'guidelines/square.svg'
           div class="grid__item one-third palm--one-whole"
             div class="box box--showcase"
               span class="box__caption" Monochromatic
-              = responsive_image_tag 'guidelines/square-mono.png', 'guidelines/square-mono-2x.png'
+              = image_tag 'guidelines/square-mono.svg'
           div class="grid__item one-third palm--one-whole"
             div class="box box--showcase box--negative"
               span class="box__caption" Reversed Monochromatic
-              = responsive_image_tag 'guidelines/square-negative.png', 'guidelines/square-negative-2x.png'
+              = image_tag 'guidelines/square-negative.svg'
 
 div class="section--alt"
   div class="container"
@@ -111,10 +111,10 @@ div class="section"
       div class="grid__item one-half palm--one-whole"
         h3 class="h4 flush--top margin--bottom font--normal" Spacing
         p
-          | When using the Ragnarson logo or emblem, maintain a safety space that
-            equals 200% of logo height.
+          | When using the Ragnarson logo or emblem, use a margin on all sides equal to
+            100% of logo height.
         div class="text-center"
-          div class="box box--showcase box--spacing"
-            = responsive_image_tag 'guidelines/horizontal-sub.png', 'guidelines/horizontal-sub-2x.png'
+          div class="box box--showcase"
+            div = image_tag 'guidelines/horizontal-sub.svg'
 
 = partial 'footer'

@@ -17,6 +17,14 @@ $ bundle install
 $ bundle exec middleman
 ```
 
+#### Optimizing svg
+
+Install `svgo` using `npm`, then:
+
+```sh
+find source/images/**/*.svg | xargs -n 1 svgo
+```
+
 #### Deployment
 
 ```sh
