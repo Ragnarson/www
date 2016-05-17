@@ -69,6 +69,12 @@
     "github": "tensaioni"
   },
   {
+    "player": "Marcin Grzymski",
+    "rank": "Developer",
+    "avatar": "marcin.grzymski.jpg",
+    "github": "marcinekgd"
+  },
+  {
     "player": "Przemysław Kędzierski",
     "rank": "Developer",
     "avatar": "przemek.jpg",
@@ -204,11 +210,5 @@
     "rank": "Developer",
     "avatar": "antek.jpg",
     "github": "atw"
-  },
-  {
-    "player": "Marcin Grzymski",
-    "rank": "Developer",
-    "avatar": "marcin.grzymski.jpg",
-    "github": "marcinekgd"
   }
 ]
