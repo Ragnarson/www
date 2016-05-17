@@ -41,7 +41,7 @@
     "github": "hash4di",
     "twitter": "hash4di"
   },
-  { 
+  {
     "player": "Marcin Drozd",
     "rank": "Developer",
     "avatar": "marcin_drozd.jpg",
@@ -204,5 +204,11 @@
     "rank": "Developer",
     "avatar": "antek.jpg",
     "github": "atw"
+  },
+  {
+    "player": "Marcin Grzymski",
+    "rank": "Developer",
+    "avatar": "marcin.grzymski.jpg",
+    "github": "marcinekgd"
   }
 ]
