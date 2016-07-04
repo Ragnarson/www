@@ -42,6 +42,12 @@
     "twitter": "hash4di"
   },
   {
+    "player": "Krzysztof Dabrowski",
+    "rank": "Developer",
+    "avatar": "krzysztof.dabrowski.jpg",
+    "github": "kdabrowski"
+  },
+  {
     "player": "Marcin Drozd",
     "rank": "Developer",
     "avatar": "marcin_drozd.jpg",
@@ -210,11 +216,5 @@
     "rank": "Developer",
     "avatar": "antek.jpg",
     "github": "atw"
-  },
-  {
-    "player": "Krzysztof Dabrowski",
-    "rank": "Developer",
-    "avatar": "krzysztof.dabrowski.jpg",
-    "github": "kdabrowski"
   }
 ]
