@@ -7,12 +7,12 @@ div class="section section--inverse"
           | Sales contact
         p
           | To get in touch with our sales team please send an email to
-            #{mail_to "sales@ragnarson.com", "sales@ragnarson.com"}.
+            #{mail_to "sales@ragnarson.com", "sales@ragnarson.com", ga: { on: "click", event: { category: "Email Link", action: "click", label: "sales@ragnarson.com" } }}.
         h5
           | Business contact
         p
           | If you have general questions, comments or concerns, please send an email to
-            #{mail_to "biz@ragnarson.com", "biz@ragnarson.com"}.
+            #{mail_to "biz@ragnarson.com", "biz@ragnarson.com", ga: { on: "click", event: { category: "Email Link", action: "click", label: "biz@ragnarson.com" } }}.
 
         h5
           | Job contact

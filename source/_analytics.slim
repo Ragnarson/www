@@ -5,4 +5,12 @@ javascript:
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-11839548-1', 'auto');
+
+  ga('require', 'cleanUrlTracker');
+  ga('require', 'eventTracker');
+  ga('require', 'outboundFormTracker');
+  ga('require', 'outboundLinkTracker');
+
   ga('send', 'pageview');
+
+= javascript_include_tag "autotrack", async: true

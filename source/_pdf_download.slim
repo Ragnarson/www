@@ -7,5 +7,6 @@ div class="section section--alt"
             expectations from both sides and short introduction
             to project management.
         div class="text-center"
-          = link_to "/pdf/how_we_work.pdf", class: "btn btn-inline", target: "_blank" do
+          = link_to "/pdf/how_we_work.pdf", class: "btn btn-inline", target: "_blank",
+            ga: { on: "click", event: { category: "Download Link", action: "click", label: "How we work" } } do
             | Download the PDF
