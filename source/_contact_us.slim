@@ -2,7 +2,36 @@ div class="section"
   div class="container"
 
     h1 id="contact-us"
-      | Contact us
+      | Work with us
+
+    div class="grid margin--double-bottom "
+      div class="grid__item one-half portable--one-whole"
+
+        form method="POST" action="http://formspree.io/sales@ragnarson.com" class="form-contact"
+          input type="hidden" name="_next" value="https://ragnarson.com/conact-thanks.html"
+          input type="text" name="_gotcha" style="display:none"
+
+          label for="name" Your name
+          input type="text" name="name"
+
+          label for="email" Your email
+          input type="email" name="email"
+
+          label for="description" How can we help?
+          textarea name="description"
+
+          label for="budget" What is your budget?
+          input type="text" name="budget"
+
+          label for="source" How did you learn about Ragnarson?
+          input type="text" name="source"
+
+          button type="submit" class="btn" Send
+      div class="grid__item one-half portable--one-whole text-center"
+        = responsive_image_tag 'ragnar-work.png', 'ragnar-work-2x.png', class: 'img-palm--hidden margin--double-top'
+
+    h1
+      | Offices
 
     div class="grid"
       div class="grid__item one-third palm--one-whole text-center"

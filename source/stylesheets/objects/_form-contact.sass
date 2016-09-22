@@ -1,0 +1,17 @@
+.form-contact
+  display: flex
+  flex-direction: column
+
+  input,
+  textarea
+    border: 1px solid $border-color
+    border-radius: $base-border-radius
+    margin-bottom: $base-spacing-unit / 1.5
+
+    &:focus
+      outline: 0
+      border: 1px solid $blue-light
+
++breakpoint($breakpoint-palm)
+  .img-palm--hidden
+    display: none
