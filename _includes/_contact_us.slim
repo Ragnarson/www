@@ -1,0 +1,64 @@
+div class="section"
+  div class="container"
+
+    h1 id="contact-us"
+      | Work with us
+
+    div class="grid margin--double-bottom "
+      div class="grid__item one-half portable--one-whole"
+
+        form method="POST" action="https://formspree.io/sales@ragnarson.com" class="form-contact"
+          input type="hidden" name="_next" value="https://ragnarson.com/contact-thanks.html"
+          input type="text" name="_gotcha" style="display:none"
+
+          label for="name" Your name
+          input type="text" name="name"
+
+          label for="email" Your email
+          input type="email" name="email"
+
+          label for="description" How can we help?
+          textarea name="description"
+
+          label for="budget" What is your budget?
+          input type="text" name="budget"
+
+          label for="source" How did you learn about Ragnarson?
+          input type="text" name="source"
+
+          button type="submit" class="btn" Send
+      div class="grid__item one-half portable--one-whole text-center"
+        = responsive_image_tag 'ragnar-work.png', 'ragnar-work-2x.png', class: 'img-palm--hidden margin--double-top'
+
+    h1
+      | Offices
+
+    div class="grid"
+      div class="grid__item one-third portable--one-whole text-center"
+        = responsive_image_tag 'office/lodz.png', 'office/lodz-2x.png', class: 'img--center'
+        h4 class="lead-base-spacing"
+          | Main Office
+        address
+          | Targowa 35
+          br
+          | 90-043 Łódź, Poland
+          br
+          = mail_to 'biz@ragnarson.com'
+        hr class="rule rule-portable"
+      div class="grid__item one-third portable--one-whole text-center"
+        = responsive_image_tag 'office/sopot.png', 'office/sopot-2x.png', class: 'img--center'
+        h4 class="lead-base-spacing"
+          | Branch Office
+        address
+          | Aleja Niepodległości 807/5
+          br
+          | 81-810 Sopot, Poland
+        hr class="rule rule-portable"
+      div class="grid__item one-third portable--one-whole text-center"
+        = responsive_image_tag 'office/berlin.png', 'office/berlin-2x.png', class: 'img--center'
+        h4 class="lead-base-spacing"
+          | Berlin Office
+        address
+          | Alte Jakobstrasse 92
+          br
+          | 10179, Berlin, Germany

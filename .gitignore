@@ -4,3 +4,5 @@
 /.cache
 .DS_Store
 /tmp/*
+_site
+.jekyll-metadata
