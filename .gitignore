@@ -1,6 +1,7 @@
 /.bundle
 /build
 /.sass-cache
+/.asset-cache
 /.cache
 .DS_Store
 /tmp/*
