@@ -33,3 +33,11 @@ sass:
 gems:
  - jekyll-coffeescript
  - jekyll-assets
+
+assets:
+  sources:
+    - _assets
+    - _assets/images
+    - _assets/javascripts
+    - _assets/css
+    - _assets/fonts
