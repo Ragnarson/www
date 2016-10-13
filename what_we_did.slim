@@ -31,7 +31,9 @@ div class="section"
         a href="{{ project.link }}"
           {{ project.thumbnail | project_image_tag }}
 
+    {% if project != site.data.projects.last %}
       hr class="rule"
+    {% endif %}
 
   {% endfor %}
 
