@@ -3,12 +3,12 @@ html lang="en"
   head
     meta charset="utf-8"
     meta name="viewport" content="width=device-width, initial-scale=1.0"
-    meta property="og:title" content="Ragnarson"
+    meta property="og:title" content="{{ site.title }}"
     meta property="og:image" content="images/website-embed.png"
-    meta property="og:description" content="We are Ruby and JavaScript developers specialized in building web applications for startups since 2006"
+    meta property="og:description" content="{{ site.description }}"
     meta name="referrer" content="no-referrer-when-downgrade"
     title
-      | Ragnarson
+      {{ site.title }}
     {% css ragnarson %}
     link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'
     link rel="apple-touch-icon-precomposed" href="/favicon-152.png"
