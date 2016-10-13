@@ -1,0 +1,38 @@
+---
+layout: layout
+---
+{% include _header.slim %}
+
+div class="section"
+  div class="container"
+
+    h1 id="what-we-did"
+      | What we did
+
+  {% for project in site.data.projects %}
+    div class="grid"
+      div class="grid__item one-third palm--one-whole lap--one-half text-justified"
+        h4
+          a href="{{ project.link }}" class='link-clean' {{ project.name }}
+        {{ project.description | simple_format }}
+
+        {% if project.testimonial %}
+          div class="quote"
+            blockquote
+              {{ project.testimonial.text | simple_format }}
+            div class="quote-footer"
+              {% img "project/testimonial/{{ project.testimonial.avatar }}" class:'quote-avatar' %}
+              ' {{ project.testimonial.author }},
+              a href="{{ project.link }}" {{ project.name }}
+              ' , {{ project.testimonial.year }}
+        {% endif %}
+
+      div class="grid__item two-thirds palm--one-whole lap--one-half text-center"
+        a href="{{ project.link }}"
+          {{ project.thumbnail | project_image_tag }}
+
+      hr class="rule"
+
+  {% endfor %}
+
+{% include _footer.slim %}
