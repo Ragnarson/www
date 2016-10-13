@@ -41,3 +41,14 @@ assets:
     - _assets/javascripts
     - _assets/css
     - _assets/fonts
+
+navigation:
+  - title: What we do
+    url: /
+  - title: What we did
+    url: /what_we_did.html
+  - title: Who we are
+    url: /who_we_are.html
+  - title: Contact us
+    url: /contact_us.html
+

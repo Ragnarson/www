@@ -6,10 +6,13 @@ header class="header"
       div class="grid__item ten-twelfths text-right"
         nav
           ul class="nav nav-main js-nav-main"
-            li: a href='index.html' What we do
-            li: a href='what_we_did.html' What we did
-            li: a href='who_we_are.html' Who we are
-            li: a href='contact.html' Contact us
+            {% for item in site.navigation %}
+              {% assign class = nil %}
+              {% if page.url == item.url %}
+                {% assign class = 'active' %}
+              {% endif %}
+              li: a href="{{ item.url }}" class="{{ class }}" {{ item.title }}
+            {% endfor %}
             li: a.nav-item-jobs href='http://jobs.ragnarson.com' Jobs
             li: a href='http://blog.ragnarson.com' Blog
           ul class="nav nav-main-rwd"
