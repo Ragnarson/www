@@ -1,0 +1,17 @@
+---
+---
+div class="hero"
+  div class="container"
+    h1 Error 404
+    div class="grid"
+      div class="grid__item two-thirds palm--one-whole lap--two-thirds text-justified"
+        p We couldn't find the page you are looking for.
+        a class="btn" href="/" Start from the main page
+      div class="grid__item one-third palm--one-whole lap--one-third"
+        hr class="rule rule-portable"
+        {% responsive_image_tag 404.png|404-2x.png|{} %}
+
+// workaround for jekyll-assets problem with responsive_image_tag
+// do not remove the following lines
+// {% img '404.png' %}
+// {% img '404-2x.png' %}
