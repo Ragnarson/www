@@ -14,7 +14,7 @@ html lang="en"
     link rel="apple-touch-icon-precomposed" href="/favicon-152.png"
     {% include _analytics.slim %}
 
-  body class="page_classes"
+  body class='{{ page.body_class }}'
     {% include _header.slim %}
     {{ content }}
     {% include _footer.slim %}
