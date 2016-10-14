@@ -53,3 +53,9 @@ navigation:
   - title: Contact us
     url: /contact.html
 
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "layout"
