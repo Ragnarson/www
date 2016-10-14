@@ -10,7 +10,7 @@ module Jekyll
       image = split_input[0].strip
       image_2x = split_input[1].strip
       options = JSON.parse(split_input[2])
-      asset_path = '/assets/images/'
+      asset_path = '/assets/images'
       srcset = "#{asset_path}/#{image} 1x, #{asset_path}/#{image_2x} 2x"
       tag_options = options.merge(srcset: srcset)
       output = "<img "
@@ -19,8 +19,6 @@ module Jekyll
         output += "#{k}='#{v}' "
       end
       output += "/>"
-      # Render it on the page by returning it
-      return output
     end
   end
 end

@@ -38,6 +38,7 @@ assets:
     - _assets
     - _assets/images
     - _assets/images/project
+    - _assets/images/office
     - _assets/javascripts
     - _assets/css
     - _assets/fonts
