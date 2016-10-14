@@ -1,4 +1,7 @@
-= partial 'header'
+---
+layout: layout
+---
+{% include _header.slim %}
 
 div class="section"
   div class="container"
@@ -10,17 +13,17 @@ div class="section"
     div class="grid"
       div class="grid__item one-third palm--one-whole"
         div class="box box--showcase box--has-footer"
-          = image_tag 'guidelines/horizontal-sub.svg'
+          {% img 'guidelines/horizontal-sub.svg' %}
           div class="box__footer"
             a href="public/horizontal-sub.zip" Download logo with caption
       div class="grid__item one-third palm--one-whole"
         div class="box box--showcase box--has-footer"
-          = image_tag 'guidelines/horizontal.svg'
+          {% img 'guidelines/horizontal.svg' %}
           div class="box__footer"
             a href="public/horizontal.zip" Download logo without caption
       div class="grid__item one-third palm--one-whole"
         div class="box box--showcase box--has-footer"
-          = image_tag 'guidelines/square.svg'
+          {% img 'guidelines/square.svg' %}
           div class="box__footer"
             a href="public/square.zip" Download emblem
 
@@ -36,7 +39,7 @@ div class="section"
       div class="grid__item two-thirds palm--one-whole"
         div class="box box--showcase"
           span class="box__caption" Chromatic
-          = image_tag 'guidelines/horizontal-sub.svg'
+          {% img 'guidelines/horizontal-sub.svg' %}
     div class="grid"
       div class="grid__item one-third palm--one-whole"
         p
@@ -44,23 +47,23 @@ div class="section"
       div class="grid__item two-thirds palm--one-whole"
         div class="box box--showcase"
           span class="box__caption" Monochromatic
-          = image_tag 'guidelines/horizontal-sub-mono.svg'
+          {% img 'guidelines/horizontal-sub-mono.svg' %}
         div class="box box--showcase box--negative"
           span class="box__caption" Reversed Monochromatic
-          = image_tag 'guidelines/horizontal-sub-negative.svg'
+          {% img 'guidelines/horizontal-sub-negative.svg' %}
         div class="grid"
           div class="grid__item one-third palm--one-whole"
             div class="box box--showcase"
               span class="box__caption" Chromatic
-              = image_tag 'guidelines/square.svg'
+              {% img 'guidelines/square.svg' %}
           div class="grid__item one-third palm--one-whole"
             div class="box box--showcase"
               span class="box__caption" Monochromatic
-              = image_tag 'guidelines/square-mono.svg'
+              {% img 'guidelines/square-mono.svg' %}
           div class="grid__item one-third palm--one-whole"
             div class="box box--showcase box--negative"
               span class="box__caption" Reversed Monochromatic
-              = image_tag 'guidelines/square-negative.svg'
+              {% img 'guidelines/square-negative.svg' %}
 
 div class="section--alt"
   div class="container"
@@ -115,6 +118,6 @@ div class="section"
             100% of logo height.
         div class="text-center"
           div class="box box--showcase"
-            div = image_tag 'guidelines/horizontal-sub.svg'
+            div {% img 'guidelines/horizontal-sub.svg' %}
 
-= partial 'footer'
+{% include _footer.slim %}
