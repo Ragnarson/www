@@ -1,0 +1,41 @@
+---
+layout: layout
+---
+{% include _header.slim %}
+
+div class="section"
+  div class="container"
+
+    h1 id="who-we-are"
+      | Who we are
+
+    div class="grid"
+    {% for card in site.data.team %}
+      div class="grid__item one-fifth palm--one-whole lap--one-quarter"
+        div class="js-card card"
+          {% img "team/{{ card.avatar }}" class:'card-avatar' %}
+          {% if card.ribbon %}
+            {% assign ribbon = "ribbon" %}
+          {% else %}
+            {% assign ribbon = "" %}
+          {% endif %}
+          div class="card-box {{ ribbon }}"
+            div class="card-box-inner"
+              h4 class="card-box-player"
+                {{ card.player }}
+              h5 class="card-box-rank"
+                {{ card.rank }}
+              ul class="nav social-media"
+              {% if card.github %}
+                li
+                  a href="https://github.com/{{ card.github }}"
+                    i.icon-github
+              {% endif %}
+              {% if card.twitter %}
+                li
+                  a href="https://twitter.com/{{ card.twitter }}"
+                    i.icon-twitter
+              {% endif %}
+    {% endfor %}
+
+{% include _footer.slim %}
