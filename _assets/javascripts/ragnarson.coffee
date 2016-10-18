@@ -1,5 +1,5 @@
-#= require zepto
-#= require zeptotouch
+#= require vendor/zepto
+#= require vendor/zeptotouch
 
 toggleRwdMainNav = (event) ->
   event.stopPropagation()

@@ -40,6 +40,7 @@ assets:
     - _assets/images/project
     - _assets/images/office
     - _assets/javascripts
+    - _assets/javascripts/vendor
     - _assets/css
     - _assets/fonts
 

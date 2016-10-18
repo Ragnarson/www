@@ -32,4 +32,9 @@ div class="section"
       hr class="rule"
     {% endif %}
 
+    // workaround for jekyll-assets problem with responsive_image_tag
+    // do not remove the following lines
+    // {% img 'project/{{ project.thumbnail }}.png' %}
+    // {% img 'project/{{ project.thumbnail }}-2x.png' %}
+
   {% endfor %}
